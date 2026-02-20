@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Street Rulz Football V4",
+    "theme_version": "4.0.0",
+    "theme_author": "Street Rulz Football",
+    "theme_documentation_url": "https://rulz.com.au",
+    "theme_support_url": "mailto:admin@rulz.com.au"
+  },
+  {
+    "name": "Brand Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_green",
+        "label": "Brand Green",
+        "default": "#567256"
+      },
+      {
+        "type": "color",
+        "id": "color_orange",
+        "label": "Brand Orange",
+        "default": "#FF7F30"
+      },
+      {
+        "type": "color",
+        "id": "color_charcoal",
+        "label": "Charcoal",
+        "default": "#3B3D3E"
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
+    "settings": [
+      {
+        "type": "url",
+        "id": "social_facebook",
+        "label": "Facebook URL"
+      },
+      {
+        "type": "url",
+        "id": "social_instagram",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "text",
+        "id": "phone_number",
+        "label": "Phone Number",
+        "default": "0412 766 696"
+      },
+      {
+        "type": "text",
+        "id": "email",
+        "label": "Email",
+        "default": "admin@rulz.com.au"
+      }
+    ]
+  },
+  {
+    "name": "Announcement Bar",
+    "settings": [
+      {
+        "type": "text",
+        "id": "announcement_text",
+        "label": "Announcement Text",
+        "default": "★ Play Rain or Shine — Gold Coast's Only Cage Football Facility"
+      },
+      {
+        "type": "checkbox",
+        "id": "announcement_show",
+        "label": "Show Announcement Bar",
+        "default": true
+      }
+    ]
+  }
+]
