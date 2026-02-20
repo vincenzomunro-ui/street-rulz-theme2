@@ -121,7 +121,8 @@
     "break1": {
       "type": "image-break",
       "settings": {
-        "show_logo": false,
+        "background_image": "shopify://shop_images/Screenshot_2025-11-18_at_6.52.42_pm.png",
+        "show_logo": true,
         "heading": "Where Street Culture Meets Elite Football",
         "subheading": "Premium cage football on the Gold Coast",
         "cta_text": "",
