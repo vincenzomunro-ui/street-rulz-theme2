@@ -1,0 +1,344 @@
+<section id="about-team" class="about-team">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="section-header">
+      <span class="section-badge">{{ section.settings.badge | default: 'THE CREW' }}</span>
+      <h2 class="section-title">{{ section.settings.heading | default: 'Meet Our Team' }}</h2>
+      <p class="section-subtitle">{{ section.settings.description | default: 'Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia\'s best five-a-side experience.' }}</p>
+    </div>
+
+    <!-- Team Group Photo -->
+    {% if section.settings.group_photo != blank %}
+      <div class="team-group-photo">
+        <img
+          src="{{ section.settings.group_photo | image_url: width: 1200 }}"
+          alt="The Street Rulz Football Team"
+          loading="lazy"
+          width="1200"
+          height="600"
+        >
+      </div>
+    {% endif %}
+
+    <!-- Team Grid -->
+    <div class="team-grid">
+      {% for block in section.blocks %}
+        {% if block.type == 'team_member' %}
+          <div class="team-card" {{ block.shopify_attributes }}>
+            <div class="team-card-photo">
+              {% if block.settings.photo != blank %}
+                <img
+                  src="{{ block.settings.photo | image_url: width: 600 }}"
+                  alt="{{ block.settings.name }}"
+                  loading="lazy"
+                  width="600"
+                  height="600"
+                >
+              {% else %}
+                <div class="team-card-placeholder">
+                  <span class="placeholder-initials">
+                    {{ block.settings.name | split: ' ' | first | slice: 0 }}{{ block.settings.name | split: ' ' | last | slice: 0 }}
+                  </span>
+                </div>
+              {% endif %}
+            </div>
+            <div class="team-card-info">
+              <h3 class="team-card-name">{{ block.settings.name }}</h3>
+              <span class="team-card-role">{{ block.settings.role }}</span>
+              <p class="team-card-bio">{{ block.settings.bio }}</p>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .about-team {
+    padding: 80px 0;
+    background: var(--color-bg, #0a0a0a);
+  }
+
+  .about-team .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .about-team .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .about-team .section-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-accent, #ff6b00);
+    background: rgba(255, 107, 0, 0.1);
+    border: 1px solid rgba(255, 107, 0, 0.3);
+    padding: 6px 16px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+  }
+
+  .about-team .section-title {
+    font-family: var(--font-heading, 'Oswald', sans-serif);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--color-text, #ffffff);
+    margin: 16px 0;
+    line-height: 1.1;
+  }
+
+  .about-team .section-subtitle {
+    font-size: 1.05rem;
+    color: var(--color-muted, #999999);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* Group Photo */
+  .team-group-photo {
+    margin-bottom: 60px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .team-group-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 500px;
+  }
+
+  /* Team Grid */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+  }
+
+  /* Team Card */
+  .team-card {
+    background: var(--color-surface, #141414);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+
+  .team-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 107, 0, 0.3);
+  }
+
+  .team-card-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: #1a1a1a;
+  }
+
+  .team-card-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .team-card:hover .team-card-photo img {
+    transform: scale(1.03);
+  }
+
+  .team-card-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a1a, #222);
+  }
+
+  .placeholder-initials {
+    font-family: var(--font-heading, 'Oswald', sans-serif);
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgba(255, 107, 0, 0.4);
+    text-transform: uppercase;
+  }
+
+  .team-card-info {
+    padding: 28px;
+  }
+
+  .team-card-name {
+    font-family: var(--font-heading, 'Oswald', sans-serif);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-text, #ffffff);
+    margin: 0 0 4px 0;
+    line-height: 1.2;
+  }
+
+  .team-card-role {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-accent, #ff6b00);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+  }
+
+  .team-card-bio {
+    font-size: 0.92rem;
+    color: var(--color-muted, #999999);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-team {
+      padding: 60px 0;
+    }
+
+    .team-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .team-card-info {
+      padding: 20px;
+    }
+
+    .team-group-photo img {
+      max-height: 300px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "About — Team",
+  "tag": "section",
+  "class": "about-team-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Badge Text",
+      "default": "THE CREW"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Meet Our Team"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive."
+    },
+    {
+      "type": "image_picker",
+      "id": "group_photo",
+      "label": "Team Group Photo"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "team_member",
+      "name": "Team Member",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "photo",
+          "label": "Photo"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name",
+          "default": "Team Member"
+        },
+        {
+          "type": "text",
+          "id": "role",
+          "label": "Role",
+          "default": "Role"
+        },
+        {
+          "type": "textarea",
+          "id": "bio",
+          "label": "Bio"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "About — Team",
+      "blocks": [
+        {
+          "type": "team_member",
+          "settings": {
+            "name": "Mark Munro",
+            "role": "Co-Founder",
+            "bio": "With over 50 years of football experience, Mark has lived every side of the game — as a player, coach, and club director. His leadership and vision have been the driving force behind Street Rulz Football from day one."
+          }
+        },
+        {
+          "type": "team_member",
+          "settings": {
+            "name": "Patricia Munro",
+            "role": "Co-Founder",
+            "bio": "A foundational force behind Rulz, Patricia has been instrumental in shaping the vision and bringing the facility to life. Her dedication, organisation, and operational guidance ensure the business runs seamlessly day to day."
+          }
+        },
+        {
+          "type": "team_member",
+          "settings": {
+            "name": "Vincenzo Munro",
+            "role": "Manager",
+            "bio": "Vincenzo plays a central role in the operational and creative direction of Rulz. With over 10 years of futsal, 5-a-side, and community football experience, he has played a key role in shaping the identity of Street Rulz Football."
+          }
+        },
+        {
+          "type": "team_member",
+          "settings": {
+            "name": "Ruby Grant",
+            "role": "Assistant Manager",
+            "bio": "Ruby plays a key role in both operations and the creative direction of Rulz. As Assistant Manager, she oversees business systems, marketing, branding, and member experience."
+          }
+        },
+        {
+          "type": "team_member",
+          "settings": {
+            "name": "Greg Jones",
+            "role": "Groundskeeper",
+            "bio": "Greg is the go-to guy and local legend behind the scenes at Rulz. Having played a major role in the construction of the facility, he knows the grounds inside and out."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

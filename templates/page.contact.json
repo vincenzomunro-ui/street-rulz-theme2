@@ -7,12 +7,20 @@
         "subheading": "Get in touch to book a court, organise an event, or ask a question."
       }
     },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "badge": "GET IN TOUCH",
+        "heading": "We'd Love to Hear from You",
+        "description": "Whether you want to book a court, organise an event, or just ask a question — drop us a line."
+      }
+    },
     "findus": {
       "type": "find-us",
       "settings": {
         "label": "FIND US",
         "heading": "Come Play",
-        "subheading": "Located at Tallebudgera on the Gold Coast.",
+        "subheading": "Located at Tallebudgera on the Gold Coast. Easy access from the M1 motorway.",
         "address_title": "Street Rulz Football",
         "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia"
       }
@@ -35,5 +43,5 @@
       "block_order": ["d1", "d2", "d3", "d4", "d5", "d6", "d7"]
     }
   },
-  "order": ["header", "findus", "hours"]
+  "order": ["header", "contact-form", "findus", "hours"]
 }
