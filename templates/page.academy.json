@@ -12,26 +12,14 @@
     "header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/DSC09766.jpg",
+        "show_logo": false,
         "heading": "Academy",
         "subheading": "Structured football development for juniors in a fun cage environment."
       }
     },
     "academyinfo": {
       "type": "academy-info",
-      "settings": {
-        "label": "JUNIOR DEVELOPMENT",
-        "heading": "Rulz Academy",
-        "subheading": "Our academy program focuses on technical skill development, game intelligence, and a love for the beautiful game — all in our unique cage football environment.",
-        "schedule_heading": "Session Details",
-        "day": "Every Monday",
-        "time": "4:00 PM - 5:30 PM",
-        "ages": "U8 - U13",
-        "cost": "Monthly Subscription",
-        "free_trial": "First Session is FREE — No Commitment Required!",
-        "coaching_heading": "Elite Coaching Staff",
-        "coaching_description": "Our coaches hold FFA/AFC B & C Licences and KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport. Your child will train under some of the best-qualified coaches on the Gold Coast.",
-        "enrol_text": "Subscribe & Enrol Now"
-      },
       "blocks": {
         "h1": {
           "type": "highlight",
@@ -86,7 +74,30 @@
           }
         }
       },
-      "block_order": ["h1", "h2", "h3", "cr1", "cr2", "cr3", "cr4"]
+      "block_order": [
+        "h1",
+        "h2",
+        "h3",
+        "cr1",
+        "cr2",
+        "cr3",
+        "cr4"
+      ],
+      "settings": {
+        "label": "JUNIOR DEVELOPMENT",
+        "heading": "Rulz Academy",
+        "subheading": "Our academy program focuses on technical skill development, game intelligence, and a love for the beautiful game — all in our unique cage football environment.",
+        "schedule_heading": "Session Details",
+        "day": "Every Monday",
+        "time": "4:00 PM - 5:30 PM",
+        "ages": "U8 - U13",
+        "cost": "Monthly Subscription",
+        "free_trial": "First Session is FREE — No Commitment Required!",
+        "coaching_heading": "Elite Coaching Staff",
+        "coaching_description": "Our coaches hold FFA/AFC B & C Licences and KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport. Your child will train under some of the best-qualified coaches on the Gold Coast.",
+        "enrol_text": "Subscribe & Enrol Now",
+        "enrol_link": ""
+      }
     },
     "cta": {
       "type": "cta-banner",
@@ -100,5 +111,9 @@
       }
     }
   },
-  "order": ["header", "academyinfo", "cta"]
+  "order": [
+    "header",
+    "academyinfo",
+    "cta"
+  ]
 }
