@@ -12,18 +12,14 @@
     "header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/yes.jpg",
+        "show_logo": false,
         "heading": "Book a Pitch",
         "subheading": "7 premium enclosed pitches available 7 days a week. Balls and bibs supplied."
       }
     },
     "pitch-select": {
       "type": "pitch-selection",
-      "settings": {
-        "label": "CHOOSE YOUR PITCH",
-        "heading": "Select Your Pitch Size",
-        "subheading": "Choose between our 5-a-side or 7-a-side pitches, then pick your time slot.",
-        "note": "All pitches are floodlit, enclosed, and all-weather. Unlimited players per booking."
-      },
       "blocks": {
         "5aside": {
           "type": "pitch_option",
@@ -52,8 +48,10 @@
           "settings": {
             "icon": "🏟️",
             "title": "7-a-Side Field",
+            "badge": "",
+            "highlighted": false,
             "description": "Ideal for larger matches and full squad football. Our biggest pitch for the ultimate game.",
-            "feature_1": "Ideal for 10-16 players",
+            "feature_1": "Ideal for 10-18 players",
             "feature_2": "Full-size 7-a-side pitch",
             "feature_3": "Floodlit for evening games",
             "feature_4": "Balls & bibs supplied",
@@ -61,27 +59,34 @@
             "price_value_1": "From $140/hr",
             "price_label_2": "Weekend",
             "price_value_2": "From $140/hr",
+            "price_label_3": "",
+            "price_value_3": "",
             "cta_text": "Book 7-a-Side",
             "cta_link": "#booking-calendar-7aside"
           }
         }
       },
-      "block_order": ["5aside", "7aside"]
+      "block_order": [
+        "5aside",
+        "7aside"
+      ],
+      "settings": {
+        "label": "CHOOSE YOUR PITCH",
+        "heading": "Select Your Pitch Size",
+        "subheading": "Choose between our 5-a-side or 7-a-side pitches, then pick your time slot.",
+        "note": "All pitches are floodlit, enclosed, and all-weather. Unlimited players per booking."
+      }
     },
     "timeslots": {
       "type": "time-slots",
-      "settings": {
-        "label": "FLEXIBLE BOOKING",
-        "heading": "Choose Your Session Length",
-        "subheading": "Book the time that suits your game. All sessions include balls and bibs.",
-        "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary."
-      },
       "blocks": {
         "30min": {
           "type": "slot",
           "settings": {
             "duration": "30",
             "title": "Quick Kick",
+            "badge": "",
+            "highlighted": false,
             "description": "Perfect for a fast warm-up or training session.",
             "price": "From $55"
           }
@@ -102,6 +107,8 @@
           "settings": {
             "duration": "90",
             "title": "Extended Play",
+            "badge": "",
+            "highlighted": false,
             "description": "Extra time for multiple games or a tournament-style session.",
             "price": "From $165"
           }
@@ -111,28 +118,90 @@
           "settings": {
             "duration": "120",
             "title": "Full Session",
+            "badge": "",
+            "highlighted": false,
             "description": "The ultimate booking. Great for events, team training, or all-day fun.",
             "price": "From $220"
           }
         }
       },
-      "block_order": ["30min", "60min", "90min", "120min"]
+      "block_order": [
+        "30min",
+        "60min",
+        "90min",
+        "120min"
+      ],
+      "settings": {
+        "label": "FLEXIBLE BOOKING",
+        "heading": "Choose Your Session Length",
+        "subheading": "Book the time that suits your game. All sessions include balls and bibs.",
+        "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary."
+      }
     },
     "bookinginfo": {
       "type": "booking-info",
+      "blocks": {
+        "b1": {
+          "type": "info_item",
+          "settings": {
+            "icon": "⚽",
+            "title": "Balls Supplied",
+            "description": "Quality match balls provided for every session."
+          }
+        },
+        "b2": {
+          "type": "info_item",
+          "settings": {
+            "icon": "🦺",
+            "title": "Bibs Included",
+            "description": "Team bibs so you can sort out the sides."
+          }
+        },
+        "b3": {
+          "type": "info_item",
+          "settings": {
+            "icon": "💡",
+            "title": "Floodlit Pitches",
+            "description": "All pitches are floodlit for evening games."
+          }
+        },
+        "b4": {
+          "type": "info_item",
+          "settings": {
+            "icon": "🌧️",
+            "title": "All-Weather",
+            "description": "Enclosed cage pitchs — play rain, hail, or shine."
+          }
+        },
+        "b5": {
+          "type": "info_item",
+          "settings": {
+            "icon": "👥",
+            "title": "Unlimited Players",
+            "description": "Bring as many mates as you want. No per-player fees."
+          }
+        },
+        "b6": {
+          "type": "info_item",
+          "settings": {
+            "icon": "🅿️",
+            "title": "Free Parking",
+            "description": "Plenty of free parking right at the venue."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6"
+      ],
       "settings": {
         "label": "INCLUDED WITH EVERY BOOKING",
         "heading": "What You Get"
-      },
-      "blocks": {
-        "b1": { "type": "info_item", "settings": { "icon": "⚽", "title": "Balls Supplied", "description": "Quality match balls provided for every session." } },
-        "b2": { "type": "info_item", "settings": { "icon": "🦺", "title": "Bibs Included", "description": "Team bibs so you can sort out the sides." } },
-        "b3": { "type": "info_item", "settings": { "icon": "💡", "title": "Floodlit Pitches", "description": "All pitches are floodlit for evening games." } },
-        "b4": { "type": "info_item", "settings": { "icon": "🌧️", "title": "All-Weather", "description": "Enclosed cage pitchs — play rain, hail, or shine." } },
-        "b5": { "type": "info_item", "settings": { "icon": "👥", "title": "Unlimited Players", "description": "Bring as many mates as you want. No per-player fees." } },
-        "b6": { "type": "info_item", "settings": { "icon": "🅿️", "title": "Free Parking", "description": "Plenty of free parking right at the venue." } }
-      },
-      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
     },
     "calendar5": {
       "type": "cowlendar-5aside",
@@ -154,17 +223,39 @@
     },
     "howitworks": {
       "type": "how-it-works",
+      "blocks": {
+        "s1": {
+          "type": "step",
+          "settings": {
+            "title": "Pick Your Pitch & Time",
+            "description": "Choose 5-a-side or 7-a-side, select your date and time slot above."
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "title": "Pay & Confirm",
+            "description": "Complete payment online. Your pitch is instantly confirmed."
+          }
+        },
+        "s3": {
+          "type": "step",
+          "settings": {
+            "title": "Rock Up & Play",
+            "description": "Bring your mates to 40 Andrews Rd, Tallebudgera. We supply balls and bibs."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Book in 60 Seconds",
         "subheading": "Getting on the pitch is easy."
-      },
-      "blocks": {
-        "s1": { "type": "step", "settings": { "title": "Pick Your Pitch & Time", "description": "Choose 5-a-side or 7-a-side, select your date and time slot above." } },
-        "s2": { "type": "step", "settings": { "title": "Pay & Confirm", "description": "Complete payment online. Your pitch is instantly confirmed." } },
-        "s3": { "type": "step", "settings": { "title": "Rock Up & Play", "description": "Bring your mates to 40 Andrews Rd, Tallebudgera. We supply balls and bibs." } }
-      },
-      "block_order": ["s1", "s2", "s3"]
+      }
     },
     "cta": {
       "type": "cta-banner",
@@ -178,5 +269,14 @@
       }
     }
   },
-  "order": ["header", "pitch-select", "timeslots", "bookinginfo", "calendar5", "calendar7", "howitworks", "cta"]
+  "order": [
+    "header",
+    "pitch-select",
+    "timeslots",
+    "bookinginfo",
+    "calendar5",
+    "calendar7",
+    "howitworks",
+    "cta"
+  ]
 }
