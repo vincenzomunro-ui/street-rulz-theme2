@@ -1,0 +1,68 @@
+{% comment %} Opening Hours — Editable via Theme Editor {% endcomment %}
+<div class="section">
+  <div class="section-label">{{ section.settings.label }}</div>
+  <h2 class="section-title">{{ section.settings.heading }}</h2>
+
+  <div class="hours-grid">
+    {% for block in section.blocks %}
+      <div class="hours-item" {{ block.shopify_attributes }}>
+        <span class="day">{{ block.settings.day }}</span>
+        <span class="time">{{ block.settings.time }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Opening Hours",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "OPENING HOURS"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "When We're Open"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "hours_row",
+      "name": "Day",
+      "settings": [
+        {
+          "type": "text",
+          "id": "day",
+          "label": "Day",
+          "default": "Monday"
+        },
+        {
+          "type": "text",
+          "id": "time",
+          "label": "Hours",
+          "default": "8:00 AM – 10:00 PM"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Opening Hours",
+      "blocks": [
+        { "type": "hours_row", "settings": { "day": "Monday", "time": "8:00 AM – 10:00 PM" } },
+        { "type": "hours_row", "settings": { "day": "Tuesday", "time": "8:00 AM – 10:00 PM" } },
+        { "type": "hours_row", "settings": { "day": "Wednesday", "time": "8:00 AM – 10:00 PM" } },
+        { "type": "hours_row", "settings": { "day": "Thursday", "time": "8:00 AM – 10:00 PM" } },
+        { "type": "hours_row", "settings": { "day": "Friday", "time": "8:00 AM – 10:00 PM" } },
+        { "type": "hours_row", "settings": { "day": "Saturday", "time": "8:00 AM – 6:00 PM" } },
+        { "type": "hours_row", "settings": { "day": "Sunday", "time": "8:00 AM – 6:00 PM" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

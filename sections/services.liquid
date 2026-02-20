@@ -1,0 +1,142 @@
+{% comment %} Under One Roof — Services Grid with editable images {% endcomment %}
+<div class="section">
+  <div class="section-label">{{ section.settings.label }}</div>
+  <h2 class="section-title">{{ section.settings.heading }}</h2>
+  <p class="section-subtitle">{{ section.settings.subheading }}</p>
+
+  <div class="services-grid">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.link }}" class="service-card" {{ block.shopify_attributes }}>
+        {% if block.settings.image != blank %}
+          <img src="{{ block.settings.image | image_url: width: 600 }}" alt="{{ block.settings.title }}" class="service-card-image" loading="lazy">
+        {% else %}
+          <div class="service-card-image-placeholder">{{ block.settings.icon }}</div>
+        {% endif %}
+        <div class="service-card-body">
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.description }}</p>
+          {% if block.settings.price != blank %}
+            <div class="price">{{ block.settings.price }}</div>
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Services Grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "EVERYTHING UNDER ONE ROOF"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your Way to Play"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "From casual kick-abouts to competitive leagues — we've got every type of player covered."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service_card",
+      "name": "Service Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Card Image",
+          "info": "Upload a photo for this service (600x400px recommended)"
+        },
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Fallback Icon (emoji)",
+          "default": "⚽"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Service Name"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Describe this service."
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price (optional)",
+          "default": ""
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link",
+          "default": "/"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Services Grid",
+      "blocks": [
+        {
+          "type": "service_card",
+          "settings": {
+            "icon": "⚽",
+            "title": "Court Hire",
+            "description": "Book one of our 7 premium enclosed courts. Perfect for casual games with mates.",
+            "price": "From $110/hr",
+            "link": "/pages/book-a-court"
+          }
+        },
+        {
+          "type": "service_card",
+          "settings": {
+            "icon": "🏆",
+            "title": "Competitions",
+            "description": "Thursday night 5-a-side comps. 10-week seasons with prizes.",
+            "price": "$100/team/week",
+            "link": "/pages/competitions"
+          }
+        },
+        {
+          "type": "service_card",
+          "settings": {
+            "icon": "🎂",
+            "title": "Birthday Parties",
+            "description": "The ultimate football birthday experience for kids and adults.",
+            "price": "From $350",
+            "link": "/pages/birthday-parties"
+          }
+        },
+        {
+          "type": "service_card",
+          "settings": {
+            "icon": "🎓",
+            "title": "Rulz Academy",
+            "description": "Monday junior coaching sessions. Develop skills in a fun cage environment.",
+            "price": "$15/session",
+            "link": "/pages/academy"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

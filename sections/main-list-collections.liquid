@@ -1,0 +1,24 @@
+{% comment %} Main List Collections — Displays all collections {% endcomment %}
+<div class="section">
+  <h1 class="section-title">Collections</h1>
+  <div class="grid-3">
+    {% for collection in collections %}
+      {% unless collection.handle == 'all' %}
+        <a href="{{ collection.url }}" class="card" style="text-decoration:none;">
+          {% if collection.image %}
+            <img src="{{ collection.image | image_url: width: 400 }}" alt="{{ collection.title }}" style="border-radius:8px;margin-bottom:16px;">
+          {% endif %}
+          <h3 style="font-size:16px;font-weight:700;">{{ collection.title }}</h3>
+          <p style="color:var(--gray-400);font-size:13px;margin-top:8px;">{{ collection.products_count }} products</p>
+        </a>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collections List",
+  "settings": []
+}
+{% endschema %}

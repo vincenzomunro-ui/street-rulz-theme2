@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "heading": "Rulz Academy",
+        "subheading": "Junior coaching sessions every Monday. Develop skills in a fun cage environment."
+      }
+    },
+    "content": {
+      "type": "rich-text",
+      "settings": {
+        "label": "JUNIOR DEVELOPMENT",
+        "heading": "Train Like a Pro",
+        "content": "<p>Rulz Academy is our junior football development program for ages 6-14. Every Monday from 4:00 PM to 5:30 PM, our qualified coaches run structured sessions focused on ball control, passing, shooting, and game awareness — all inside our premium cage courts.</p><p>$15 per session. No long-term commitment required. Just rock up and play.</p>"
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Enrol Your Child",
+        "subheading": "Contact us to register for the next Academy session.",
+        "cta1_text": "Contact Us",
+        "cta1_link": "/pages/contact",
+        "cta2_text": "Call 0412 766 696",
+        "cta2_link": "tel:+61412766696"
+      }
+    }
+  },
+  "order": ["header", "content", "cta"]
+}

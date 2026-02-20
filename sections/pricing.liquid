@@ -1,0 +1,171 @@
+{% comment %} Pricing Section — Editable via Theme Editor {% endcomment %}
+<div class="section">
+  <div class="section-label">{{ section.settings.label }}</div>
+  <h2 class="section-title">{{ section.settings.heading }}</h2>
+  <p class="section-subtitle" style="margin-bottom:32px;">{{ section.settings.subheading }}</p>
+
+  <div class="grid-2">
+    {% for block in section.blocks %}
+      <div class="card {% if block.settings.highlighted %}card-highlight{% endif %}" {{ block.shopify_attributes }}>
+        {% if block.settings.badge != blank %}
+          <div class="card-badge">{{ block.settings.badge }}</div>
+        {% endif %}
+        <h3 style="font-size:20px;font-weight:700;margin-bottom:16px;">{{ block.settings.title }}</h3>
+        <div class="pricing-row">
+          <span class="pricing-label">{{ block.settings.row1_label }}</span>
+          <span class="pricing-value">{{ block.settings.row1_value }}</span>
+        </div>
+        {% if block.settings.row2_label != blank %}
+        <div class="pricing-row">
+          <span class="pricing-label">{{ block.settings.row2_label }}</span>
+          <span class="pricing-value">{{ block.settings.row2_value }}</span>
+        </div>
+        {% endif %}
+        {% if block.settings.row3_label != blank %}
+        <div class="pricing-row">
+          <span class="pricing-label">{{ block.settings.row3_label }}</span>
+          <span class="pricing-value">{{ block.settings.row3_value }}</span>
+        </div>
+        {% endif %}
+        {% if block.settings.note != blank %}
+          <p style="font-size:13px;color:var(--gray-400);margin-top:16px;">{{ block.settings.note }}</p>
+        {% endif %}
+        {% if block.settings.cta_text != blank %}
+          <a href="{{ block.settings.cta_link }}" class="btn-primary" style="margin-top:20px;width:100%;justify-content:center;">{{ block.settings.cta_text }}</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Pricing",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "PRICING"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Simple, Transparent Pricing"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "No hidden fees. Book by the hour and bring as many players as you want."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "pricing_card",
+      "name": "Pricing Card",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Card Title",
+          "default": "Court Hire"
+        },
+        {
+          "type": "text",
+          "id": "badge",
+          "label": "Badge (optional)",
+          "default": ""
+        },
+        {
+          "type": "checkbox",
+          "id": "highlighted",
+          "label": "Highlight this card",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "row1_label",
+          "label": "Row 1 Label",
+          "default": "Per Hour"
+        },
+        {
+          "type": "text",
+          "id": "row1_value",
+          "label": "Row 1 Price",
+          "default": "$110"
+        },
+        {
+          "type": "text",
+          "id": "row2_label",
+          "label": "Row 2 Label"
+        },
+        {
+          "type": "text",
+          "id": "row2_value",
+          "label": "Row 2 Price"
+        },
+        {
+          "type": "text",
+          "id": "row3_label",
+          "label": "Row 3 Label"
+        },
+        {
+          "type": "text",
+          "id": "row3_value",
+          "label": "Row 3 Price"
+        },
+        {
+          "type": "textarea",
+          "id": "note",
+          "label": "Note text"
+        },
+        {
+          "type": "text",
+          "id": "cta_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "cta_link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing",
+      "blocks": [
+        {
+          "type": "pricing_card",
+          "settings": {
+            "title": "Weekday",
+            "row1_label": "Mon–Fri 8am–4pm",
+            "row1_value": "$110/hr",
+            "row2_label": "Mon–Fri 4pm–10pm",
+            "row2_value": "$140/hr",
+            "note": "Members discount available. Unlimited players per booking.",
+            "cta_text": "Book Weekday",
+            "cta_link": "/pages/book-a-court"
+          }
+        },
+        {
+          "type": "pricing_card",
+          "settings": {
+            "title": "Weekend",
+            "badge": "POPULAR",
+            "highlighted": true,
+            "row1_label": "Sat & Sun",
+            "row1_value": "$110/hr",
+            "note": "Same great rate all day on weekends. Members discount available.",
+            "cta_text": "Book Weekend",
+            "cta_link": "/pages/book-a-court"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

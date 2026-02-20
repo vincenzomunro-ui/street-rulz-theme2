@@ -1,0 +1,72 @@
+{% comment %} How It Works — Step cards {% endcomment %}
+<div class="section">
+  <div class="section-label">{{ section.settings.label }}</div>
+  <h2 class="section-title">{{ section.settings.heading }}</h2>
+  <p class="section-subtitle" style="margin-bottom:40px;">{{ section.settings.subheading }}</p>
+
+  <div class="grid-3">
+    {% for block in section.blocks %}
+      <div class="step-card" {{ block.shopify_attributes }}>
+        <div class="step-number">{{ forloop.index }}</div>
+        <h4>{{ block.settings.title }}</h4>
+        <p>{{ block.settings.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "How It Works",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "HOW IT WORKS"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Book in 60 Seconds"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Getting on the pitch is easy."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Step"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Description of this step."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "How It Works",
+      "blocks": [
+        { "type": "step", "settings": { "title": "Pick Your Court & Time", "description": "Choose from 7 courts. Book online or call us. Available 7 days a week." } },
+        { "type": "step", "settings": { "title": "Rock Up & Play", "description": "Bring your mates, boots optional. We supply balls and bibs. Courts are enclosed — no ball chasing." } },
+        { "type": "step", "settings": { "title": "Come Back for More", "description": "Join a comp, book a party, or become a Rulz Member for discounts on every session." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

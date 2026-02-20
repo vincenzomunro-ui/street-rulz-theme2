@@ -1,0 +1,25 @@
+{% comment %} Main Collection — Lists products in a collection {% endcomment %}
+<div class="section">
+  <h1 class="section-title">{{ collection.title }}</h1>
+  {% if collection.description != blank %}
+    <p class="section-subtitle" style="margin-bottom:32px;">{{ collection.description }}</p>
+  {% endif %}
+  <div class="grid-3">
+    {% for product in collection.products %}
+      <a href="{{ product.url }}" class="card" style="text-decoration:none;">
+        {% if product.featured_image %}
+          <img src="{{ product.featured_image | image_url: width: 400 }}" alt="{{ product.title }}" style="border-radius:8px;margin-bottom:16px;">
+        {% endif %}
+        <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">{{ product.title }}</h3>
+        <p style="color:var(--orange);font-weight:700;">{{ product.price | money }}</p>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection Products",
+  "settings": []
+}
+{% endschema %}

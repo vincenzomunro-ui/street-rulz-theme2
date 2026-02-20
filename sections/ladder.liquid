@@ -1,0 +1,229 @@
+{% comment %} Competition Ladder — Editable via Theme Editor {% endcomment %}
+<div class="section">
+  <div class="section-label">{{ section.settings.label }}</div>
+  <h2 class="section-title">{{ section.settings.heading }}</h2>
+  <p class="section-subtitle" style="margin-bottom:32px;">{{ section.settings.subheading }}</p>
+
+  <div class="card" style="overflow-x:auto;">
+    <table class="ladder-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Team</th>
+          <th>P</th>
+          <th>W</th>
+          <th>D</th>
+          <th>L</th>
+          <th>GF</th>
+          <th>GA</th>
+          <th>GD</th>
+          <th>Pts</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for block in section.blocks %}
+          <tr {{ block.shopify_attributes }}>
+            <td>{{ forloop.index }}</td>
+            <td class="team-name">{{ block.settings.team }}</td>
+            <td>{{ block.settings.played }}</td>
+            <td>{{ block.settings.wins }}</td>
+            <td>{{ block.settings.draws }}</td>
+            <td>{{ block.settings.losses }}</td>
+            <td>{{ block.settings.goals_for }}</td>
+            <td>{{ block.settings.goals_against }}</td>
+            <td class="highlight">{{ block.settings.goal_diff }}</td>
+            <td class="highlight">{{ block.settings.points }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  {% if section.settings.updated_text != blank %}
+    <p style="font-size:12px;color:var(--gray-600);margin-top:12px;text-align:right;">{{ section.settings.updated_text }}</p>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Competition Ladder",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "COMPETITIONS"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Thursday Comp Ladder"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)"
+    },
+    {
+      "type": "text",
+      "id": "updated_text",
+      "label": "Last Updated Text",
+      "default": "Updated after Round 3 — 19 Feb 2026"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "team_row",
+      "name": "Team",
+      "settings": [
+        {
+          "type": "text",
+          "id": "team",
+          "label": "Team Name"
+        },
+        {
+          "type": "text",
+          "id": "played",
+          "label": "Played",
+          "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "wins",
+          "label": "Wins",
+          "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "draws",
+          "label": "Draws",
+          "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "losses",
+          "label": "Losses",
+          "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "goals_for",
+          "label": "Goals For",
+          "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "goals_against",
+          "label": "Goals Against",
+          "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "goal_diff",
+          "label": "Goal Difference",
+          "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "points",
+          "label": "Points",
+          "default": "0"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Competition Ladder",
+      "blocks": [
+        {
+          "type": "team_row",
+          "settings": {
+            "team": "Spirit of Mawen",
+            "played": "3",
+            "wins": "3",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "30",
+            "goals_against": "19",
+            "goal_diff": "+11",
+            "points": "9"
+          }
+        },
+        {
+          "type": "team_row",
+          "settings": {
+            "team": "Big Sexy FC",
+            "played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "31",
+            "goals_against": "20",
+            "goal_diff": "+11",
+            "points": "6"
+          }
+        },
+        {
+          "type": "team_row",
+          "settings": {
+            "team": "Third Leg Strikers",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "19",
+            "goals_against": "21",
+            "goal_diff": "-2",
+            "points": "3"
+          }
+        },
+        {
+          "type": "team_row",
+          "settings": {
+            "team": "Headstart",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "17",
+            "goals_against": "25",
+            "goal_diff": "-8",
+            "points": "3"
+          }
+        },
+        {
+          "type": "team_row",
+          "settings": {
+            "team": "Screaming Schooners",
+            "played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "10",
+            "goals_against": "21",
+            "goal_diff": "-11",
+            "points": "0"
+          }
+        },
+        {
+          "type": "team_row",
+          "settings": {
+            "team": "School Run United",
+            "played": "3",
+            "wins": "0",
+            "draws": "0",
+            "losses": "3",
+            "goals_for": "16",
+            "goals_against": "31",
+            "goal_diff": "-15",
+            "points": "0"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

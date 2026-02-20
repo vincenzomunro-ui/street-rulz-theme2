@@ -1,0 +1,22 @@
+{% comment %} Main Product — Basic product display {% endcomment %}
+<div class="section">
+  <h1 class="section-title">{{ product.title }}</h1>
+  <div style="max-width:720px;font-size:16px;color:var(--gray-200);line-height:1.8;">
+    {{ product.description }}
+  </div>
+  {% if product.available %}
+    {% form 'product', product %}
+      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+      <button type="submit" class="btn-primary" style="margin-top:24px;">
+        Add to Cart — {{ product.price | money }}
+      </button>
+    {% endform %}
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Product",
+  "settings": []
+}
+{% endschema %}

@@ -1,0 +1,61 @@
+{% comment %} Page Header — Used on subpages {% endcomment %}
+{% if section.settings.background_image != blank %}
+<div class="page-header-immersive" style="background-image:url('{{ section.settings.background_image | image_url: width: 1920 }}');">
+  <style>
+    .page-header-immersive::before {
+      background-image: url('{{ section.settings.background_image | image_url: width: 1920 }}');
+    }
+  </style>
+  <div class="page-header-content">
+    {% if section.settings.show_logo %}
+      <img src="{{ 'logo.png' | asset_url }}" alt="Street Rulz Football" class="page-header-logo">
+    {% endif %}
+    <h1>{{ section.settings.heading | default: page.title }}</h1>
+    {% if section.settings.subheading != blank %}
+      <p>{{ section.settings.subheading }}</p>
+    {% endif %}
+  </div>
+</div>
+{% else %}
+<div class="page-header">
+  <h1>{{ section.settings.heading | default: page.title }}</h1>
+  {% if section.settings.subheading != blank %}
+    <p>{{ section.settings.subheading }}</p>
+  {% endif %}
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Page Header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_logo",
+      "label": "Show Logo",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading Override",
+      "info": "Leave blank to use the page title"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page Header"
+    }
+  ]
+}
+{% endschema %}

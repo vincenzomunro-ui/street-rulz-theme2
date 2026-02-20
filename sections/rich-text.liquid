@@ -1,0 +1,47 @@
+{% comment %} Rich Text — Flexible content section {% endcomment %}
+<div class="section {% if section.settings.dark_bg %}section-dark{% endif %}">
+  {% if section.settings.label != blank %}
+    <div class="section-label">{{ section.settings.label }}</div>
+  {% endif %}
+  {% if section.settings.heading != blank %}
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+  {% endif %}
+  <div style="max-width:720px;font-size:16px;color:var(--gray-200);line-height:1.8;">
+    {{ section.settings.content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Rich Text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Add your content here.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "dark_bg",
+      "label": "Dark Background",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rich Text"
+    }
+  ]
+}
+{% endschema %}

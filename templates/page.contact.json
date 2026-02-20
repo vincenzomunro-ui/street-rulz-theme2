@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "heading": "Contact Us",
+        "subheading": "Get in touch to book a court, organise an event, or ask a question."
+      }
+    },
+    "findus": {
+      "type": "find-us",
+      "settings": {
+        "label": "FIND US",
+        "heading": "Come Play",
+        "subheading": "Located at Tallebudgera on the Gold Coast.",
+        "address_title": "Street Rulz Football",
+        "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia"
+      }
+    },
+    "hours": {
+      "type": "hours",
+      "settings": {
+        "label": "OPENING HOURS",
+        "heading": "When We're Open"
+      },
+      "blocks": {
+        "d1": { "type": "hours_row", "settings": { "day": "Monday", "time": "8:00 AM – 10:00 PM" } },
+        "d2": { "type": "hours_row", "settings": { "day": "Tuesday", "time": "8:00 AM – 10:00 PM" } },
+        "d3": { "type": "hours_row", "settings": { "day": "Wednesday", "time": "8:00 AM – 10:00 PM" } },
+        "d4": { "type": "hours_row", "settings": { "day": "Thursday", "time": "8:00 AM – 10:00 PM" } },
+        "d5": { "type": "hours_row", "settings": { "day": "Friday", "time": "8:00 AM – 10:00 PM" } },
+        "d6": { "type": "hours_row", "settings": { "day": "Saturday", "time": "8:00 AM – 6:00 PM" } },
+        "d7": { "type": "hours_row", "settings": { "day": "Sunday", "time": "8:00 AM – 6:00 PM" } }
+      },
+      "block_order": ["d1", "d2", "d3", "d4", "d5", "d6", "d7"]
+    }
+  },
+  "order": ["header", "findus", "hours"]
+}

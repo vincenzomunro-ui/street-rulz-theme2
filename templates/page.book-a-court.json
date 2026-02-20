@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "heading": "Book a Court",
+        "subheading": "7 premium enclosed courts available 7 days a week. Balls and bibs supplied."
+      }
+    },
+    "pricing": {
+      "type": "pricing",
+      "settings": {
+        "label": "PRICING",
+        "heading": "Court Hire Rates",
+        "subheading": "No hidden fees. Book by the hour and bring as many players as you want."
+      },
+      "blocks": {
+        "weekday": {
+          "type": "pricing_card",
+          "settings": {
+            "title": "Weekday",
+            "row1_label": "Mon–Fri 8am–4pm",
+            "row1_value": "$110/hr",
+            "row2_label": "Mon–Fri 4pm–10pm",
+            "row2_value": "$140/hr",
+            "note": "Members discount available. Unlimited players per booking.",
+            "cta_text": "Book Weekday",
+            "cta_link": "/pages/book-a-court"
+          }
+        },
+        "weekend": {
+          "type": "pricing_card",
+          "settings": {
+            "title": "Weekend",
+            "badge": "POPULAR",
+            "highlighted": true,
+            "row1_label": "Sat & Sun",
+            "row1_value": "$110/hr",
+            "note": "Same great rate all day on weekends.",
+            "cta_text": "Book Weekend",
+            "cta_link": "/pages/book-a-court"
+          }
+        }
+      },
+      "block_order": ["weekday", "weekend"]
+    },
+    "howitworks": {
+      "type": "how-it-works",
+      "settings": {
+        "label": "HOW IT WORKS",
+        "heading": "Book in 60 Seconds",
+        "subheading": "Getting on the pitch is easy."
+      },
+      "blocks": {
+        "s1": { "type": "step", "settings": { "title": "Pick Your Court & Time", "description": "Choose from 7 courts. Book online or call us." } },
+        "s2": { "type": "step", "settings": { "title": "Rock Up & Play", "description": "Bring your mates. We supply balls and bibs." } },
+        "s3": { "type": "step", "settings": { "title": "Come Back for More", "description": "Join a comp or become a member for discounts." } }
+      },
+      "block_order": ["s1", "s2", "s3"]
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Ready to Book?",
+        "subheading": "Call us or send a message to reserve your court.",
+        "cta1_text": "Call 0412 766 696",
+        "cta1_link": "tel:+61412766696",
+        "cta2_text": "Contact Us",
+        "cta2_link": "/pages/contact"
+      }
+    }
+  },
+  "order": ["header", "pricing", "howitworks", "cta"]
+}

@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "heading": "Birthday Parties",
+        "subheading": "The ultimate football birthday experience for kids and adults."
+      }
+    },
+    "content": {
+      "type": "rich-text",
+      "settings": {
+        "label": "PARTY PACKAGES",
+        "heading": "Celebrate at Street Rulz",
+        "content": "<p>Give your child (or yourself!) the best birthday party on the Gold Coast. Our private cage football parties include exclusive court access, a dedicated party host, and everything you need for an unforgettable day.</p><p>Contact us to discuss packages and availability.</p>"
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Book a Party",
+        "subheading": "Call us or send a message to organise your next birthday party.",
+        "cta1_text": "Contact Us",
+        "cta1_link": "/pages/contact",
+        "cta2_text": "Call 0412 766 696",
+        "cta2_link": "tel:+61412766696"
+      }
+    }
+  },
+  "order": ["header", "content", "cta"]
+}

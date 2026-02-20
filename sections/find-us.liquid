@@ -1,0 +1,78 @@
+{% comment %} Find Us — Map + Contact Info {% endcomment %}
+<div class="section-dark">
+  <div class="section">
+    <div class="section-label">{{ section.settings.label }}</div>
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+    <p class="section-subtitle" style="margin-bottom:32px;">{{ section.settings.subheading }}</p>
+
+    <div class="grid-2" style="gap:32px;">
+      <div class="card" style="padding:0;overflow:hidden;min-height:350px;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.8!2d153.3833!3d-28.1167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b911a1a1a1a1a1a%3A0x1234567890abcdef!2sStreet%20Rulz%20Football!5e0!3m2!1sen!2sau!4v1708300000000!5m2!1sen!2sau"
+          width="100%" height="100%" style="border:0;min-height:350px;" allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Street Rulz Football Location">
+        </iframe>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:16px;">
+          <h3 style="font-size:18px;font-weight:700;margin-bottom:16px;">📍 {{ section.settings.address_title }}</h3>
+          <p style="font-size:15px;color:var(--gray-200);line-height:1.8;">{{ section.settings.address }}</p>
+          <a href="https://www.google.com/maps/dir//Street+Rulz+Football,+40+Andrews+Rd,+Tallebudgera+QLD+4228,+Australia" target="_blank" class="btn-primary" style="margin-top:16px;">Get Directions</a>
+        </div>
+        <div class="card">
+          <h3 style="font-size:18px;font-weight:700;margin-bottom:16px;">📞 Contact</h3>
+          <p style="font-size:15px;color:var(--gray-200);line-height:2;">
+            <a href="tel:+61412766696" style="color:var(--orange);">0412 766 696</a><br>
+            <a href="mailto:admin@rulz.com.au" style="color:var(--orange);">admin@rulz.com.au</a><br>
+            <a href="https://www.facebook.com/StreetRulzFootball/" target="_blank" style="color:var(--orange);">Facebook</a> · 
+            <a href="https://www.instagram.com/streetrulz_football/" target="_blank" style="color:var(--orange);">Instagram</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Find Us",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "FIND US"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Come Play"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Located at Tallebudgera on the Gold Coast. Easy access from the M1 motorway."
+    },
+    {
+      "type": "text",
+      "id": "address_title",
+      "label": "Address Title",
+      "default": "Street Rulz Football"
+    },
+    {
+      "type": "textarea",
+      "id": "address",
+      "label": "Full Address",
+      "default": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Find Us"
+    }
+  ]
+}
+{% endschema %}

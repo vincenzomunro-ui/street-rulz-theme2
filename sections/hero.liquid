@@ -1,0 +1,100 @@
+{% comment %} Hero Section — Editable via Theme Editor {% endcomment %}
+<section class="hero-immersive" style="{% if section.settings.background_image %}background-image:url('{{ section.settings.background_image | image_url: width: 1920 }}');{% endif %}">
+  {% if section.settings.background_image == blank %}
+  <style>
+    .hero-immersive::before {
+      background-image: url('{{ 'hero-courts-night.jpg' | asset_url }}');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  {% else %}
+  <style>
+    .hero-immersive::before {
+      background-image: url('{{ section.settings.background_image | image_url: width: 1920 }}');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  {% endif %}
+  <div class="hero-content">
+    <div class="hero-badge">{{ section.settings.badge_text }}</div>
+    <h1>{{ section.settings.heading_line1 }}<br><span style="color:var(--orange);">{{ section.settings.heading_line2 }}</span></h1>
+    <p>{{ section.settings.subheading }}</p>
+    <div class="hero-ctas">
+      {% if section.settings.cta1_text != blank %}
+        <a href="{{ section.settings.cta1_link }}" class="btn-primary">{{ section.settings.cta1_text }}</a>
+      {% endif %}
+      {% if section.settings.cta2_text != blank %}
+        <a href="{{ section.settings.cta2_link }}" class="btn-secondary">{{ section.settings.cta2_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image",
+      "info": "Recommended: 1920x1080px drone/aerial photo"
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge Text",
+      "default": "● PLAY RAIN OR SHINE — ALL-WEATHER COURTS"
+    },
+    {
+      "type": "text",
+      "id": "heading_line1",
+      "label": "Heading Line 1",
+      "default": "Gold Coast's Home of"
+    },
+    {
+      "type": "text",
+      "id": "heading_line2",
+      "label": "Heading Line 2 (Orange)",
+      "default": "Cage Football"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "7 premium enclosed courts at Tallebudgera. Book a court, join a comp, train at the academy, or throw the best birthday party on the Gold Coast."
+    },
+    {
+      "type": "text",
+      "id": "cta1_text",
+      "label": "Button 1 Text",
+      "default": "Book a Court — From $110/hr"
+    },
+    {
+      "type": "url",
+      "id": "cta1_link",
+      "label": "Button 1 Link",
+      "default": "/pages/book-a-court"
+    },
+    {
+      "type": "text",
+      "id": "cta2_text",
+      "label": "Button 2 Text",
+      "default": "Join a Competition"
+    },
+    {
+      "type": "url",
+      "id": "cta2_link",
+      "label": "Button 2 Link",
+      "default": "/pages/competitions"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner"
+    }
+  ]
+}
+{% endschema %}

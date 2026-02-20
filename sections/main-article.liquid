@@ -1,0 +1,19 @@
+{% comment %} Main Article — Displays a single blog article {% endcomment %}
+<div class="section">
+  <h1 class="section-title">{{ article.title }}</h1>
+  <p style="color:var(--gray-400);font-size:14px;margin-bottom:32px;">{{ article.published_at | date: '%B %d, %Y' }} · {{ article.author }}</p>
+  {% if article.image %}
+    <img src="{{ article.image | image_url: width: 900 }}" alt="{{ article.title }}" style="border-radius:12px;margin-bottom:32px;width:100%;max-width:720px;">
+  {% endif %}
+  <div style="max-width:720px;font-size:16px;color:var(--gray-200);line-height:1.8;">
+    {{ article.content }}
+  </div>
+  <a href="{{ blog.url }}" class="btn-secondary" style="margin-top:32px;">← Back to {{ blog.title }}</a>
+</div>
+
+{% schema %}
+{
+  "name": "Article",
+  "settings": []
+}
+{% endschema %}

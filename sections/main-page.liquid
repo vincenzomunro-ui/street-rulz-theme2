@@ -1,0 +1,13 @@
+{% comment %} Main Page Content — Renders the Shopify page body {% endcomment %}
+<div class="section">
+  <div style="max-width:720px;font-size:16px;color:var(--gray-200);line-height:1.8;">
+    {{ page.content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Page Content",
+  "settings": []
+}
+{% endschema %}

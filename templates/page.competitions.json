@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "heading": "Competitions",
+        "subheading": "Thursday night 5-a-side comps. 10-week seasons with prizes."
+      }
+    },
+    "ladder": {
+      "type": "ladder",
+      "settings": {
+        "label": "CURRENT SEASON",
+        "heading": "Thursday Comp Ladder",
+        "subheading": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)",
+        "updated_text": "Updated after Round 3 — 19 Feb 2026"
+      },
+      "blocks": {
+        "t1": { "type": "team_row", "settings": { "team": "Spirit of Mawen", "played": "3", "wins": "3", "draws": "0", "losses": "0", "goals_for": "30", "goals_against": "19", "goal_diff": "+11", "points": "9" } },
+        "t2": { "type": "team_row", "settings": { "team": "Big Sexy FC", "played": "3", "wins": "2", "draws": "0", "losses": "1", "goals_for": "31", "goals_against": "20", "goal_diff": "+11", "points": "6" } },
+        "t3": { "type": "team_row", "settings": { "team": "Third Leg Strikers", "played": "3", "wins": "1", "draws": "0", "losses": "2", "goals_for": "19", "goals_against": "21", "goal_diff": "-2", "points": "3" } },
+        "t4": { "type": "team_row", "settings": { "team": "Headstart", "played": "3", "wins": "1", "draws": "0", "losses": "2", "goals_for": "17", "goals_against": "25", "goal_diff": "-8", "points": "3" } },
+        "t5": { "type": "team_row", "settings": { "team": "Screaming Schooners", "played": "2", "wins": "0", "draws": "0", "losses": "2", "goals_for": "10", "goals_against": "21", "goal_diff": "-11", "points": "0" } },
+        "t6": { "type": "team_row", "settings": { "team": "School Run United", "played": "3", "wins": "0", "draws": "0", "losses": "3", "goals_for": "16", "goals_against": "31", "goal_diff": "-15", "points": "0" } }
+      },
+      "block_order": ["t1", "t2", "t3", "t4", "t5", "t6"]
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Want to Enter a Team?",
+        "subheading": "Contact us to register for the next season.",
+        "cta1_text": "Contact Us",
+        "cta1_link": "/pages/contact",
+        "cta2_text": "Call 0412 766 696",
+        "cta2_link": "tel:+61412766696"
+      }
+    }
+  },
+  "order": ["header", "ladder", "cta"]
+}
