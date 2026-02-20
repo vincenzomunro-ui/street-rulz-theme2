@@ -11,6 +11,10 @@
       </div>
     {% endfor %}
   </div>
+
+  {% if section.settings.note != blank %}
+    <p style="text-align:center;margin-top:24px;font-size:15px;color:var(--orange);font-weight:600;">{{ section.settings.note }}</p>
+  {% endif %}
 </div>
 
 {% schema %}
@@ -28,6 +32,12 @@
       "id": "heading",
       "label": "Heading",
       "default": "When We're Open"
+    },
+    {
+      "type": "text",
+      "id": "note",
+      "label": "Note (e.g. Open by Appointment)",
+      "default": "Open by Appointment"
     }
   ],
   "blocks": [
@@ -59,8 +69,8 @@
         { "type": "hours_row", "settings": { "day": "Wednesday", "time": "8:00 AM – 10:00 PM" } },
         { "type": "hours_row", "settings": { "day": "Thursday", "time": "8:00 AM – 10:00 PM" } },
         { "type": "hours_row", "settings": { "day": "Friday", "time": "8:00 AM – 10:00 PM" } },
-        { "type": "hours_row", "settings": { "day": "Saturday", "time": "8:00 AM – 6:00 PM" } },
-        { "type": "hours_row", "settings": { "day": "Sunday", "time": "8:00 AM – 6:00 PM" } }
+        { "type": "hours_row", "settings": { "day": "Saturday", "time": "8:00 AM – 10:00 PM" } },
+        { "type": "hours_row", "settings": { "day": "Sunday", "time": "8:00 AM – 10:00 PM" } }
       ]
     }
   ]
