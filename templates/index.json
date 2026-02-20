@@ -12,13 +12,12 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "background_image": "shopify://shop_images/IMG_1349.jpg",
         "badge_text": "● PLAY RAIN OR SHINE — ALL-WEATHER PITCHES",
         "heading_line1": "Gold Coast's Home of",
         "heading_line2": "Cage Football",
         "subheading": "7 premium enclosed pitches at Tallebudgera. Book a pitch, join a comp, train at the academy, or throw the best birthday party on the Gold Coast.",
         "cta1_text": "Book a Pitch — From $110/hr",
-        "cta1_link": "/pages/book-a-pitch",
+        "cta1_link": "/pages/book-a-court",
         "cta2_text": "Join a Competition",
         "cta2_link": "/pages/competitions"
       }
@@ -74,7 +73,7 @@
             "title": "Pitch Hire",
             "description": "Book one of our 7 premium enclosed pitches. Perfect for casual games with mates. Balls and bibs supplied.",
             "price": "From $110/hr",
-            "link": "/pages/book-a-pitch"
+            "link": "/pages/book-a-court"
           }
         },
         "competitions": {
@@ -157,7 +156,7 @@
             "tag_text": "SOCIAL",
             "tag_style": "tag-social",
             "urgent": false,
-            "link": "/pages/book-a-pitch",
+            "link": "/pages/book-a-court",
             "link_text": "Details"
           }
         },
@@ -181,7 +180,7 @@
             "tag_text": "OPEN",
             "tag_style": "tag-live",
             "urgent": false,
-            "link": "/pages/book-a-pitch",
+            "link": "/pages/book-a-court",
             "link_text": "Book Now"
           }
         }
@@ -318,7 +317,7 @@
             "row3_value": "",
             "note": "Members discount available. Unlimited players per booking.",
             "cta_text": "Book Weekday",
-            "cta_link": "/pages/book-a-pitch"
+            "cta_link": "/pages/book-a-court"
           }
         },
         "weekend": {
@@ -335,7 +334,7 @@
             "row3_value": "",
             "note": "Same great rate all day on weekends. Members discount available.",
             "cta_text": "Book Weekend",
-            "cta_link": "/pages/book-a-pitch"
+            "cta_link": "/pages/book-a-court"
           }
         }
       },
@@ -437,14 +436,14 @@
           "type": "hours_row",
           "settings": {
             "day": "Saturday",
-            "time": "8:00 AM – 6:00 PM"
+            "time": "8:00 AM – 10:00 PM"
           }
         },
         "d7": {
           "type": "hours_row",
           "settings": {
             "day": "Sunday",
-            "time": "8:00 AM – 6:00 PM"
+            "time": "8:00 AM – 10:00 PM"
           }
         }
       },
@@ -459,7 +458,8 @@
       ],
       "settings": {
         "label": "OPENING HOURS",
-        "heading": "When We're Open"
+        "heading": "When We're Open",
+        "note": "Open by Appointment"
       }
     },
     "cta": {
@@ -468,7 +468,7 @@
         "heading": "Ready to Play?",
         "subheading": "Book a pitch in 60 seconds or get in touch to organise your next event.",
         "cta1_text": "Book a Pitch",
-        "cta1_link": "/pages/book-a-pitch",
+        "cta1_link": "/pages/book-a-court",
         "cta2_text": "Contact Us",
         "cta2_link": "/pages/contact"
       }

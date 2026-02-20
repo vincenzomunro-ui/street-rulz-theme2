@@ -12,14 +12,18 @@
     "page-header": {
       "type": "page-header",
       "settings": {
-        "background_image": "shopify://shop_images/done.jpg",
-        "show_logo": false,
         "heading": "About Us",
         "subheading": "The family behind Gold Coast's home of cage football."
       }
     },
     "about-story": {
       "type": "about-story",
+      "settings": {
+        "badge": "OUR STORY",
+        "heading": "Built from the Ground Up",
+        "text": "<p>Street Rulz Football was born from a simple belief — that the Gold Coast deserves a world-class small-sided football facility where community, culture, and competition come together.</p><p>What started as a family vision has grown into 7 premium enclosed pitches at Tallebudgera, built with FIFA Grade 3 artificial turf and designed for players of every level. From casual kick-abouts to competitive leagues, birthday parties to junior academies — Rulz is where street culture meets elite football.</p><p>We're a family-run business, and that's by design. Every decision we make is driven by a genuine love for the game and a commitment to the community we serve.</p>",
+        "image_alt": "Street Rulz Football facility at Tallebudgera"
+      },
       "blocks": {
         "value-1": {
           "type": "value",
@@ -54,27 +58,19 @@
           }
         }
       },
-      "block_order": [
-        "value-1",
-        "value-2",
-        "value-3",
-        "value-4"
-      ],
-      "settings": {
-        "badge": "OUR STORY",
-        "heading": "Built from the Ground Up",
-        "text": "<p>Street Rulz Football was born from a simple belief — that the Gold Coast deserves a world-class small-sided football facility where community, culture, and competition come together.</p><p>What started as a family vision has grown into 7 premium enclosed pitches at Tallebudgera, built with FIFA Grade 3 artificial turf and designed for players of every level. From casual kick-abouts to competitive leagues, birthday parties to junior academies — Rulz is where street culture meets elite football.</p><p>We're a family-run business, and that's by design. Every decision we make is driven by a genuine love for the game and a commitment to the community we serve.</p>",
-        "image": "shopify://shop_images/IMG_0563.jpg",
-        "image_alt": "Street Rulz Football facility at Tallebudgera"
-      }
+      "block_order": ["value-1", "value-2", "value-3", "value-4"]
     },
     "about-team": {
       "type": "about-team",
+      "settings": {
+        "badge": "THE CREW",
+        "heading": "Meet Our Team",
+        "description": "Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive."
+      },
       "blocks": {
         "member-mark": {
           "type": "team_member",
           "settings": {
-            "photo": "shopify://shop_images/IMG_0633_c838b879-a4a6-4e14-912c-b86d420f7db4.jpg",
             "name": "Mark Munro",
             "role": "Co-Founder",
             "bio": "With over 50 years of football experience, Mark has lived every side of the game — as a player, coach, and club director. His leadership and vision have been the driving force behind Street Rulz Football from day one. Combining an elite sporting background with a decades-long career in engineering and design, Mark has transformed the project from concept to reality. Holding AFC/FFA B & C Licences and a KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport, Mark's philosophy is simple and powerful: \"It's not just about playing — it's about raising the standard.\""
@@ -83,7 +79,6 @@
         "member-patricia": {
           "type": "team_member",
           "settings": {
-            "photo": "shopify://shop_images/IMG_0631.jpg",
             "name": "Patricia Munro",
             "role": "Co-Founder",
             "bio": "A foundational force behind Rulz, Patricia has been instrumental in shaping the vision and bringing the facility to life. Her dedication, organisation, and operational guidance ensure the business runs seamlessly day to day. From planning and logistics to staff coordination and community engagement, Patricia's influence is felt across every part of the Rulz experience. Her commitment to teamwork, family, and culture has helped build Rulz into more than a venue — it's a home for players, parents, and the community."
@@ -92,7 +87,6 @@
         "member-vincenzo": {
           "type": "team_member",
           "settings": {
-            "photo": "shopify://shop_images/IMG_0635_a86ad471-83d7-4d44-a6e5-a0ebf3db92dc.jpg",
             "name": "Vincenzo Munro",
             "role": "Manager",
             "bio": "Vincenzo plays a central role in the operational and creative direction of Rulz. He is a manager who lives and breathes the discipline, culture, and passion of the game. With over 10 years of futsal, 5-a-side, and community football experience, he has played a key role in shaping the identity of Street Rulz Football. From branding and vision to build and operations, Vincenzo has been hands-on in every stage of development."
@@ -101,7 +95,6 @@
         "member-ruby": {
           "type": "team_member",
           "settings": {
-            "photo": "shopify://shop_images/1F71FB5A-51C4-49C1-B817-8FDEA50F75A2_282f42ec-b2d6-49af-bd79-b39f2bf44746.heic",
             "name": "Ruby Grant",
             "role": "Assistant Manager",
             "bio": "Ruby plays a key role in both operations and the creative direction of Rulz. As Assistant Manager, she oversees business systems, marketing, branding, and member experience — ensuring the Rulz identity remains strong, consistent, and impactful across every platform. With a background in fitness and coaching, Ruby brings a modern and holistic perspective to the team."
@@ -110,25 +103,13 @@
         "member-greg": {
           "type": "team_member",
           "settings": {
-            "photo": "shopify://shop_images/IMG_0601.jpg",
             "name": "Greg Jones",
             "role": "Groundskeeper",
             "bio": "Greg is the go-to guy and local legend behind the scenes at Rulz. Having played a major role in the construction of the facility, he knows the grounds inside and out. As Groundskeeper, he maintains the pitches, oversees general maintenance, and ensures every session — from casual kick-arounds to competitive competitions — runs safely and smoothly."
           }
         }
       },
-      "block_order": [
-        "member-mark",
-        "member-patricia",
-        "member-vincenzo",
-        "member-ruby",
-        "member-greg"
-      ],
-      "settings": {
-        "badge": "THE CREW",
-        "heading": "Meet Our Team",
-        "description": "Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive."
-      }
+      "block_order": ["member-mark", "member-patricia", "member-vincenzo", "member-ruby", "member-greg"]
     },
     "cta-banner": {
       "type": "cta-banner",
@@ -138,14 +119,9 @@
         "cta1_text": "Contact Us",
         "cta1_link": "/pages/contact",
         "cta2_text": "Book a Pitch",
-        "cta2_link": "/pages/book-a-pitch"
+        "cta2_link": "/pages/book-a-court"
       }
     }
   },
-  "order": [
-    "page-header",
-    "about-story",
-    "about-team",
-    "cta-banner"
-  ]
+  "order": ["page-header", "about-story", "about-team", "cta-banner"]
 }
