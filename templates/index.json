@@ -401,18 +401,26 @@
         "d1": {
           "type": "hours_row",
           "settings": {
-            "day": "Monday - Sunday --- 8:00 AM – 10:00 PM",
-            "time": ""
+            "day": "Monday to Friday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        },
+        "hours_row_J36zYJ": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Saturday to Sunday",
+            "time": "8:00 AM – 10:00 PM"
           }
         }
       },
       "block_order": [
-        "d1"
+        "d1",
+        "hours_row_J36zYJ"
       ],
       "settings": {
         "label": "OPENING HOURS",
-        "heading": "When We're Open",
-        "note": "Open by Appointment"
+        "heading": "Hours",
+        "note": ""
       }
     },
     "cta": {
