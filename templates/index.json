@@ -101,7 +101,7 @@
             "icon": "🎓",
             "title": "Rulz Academy",
             "description": "Monday junior coaching sessions. Develop skills in a fun cage environment. Ages 6–14.",
-            "price": "$15/session",
+            "price": "$20/session",
             "link": "/pages/academy"
           }
         }
@@ -121,8 +121,11 @@
     "break1": {
       "type": "image-break",
       "settings": {
+        "show_logo": false,
         "heading": "Where Street Culture Meets Elite Football",
-        "subheading": "Premium cage football on the Gold Coast"
+        "subheading": "Premium cage football on the Gold Coast",
+        "cta_text": "",
+        "cta_link": ""
       }
     },
     "whatson": {
@@ -299,10 +302,14 @@
           "type": "pricing_card",
           "settings": {
             "title": "Weekday",
+            "badge": "",
+            "highlighted": false,
             "row1_label": "Mon–Fri 8am–4pm",
             "row1_value": "$110/hr",
             "row2_label": "Mon–Fri 4pm–10pm",
             "row2_value": "$140/hr",
+            "row3_label": "",
+            "row3_value": "",
             "note": "Members discount available. Unlimited players per booking.",
             "cta_text": "Book Weekday",
             "cta_link": "/pages/book-a-court"
@@ -316,6 +323,10 @@
             "highlighted": true,
             "row1_label": "Sat & Sun",
             "row1_value": "$110/hr",
+            "row2_label": "",
+            "row2_value": "",
+            "row3_label": "",
+            "row3_value": "",
             "note": "Same great rate all day on weekends. Members discount available.",
             "cta_text": "Book Weekend",
             "cta_link": "/pages/book-a-court"
