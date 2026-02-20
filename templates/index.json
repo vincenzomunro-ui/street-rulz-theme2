@@ -68,6 +68,7 @@
         "courthire": {
           "type": "service_card",
           "settings": {
+            "image": "shopify://shop_images/IMG_1351.jpg",
             "icon": "⚽",
             "title": "Court Hire",
             "description": "Book one of our 7 premium enclosed courts. Perfect for casual games with mates. Balls and bibs supplied.",
@@ -78,6 +79,7 @@
         "competitions": {
           "type": "service_card",
           "settings": {
+            "image": "shopify://shop_images/IMG_1368.png",
             "icon": "🏆",
             "title": "Competitions",
             "description": "Thursday night 5-a-side comps. 10-week seasons with prizes. Men's and women's divisions.",
@@ -88,6 +90,7 @@
         "birthdays": {
           "type": "service_card",
           "settings": {
+            "image": "shopify://shop_images/DSC09868.jpg",
             "icon": "🎂",
             "title": "Birthday Parties",
             "description": "The ultimate football birthday experience for kids and adults. Private court, party host, and more.",
@@ -98,6 +101,7 @@
         "academy": {
           "type": "service_card",
           "settings": {
+            "image": "shopify://shop_images/IMG_1350_dd408443-94ab-4b64-98bf-79c7e3d0af3e.jpg",
             "icon": "🎓",
             "title": "Rulz Academy",
             "description": "Monday junior coaching sessions. Develop skills in a fun cage environment. Ages 6–14.",
