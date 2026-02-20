@@ -12,6 +12,7 @@
     "page-header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/Donee.jpg",
         "show_logo": false,
         "heading": "About Us",
         "subheading": "The family behind Gold Coast's home of cage football."
