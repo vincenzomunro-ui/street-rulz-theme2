@@ -1,0 +1,30 @@
+<!-- Cowlendar 5-a-Side Booking Calendar -->
+<div class="section" id="booking-calendar-5aside">
+  <div style="text-align:center;margin-bottom:32px;">
+    <p class="section-label">{{ section.settings.label }}</p>
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+    {% if section.settings.subheading != blank %}
+      <p class="section-subtitle" style="margin:0 auto;">{{ section.settings.subheading }}</p>
+    {% endif %}
+  </div>
+
+  <div class="cowlendar-embed">
+    <div data-cowlendar-inline="6919c0739e502635e27acdae-44802415820853"></div>
+  </div>
+
+  {% if section.settings.note != blank %}
+    <p style="text-align:center;margin-top:24px;font-size:13px;color:var(--gray-400);max-width:600px;margin-left:auto;margin-right:auto;">{{ section.settings.note }}</p>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "5-a-Side Calendar",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Section label", "default": "BOOK NOW" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "5-a-Side Court Booking" },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Select your preferred date and time below. All bookings include balls and bibs." },
+    { "type": "text", "id": "note", "label": "Bottom note", "default": "All court bookings must be paid in full at the time of booking. We do not hold, reserve, or secure courts without payment." }
+  ]
+}
+{% endschema %}

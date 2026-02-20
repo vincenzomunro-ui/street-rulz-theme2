@@ -1,0 +1,42 @@
+<!-- Booking Info / What's Included Section -->
+<div class="section-dark">
+  <div class="section">
+    <div style="text-align:center;margin-bottom:40px;">
+      <p class="section-label">{{ section.settings.label }}</p>
+      <h2 class="section-title">{{ section.settings.heading }}</h2>
+    </div>
+
+    <div class="booking-info-grid">
+      {% for block in section.blocks %}
+        <div class="booking-info-item" {{ block.shopify_attributes }}>
+          <div class="booking-info-icon">{{ block.settings.icon }}</div>
+          <div>
+            <h4 style="font-size:15px;font-weight:700;margin-bottom:4px;">{{ block.settings.title }}</h4>
+            <p style="font-size:13px;color:var(--gray-400);line-height:1.6;">{{ block.settings.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Booking Info",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Section label", "default": "INCLUDED WITH EVERY BOOKING" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "What You Get" }
+  ],
+  "blocks": [
+    {
+      "type": "info_item",
+      "name": "Info Item",
+      "settings": [
+        { "type": "text", "id": "icon", "label": "Icon/emoji", "default": "⚽" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "text", "id": "description", "label": "Description" }
+      ]
+    }
+  ]
+}
+{% endschema %}

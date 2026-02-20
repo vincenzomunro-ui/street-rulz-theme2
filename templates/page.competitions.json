@@ -1,20 +1,79 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "header": {
       "type": "page-header",
       "settings": {
         "heading": "Competitions",
-        "subheading": "Thursday night 5-a-side comps. 10-week seasons with prizes."
+        "subheading": "10-week Street Rulz leagues with graded divisions. Thursday night 5-a-side comps with prizes."
       }
+    },
+    "compinfo": {
+      "type": "comp-info",
+      "settings": {
+        "label": "HOW IT WORKS",
+        "heading": "Street Rulz Competitions",
+        "subheading": "10-week seasons with graded divisions for juniors, youth, and adults.",
+        "majesty_heading": "Register Your Team",
+        "majesty_description": "Team registrations, fixtures, and results are managed through Majesty. Click below to register your team, view upcoming fixtures, or check live results.",
+        "majesty_button_text": "Register on Majesty"
+      },
+      "blocks": {
+        "c1": {
+          "type": "info_card",
+          "settings": {
+            "icon": "📅",
+            "title": "10-Week Seasons",
+            "description": "Each competition runs for 10 weeks with a round-robin format. Finals are played in the last 2 weeks.",
+            "detail": "New season starting soon"
+          }
+        },
+        "c2": {
+          "type": "info_card",
+          "settings": {
+            "icon": "🏆",
+            "title": "Graded Divisions",
+            "description": "We grade teams so every match is competitive and fun. Divisions for juniors, social, and competitive players.",
+            "detail": "All skill levels welcome"
+          }
+        },
+        "c3": {
+          "type": "info_card",
+          "settings": {
+            "icon": "⚽",
+            "title": "Thursday Nights",
+            "description": "Our flagship 5-a-side comp runs every Thursday evening under the lights. Games are fast, intense, and social.",
+            "detail": "Kick-off from 6:00 PM"
+          }
+        },
+        "c4": {
+          "type": "info_card",
+          "settings": {
+            "icon": "🎖️",
+            "title": "Prizes & Awards",
+            "description": "Season winners receive trophies and prizes. Individual awards for Golden Boot and Player of the Season.",
+            "detail": "Trophies for winners"
+          }
+        },
+        "c5": {
+          "type": "info_card",
+          "settings": {
+            "icon": "👥",
+            "title": "Team Registration",
+            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others.",
+            "detail": "5-8 players per team"
+          }
+        },
+        "c6": {
+          "type": "info_card",
+          "settings": {
+            "icon": "📋",
+            "title": "Professional Referees",
+            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
+            "detail": "Qualified refs every game"
+          }
+        }
+      },
+      "block_order": ["c1", "c2", "c3", "c4", "c5", "c6"]
     },
     "ladder": {
       "type": "ladder",
@@ -38,7 +97,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Want to Enter a Team?",
-        "subheading": "Contact us to register for the next season.",
+        "subheading": "Contact us to register for the next season or find out more about our competitions.",
         "cta1_text": "Contact Us",
         "cta1_link": "/pages/contact",
         "cta2_text": "Call 0412 766 696",
@@ -46,5 +105,5 @@
       }
     }
   },
-  "order": ["header", "ladder", "cta"]
+  "order": ["header", "compinfo", "ladder", "cta"]
 }

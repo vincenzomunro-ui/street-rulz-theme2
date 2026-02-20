@@ -796,3 +796,260 @@ button { cursor: pointer; border: none; font-family: inherit; }
   .card { padding: 20px; }
   .section-title { font-size: 24px; }
 }
+
+/* ===== COURT SELECTION ===== */
+.court-select-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.court-select-card {
+  background: var(--dark-card);
+  border: 1px solid var(--gray-800);
+  border-radius: var(--radius-xl);
+  padding: 36px 28px;
+  text-align: center;
+  transition: all var(--transition);
+}
+.court-select-card:hover {
+  border-color: var(--orange-border);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+.court-select-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.court-select-title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.court-select-desc {
+  font-size: 14px;
+  color: var(--gray-400);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.court-select-features {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.court-feature {
+  font-size: 14px;
+  color: var(--gray-200);
+  padding: 6px 0;
+  border-bottom: 1px solid var(--gray-800);
+}
+.court-feature:last-child { border-bottom: none; }
+.court-select-pricing {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: rgba(255,127,48,0.05);
+  border: 1px solid var(--orange-border);
+  border-radius: var(--radius);
+}
+.court-price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+  color: var(--gray-400);
+}
+.court-price-value {
+  font-weight: 800;
+  color: var(--orange);
+  font-size: 16px;
+}
+.court-select-btn {
+  width: 100%;
+  justify-content: center;
+}
+
+/* ===== TIME SLOTS ===== */
+.time-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.time-slot-card {
+  background: var(--dark-card);
+  border: 1px solid var(--gray-800);
+  border-radius: var(--radius-lg);
+  padding: 28px 20px;
+  text-align: center;
+  transition: all var(--transition);
+}
+.time-slot-card:hover {
+  border-color: var(--orange-border);
+  transform: translateY(-2px);
+}
+.time-slot-duration {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--orange);
+  margin-bottom: 8px;
+}
+.time-slot-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.time-slot-desc {
+  font-size: 13px;
+  color: var(--gray-400);
+  line-height: 1.5;
+}
+.time-slot-price {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--orange);
+}
+
+/* ===== COWLENDAR EMBED ===== */
+.cowlendar-embed {
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 400px;
+  background: var(--dark-card);
+  border: 1px solid var(--gray-800);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  overflow: hidden;
+}
+
+/* ===== COMPETITION INFO ===== */
+.comp-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.comp-info-icon {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+/* ===== PARTY PACKAGES ===== */
+.party-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.party-card {
+  text-align: center;
+}
+.party-includes {
+  text-align: left;
+  margin-top: 16px;
+}
+.party-include-item {
+  font-size: 14px;
+  color: var(--gray-200);
+  padding: 8px 0;
+  border-bottom: 1px solid var(--gray-800);
+}
+.party-include-item:last-child { border-bottom: none; }
+
+/* ===== ACADEMY ===== */
+.academy-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.academy-highlight-card {
+  text-align: center;
+}
+.academy-schedule-box {
+  max-width: 700px;
+  margin: 0 auto;
+  background: var(--dark-card);
+  border: 1px solid var(--gray-800);
+  border-radius: var(--radius-xl);
+  padding: 40px;
+}
+.academy-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.academy-detail {
+  text-align: center;
+  padding: 16px;
+  background: var(--dark-surface);
+  border-radius: var(--radius);
+}
+.academy-detail-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--orange);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+.academy-detail-value {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+}
+.coaching-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.coaching-badge {
+  background: var(--green-bg);
+  border: 1px solid var(--green-border);
+  color: var(--green-light);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ===== BOOKING INFO ===== */
+.booking-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.booking-info-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 20px;
+  background: var(--dark-card);
+  border: 1px solid var(--gray-800);
+  border-radius: var(--radius);
+}
+.booking-info-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+/* ===== RESPONSIVE — NEW SECTIONS ===== */
+@media (max-width: 768px) {
+  .court-select-grid { grid-template-columns: 1fr; gap: 16px; }
+  .time-slots-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .comp-info-grid { grid-template-columns: 1fr; }
+  .party-grid { grid-template-columns: 1fr; }
+  .academy-highlights { grid-template-columns: 1fr; }
+  .academy-details-grid { grid-template-columns: 1fr; }
+  .booking-info-grid { grid-template-columns: 1fr; }
+  .cowlendar-embed { padding: 12px; }
+}

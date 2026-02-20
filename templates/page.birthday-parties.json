@@ -1,40 +1,114 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "header": {
       "type": "page-header",
       "settings": {
         "heading": "Birthday Parties",
-        "subheading": "The ultimate football birthday experience for kids and adults."
+        "subheading": "The ultimate football birthday experience for kids and adults on the Gold Coast."
       }
     },
-    "content": {
-      "type": "rich-text",
+    "packages": {
+      "type": "party-packages",
       "settings": {
         "label": "PARTY PACKAGES",
-        "heading": "Celebrate at Street Rulz",
-        "content": "<p>Give your child (or yourself!) the best birthday party on the Gold Coast. Our private cage football parties include exclusive court access, a dedicated party host, and everything you need for an unforgettable day.</p><p>Contact us to discuss packages and availability.</p>"
-      }
+        "heading": "Choose Your Party Package",
+        "subheading": "Celebrate in style at Gold Coast's only cage football facility. We handle the football — you handle the fun.",
+        "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings."
+      },
+      "blocks": {
+        "basic": {
+          "type": "package",
+          "settings": {
+            "title": "Kick-Off Party",
+            "price": "$250",
+            "subtitle": "1 hour court hire + 30 min party area",
+            "include_1": "1 hour on a 5-a-side court",
+            "include_2": "30 minutes in the party area",
+            "include_3": "Balls and bibs supplied",
+            "include_4": "Dedicated party host",
+            "include_5": "Up to 12 kids",
+            "cta_text": "Book This Package",
+            "cta_link": "tel:+61412766696"
+          }
+        },
+        "premium": {
+          "type": "package",
+          "settings": {
+            "title": "Ultimate Party",
+            "price": "$350",
+            "subtitle": "1.5 hour court hire + 45 min party area",
+            "badge": "MOST POPULAR",
+            "highlighted": true,
+            "include_1": "1.5 hours on a 5-a-side court",
+            "include_2": "45 minutes in the party area",
+            "include_3": "Balls, bibs & trophies",
+            "include_4": "Dedicated party host",
+            "include_5": "Up to 16 kids",
+            "include_6": "Mini tournament format",
+            "cta_text": "Book This Package",
+            "cta_link": "tel:+61412766696"
+          }
+        },
+        "vip": {
+          "type": "package",
+          "settings": {
+            "title": "VIP Experience",
+            "price": "$450",
+            "subtitle": "2 hour court hire + 1 hour party area",
+            "include_1": "2 hours on a 5-a-side court",
+            "include_2": "1 hour in the party area",
+            "include_3": "Balls, bibs, trophies & medals",
+            "include_4": "Dedicated party host",
+            "include_5": "Up to 20 kids",
+            "include_6": "Full tournament with finals",
+            "cta_text": "Book This Package",
+            "cta_link": "tel:+61412766696"
+          }
+        }
+      },
+      "block_order": ["basic", "premium", "vip"]
+    },
+    "bookinginfo": {
+      "type": "booking-info",
+      "settings": {
+        "label": "EVERY PARTY INCLUDES",
+        "heading": "What You Get"
+      },
+      "blocks": {
+        "b1": { "type": "info_item", "settings": { "icon": "🏟️", "title": "Private Court", "description": "Your own enclosed cage court for the duration of the party." } },
+        "b2": { "type": "info_item", "settings": { "icon": "⚽", "title": "Balls & Bibs", "description": "Quality match balls and team bibs supplied for every party." } },
+        "b3": { "type": "info_item", "settings": { "icon": "🎉", "title": "Party Area", "description": "Dedicated space for cake, presents, and celebrations." } },
+        "b4": { "type": "info_item", "settings": { "icon": "🧑‍🏫", "title": "Party Host", "description": "A dedicated host to run games and keep the fun going." } },
+        "b5": { "type": "info_item", "settings": { "icon": "🅿️", "title": "Free Parking", "description": "Plenty of free parking for all your guests." } },
+        "b6": { "type": "info_item", "settings": { "icon": "🌧️", "title": "All-Weather", "description": "Enclosed courts mean the party goes ahead rain or shine." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "howitworks": {
+      "type": "how-it-works",
+      "settings": {
+        "label": "HOW TO BOOK",
+        "heading": "Book Your Party",
+        "subheading": "Planning the ultimate football party is easy."
+      },
+      "blocks": {
+        "s1": { "type": "step", "settings": { "title": "Choose Your Package", "description": "Pick from our Kick-Off, Ultimate, or VIP packages above." } },
+        "s2": { "type": "step", "settings": { "title": "Call or Message Us", "description": "Contact us to confirm your date, time, and any special requests." } },
+        "s3": { "type": "step", "settings": { "title": "Party Time!", "description": "Show up with the birthday crew. We handle everything else." } }
+      },
+      "block_order": ["s1", "s2", "s3"]
     },
     "cta": {
       "type": "cta-banner",
       "settings": {
-        "heading": "Book a Party",
-        "subheading": "Call us or send a message to organise your next birthday party.",
-        "cta1_text": "Contact Us",
-        "cta1_link": "/pages/contact",
-        "cta2_text": "Call 0412 766 696",
-        "cta2_link": "tel:+61412766696"
+        "heading": "Ready to Book a Party?",
+        "subheading": "Call us or send a message to lock in your date.",
+        "cta1_text": "Call 0412 766 696",
+        "cta1_link": "tel:+61412766696",
+        "cta2_text": "Contact Us",
+        "cta2_link": "/pages/contact"
       }
     }
   },
-  "order": ["header", "content", "cta"]
+  "order": ["header", "packages", "bookinginfo", "howitworks", "cta"]
 }

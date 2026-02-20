@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "header": {
@@ -16,42 +7,141 @@
         "subheading": "7 premium enclosed courts available 7 days a week. Balls and bibs supplied."
       }
     },
-    "pricing": {
-      "type": "pricing",
+    "court-select": {
+      "type": "court-selection",
       "settings": {
-        "label": "PRICING",
-        "heading": "Court Hire Rates",
-        "subheading": "No hidden fees. Book by the hour and bring as many players as you want."
+        "label": "CHOOSE YOUR COURT",
+        "heading": "Select Your Court Size",
+        "subheading": "Choose between our 5-a-side or 7-a-side courts, then pick your time slot.",
+        "note": "All courts are floodlit, enclosed, and all-weather. Unlimited players per booking."
       },
       "blocks": {
-        "weekday": {
-          "type": "pricing_card",
+        "5aside": {
+          "type": "court_option",
           "settings": {
-            "title": "Weekday",
-            "row1_label": "Mon–Fri 8am–4pm",
-            "row1_value": "$110/hr",
-            "row2_label": "Mon–Fri 4pm–10pm",
-            "row2_value": "$140/hr",
-            "note": "Members discount available. Unlimited players per booking.",
-            "cta_text": "Book Weekday",
-            "cta_link": "/pages/book-a-court"
+            "icon": "⚽",
+            "title": "5-a-Side Courts",
+            "badge": "MOST POPULAR",
+            "highlighted": true,
+            "description": "Perfect for smaller teams and casual kicks. Fast-paced action in our enclosed cage courts.",
+            "feature_1": "Ideal for 6-12 players",
+            "feature_2": "6 courts available",
+            "feature_3": "Enclosed cage — play rain or shine",
+            "feature_4": "Balls & bibs supplied",
+            "price_label_1": "Weekday (8am-4pm)",
+            "price_value_1": "$110/hr",
+            "price_label_2": "Weekday Peak (4pm-10pm)",
+            "price_value_2": "$140/hr",
+            "price_label_3": "Weekend (All Day)",
+            "price_value_3": "$110/hr",
+            "cta_text": "Book 5-a-Side",
+            "cta_link": "#booking-calendar-5aside"
           }
         },
-        "weekend": {
-          "type": "pricing_card",
+        "7aside": {
+          "type": "court_option",
           "settings": {
-            "title": "Weekend",
-            "badge": "POPULAR",
-            "highlighted": true,
-            "row1_label": "Sat & Sun",
-            "row1_value": "$110/hr",
-            "note": "Same great rate all day on weekends.",
-            "cta_text": "Book Weekend",
-            "cta_link": "/pages/book-a-court"
+            "icon": "🏟️",
+            "title": "7-a-Side Field",
+            "description": "Ideal for larger matches and full squad football. Our biggest pitch for the ultimate game.",
+            "feature_1": "Ideal for 10-16 players",
+            "feature_2": "Full-size 7-a-side pitch",
+            "feature_3": "Floodlit for evening games",
+            "feature_4": "Balls & bibs supplied",
+            "price_label_1": "Weekday",
+            "price_value_1": "From $140/hr",
+            "price_label_2": "Weekend",
+            "price_value_2": "From $140/hr",
+            "cta_text": "Book 7-a-Side",
+            "cta_link": "#booking-calendar-7aside"
           }
         }
       },
-      "block_order": ["weekday", "weekend"]
+      "block_order": ["5aside", "7aside"]
+    },
+    "timeslots": {
+      "type": "time-slots",
+      "settings": {
+        "label": "FLEXIBLE BOOKING",
+        "heading": "Choose Your Session Length",
+        "subheading": "Book the time that suits your game. All sessions include balls and bibs.",
+        "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary."
+      },
+      "blocks": {
+        "30min": {
+          "type": "slot",
+          "settings": {
+            "duration": "30",
+            "title": "Quick Kick",
+            "description": "Perfect for a fast warm-up or training session.",
+            "price": "From $55"
+          }
+        },
+        "60min": {
+          "type": "slot",
+          "settings": {
+            "duration": "60",
+            "title": "Standard Game",
+            "badge": "POPULAR",
+            "highlighted": true,
+            "description": "The most popular option. Enough time for a proper match.",
+            "price": "From $110"
+          }
+        },
+        "90min": {
+          "type": "slot",
+          "settings": {
+            "duration": "90",
+            "title": "Extended Play",
+            "description": "Extra time for multiple games or a tournament-style session.",
+            "price": "From $165"
+          }
+        },
+        "120min": {
+          "type": "slot",
+          "settings": {
+            "duration": "120",
+            "title": "Full Session",
+            "description": "The ultimate booking. Great for events, team training, or all-day fun.",
+            "price": "From $220"
+          }
+        }
+      },
+      "block_order": ["30min", "60min", "90min", "120min"]
+    },
+    "bookinginfo": {
+      "type": "booking-info",
+      "settings": {
+        "label": "INCLUDED WITH EVERY BOOKING",
+        "heading": "What You Get"
+      },
+      "blocks": {
+        "b1": { "type": "info_item", "settings": { "icon": "⚽", "title": "Balls Supplied", "description": "Quality match balls provided for every session." } },
+        "b2": { "type": "info_item", "settings": { "icon": "🦺", "title": "Bibs Included", "description": "Team bibs so you can sort out the sides." } },
+        "b3": { "type": "info_item", "settings": { "icon": "💡", "title": "Floodlit Courts", "description": "All courts are floodlit for evening games." } },
+        "b4": { "type": "info_item", "settings": { "icon": "🌧️", "title": "All-Weather", "description": "Enclosed cage courts — play rain, hail, or shine." } },
+        "b5": { "type": "info_item", "settings": { "icon": "👥", "title": "Unlimited Players", "description": "Bring as many mates as you want. No per-player fees." } },
+        "b6": { "type": "info_item", "settings": { "icon": "🅿️", "title": "Free Parking", "description": "Plenty of free parking right at the venue." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "calendar5": {
+      "type": "cowlendar-5aside",
+      "settings": {
+        "label": "BOOK NOW",
+        "heading": "5-a-Side Court Booking",
+        "subheading": "Select your preferred date and time below. All bookings include balls and bibs.",
+        "note": "All court bookings must be paid in full at the time of booking. We do not hold, reserve, or secure courts without payment."
+      }
+    },
+    "calendar7": {
+      "type": "cowlendar-7aside",
+      "settings": {
+        "label": "BOOK NOW",
+        "heading": "7-a-Side Court Booking",
+        "subheading": "Select your preferred date and time below. All bookings include balls and bibs.",
+        "note": "All court bookings must be paid in full at the time of booking. We do not hold, reserve, or secure courts without payment."
+      }
     },
     "howitworks": {
       "type": "how-it-works",
@@ -61,17 +151,17 @@
         "subheading": "Getting on the pitch is easy."
       },
       "blocks": {
-        "s1": { "type": "step", "settings": { "title": "Pick Your Court & Time", "description": "Choose from 7 courts. Book online or call us." } },
-        "s2": { "type": "step", "settings": { "title": "Rock Up & Play", "description": "Bring your mates. We supply balls and bibs." } },
-        "s3": { "type": "step", "settings": { "title": "Come Back for More", "description": "Join a comp or become a member for discounts." } }
+        "s1": { "type": "step", "settings": { "title": "Pick Your Court & Time", "description": "Choose 5-a-side or 7-a-side, select your date and time slot above." } },
+        "s2": { "type": "step", "settings": { "title": "Pay & Confirm", "description": "Complete payment online. Your court is instantly confirmed." } },
+        "s3": { "type": "step", "settings": { "title": "Rock Up & Play", "description": "Bring your mates to 40 Andrews Rd, Tallebudgera. We supply balls and bibs." } }
       },
       "block_order": ["s1", "s2", "s3"]
     },
     "cta": {
       "type": "cta-banner",
       "settings": {
-        "heading": "Ready to Book?",
-        "subheading": "Call us or send a message to reserve your court.",
+        "heading": "Need Help Booking?",
+        "subheading": "Call us or send a message and we will sort it out for you.",
         "cta1_text": "Call 0412 766 696",
         "cta1_link": "tel:+61412766696",
         "cta2_text": "Contact Us",
@@ -79,5 +169,5 @@
       }
     }
   },
-  "order": ["header", "pricing", "howitworks", "cta"]
+  "order": ["header", "court-select", "timeslots", "bookinginfo", "calendar5", "calendar7", "howitworks", "cta"]
 }

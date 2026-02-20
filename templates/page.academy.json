@@ -1,34 +1,89 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "header": {
       "type": "page-header",
       "settings": {
-        "heading": "Rulz Academy",
-        "subheading": "Junior coaching sessions every Monday. Develop skills in a fun cage environment."
+        "heading": "Academy",
+        "subheading": "Structured football development for juniors in a fun cage environment."
       }
     },
-    "content": {
-      "type": "rich-text",
+    "academyinfo": {
+      "type": "academy-info",
       "settings": {
         "label": "JUNIOR DEVELOPMENT",
-        "heading": "Train Like a Pro",
-        "content": "<p>Rulz Academy is our junior football development program for ages 6-14. Every Monday from 4:00 PM to 5:30 PM, our qualified coaches run structured sessions focused on ball control, passing, shooting, and game awareness — all inside our premium cage courts.</p><p>$15 per session. No long-term commitment required. Just rock up and play.</p>"
-      }
+        "heading": "Rulz Academy",
+        "subheading": "Our academy program focuses on technical skill development, game intelligence, and a love for the beautiful game — all in our unique cage football environment.",
+        "schedule_heading": "Session Details",
+        "day": "Every Monday",
+        "time": "4:00 PM - 5:30 PM",
+        "ages": "U8 - U13",
+        "cost": "Monthly Subscription",
+        "free_trial": "First Session is FREE — No Commitment Required!",
+        "coaching_heading": "Elite Coaching Staff",
+        "coaching_description": "Our coaches hold FFA/AFC B & C Licences and KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport. Your child will train under some of the best-qualified coaches on the Gold Coast.",
+        "enrol_text": "Subscribe & Enrol Now"
+      },
+      "blocks": {
+        "h1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "⚽",
+            "title": "Technical Skills",
+            "description": "Ball mastery, passing, dribbling, and finishing drills designed for cage football."
+          }
+        },
+        "h2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "🧠",
+            "title": "Game Intelligence",
+            "description": "Decision-making, spatial awareness, and tactical understanding in small-sided games."
+          }
+        },
+        "h3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "💪",
+            "title": "Confidence Building",
+            "description": "Supportive environment where every player is encouraged to express themselves and take risks."
+          }
+        },
+        "cr1": {
+          "type": "credential",
+          "settings": {
+            "icon": "🏅",
+            "text": "FFA/AFC B Licence"
+          }
+        },
+        "cr2": {
+          "type": "credential",
+          "settings": {
+            "icon": "🏅",
+            "text": "FFA/AFC C Licence"
+          }
+        },
+        "cr3": {
+          "type": "credential",
+          "settings": {
+            "icon": "🏅",
+            "text": "KNVB Dutch Youth Elite"
+          }
+        },
+        "cr4": {
+          "type": "credential",
+          "settings": {
+            "icon": "🏅",
+            "text": "AIS Certified"
+          }
+        }
+      },
+      "block_order": ["h1", "h2", "h3", "cr1", "cr2", "cr3", "cr4"]
     },
     "cta": {
       "type": "cta-banner",
       "settings": {
-        "heading": "Enrol Your Child",
-        "subheading": "Contact us to register for the next Academy session.",
+        "heading": "Questions About the Academy?",
+        "subheading": "Get in touch and we will tell you everything you need to know.",
         "cta1_text": "Contact Us",
         "cta1_link": "/pages/contact",
         "cta2_text": "Call 0412 766 696",
@@ -36,5 +91,5 @@
       }
     }
   },
-  "order": ["header", "content", "cta"]
+  "order": ["header", "academyinfo", "cta"]
 }

@@ -4,8 +4,22 @@
 - [x] Fix Shopify schema validation errors
 - [x] Push theme to Shopify via CLI
 - [x] Review all home page sections
-- [ ] Build About Us / Our Team page with 5 team members (Mark, Trish, Vincenzo, Ruby, Greg)
-- [ ] Review and polish Contact page
-- [ ] Full pre-launch audit (broken links, missing content, SEO, etc.)
-- [ ] Add About Us to navigation
-- [ ] Push final changes to GitHub and Shopify
+- [x] Build About Us / Our Team page with 5 team members (Mark, Trish, Vincenzo, Ruby, Greg)
+- [x] Review and polish Contact page
+- [x] Full pre-launch audit (broken links, missing content, SEO, etc.)
+- [x] Add About Us to navigation
+- [x] Push final changes to GitHub and Shopify
+- [x] Publish theme as live site
+- [ ] Assign About Us template to the About Us page in Shopify admin
+- [ ] Book a Court: Build pre-selection page (5v5 vs 7v7 court selection)
+- [ ] Book a Court: Add time slot options (30min, 60min, 90min, 2hr)
+- [ ] Book a Court: Add pricing for each court type and duration
+- [ ] Book a Court: Integrate with Cowlendar/booking system
+- [ ] Check Cowlendar dashboard and fix any configuration errors
+- [ ] Competitions: Link to Majesty for competition management
+- [ ] Competitions: Build out competition info page
+- [ ] Birthday Parties: Build party booking/info page
+- [ ] Academy: Build academy enrollment/info page
+- [ ] Upload team photos for About Us page
+- [ ] Upload service images for Home page cards
+- [ ] Set social media URLs in theme settings

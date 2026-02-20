@@ -1,0 +1,130 @@
+<!-- Academy Info Section -->
+<div class="section">
+  <div style="text-align:center;margin-bottom:48px;">
+    <p class="section-label">{{ section.settings.label }}</p>
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+    {% if section.settings.subheading != blank %}
+      <p class="section-subtitle" style="margin:0 auto;">{{ section.settings.subheading }}</p>
+    {% endif %}
+  </div>
+
+  <!-- Program Highlights -->
+  <div class="academy-highlights">
+    {% for block in section.blocks %}
+      {% if block.type == 'highlight' %}
+        <div class="academy-highlight-card card" {{ block.shopify_attributes }}>
+          <div style="font-size:36px;margin-bottom:12px;">{{ block.settings.icon }}</div>
+          <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">{{ block.settings.title }}</h3>
+          <p style="font-size:14px;color:var(--gray-400);line-height:1.6;">{{ block.settings.description }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Schedule & Pricing Box -->
+  {% if section.settings.schedule_heading != blank %}
+    <div class="academy-schedule-box" style="margin-top:56px;">
+      <div style="text-align:center;margin-bottom:32px;">
+        <h3 class="section-title" style="font-size:28px;">{{ section.settings.schedule_heading }}</h3>
+      </div>
+      <div class="academy-details-grid">
+        {% if section.settings.day != blank %}
+          <div class="academy-detail">
+            <span class="academy-detail-label">Day</span>
+            <span class="academy-detail-value">{{ section.settings.day }}</span>
+          </div>
+        {% endif %}
+        {% if section.settings.time != blank %}
+          <div class="academy-detail">
+            <span class="academy-detail-label">Time</span>
+            <span class="academy-detail-value">{{ section.settings.time }}</span>
+          </div>
+        {% endif %}
+        {% if section.settings.ages != blank %}
+          <div class="academy-detail">
+            <span class="academy-detail-label">Ages</span>
+            <span class="academy-detail-value">{{ section.settings.ages }}</span>
+          </div>
+        {% endif %}
+        {% if section.settings.cost != blank %}
+          <div class="academy-detail">
+            <span class="academy-detail-label">Cost</span>
+            <span class="academy-detail-value">{{ section.settings.cost }}</span>
+          </div>
+        {% endif %}
+      </div>
+
+      {% if section.settings.free_trial != blank %}
+        <div style="text-align:center;margin-top:24px;padding:16px;background:var(--orange-bg);border:1px solid var(--orange-border);border-radius:var(--radius);max-width:500px;margin-left:auto;margin-right:auto;">
+          <span style="font-size:15px;font-weight:700;color:var(--orange);">{{ section.settings.free_trial }}</span>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <!-- Coaching Credentials -->
+  {% if section.settings.coaching_heading != blank %}
+    <div style="text-align:center;margin-top:56px;">
+      <h3 class="section-title" style="font-size:28px;">{{ section.settings.coaching_heading }}</h3>
+      {% if section.settings.coaching_description != blank %}
+        <p style="font-size:15px;color:var(--gray-400);max-width:640px;margin:0 auto 24px;line-height:1.7;">{{ section.settings.coaching_description }}</p>
+      {% endif %}
+      <div class="coaching-badges">
+        {% for block in section.blocks %}
+          {% if block.type == 'credential' %}
+            <div class="coaching-badge" {{ block.shopify_attributes }}>
+              {{ block.settings.icon }} {{ block.settings.text }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- Enrol CTA -->
+  {% if section.settings.enrol_text != blank %}
+    <div style="text-align:center;margin-top:48px;">
+      <a href="{{ section.settings.enrol_link }}" class="btn-primary" style="font-size:18px;padding:16px 40px;">{{ section.settings.enrol_text }} →</a>
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Academy Info",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Section label", "default": "JUNIOR DEVELOPMENT" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Rulz Academy" },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Structured football development for juniors in a fun cage environment." },
+    { "type": "text", "id": "schedule_heading", "label": "Schedule heading", "default": "Session Details" },
+    { "type": "text", "id": "day", "label": "Day", "default": "Every Monday" },
+    { "type": "text", "id": "time", "label": "Time", "default": "4:00 PM - 5:30 PM" },
+    { "type": "text", "id": "ages", "label": "Ages", "default": "U8 - U13" },
+    { "type": "text", "id": "cost", "label": "Cost", "default": "Monthly Subscription" },
+    { "type": "text", "id": "free_trial", "label": "Free trial text", "default": "🎉 First Session is FREE — No Commitment Required!" },
+    { "type": "text", "id": "coaching_heading", "label": "Coaching section heading", "default": "Elite Coaching Staff" },
+    { "type": "textarea", "id": "coaching_description", "label": "Coaching description", "default": "Our coaches hold FFA/AFC B & C Licences and KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport. Your child will train under some of the best-qualified coaches on the Gold Coast." },
+    { "type": "text", "id": "enrol_text", "label": "Enrol button text", "default": "Subscribe & Enrol Now" },
+    { "type": "url", "id": "enrol_link", "label": "Enrol button link" }
+  ],
+  "blocks": [
+    {
+      "type": "highlight",
+      "name": "Program Highlight",
+      "settings": [
+        { "type": "text", "id": "icon", "label": "Icon/emoji", "default": "⚽" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "textarea", "id": "description", "label": "Description" }
+      ]
+    },
+    {
+      "type": "credential",
+      "name": "Coaching Credential",
+      "settings": [
+        { "type": "text", "id": "icon", "label": "Icon/emoji", "default": "🏅" },
+        { "type": "text", "id": "text", "label": "Credential text" }
+      ]
+    }
+  ]
+}
+{% endschema %}
