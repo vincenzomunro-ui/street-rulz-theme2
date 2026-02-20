@@ -30,8 +30,8 @@
           "settings": {
             "title": "Kick-Off Party",
             "price": "$250",
-            "subtitle": "1 hour court hire + 30 min party area",
-            "include_1": "1 hour on a 5-a-side court",
+            "subtitle": "1 hour pitch hire + 30 min party area",
+            "include_1": "1 hour on a 5-a-side pitch",
             "include_2": "30 minutes in the party area",
             "include_3": "Balls and bibs supplied",
             "include_4": "Dedicated party host",
@@ -45,10 +45,10 @@
           "settings": {
             "title": "Ultimate Party",
             "price": "$350",
-            "subtitle": "1.5 hour court hire + 45 min party area",
+            "subtitle": "1.5 hour pitch hire + 45 min party area",
             "badge": "MOST POPULAR",
             "highlighted": true,
-            "include_1": "1.5 hours on a 5-a-side court",
+            "include_1": "1.5 hours on a 5-a-side pitch",
             "include_2": "45 minutes in the party area",
             "include_3": "Balls, bibs & trophies",
             "include_4": "Dedicated party host",
@@ -63,8 +63,8 @@
           "settings": {
             "title": "VIP Experience",
             "price": "$450",
-            "subtitle": "2 hour court hire + 1 hour party area",
-            "include_1": "2 hours on a 5-a-side court",
+            "subtitle": "2 hour pitch hire + 1 hour party area",
+            "include_1": "2 hours on a 5-a-side pitch",
             "include_2": "1 hour in the party area",
             "include_3": "Balls, bibs, trophies & medals",
             "include_4": "Dedicated party host",
@@ -84,12 +84,12 @@
         "heading": "What You Get"
       },
       "blocks": {
-        "b1": { "type": "info_item", "settings": { "icon": "🏟️", "title": "Private Court", "description": "Your own enclosed cage court for the duration of the party." } },
+        "b1": { "type": "info_item", "settings": { "icon": "🏟️", "title": "Private Pitch", "description": "Your own enclosed cage pitch for the duration of the party." } },
         "b2": { "type": "info_item", "settings": { "icon": "⚽", "title": "Balls & Bibs", "description": "Quality match balls and team bibs supplied for every party." } },
         "b3": { "type": "info_item", "settings": { "icon": "🎉", "title": "Party Area", "description": "Dedicated space for cake, presents, and celebrations." } },
         "b4": { "type": "info_item", "settings": { "icon": "🧑‍🏫", "title": "Party Host", "description": "A dedicated host to run games and keep the fun going." } },
         "b5": { "type": "info_item", "settings": { "icon": "🅿️", "title": "Free Parking", "description": "Plenty of free parking for all your guests." } },
-        "b6": { "type": "info_item", "settings": { "icon": "🌧️", "title": "All-Weather", "description": "Enclosed courts mean the party goes ahead rain or shine." } }
+        "b6": { "type": "info_item", "settings": { "icon": "🌧️", "title": "All-Weather", "description": "Enclosed pitches mean the party goes ahead rain or shine." } }
       },
       "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
     },

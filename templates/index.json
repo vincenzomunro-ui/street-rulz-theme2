@@ -12,12 +12,12 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "badge_text": "● PLAY RAIN OR SHINE — ALL-WEATHER COURTS",
+        "badge_text": "● PLAY RAIN OR SHINE — ALL-WEATHER PITCHES",
         "heading_line1": "Gold Coast's Home of",
         "heading_line2": "Cage Football",
-        "subheading": "7 premium enclosed courts at Tallebudgera. Book a court, join a comp, train at the academy, or throw the best birthday party on the Gold Coast.",
-        "cta1_text": "Book a Court — From $110/hr",
-        "cta1_link": "/pages/book-a-court",
+        "subheading": "7 premium enclosed pitches at Tallebudgera. Book a pitch, join a comp, train at the academy, or throw the best birthday party on the Gold Coast.",
+        "cta1_text": "Book a Pitch — From $110/hr",
+        "cta1_link": "/pages/book-a-pitch",
         "cta2_text": "Join a Competition",
         "cta2_link": "/pages/competitions"
       }
@@ -29,7 +29,7 @@
           "type": "stat",
           "settings": {
             "number": "7",
-            "label": "Premium Courts"
+            "label": "Premium Pitches"
           }
         },
         "stat2": {
@@ -65,15 +65,15 @@
     "services": {
       "type": "services",
       "blocks": {
-        "courthire": {
+        "pitchhire": {
           "type": "service_card",
           "settings": {
             "image": "shopify://shop_images/IMG_1351.jpg",
             "icon": "⚽",
-            "title": "Court Hire",
-            "description": "Book one of our 7 premium enclosed courts. Perfect for casual games with mates. Balls and bibs supplied.",
+            "title": "Pitch Hire",
+            "description": "Book one of our 7 premium enclosed pitches. Perfect for casual games with mates. Balls and bibs supplied.",
             "price": "From $110/hr",
-            "link": "/pages/book-a-court"
+            "link": "/pages/book-a-pitch"
           }
         },
         "competitions": {
@@ -93,7 +93,7 @@
             "image": "shopify://shop_images/DSC09868.jpg",
             "icon": "🎂",
             "title": "Birthday Parties",
-            "description": "The ultimate football birthday experience for kids and adults. Private court, party host, and more.",
+            "description": "The ultimate football birthday experience for kids and adults. Private pitch, party host, and more.",
             "price": "From $350",
             "link": "/pages/birthday-parties"
           }
@@ -111,7 +111,7 @@
         }
       },
       "block_order": [
-        "courthire",
+        "pitchhire",
         "competitions",
         "birthdays",
         "academy"
@@ -156,7 +156,7 @@
             "tag_text": "SOCIAL",
             "tag_style": "tag-social",
             "urgent": false,
-            "link": "/pages/book-a-court",
+            "link": "/pages/book-a-pitch",
             "link_text": "Details"
           }
         },
@@ -180,7 +180,7 @@
             "tag_text": "OPEN",
             "tag_style": "tag-live",
             "urgent": false,
-            "link": "/pages/book-a-court",
+            "link": "/pages/book-a-pitch",
             "link_text": "Book Now"
           }
         }
@@ -317,7 +317,7 @@
             "row3_value": "",
             "note": "Members discount available. Unlimited players per booking.",
             "cta_text": "Book Weekday",
-            "cta_link": "/pages/book-a-court"
+            "cta_link": "/pages/book-a-pitch"
           }
         },
         "weekend": {
@@ -334,7 +334,7 @@
             "row3_value": "",
             "note": "Same great rate all day on weekends. Members discount available.",
             "cta_text": "Book Weekend",
-            "cta_link": "/pages/book-a-court"
+            "cta_link": "/pages/book-a-pitch"
           }
         }
       },
@@ -354,15 +354,15 @@
         "s1": {
           "type": "step",
           "settings": {
-            "title": "Pick Your Court & Time",
-            "description": "Choose from 7 courts. Book online or call us. Available 7 days a week."
+            "title": "Pick Your Pitch & Time",
+            "description": "Choose from 7 pitches. Book online or call us. Available 7 days a week."
           }
         },
         "s2": {
           "type": "step",
           "settings": {
             "title": "Rock Up & Play",
-            "description": "Bring your mates, boots optional. We supply balls and bibs. Courts are enclosed — no ball chasing."
+            "description": "Bring your mates, boots optional. We supply balls and bibs. Pitches are enclosed — no ball chasing."
           }
         },
         "s3": {
@@ -465,9 +465,9 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Ready to Play?",
-        "subheading": "Book a court in 60 seconds or get in touch to organise your next event.",
-        "cta1_text": "Book a Court",
-        "cta1_link": "/pages/book-a-court",
+        "subheading": "Book a pitch in 60 seconds or get in touch to organise your next event.",
+        "cta1_text": "Book a Pitch",
+        "cta1_link": "/pages/book-a-pitch",
         "cta2_text": "Contact Us",
         "cta2_link": "/pages/contact"
       }

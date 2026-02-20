@@ -11,20 +11,12 @@
   "sections": {
     "header": {
       "type": "page-header",
-      "settings": {
-        "background_image": "shopify://shop_images/DSC09731.jpg",
-        "show_logo": false,
-        "heading": "Book a Pitch",
-        "subheading": ""
-      }
+      "settings": {}
     },
     "main": {
       "type": "main-page",
       "settings": {}
     }
   },
-  "order": [
-    "header",
-    "main"
-  ]
+  "order": ["header", "main"]
 }

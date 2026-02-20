@@ -797,15 +797,15 @@ button { cursor: pointer; border: none; font-family: inherit; }
   .section-title { font-size: 24px; }
 }
 
-/* ===== COURT SELECTION ===== */
-.court-select-grid {
+/* ===== PITCH SELECTION ===== */
+.pitch-select-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   max-width: 800px;
   margin: 0 auto;
 }
-.court-select-card {
+.pitch-select-card {
   background: var(--dark-card);
   border: 1px solid var(--gray-800);
   border-radius: var(--radius-xl);
@@ -813,47 +813,47 @@ button { cursor: pointer; border: none; font-family: inherit; }
   text-align: center;
   transition: all var(--transition);
 }
-.court-select-card:hover {
+.pitch-select-card:hover {
   border-color: var(--orange-border);
   transform: translateY(-4px);
   box-shadow: var(--shadow);
 }
-.court-select-icon {
+.pitch-select-icon {
   font-size: 48px;
   margin-bottom: 16px;
 }
-.court-select-title {
+.pitch-select-title {
   font-family: 'Archivo Black', sans-serif;
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
-.court-select-desc {
+.pitch-select-desc {
   font-size: 14px;
   color: var(--gray-400);
   line-height: 1.6;
   margin-bottom: 20px;
 }
-.court-select-features {
+.pitch-select-features {
   text-align: left;
   margin-bottom: 20px;
 }
-.court-feature {
+.pitch-feature {
   font-size: 14px;
   color: var(--gray-200);
   padding: 6px 0;
   border-bottom: 1px solid var(--gray-800);
 }
-.court-feature:last-child { border-bottom: none; }
-.court-select-pricing {
+.pitch-feature:last-child { border-bottom: none; }
+.pitch-select-pricing {
   margin-bottom: 24px;
   padding: 16px;
   background: rgba(255,127,48,0.05);
   border: 1px solid var(--orange-border);
   border-radius: var(--radius);
 }
-.court-price-row {
+.pitch-price-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -861,12 +861,12 @@ button { cursor: pointer; border: none; font-family: inherit; }
   font-size: 14px;
   color: var(--gray-400);
 }
-.court-price-value {
+.pitch-price-value {
   font-weight: 800;
   color: var(--orange);
   font-size: 16px;
 }
-.court-select-btn {
+.pitch-select-btn {
   width: 100%;
   justify-content: center;
 }
@@ -1044,7 +1044,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 
 /* ===== RESPONSIVE — NEW SECTIONS ===== */
 @media (max-width: 768px) {
-  .court-select-grid { grid-template-columns: 1fr; gap: 16px; }
+  .pitch-select-grid { grid-template-columns: 1fr; gap: 16px; }
   .time-slots-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .comp-info-grid { grid-template-columns: 1fr; }
   .party-grid { grid-template-columns: 1fr; }

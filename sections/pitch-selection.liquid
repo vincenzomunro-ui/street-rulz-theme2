@@ -1,0 +1,101 @@
+<!-- Pitch Selection — 5-a-Side vs 7-a-Side Pre-Selection -->
+<div class="section">
+  <div style="text-align:center;margin-bottom:48px;">
+    <p class="section-label">{{ section.settings.label }}</p>
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+    <p class="section-subtitle" style="margin:0 auto;">{{ section.settings.subheading }}</p>
+  </div>
+
+  <div class="pitch-select-grid">
+    {% for block in section.blocks %}
+      <div class="pitch-select-card {% if block.settings.highlighted %}card-highlight{% endif %}" {{ block.shopify_attributes }}>
+        {% if block.settings.badge != blank %}
+          <div class="card-badge">{{ block.settings.badge }}</div>
+        {% endif %}
+
+        <div class="pitch-select-icon">{{ block.settings.icon }}</div>
+        <h3 class="pitch-select-title">{{ block.settings.title }}</h3>
+        <p class="pitch-select-desc">{{ block.settings.description }}</p>
+
+        <div class="pitch-select-features">
+          {% if block.settings.feature_1 != blank %}
+            <div class="pitch-feature">✓ {{ block.settings.feature_1 }}</div>
+          {% endif %}
+          {% if block.settings.feature_2 != blank %}
+            <div class="pitch-feature">✓ {{ block.settings.feature_2 }}</div>
+          {% endif %}
+          {% if block.settings.feature_3 != blank %}
+            <div class="pitch-feature">✓ {{ block.settings.feature_3 }}</div>
+          {% endif %}
+          {% if block.settings.feature_4 != blank %}
+            <div class="pitch-feature">✓ {{ block.settings.feature_4 }}</div>
+          {% endif %}
+        </div>
+
+        <div class="pitch-select-pricing">
+          {% if block.settings.price_label_1 != blank %}
+            <div class="pitch-price-row">
+              <span>{{ block.settings.price_label_1 }}</span>
+              <span class="pitch-price-value">{{ block.settings.price_value_1 }}</span>
+            </div>
+          {% endif %}
+          {% if block.settings.price_label_2 != blank %}
+            <div class="pitch-price-row">
+              <span>{{ block.settings.price_label_2 }}</span>
+              <span class="pitch-price-value">{{ block.settings.price_value_2 }}</span>
+            </div>
+          {% endif %}
+          {% if block.settings.price_label_3 != blank %}
+            <div class="pitch-price-row">
+              <span>{{ block.settings.price_label_3 }}</span>
+              <span class="pitch-price-value">{{ block.settings.price_value_3 }}</span>
+            </div>
+          {% endif %}
+        </div>
+
+        <a href="{{ block.settings.cta_link }}" class="btn-primary pitch-select-btn">{{ block.settings.cta_text }} →</a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% if section.settings.note != blank %}
+    <p style="text-align:center;margin-top:32px;font-size:14px;color:var(--gray-400);">{{ section.settings.note }}</p>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Pitch Selection",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Section label", "default": "CHOOSE YOUR PITCH" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Select Your Pitch Size" },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Choose between our 5-a-side or 7-a-side pitches, then pick your time slot." },
+    { "type": "text", "id": "note", "label": "Bottom note" }
+  ],
+  "blocks": [
+    {
+      "type": "pitch_option",
+      "name": "Pitch Option",
+      "settings": [
+        { "type": "text", "id": "icon", "label": "Icon/emoji", "default": "⚽" },
+        { "type": "text", "id": "title", "label": "Title", "default": "5-a-Side Pitches" },
+        { "type": "text", "id": "badge", "label": "Badge text" },
+        { "type": "checkbox", "id": "highlighted", "label": "Highlight this card", "default": false },
+        { "type": "textarea", "id": "description", "label": "Description" },
+        { "type": "text", "id": "feature_1", "label": "Feature 1" },
+        { "type": "text", "id": "feature_2", "label": "Feature 2" },
+        { "type": "text", "id": "feature_3", "label": "Feature 3" },
+        { "type": "text", "id": "feature_4", "label": "Feature 4" },
+        { "type": "text", "id": "price_label_1", "label": "Price row 1 label" },
+        { "type": "text", "id": "price_value_1", "label": "Price row 1 value" },
+        { "type": "text", "id": "price_label_2", "label": "Price row 2 label" },
+        { "type": "text", "id": "price_value_2", "label": "Price row 2 value" },
+        { "type": "text", "id": "price_label_3", "label": "Price row 3 label" },
+        { "type": "text", "id": "price_value_3", "label": "Price row 3 value" },
+        { "type": "text", "id": "cta_text", "label": "Button text", "default": "Book Now" },
+        { "type": "url", "id": "cta_link", "label": "Button link" }
+      ]
+    }
+  ]
+}
+{% endschema %}

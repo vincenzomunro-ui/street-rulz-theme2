@@ -5,7 +5,7 @@
       <div class="contact-info">
         <span class="section-badge">{{ section.settings.badge | default: 'GET IN TOUCH' }}</span>
         <h2 class="contact-heading">{{ section.settings.heading | default: "We'd Love to Hear from You" }}</h2>
-        <p class="contact-desc">{{ section.settings.description | default: 'Whether you want to book a court, organise an event, or just ask a question — drop us a line.' }}</p>
+        <p class="contact-desc">{{ section.settings.description | default: 'Whether you want to book a pitch, organise an event, or just ask a question — drop us a line.' }}</p>
 
         <div class="contact-methods">
           <div class="contact-method">
@@ -71,7 +71,7 @@
               <label for="contact-subject">Subject</label>
               <select id="contact-subject" name="contact[subject]">
                 <option value="">Select a topic...</option>
-                <option value="Court Booking">Court Booking</option>
+                <option value="Pitch Booking">Pitch Booking</option>
                 <option value="Competitions">Competitions</option>
                 <option value="Birthday Parties">Birthday Parties</option>
                 <option value="Academy">Academy</option>
@@ -336,7 +336,7 @@
       "type": "textarea",
       "id": "description",
       "label": "Description",
-      "default": "Whether you want to book a court, organise an event, or just ask a question — drop us a line."
+      "default": "Whether you want to book a pitch, organise an event, or just ask a question — drop us a line."
     }
   ],
   "presets": [

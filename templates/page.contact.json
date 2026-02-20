@@ -13,7 +13,7 @@
       "type": "page-header",
       "settings": {
         "heading": "Contact Us",
-        "subheading": "Get in touch to book a court, organise an event, or ask a question."
+        "subheading": "Get in touch to book a pitch, organise an event, or ask a question."
       }
     },
     "contact-form": {
@@ -21,7 +21,7 @@
       "settings": {
         "badge": "GET IN TOUCH",
         "heading": "We'd Love to Hear from You",
-        "description": "Whether you want to book a court, organise an event, or just ask a question — drop us a line."
+        "description": "Whether you want to book a pitch, organise an event, or just ask a question — drop us a line."
       }
     },
     "findus": {

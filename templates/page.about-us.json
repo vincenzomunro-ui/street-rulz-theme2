@@ -21,7 +21,7 @@
       "settings": {
         "badge": "OUR STORY",
         "heading": "Built from the Ground Up",
-        "text": "<p>Street Rulz Football was born from a simple belief — that the Gold Coast deserves a world-class small-sided football facility where community, culture, and competition come together.</p><p>What started as a family vision has grown into 7 premium enclosed courts at Tallebudgera, built with FIFA Grade 3 artificial turf and designed for players of every level. From casual kick-abouts to competitive leagues, birthday parties to junior academies — Rulz is where street culture meets elite football.</p><p>We're a family-run business, and that's by design. Every decision we make is driven by a genuine love for the game and a commitment to the community we serve.</p>",
+        "text": "<p>Street Rulz Football was born from a simple belief — that the Gold Coast deserves a world-class small-sided football facility where community, culture, and competition come together.</p><p>What started as a family vision has grown into 7 premium enclosed pitches at Tallebudgera, built with FIFA Grade 3 artificial turf and designed for players of every level. From casual kick-abouts to competitive leagues, birthday parties to junior academies — Rulz is where street culture meets elite football.</p><p>We're a family-run business, and that's by design. Every decision we make is driven by a genuine love for the game and a commitment to the community we serve.</p>",
         "image_alt": "Street Rulz Football facility at Tallebudgera"
       },
       "blocks": {
@@ -38,7 +38,7 @@
           "settings": {
             "icon": "🏟️",
             "title": "Quality",
-            "text": "FIFA Grade 3 turf and premium enclosed courts."
+            "text": "FIFA Grade 3 turf and premium enclosed pitches."
           }
         },
         "value-3": {
@@ -105,7 +105,7 @@
           "settings": {
             "name": "Greg Jones",
             "role": "Groundskeeper",
-            "bio": "Greg is the go-to guy and local legend behind the scenes at Rulz. Having played a major role in the construction of the facility, he knows the grounds inside and out. As Groundskeeper, he maintains the courts, oversees general maintenance, and ensures every session — from casual kick-arounds to competitive competitions — runs safely and smoothly."
+            "bio": "Greg is the go-to guy and local legend behind the scenes at Rulz. Having played a major role in the construction of the facility, he knows the grounds inside and out. As Groundskeeper, he maintains the pitches, oversees general maintenance, and ensures every session — from casual kick-arounds to competitive competitions — runs safely and smoothly."
           }
         }
       },
@@ -118,8 +118,8 @@
         "subheading": "We're always looking for passionate people. Get in touch to find out about opportunities.",
         "cta1_text": "Contact Us",
         "cta1_link": "/pages/contact",
-        "cta2_text": "Book a Court",
-        "cta2_link": "/pages/book-a-court"
+        "cta2_text": "Book a Pitch",
+        "cta2_link": "/pages/book-a-pitch"
       }
     }
   },
