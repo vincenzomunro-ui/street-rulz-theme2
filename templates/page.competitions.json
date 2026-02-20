@@ -12,20 +12,14 @@
     "header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/IMG_1349.jpg",
+        "show_logo": false,
         "heading": "Competitions",
         "subheading": "10-week Street Rulz leagues with graded divisions. Thursday night 5-a-side comps with prizes."
       }
     },
     "compinfo": {
       "type": "comp-info",
-      "settings": {
-        "label": "HOW IT WORKS",
-        "heading": "Street Rulz Competitions",
-        "subheading": "10-week seasons with graded divisions for juniors, youth, and adults.",
-        "majesty_heading": "Register Your Team",
-        "majesty_description": "Team registrations, fixtures, and results are managed through Majesty. Click below to register your team, view upcoming fixtures, or check live results.",
-        "majesty_button_text": "Register on Majesty"
-      },
       "blocks": {
         "c1": {
           "type": "info_card",
@@ -82,25 +76,126 @@
           }
         }
       },
-      "block_order": ["c1", "c2", "c3", "c4", "c5", "c6"]
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "settings": {
+        "label": "HOW IT WORKS",
+        "heading": "Street Rulz Competitions",
+        "subheading": "10-week seasons with graded divisions for juniors, youth, and adults.",
+        "majesty_heading": "Register Your Team",
+        "majesty_description": "Team registrations, fixtures, and results are managed through Majesty. Click below to register your team, view upcoming fixtures, or check live results.",
+        "majesty_link": "",
+        "majesty_button_text": "Register on Majesty"
+      }
     },
     "ladder": {
       "type": "ladder",
+      "blocks": {
+        "t1": {
+          "type": "team_row",
+          "settings": {
+            "team": "Spirit of Mawen",
+            "played": "3",
+            "wins": "3",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "30",
+            "goals_against": "19",
+            "goal_diff": "+11",
+            "points": "9"
+          }
+        },
+        "t2": {
+          "type": "team_row",
+          "settings": {
+            "team": "Big Sexy FC",
+            "played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "31",
+            "goals_against": "20",
+            "goal_diff": "+11",
+            "points": "6"
+          }
+        },
+        "t3": {
+          "type": "team_row",
+          "settings": {
+            "team": "Third Leg Strikers",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "19",
+            "goals_against": "21",
+            "goal_diff": "-2",
+            "points": "3"
+          }
+        },
+        "t4": {
+          "type": "team_row",
+          "settings": {
+            "team": "Headstart",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "17",
+            "goals_against": "25",
+            "goal_diff": "-8",
+            "points": "3"
+          }
+        },
+        "t5": {
+          "type": "team_row",
+          "settings": {
+            "team": "Screaming Schooners",
+            "played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "10",
+            "goals_against": "21",
+            "goal_diff": "-11",
+            "points": "0"
+          }
+        },
+        "t6": {
+          "type": "team_row",
+          "settings": {
+            "team": "School Run United",
+            "played": "3",
+            "wins": "0",
+            "draws": "0",
+            "losses": "3",
+            "goals_for": "16",
+            "goals_against": "31",
+            "goal_diff": "-15",
+            "points": "0"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Comp Ladder",
         "subheading": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)",
         "updated_text": "Updated after Round 3 — 19 Feb 2026"
-      },
-      "blocks": {
-        "t1": { "type": "team_row", "settings": { "team": "Spirit of Mawen", "played": "3", "wins": "3", "draws": "0", "losses": "0", "goals_for": "30", "goals_against": "19", "goal_diff": "+11", "points": "9" } },
-        "t2": { "type": "team_row", "settings": { "team": "Big Sexy FC", "played": "3", "wins": "2", "draws": "0", "losses": "1", "goals_for": "31", "goals_against": "20", "goal_diff": "+11", "points": "6" } },
-        "t3": { "type": "team_row", "settings": { "team": "Third Leg Strikers", "played": "3", "wins": "1", "draws": "0", "losses": "2", "goals_for": "19", "goals_against": "21", "goal_diff": "-2", "points": "3" } },
-        "t4": { "type": "team_row", "settings": { "team": "Headstart", "played": "3", "wins": "1", "draws": "0", "losses": "2", "goals_for": "17", "goals_against": "25", "goal_diff": "-8", "points": "3" } },
-        "t5": { "type": "team_row", "settings": { "team": "Screaming Schooners", "played": "2", "wins": "0", "draws": "0", "losses": "2", "goals_for": "10", "goals_against": "21", "goal_diff": "-11", "points": "0" } },
-        "t6": { "type": "team_row", "settings": { "team": "School Run United", "played": "3", "wins": "0", "draws": "0", "losses": "3", "goals_for": "16", "goals_against": "31", "goal_diff": "-15", "points": "0" } }
-      },
-      "block_order": ["t1", "t2", "t3", "t4", "t5", "t6"]
+      }
     },
     "cta": {
       "type": "cta-banner",
@@ -114,5 +209,10 @@
       }
     }
   },
-  "order": ["header", "compinfo", "ladder", "cta"]
+  "order": [
+    "header",
+    "compinfo",
+    "ladder",
+    "cta"
+  ]
 }
