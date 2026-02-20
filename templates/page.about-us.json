@@ -74,6 +74,7 @@
         "member-mark": {
           "type": "team_member",
           "settings": {
+            "photo": "shopify://shop_images/IMG_0633_c838b879-a4a6-4e14-912c-b86d420f7db4.jpg",
             "name": "Mark Munro",
             "role": "Co-Founder",
             "bio": "With over 50 years of football experience, Mark has lived every side of the game — as a player, coach, and club director. His leadership and vision have been the driving force behind Street Rulz Football from day one. Combining an elite sporting background with a decades-long career in engineering and design, Mark has transformed the project from concept to reality. Holding AFC/FFA B & C Licences and a KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport, Mark's philosophy is simple and powerful: \"It's not just about playing — it's about raising the standard.\""
@@ -82,6 +83,7 @@
         "member-patricia": {
           "type": "team_member",
           "settings": {
+            "photo": "shopify://shop_images/IMG_0631.jpg",
             "name": "Patricia Munro",
             "role": "Co-Founder",
             "bio": "A foundational force behind Rulz, Patricia has been instrumental in shaping the vision and bringing the facility to life. Her dedication, organisation, and operational guidance ensure the business runs seamlessly day to day. From planning and logistics to staff coordination and community engagement, Patricia's influence is felt across every part of the Rulz experience. Her commitment to teamwork, family, and culture has helped build Rulz into more than a venue — it's a home for players, parents, and the community."
@@ -90,6 +92,7 @@
         "member-vincenzo": {
           "type": "team_member",
           "settings": {
+            "photo": "shopify://shop_images/IMG_0635.jpg",
             "name": "Vincenzo Munro",
             "role": "Manager",
             "bio": "Vincenzo plays a central role in the operational and creative direction of Rulz. He is a manager who lives and breathes the discipline, culture, and passion of the game. With over 10 years of futsal, 5-a-side, and community football experience, he has played a key role in shaping the identity of Street Rulz Football. From branding and vision to build and operations, Vincenzo has been hands-on in every stage of development."
@@ -98,6 +101,7 @@
         "member-ruby": {
           "type": "team_member",
           "settings": {
+            "photo": "shopify://shop_images/1F71FB5A-51C4-49C1-B817-8FDEA50F75A2.heic",
             "name": "Ruby Grant",
             "role": "Assistant Manager",
             "bio": "Ruby plays a key role in both operations and the creative direction of Rulz. As Assistant Manager, she oversees business systems, marketing, branding, and member experience — ensuring the Rulz identity remains strong, consistent, and impactful across every platform. With a background in fitness and coaching, Ruby brings a modern and holistic perspective to the team."
@@ -106,6 +110,7 @@
         "member-greg": {
           "type": "team_member",
           "settings": {
+            "photo": "shopify://shop_images/IMG_0601.jpg",
             "name": "Greg Jones",
             "role": "Groundskeeper",
             "bio": "Greg is the go-to guy and local legend behind the scenes at Rulz. Having played a major role in the construction of the facility, he knows the grounds inside and out. As Groundskeeper, he maintains the pitches, oversees general maintenance, and ensures every session — from casual kick-arounds to competitive competitions — runs safely and smoothly."
