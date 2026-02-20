@@ -12,6 +12,7 @@
     "hero": {
       "type": "hero",
       "settings": {
+        "background_image": "shopify://shop_images/IMG_1349.jpg",
         "badge_text": "● PLAY RAIN OR SHINE — ALL-WEATHER PITCHES",
         "heading_line1": "Gold Coast's Home of",
         "heading_line2": "Cage Football",
