@@ -17,13 +17,6 @@
     "phone_number": "0412 766 696",
     "email": "admin@rulz.com.au",
     "announcement_text": "★ Play Rain or Shine — Gold Coast's Only Cage Football Facility",
-    "announcement_show": true,
-    "blocks": {
-      "5134484470793087125": {
-        "type": "shopify://apps/vitals/blocks/app-embed/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "announcement_show": true
   }
 }
