@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -16,20 +25,45 @@
     "stats": {
       "type": "stats-bar",
       "blocks": {
-        "stat1": { "type": "stat", "settings": { "number": "7", "label": "Premium Courts" } },
-        "stat2": { "type": "stat", "settings": { "number": "5v5", "label": "& 7-a-Side" } },
-        "stat3": { "type": "stat", "settings": { "number": "24/7", "label": "Floodlit" } },
-        "stat4": { "type": "stat", "settings": { "number": "100%", "label": "All-Weather" } }
+        "stat1": {
+          "type": "stat",
+          "settings": {
+            "number": "7",
+            "label": "Premium Courts"
+          }
+        },
+        "stat2": {
+          "type": "stat",
+          "settings": {
+            "number": "5v5",
+            "label": "& 7-a-Side"
+          }
+        },
+        "stat3": {
+          "type": "stat",
+          "settings": {
+            "number": "24/7",
+            "label": "Floodlit"
+          }
+        },
+        "stat4": {
+          "type": "stat",
+          "settings": {
+            "number": "100%",
+            "label": "All-Weather"
+          }
+        }
       },
-      "block_order": ["stat1", "stat2", "stat3", "stat4"]
+      "block_order": [
+        "stat1",
+        "stat2",
+        "stat3",
+        "stat4"
+      ],
+      "settings": {}
     },
     "services": {
       "type": "services",
-      "settings": {
-        "label": "EVERYTHING UNDER ONE ROOF",
-        "heading": "Your Way to Play",
-        "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered."
-      },
       "blocks": {
         "courthire": {
           "type": "service_card",
@@ -72,7 +106,17 @@
           }
         }
       },
-      "block_order": ["courthire", "competitions", "birthdays", "academy"]
+      "block_order": [
+        "courthire",
+        "competitions",
+        "birthdays",
+        "academy"
+      ],
+      "settings": {
+        "label": "EVERYTHING UNDER ONE ROOF",
+        "heading": "Your Way to Play",
+        "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered."
+      }
     },
     "break1": {
       "type": "image-break",
@@ -83,11 +127,6 @@
     },
     "whatson": {
       "type": "whats-on",
-      "settings": {
-        "label": "HAPPENING NOW",
-        "heading": "What's On This Week",
-        "subheading": "From social kick-abouts to competitive leagues — there's something on every day."
-      },
       "blocks": {
         "eventthu": {
           "type": "event",
@@ -138,33 +177,123 @@
           }
         }
       },
-      "block_order": ["eventthu", "eventsat", "eventmon", "eventwed"]
+      "block_order": [
+        "eventthu",
+        "eventsat",
+        "eventmon",
+        "eventwed"
+      ],
+      "settings": {
+        "label": "HAPPENING NOW",
+        "heading": "What's On This Week",
+        "subheading": "From social kick-abouts to competitive leagues — there's something on every day."
+      }
     },
     "ladder": {
       "type": "ladder",
+      "blocks": {
+        "t1": {
+          "type": "team_row",
+          "settings": {
+            "team": "Spirit of Mawen",
+            "played": "3",
+            "wins": "3",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "30",
+            "goals_against": "19",
+            "goal_diff": "+11",
+            "points": "9"
+          }
+        },
+        "t2": {
+          "type": "team_row",
+          "settings": {
+            "team": "Big Sexy FC",
+            "played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "31",
+            "goals_against": "20",
+            "goal_diff": "+11",
+            "points": "6"
+          }
+        },
+        "t3": {
+          "type": "team_row",
+          "settings": {
+            "team": "Third Leg Strikers",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "19",
+            "goals_against": "21",
+            "goal_diff": "-2",
+            "points": "3"
+          }
+        },
+        "t4": {
+          "type": "team_row",
+          "settings": {
+            "team": "Headstart",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "17",
+            "goals_against": "25",
+            "goal_diff": "-8",
+            "points": "3"
+          }
+        },
+        "t5": {
+          "type": "team_row",
+          "settings": {
+            "team": "Screaming Schooners",
+            "played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "10",
+            "goals_against": "21",
+            "goal_diff": "-11",
+            "points": "0"
+          }
+        },
+        "t6": {
+          "type": "team_row",
+          "settings": {
+            "team": "School Run United",
+            "played": "3",
+            "wins": "0",
+            "draws": "0",
+            "losses": "3",
+            "goals_for": "16",
+            "goals_against": "31",
+            "goal_diff": "-15",
+            "points": "0"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
       "settings": {
         "label": "COMPETITIONS",
         "heading": "Thursday Comp Ladder",
         "subheading": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)",
         "updated_text": "Updated after Round 3 — 19 Feb 2026"
-      },
-      "blocks": {
-        "t1": { "type": "team_row", "settings": { "team": "Spirit of Mawen", "played": "3", "wins": "3", "draws": "0", "losses": "0", "goals_for": "30", "goals_against": "19", "goal_diff": "+11", "points": "9" } },
-        "t2": { "type": "team_row", "settings": { "team": "Big Sexy FC", "played": "3", "wins": "2", "draws": "0", "losses": "1", "goals_for": "31", "goals_against": "20", "goal_diff": "+11", "points": "6" } },
-        "t3": { "type": "team_row", "settings": { "team": "Third Leg Strikers", "played": "3", "wins": "1", "draws": "0", "losses": "2", "goals_for": "19", "goals_against": "21", "goal_diff": "-2", "points": "3" } },
-        "t4": { "type": "team_row", "settings": { "team": "Headstart", "played": "3", "wins": "1", "draws": "0", "losses": "2", "goals_for": "17", "goals_against": "25", "goal_diff": "-8", "points": "3" } },
-        "t5": { "type": "team_row", "settings": { "team": "Screaming Schooners", "played": "2", "wins": "0", "draws": "0", "losses": "2", "goals_for": "10", "goals_against": "21", "goal_diff": "-11", "points": "0" } },
-        "t6": { "type": "team_row", "settings": { "team": "School Run United", "played": "3", "wins": "0", "draws": "0", "losses": "3", "goals_for": "16", "goals_against": "31", "goal_diff": "-15", "points": "0" } }
-      },
-      "block_order": ["t1", "t2", "t3", "t4", "t5", "t6"]
+      }
     },
     "pricing": {
       "type": "pricing",
-      "settings": {
-        "label": "PRICING",
-        "heading": "Simple, Transparent Pricing",
-        "subheading": "No hidden fees. Book by the hour and bring as many players as you want."
-      },
       "blocks": {
         "weekday": {
           "type": "pricing_card",
@@ -193,21 +322,51 @@
           }
         }
       },
-      "block_order": ["weekday", "weekend"]
+      "block_order": [
+        "weekday",
+        "weekend"
+      ],
+      "settings": {
+        "label": "PRICING",
+        "heading": "Simple, Transparent Pricing",
+        "subheading": "No hidden fees. Book by the hour and bring as many players as you want."
+      }
     },
     "howitworks": {
       "type": "how-it-works",
+      "blocks": {
+        "s1": {
+          "type": "step",
+          "settings": {
+            "title": "Pick Your Court & Time",
+            "description": "Choose from 7 courts. Book online or call us. Available 7 days a week."
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "title": "Rock Up & Play",
+            "description": "Bring your mates, boots optional. We supply balls and bibs. Courts are enclosed — no ball chasing."
+          }
+        },
+        "s3": {
+          "type": "step",
+          "settings": {
+            "title": "Come Back for More",
+            "description": "Join a comp, book a party, or become a Rulz Member for discounts on every session."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Book in 60 Seconds",
         "subheading": "Getting on the pitch is easy."
-      },
-      "blocks": {
-        "s1": { "type": "step", "settings": { "title": "Pick Your Court & Time", "description": "Choose from 7 courts. Book online or call us. Available 7 days a week." } },
-        "s2": { "type": "step", "settings": { "title": "Rock Up & Play", "description": "Bring your mates, boots optional. We supply balls and bibs. Courts are enclosed — no ball chasing." } },
-        "s3": { "type": "step", "settings": { "title": "Come Back for More", "description": "Join a comp, book a party, or become a Rulz Member for discounts on every session." } }
-      },
-      "block_order": ["s1", "s2", "s3"]
+      }
     },
     "findus": {
       "type": "find-us",
@@ -221,20 +380,70 @@
     },
     "hours": {
       "type": "hours",
+      "blocks": {
+        "d1": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Monday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        },
+        "d2": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Tuesday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        },
+        "d3": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Wednesday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        },
+        "d4": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Thursday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        },
+        "d5": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Friday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        },
+        "d6": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Saturday",
+            "time": "8:00 AM – 6:00 PM"
+          }
+        },
+        "d7": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Sunday",
+            "time": "8:00 AM – 6:00 PM"
+          }
+        }
+      },
+      "block_order": [
+        "d1",
+        "d2",
+        "d3",
+        "d4",
+        "d5",
+        "d6",
+        "d7"
+      ],
       "settings": {
         "label": "OPENING HOURS",
         "heading": "When We're Open"
-      },
-      "blocks": {
-        "d1": { "type": "hours_row", "settings": { "day": "Monday", "time": "8:00 AM – 10:00 PM" } },
-        "d2": { "type": "hours_row", "settings": { "day": "Tuesday", "time": "8:00 AM – 10:00 PM" } },
-        "d3": { "type": "hours_row", "settings": { "day": "Wednesday", "time": "8:00 AM – 10:00 PM" } },
-        "d4": { "type": "hours_row", "settings": { "day": "Thursday", "time": "8:00 AM – 10:00 PM" } },
-        "d5": { "type": "hours_row", "settings": { "day": "Friday", "time": "8:00 AM – 10:00 PM" } },
-        "d6": { "type": "hours_row", "settings": { "day": "Saturday", "time": "8:00 AM – 6:00 PM" } },
-        "d7": { "type": "hours_row", "settings": { "day": "Sunday", "time": "8:00 AM – 6:00 PM" } }
-      },
-      "block_order": ["d1", "d2", "d3", "d4", "d5", "d6", "d7"]
+      }
     },
     "cta": {
       "type": "cta-banner",
