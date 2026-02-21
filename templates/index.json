@@ -130,7 +130,7 @@
         "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered.",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     },
     "break1": {
@@ -211,7 +211,7 @@
         "subheading": "From social kick-abouts to competitive leagues — there's something on every day.",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     },
     "ladder": {
@@ -317,7 +317,7 @@
         "updated_text": "Updated after Round 3 — 19 Feb 2026",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     },
     "pricing": {
@@ -368,7 +368,7 @@
         "subheading": "No hidden fees. Book by the hour and bring as many players as you want.",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     },
     "howitworks": {
@@ -407,7 +407,7 @@
         "subheading": "Getting on the pitch is easy.",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     },
     "findus": {
@@ -420,7 +420,7 @@
         "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     },
     "hours_N99Xhz": {
@@ -492,7 +492,7 @@
         "note": "Open by Appointment",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     },
     "cta": {
@@ -506,7 +506,7 @@
         "cta2_link": "/pages/contact",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#111212"
       }
     }
   },
