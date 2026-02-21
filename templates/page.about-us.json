@@ -15,7 +15,10 @@
         "background_image": "shopify://shop_images/Donee.jpg",
         "show_logo": false,
         "heading": "About Us",
-        "subheading": "The family behind Gold Coast's home of cage football."
+        "subheading": "The family behind Gold Coast's home of cage football.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "about-story": {
@@ -65,7 +68,10 @@
         "heading": "Built from the Ground Up",
         "text": "<p>Street Rulz Football was born from a simple belief — that the Gold Coast deserves a world-class small-sided football facility where community, culture, and competition come together.</p><p>What started as a family vision has grown into 7 premium enclosed pitches at Tallebudgera, built with FIFA Grade 3 artificial turf and designed for players of every level. From casual kick-abouts to competitive leagues, birthday parties to junior academies — Rulz is where street culture meets elite football.</p><p>We're a family-run business, and that's by design. Every decision we make is driven by a genuine love for the game and a commitment to the community we serve.</p>",
         "image": "shopify://shop_images/IMG_0953_2.jpg",
-        "image_alt": "Street Rulz Football facility at Tallebudgera"
+        "image_alt": "Street Rulz Football facility at Tallebudgera",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "about-team": {
@@ -127,7 +133,10 @@
       "settings": {
         "badge": "THE CREW",
         "heading": "Meet Our Team",
-        "description": "Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive."
+        "description": "Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "cta-banner": {
@@ -138,7 +147,10 @@
         "cta1_text": "Contact Us",
         "cta1_link": "/pages/contact",
         "cta2_text": "Book a Pitch",
-        "cta2_link": "/pages/book-a-court"
+        "cta2_link": "/pages/book-a-court",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     }
   },
