@@ -11,27 +11,41 @@
   "sections": {
     "main": {
       "type": "main-product",
-      "settings": {}
-    },
-    "rich_text_aMTW48": {
-      "type": "rich-text",
-      "custom_css": [],
-      "name": "Rich Text",
       "settings": {
-        "label": "",
-        "heading": "",
-        "content": "<p>Add your content here.</p>",
-        "dark_bg": false
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "1771644504c63182b1": {
       "type": "_blocks",
       "settings": {}
+    },
+    "1771655950e6e66876": {
+      "type": "apps",
+      "blocks": {
+        "subscriptions_app_block_eNXdme": {
+          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+          "settings": {
+            "color_text_body": "#6D7175",
+            "dividers_color": "#8F8D8D",
+            "bacgkround_color": "#FFFFFF",
+            "border_thickness": 1,
+            "border_radius": 0,
+            "subscription_policy_url": "",
+            "product": "rulz-academy-monthly"
+          }
+        }
+      },
+      "block_order": [
+        "subscriptions_app_block_eNXdme"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "rich_text_aMTW48",
-    "1771644504c63182b1"
+    "1771644504c63182b1",
+    "1771655950e6e66876"
   ]
 }
