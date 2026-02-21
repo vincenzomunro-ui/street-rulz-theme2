@@ -108,7 +108,33 @@
       <a href="{{ section.settings.enrol_link }}" class="btn-primary" style="font-size:18px;padding:16px 40px;">{{ section.settings.enrol_text }} →</a>
     </div>
   {% endif %}
+
+  <!-- Subscription Widget Container -->
+  <div id="academy-subscription-widget" style="margin-top:48px;max-width:700px;margin-left:auto;margin-right:auto;"></div>
 </div>
+
+<script>
+  // Relocate the Cowlendar/Shopify app block widget from below the footer into this section
+  document.addEventListener('DOMContentLoaded', function() {
+    var target = document.getElementById('academy-subscription-widget');
+    if (!target) return;
+
+    function moveWidget() {
+      // Find the Shopify app block (Cowlendar widget)
+      var appBlocks = document.querySelectorAll('.shopify-app-block');
+      appBlocks.forEach(function(block) {
+        if (block.closest('#shopify-section-academyinfo') || block.closest('.section')) return;
+        target.appendChild(block);
+      });
+    }
+
+    // Try immediately and also after a short delay (app blocks may load async)
+    moveWidget();
+    setTimeout(moveWidget, 500);
+    setTimeout(moveWidget, 1500);
+    setTimeout(moveWidget, 3000);
+  });
+</script>
 
 {% schema %}
 {
