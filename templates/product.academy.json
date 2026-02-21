@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-product",
-      "disabled": true,
       "settings": {}
     }
   },
