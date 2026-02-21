@@ -15,7 +15,10 @@
         "background_image": "shopify://shop_images/IMG_1350_dd408443-94ab-4b64-98bf-79c7e3d0af3e.jpg",
         "show_logo": false,
         "heading": "Birthday Parties",
-        "subheading": "The ultimate football birthday experience for kids and adults on the Gold Coast."
+        "subheading": "The ultimate football birthday experience for kids and adults on the Gold Coast.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "packages": {
@@ -85,7 +88,10 @@
         "label": "PARTY PACKAGES",
         "heading": "Choose Your Party Package",
         "subheading": "Celebrate in style at Gold Coast's only cage football facility. We handle the football — you handle the fun.",
-        "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings."
+        "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings.",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "bookinginfo": {
@@ -150,7 +156,10 @@
       ],
       "settings": {
         "label": "EVERY PARTY INCLUDES",
-        "heading": "What You Get"
+        "heading": "What You Get",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "howitworks": {
@@ -186,7 +195,10 @@
       "settings": {
         "label": "HOW TO BOOK",
         "heading": "Book Your Party",
-        "subheading": "Planning the ultimate football party is easy."
+        "subheading": "Planning the ultimate football party is easy.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "cta": {
@@ -197,7 +209,10 @@
         "cta1_text": "Call 0412 766 696",
         "cta1_link": "tel:+61412766696",
         "cta2_text": "Contact Us",
-        "cta2_link": "/pages/contact"
+        "cta2_link": "/pages/contact",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     }
   },
