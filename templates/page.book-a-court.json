@@ -153,49 +153,49 @@
         "b1": {
           "type": "info_item",
           "settings": {
-            "icon": "⚽",
+            "icon": "",
             "title": "Balls Supplied",
-            "description": "Quality match balls provided for every session."
+            "description": "Quality match balls provided for every session"
           }
         },
         "b2": {
           "type": "info_item",
           "settings": {
-            "icon": "🦺",
+            "icon": "",
             "title": "Bibs Included",
-            "description": "Team bibs so you can sort out the sides."
+            "description": "Team bibs so you can sort out the sides"
           }
         },
         "b3": {
           "type": "info_item",
           "settings": {
-            "icon": "💡",
+            "icon": "",
             "title": "Floodlit Pitches",
-            "description": "All pitches are floodlit for evening games."
+            "description": "All pitches are floodlit for evening games"
           }
         },
         "b4": {
           "type": "info_item",
           "settings": {
-            "icon": "🌧️",
+            "icon": "",
             "title": "All-Weather",
-            "description": "Enclosed cage pitchs — play rain, hail, or shine."
+            "description": "Caged pitches - play rain, or shine"
           }
         },
         "b5": {
           "type": "info_item",
           "settings": {
-            "icon": "👥",
+            "icon": "",
             "title": "Unlimited Players",
-            "description": "Bring as many mates as you want. No per-player fees."
+            "description": "Bring as many mates as you want. No per-player fees"
           }
         },
         "b6": {
           "type": "info_item",
           "settings": {
-            "icon": "🅿️",
+            "icon": "",
             "title": "Free Parking",
-            "description": "Plenty of free parking right at the venue."
+            "description": "Plenty of free parking right at the venue"
           }
         }
       },
@@ -269,6 +269,7 @@
         "s2",
         "s3"
       ],
+      "disabled": true,
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Book in 60 Seconds",
