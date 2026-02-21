@@ -1,3 +1,24 @@
+{% if section.settings.bg_color != blank or section.settings.text_color != blank %}
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.bg_color != blank %}background-color: {{ section.settings.bg_color }} !important;{% endif %}
+    {% if section.settings.text_color != blank %}color: {{ section.settings.text_color }} !important;{% endif %}
+  }
+  {% if section.settings.card_color != blank %}
+  #shopify-section-{{ section.id }} .card,
+  #shopify-section-{{ section.id }} .service-card,
+  #shopify-section-{{ section.id }} .pitch-select-card,
+  #shopify-section-{{ section.id }} .time-slot-card,
+  #shopify-section-{{ section.id }} .booking-info-item,
+  #shopify-section-{{ section.id }} .academy-schedule-box,
+  #shopify-section-{{ section.id }} .party-card,
+  #shopify-section-{{ section.id }} .cowlendar-embed,
+  #shopify-section-{{ section.id }} .step-card {
+    background-color: {{ section.settings.card_color }} !important;
+  }
+  {% endif %}
+</style>
+{% endif %}
 {% comment %} 404 Page — Not Found {% endcomment %}
 <div class="section" style="text-align:center;min-height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;">
   <h1 class="section-title">Page Not Found</h1>
@@ -11,6 +32,26 @@
 {% schema %}
 {
   "name": "404 Page",
-  "settings": []
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Colors (leave blank for defaults)"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "card_color",
+      "label": "Card/Tile Color"
+    }
+  ]
 }
 {% endschema %}

@@ -1,3 +1,24 @@
+{% if section.settings.bg_color != blank or section.settings.text_color != blank %}
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.bg_color != blank %}background-color: {{ section.settings.bg_color }} !important;{% endif %}
+    {% if section.settings.text_color != blank %}color: {{ section.settings.text_color }} !important;{% endif %}
+  }
+  {% if section.settings.card_color != blank %}
+  #shopify-section-{{ section.id }} .card,
+  #shopify-section-{{ section.id }} .service-card,
+  #shopify-section-{{ section.id }} .pitch-select-card,
+  #shopify-section-{{ section.id }} .time-slot-card,
+  #shopify-section-{{ section.id }} .booking-info-item,
+  #shopify-section-{{ section.id }} .academy-schedule-box,
+  #shopify-section-{{ section.id }} .party-card,
+  #shopify-section-{{ section.id }} .cowlendar-embed,
+  #shopify-section-{{ section.id }} .step-card {
+    background-color: {{ section.settings.card_color }} !important;
+  }
+  {% endif %}
+</style>
+{% endif %}
 <!-- Competition Info Section -->
 <div class="section">
   <div style="text-align:center;margin-bottom:48px;">
@@ -40,23 +61,93 @@
 {
   "name": "Competition Info",
   "settings": [
-    { "type": "text", "id": "label", "label": "Section label", "default": "COMPETITIONS" },
-    { "type": "text", "id": "heading", "label": "Heading", "default": "How Our Comps Work" },
-    { "type": "text", "id": "subheading", "label": "Subheading", "default": "10-week seasons with graded divisions for all skill levels." },
-    { "type": "text", "id": "majesty_heading", "label": "Majesty section heading", "default": "Register Your Team" },
-    { "type": "textarea", "id": "majesty_description", "label": "Majesty section description", "default": "Team registrations and fixtures are managed through Majesty. Click below to register your team, view fixtures, or check results." },
-    { "type": "url", "id": "majesty_link", "label": "Majesty registration link" },
-    { "type": "text", "id": "majesty_button_text", "label": "Majesty button text", "default": "Register on Majesty" }
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section label",
+      "default": "COMPETITIONS"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "How Our Comps Work"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "10-week seasons with graded divisions for all skill levels."
+    },
+    {
+      "type": "text",
+      "id": "majesty_heading",
+      "label": "Majesty section heading",
+      "default": "Register Your Team"
+    },
+    {
+      "type": "textarea",
+      "id": "majesty_description",
+      "label": "Majesty section description",
+      "default": "Team registrations and fixtures are managed through Majesty. Click below to register your team, view fixtures, or check results."
+    },
+    {
+      "type": "url",
+      "id": "majesty_link",
+      "label": "Majesty registration link"
+    },
+    {
+      "type": "text",
+      "id": "majesty_button_text",
+      "label": "Majesty button text",
+      "default": "Register on Majesty"
+    },
+    {
+      "type": "header",
+      "content": "Section Colors (leave blank for defaults)"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "card_color",
+      "label": "Card/Tile Color"
+    }
   ],
   "blocks": [
     {
       "type": "info_card",
       "name": "Info Card",
       "settings": [
-        { "type": "text", "id": "icon", "label": "Icon/emoji", "default": "⚽" },
-        { "type": "text", "id": "title", "label": "Title" },
-        { "type": "textarea", "id": "description", "label": "Description" },
-        { "type": "text", "id": "detail", "label": "Detail/highlight text" }
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icon/emoji",
+          "default": "\u26bd"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "detail",
+          "label": "Detail/highlight text"
+        }
       ]
     }
   ]

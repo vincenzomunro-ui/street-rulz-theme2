@@ -1,3 +1,24 @@
+{% if section.settings.bg_color != blank or section.settings.text_color != blank %}
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.bg_color != blank %}background-color: {{ section.settings.bg_color }} !important;{% endif %}
+    {% if section.settings.text_color != blank %}color: {{ section.settings.text_color }} !important;{% endif %}
+  }
+  {% if section.settings.card_color != blank %}
+  #shopify-section-{{ section.id }} .card,
+  #shopify-section-{{ section.id }} .service-card,
+  #shopify-section-{{ section.id }} .pitch-select-card,
+  #shopify-section-{{ section.id }} .time-slot-card,
+  #shopify-section-{{ section.id }} .booking-info-item,
+  #shopify-section-{{ section.id }} .academy-schedule-box,
+  #shopify-section-{{ section.id }} .party-card,
+  #shopify-section-{{ section.id }} .cowlendar-embed,
+  #shopify-section-{{ section.id }} .step-card {
+    background-color: {{ section.settings.card_color }} !important;
+  }
+  {% endif %}
+</style>
+{% endif %}
 {% comment %} Competition Ladder — Editable via Theme Editor {% endcomment %}
 <div class="section">
   <div class="section-label">{{ section.settings.label }}</div>
@@ -64,13 +85,32 @@
       "type": "textarea",
       "id": "subheading",
       "label": "Subheading",
-      "default": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)"
+      "default": "Rulz Competitive Comp \u2014 10 Week Season (Round 3 of 10)"
     },
     {
       "type": "text",
       "id": "updated_text",
       "label": "Last Updated Text",
-      "default": "Updated after Round 3 — 19 Feb 2026"
+      "default": "Updated after Round 3 \u2014 19 Feb 2026"
+    },
+    {
+      "type": "header",
+      "content": "Section Colors (leave blank for defaults)"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "card_color",
+      "label": "Card/Tile Color"
     }
   ],
   "blocks": [

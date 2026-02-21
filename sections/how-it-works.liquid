@@ -1,3 +1,24 @@
+{% if section.settings.bg_color != blank or section.settings.text_color != blank %}
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.bg_color != blank %}background-color: {{ section.settings.bg_color }} !important;{% endif %}
+    {% if section.settings.text_color != blank %}color: {{ section.settings.text_color }} !important;{% endif %}
+  }
+  {% if section.settings.card_color != blank %}
+  #shopify-section-{{ section.id }} .card,
+  #shopify-section-{{ section.id }} .service-card,
+  #shopify-section-{{ section.id }} .pitch-select-card,
+  #shopify-section-{{ section.id }} .time-slot-card,
+  #shopify-section-{{ section.id }} .booking-info-item,
+  #shopify-section-{{ section.id }} .academy-schedule-box,
+  #shopify-section-{{ section.id }} .party-card,
+  #shopify-section-{{ section.id }} .cowlendar-embed,
+  #shopify-section-{{ section.id }} .step-card {
+    background-color: {{ section.settings.card_color }} !important;
+  }
+  {% endif %}
+</style>
+{% endif %}
 {% comment %} How It Works — Step cards {% endcomment %}
 <div class="section">
   <div class="section-label">{{ section.settings.label }}</div>
@@ -36,6 +57,25 @@
       "id": "subheading",
       "label": "Subheading",
       "default": "Getting on the pitch is easy."
+    },
+    {
+      "type": "header",
+      "content": "Section Colors (leave blank for defaults)"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "card_color",
+      "label": "Card/Tile Color"
     }
   ],
   "blocks": [
@@ -62,9 +102,27 @@
     {
       "name": "How It Works",
       "blocks": [
-        { "type": "step", "settings": { "title": "Pick Your Pitch & Time", "description": "Choose from 7 pitches. Book online or call us. Available 7 days a week." } },
-        { "type": "step", "settings": { "title": "Rock Up & Play", "description": "Bring your mates, boots optional. We supply balls and bibs. Pitches are enclosed — no ball chasing." } },
-        { "type": "step", "settings": { "title": "Come Back for More", "description": "Join a comp, book a party, or become a Rulz Member for discounts on every session." } }
+        {
+          "type": "step",
+          "settings": {
+            "title": "Pick Your Pitch & Time",
+            "description": "Choose from 7 pitches. Book online or call us. Available 7 days a week."
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "title": "Rock Up & Play",
+            "description": "Bring your mates, boots optional. We supply balls and bibs. Pitches are enclosed \u2014 no ball chasing."
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "title": "Come Back for More",
+            "description": "Join a comp, book a party, or become a Rulz Member for discounts on every session."
+          }
+        }
       ]
     }
   ]
