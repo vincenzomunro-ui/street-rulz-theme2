@@ -15,7 +15,10 @@
         "background_image": "shopify://shop_images/IMG_1349.jpg",
         "show_logo": false,
         "heading": "Competitions",
-        "subheading": "10-week Street Rulz leagues with graded divisions."
+        "subheading": "10-week Street Rulz leagues with graded divisions.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "compinfo": {
@@ -91,7 +94,10 @@
         "majesty_heading": "Register Your Team",
         "majesty_description": "Team registrations, fixtures, and results are managed through Majesty. Click below to register your team, view upcoming fixtures, or check live results.",
         "majesty_link": "https://rulz.majestri.com.au/whats-on",
-        "majesty_button_text": "Register on Majesty"
+        "majesty_button_text": "Register on Majesty",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "ladder": {
@@ -194,7 +200,10 @@
         "label": "CURRENT SEASON",
         "heading": "Thursday Comp Ladder",
         "subheading": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)",
-        "updated_text": "Updated after Round 3 — 19 Feb 2026"
+        "updated_text": "Updated after Round 3 — 19 Feb 2026",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "cta": {
@@ -205,7 +214,10 @@
         "cta1_text": "Register on Majesty",
         "cta1_link": "https://rulz.majestri.com.au/whats-on",
         "cta2_text": "Contact Us",
-        "cta2_link": "/pages/contact"
+        "cta2_link": "/pages/contact",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     }
   },

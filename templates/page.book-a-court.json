@@ -15,7 +15,10 @@
         "background_image": "shopify://shop_images/yes.jpg",
         "show_logo": false,
         "heading": "Book a Pitch",
-        "subheading": "7 premium enclosed pitches available 7 days a week. Balls and bibs supplied."
+        "subheading": "7 premium enclosed pitches available 7 days a week. Balls and bibs supplied.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "pitch-select": {
@@ -74,7 +77,10 @@
         "label": "CHOOSE YOUR PITCH",
         "heading": "Select Your Pitch Size",
         "subheading": "Choose between our 5-a-side or 7-a-side pitches, then pick your time slot.",
-        "note": "All pitches are floodlit, enclosed, and all-weather. Unlimited players per booking."
+        "note": "All pitches are floodlit, enclosed, and all-weather. Unlimited players per booking.",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "timeslots": {
@@ -135,7 +141,10 @@
         "label": "FLEXIBLE BOOKING",
         "heading": "Choose Your Session Length",
         "subheading": "Book the time that suits your game. All sessions include balls and bibs.",
-        "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary."
+        "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary.",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "bookinginfo": {
@@ -200,7 +209,10 @@
       ],
       "settings": {
         "label": "INCLUDED WITH EVERY BOOKING",
-        "heading": "What You Get"
+        "heading": "What You Get",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "calendar5": {
@@ -209,7 +221,10 @@
         "label": "BOOK NOW",
         "heading": "5-a-Side Pitch Booking",
         "subheading": "Select your preferred date and time below. All bookings include balls and bibs.",
-        "note": "All pitch bookings must be paid in full at the time of booking. We do not hold, reserve, or secure pitches without payment."
+        "note": "All pitch bookings must be paid in full at the time of booking. We do not hold, reserve, or secure pitches without payment.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "calendar7": {
@@ -218,7 +233,10 @@
         "label": "BOOK NOW",
         "heading": "7-a-Side Pitch Booking",
         "subheading": "Select your preferred date and time below. All bookings include balls and bibs.",
-        "note": "All pitch bookings must be paid in full at the time of booking. We do not hold, reserve, or secure pitches without payment."
+        "note": "All pitch bookings must be paid in full at the time of booking. We do not hold, reserve, or secure pitches without payment.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "howitworks": {
@@ -254,7 +272,10 @@
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Book in 60 Seconds",
-        "subheading": "Getting on the pitch is easy."
+        "subheading": "Getting on the pitch is easy.",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "cta": {
@@ -265,7 +286,10 @@
         "cta1_text": "Call 0412 766 696",
         "cta1_link": "tel:+61412766696",
         "cta2_text": "Contact Us",
-        "cta2_link": "/pages/contact"
+        "cta2_link": "/pages/contact",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     }
   },
