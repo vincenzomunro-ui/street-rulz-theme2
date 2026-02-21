@@ -56,3 +56,28 @@ if (closeAnnounce) {
     closeAnnounce.closest('.announce-bar').style.display = 'none';
   });
 }
+
+// ===== ACADEMY SUBSCRIPTION WIDGET RELOCATION =====
+(function() {
+  if (window.location.pathname.indexOf('/pages/academy') === -1) return;
+  var enrolBtn = document.querySelector('a[href*="rulz-academy-monthly"]');
+  if (!enrolBtn) return;
+  var container = document.createElement('div');
+  container.id = 'academy-subscription-widget';
+  container.style.cssText = 'margin-top:48px;max-width:700px;margin-left:auto;margin-right:auto;';
+  var enrolParent = enrolBtn.parentElement;
+  if (enrolParent && enrolParent.parentElement) {
+    enrolParent.parentElement.insertBefore(container, enrolParent.nextSibling);
+  }
+  function moveWidget() {
+    var appBlocks = document.querySelectorAll('.shopify-app-block');
+    appBlocks.forEach(function(block) {
+      if (block.closest('#academy-subscription-widget')) return;
+      container.appendChild(block);
+    });
+  }
+  setTimeout(moveWidget, 500);
+  setTimeout(moveWidget, 1500);
+  setTimeout(moveWidget, 3000);
+  setTimeout(moveWidget, 5000);
+})();
