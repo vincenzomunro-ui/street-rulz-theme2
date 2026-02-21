@@ -57,10 +57,10 @@
             "feature_4": "Balls & bibs supplied",
             "price_label_1": "Weekday",
             "price_value_1": "$180/hr",
-            "price_label_2": "Weekend",
-            "price_value_2": "$200/hr",
-            "price_label_3": "Weekday Peak (4pm-10pm)",
-            "price_value_3": "$220/hr",
+            "price_label_2": "Weekday Peak (4pm-10pm)",
+            "price_value_2": "$220/hr",
+            "price_label_3": "Weekend",
+            "price_value_3": "$200/hr",
             "cta_text": "Book 7-a-Side",
             "cta_link": "#booking-calendar-7aside"
           }
