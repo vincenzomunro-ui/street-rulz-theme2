@@ -12,9 +12,26 @@
     "main": {
       "type": "main-product",
       "settings": {}
+    },
+    "rich_text_aMTW48": {
+      "type": "rich-text",
+      "custom_css": [],
+      "name": "Rich Text",
+      "settings": {
+        "label": "",
+        "heading": "",
+        "content": "<p>Add your content here.</p>",
+        "dark_bg": false
+      }
+    },
+    "1771644504c63182b1": {
+      "type": "_blocks",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_aMTW48",
+    "1771644504c63182b1"
   ]
 }
