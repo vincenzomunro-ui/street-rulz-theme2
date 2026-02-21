@@ -178,10 +178,10 @@
           "settings": {
             "title": "Wednesday $10 Kick",
             "details": "Wednesday · 6:00 PM – 9:00 PM · $10/person · Casual 5-a-side",
-            "tag_text": "OPEN",
-            "tag_style": "tag-live",
-            "urgent": false,
-            "link": "/pages/book-a-court",
+            "tag_text": "Pay At Clubhouse",
+            "tag_style": "tag-limited",
+            "urgent": true,
+            "link": "",
             "link_text": "Book Now"
           }
         }
