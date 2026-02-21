@@ -19,7 +19,7 @@
         "subheading": "",
         "cta1_text": "Book a Pitch — From $110/hr",
         "cta1_link": "/pages/book-a-court",
-        "cta2_text": "Join a Competition",
+        "cta2_text": "Join a League",
         "cta2_link": "/pages/competitions",
         "bg_color": "",
         "text_color": "",
@@ -33,7 +33,7 @@
           "type": "stat",
           "settings": {
             "number": "7",
-            "label": "Premium Pitches"
+            "label": "Premium Caged Pitches"
           }
         },
         "stat2": {
@@ -77,9 +77,9 @@
           "type": "service_card",
           "settings": {
             "image": "shopify://shop_images/IMG_1351.jpg",
-            "icon": "⚽",
+            "icon": "",
             "title": "Pitch Hire",
-            "description": "Book one of our 7 premium enclosed pitches. Perfect for casual games with mates. Balls and bibs supplied.",
+            "description": "Book one of our 7 premium caged pitches. Perfect for casual games with mates. Balls and bibs supplied.",
             "price": "From $110/hr",
             "link": "/pages/book-a-court"
           }
@@ -88,46 +88,46 @@
           "type": "service_card",
           "settings": {
             "image": "shopify://shop_images/IMG_1368.png",
-            "icon": "🏆",
-            "title": "Competitions",
-            "description": "Currently have a Thursday night 5-a-side comps. 10-week seasons with prizes, Men's, women's and Juniors divisions.",
+            "icon": "",
+            "title": "Leagues",
+            "description": "Rulz Competitive Leagues run 10-week seasons with prizes across Men's, Women's, and Juniors divisions.",
             "price": "$119/team/week",
             "link": "/pages/competitions"
-          }
-        },
-        "birthdays": {
-          "type": "service_card",
-          "settings": {
-            "image": "shopify://shop_images/DSC09868.jpg",
-            "icon": "🎂",
-            "title": "Birthday Parties",
-            "description": "The ultimate football birthday experience for kids and adults. Private pitch, party host, and more.",
-            "price": "From $250",
-            "link": "/pages/birthday-parties"
           }
         },
         "academy": {
           "type": "service_card",
           "settings": {
             "image": "shopify://shop_images/IMG_1350_dd408443-94ab-4b64-98bf-79c7e3d0af3e.jpg",
-            "icon": "🎓",
-            "title": "Rulz Academy",
-            "description": "Monday junior coaching sessions. Develop skills in a fun cage environment. Ages 6–14.",
+            "icon": "",
+            "title": "Rulz Junior Academy",
+            "description": "Perfect weekly session for boys and girls aged U8–U13 who want structured coaching, technical drills, small-sided games, all inside our premium caged setup.",
             "price": "$20/session",
             "link": "/pages/academy"
+          }
+        },
+        "birthdays": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/DSC09868.jpg",
+            "icon": "",
+            "title": "Birthday Parties",
+            "description": "The ultimate caged football birthday experience for kids and adults. Private pitch, party host, and more.",
+            "price": "From $250",
+            "link": "/pages/birthday-parties"
           }
         }
       },
       "block_order": [
         "pitchhire",
         "competitions",
-        "birthdays",
-        "academy"
+        "academy",
+        "birthdays"
       ],
       "settings": {
-        "label": "EVERYTHING UNDER ONE ROOF",
-        "heading": "Your Way to Play",
-        "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered.",
+        "label": "Everyway you can play at",
+        "heading": "Street Rulz Football",
+        "subheading": "From Casual kicks to Leagues, Competition's, Academies, Parties and More",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -138,8 +138,8 @@
       "settings": {
         "background_image": "shopify://shop_images/Screenshot_2025-11-18_at_6.52.42_pm.png",
         "show_logo": true,
-        "heading": "Where Street Culture Meets Elite Football",
-        "subheading": "Premium cage football on the Gold Coast",
+        "heading": "Where Elite Football Meets Street Culture",
+        "subheading": "Queenslands Best 5 & 7-a-side Caged Football Facility",
         "cta_text": "",
         "cta_link": "",
         "bg_color": "",
@@ -150,35 +150,11 @@
     "whatson": {
       "type": "whats-on",
       "blocks": {
-        "eventthu": {
-          "type": "event",
-          "settings": {
-            "title": "Thursday Night Comp — Rulz Competitive",
-            "details": "Thursday · 6:30 PM & 7:15 PM · $119/team/week · 10-week season",
-            "tag_text": "REGO STILL OPEN",
-            "tag_style": "tag-limited",
-            "urgent": true,
-            "link": "/pages/competitions",
-            "link_text": "View Ladder"
-          }
-        },
-        "eventsat": {
-          "type": "event",
-          "settings": {
-            "title": "Social Saturday — $10 Kick",
-            "details": "Saturday · 10:00 AM – 4:00 PM · $10/person · All welcome, just rock up",
-            "tag_text": "SOCIAL",
-            "tag_style": "tag-social",
-            "urgent": false,
-            "link": "",
-            "link_text": "Details"
-          }
-        },
         "eventmon": {
           "type": "event",
           "settings": {
             "title": "Monday Junior Academy",
-            "details": "Monday · 4:00 PM – 5:30 PM · $20/session · Ages 6–14",
+            "details": "Monday - 4:00 PM – 5:30 PM - $20/session -Ages U8-U13's",
             "tag_text": "ENROL",
             "tag_style": "tag-enrol",
             "urgent": false,
@@ -192,23 +168,47 @@
             "title": "Wednesday $10 Kick",
             "details": "Wednesday · 6:00 PM – 9:00 PM · $10/person · Casual 5-a-side",
             "tag_text": "Pay At Clubhouse",
-            "tag_style": "tag-limited",
-            "urgent": true,
+            "tag_style": "tag-social",
+            "urgent": false,
             "link": "",
             "link_text": "Book Now"
+          }
+        },
+        "eventthu": {
+          "type": "event",
+          "settings": {
+            "title": "Thursday Night Competitive League",
+            "details": "Thursday - 6:30 PM & 7:15 PM - $119/team/week - 10 week season",
+            "tag_text": "REGO STILL OPEN",
+            "tag_style": "tag-limited",
+            "urgent": true,
+            "link": "/pages/competitions",
+            "link_text": "View Ladder"
+          }
+        },
+        "eventsat": {
+          "type": "event",
+          "settings": {
+            "title": "Social Saturday $10 Kick",
+            "details": "Saturday - 10:00 AM – 4:00 PM - $10/person",
+            "tag_text": "Pay At Clubhouse",
+            "tag_style": "tag-social",
+            "urgent": false,
+            "link": "",
+            "link_text": "Details"
           }
         }
       },
       "block_order": [
-        "eventthu",
-        "eventsat",
         "eventmon",
-        "eventwed"
+        "eventwed",
+        "eventthu",
+        "eventsat"
       ],
       "settings": {
         "label": "HAPPENING NOW",
         "heading": "What's On This Week",
-        "subheading": "From social kick-abouts to competitive leagues — there's something on every day.",
+        "subheading": "From social kicks to competitive leagues, there's something on everyday.",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -311,9 +311,9 @@
         "t6"
       ],
       "settings": {
-        "label": "COMPETITIONS",
-        "heading": "Thursday Comp Ladder",
-        "subheading": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)",
+        "label": "Leagues",
+        "heading": "Thursday Night Competitive League",
+        "subheading": "Rulz Competitive League -  10 Week Season (Round 3 of 10)",
         "updated_text": "Updated after Round 3 — 19 Feb 2026",
         "bg_color": "#181a19",
         "text_color": "",
@@ -327,8 +327,8 @@
           "type": "pricing_card",
           "settings": {
             "title": "Weekday",
-            "badge": "",
-            "highlighted": false,
+            "badge": "Popular",
+            "highlighted": true,
             "row1_label": "Mon–Fri 8am–4pm",
             "row1_value": "$110/hr",
             "row2_label": "Mon–Fri 4pm–10pm",
@@ -344,15 +344,15 @@
           "type": "pricing_card",
           "settings": {
             "title": "Weekend",
-            "badge": "POPULAR",
-            "highlighted": true,
+            "badge": "",
+            "highlighted": false,
             "row1_label": "Sat & Sun",
             "row1_value": "$110/hr",
             "row2_label": "",
             "row2_value": "",
             "row3_label": "",
             "row3_value": "",
-            "note": "Same great rate all day on weekends. Members discount available.",
+            "note": "Same great rate all day on weekends. Members discount available. Unlimited players per booking.",
             "cta_text": "Book Weekend",
             "cta_link": "/pages/book-a-court"
           }
@@ -364,7 +364,7 @@
       ],
       "settings": {
         "label": "PRICING",
-        "heading": "Simple, Transparent Pricing",
+        "heading": "Book, pay, score",
         "subheading": "No hidden fees. Book by the hour and bring as many players as you want.",
         "bg_color": "#181a19",
         "text_color": "",
