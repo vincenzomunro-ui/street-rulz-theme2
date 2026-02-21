@@ -91,7 +91,7 @@
         "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings.",
         "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#2b2b2b"
       }
     },
     "bookinginfo": {
@@ -157,9 +157,9 @@
       "settings": {
         "label": "EVERY PARTY INCLUDES",
         "heading": "What You Get",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#2b2b2b"
       }
     },
     "howitworks": {
@@ -196,9 +196,9 @@
         "label": "HOW TO BOOK",
         "heading": "Book Your Party",
         "subheading": "Planning the ultimate football party is easy.",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#2b2b2b"
       }
     },
     "cta": {
@@ -210,9 +210,9 @@
         "cta1_link": "tel:+61412766696",
         "cta2_text": "Contact Us",
         "cta2_link": "/pages/contact",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#2b2b2b"
       }
     }
   },
