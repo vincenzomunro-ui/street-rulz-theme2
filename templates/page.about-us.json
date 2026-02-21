@@ -134,7 +134,7 @@
         "badge": "THE CREW",
         "heading": "Meet Our Team",
         "description": "Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive.",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -148,9 +148,9 @@
         "cta1_link": "/pages/contact",
         "cta2_text": "Book a Pitch",
         "cta2_link": "/pages/book-a-court",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
-        "card_color": ""
+        "card_color": "#2b2b2b"
       }
     }
   },
