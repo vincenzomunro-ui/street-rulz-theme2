@@ -19,12 +19,59 @@
   {% endif %}
 </style>
 {% endif %}
+
+<style>
+  .cart-remove-btn {
+    background: none;
+    border: 1px solid var(--gray-600, #3a3c3b);
+    color: var(--gray-400, #9ca3af);
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    line-height: 1;
+  }
+  .cart-remove-btn:hover {
+    background: var(--error, #EF4444);
+    border-color: var(--error, #EF4444);
+    color: #fff;
+  }
+  .cart-remove-btn.removing {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .cart-remove-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+  .cart-item-row {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: opacity 0.3s ease;
+  }
+  .cart-item-row.removing {
+    opacity: 0.3;
+  }
+  .cart-item-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+</style>
+
 {% comment %} Main Cart — Displays cart contents {% endcomment %}
-<div class="section">
+<div class="section" id="main-cart">
   <h1 class="section-title">Your Cart</h1>
   {% if cart.item_count > 0 %}
     {% for item in cart.items %}
-      <div class="card" style="margin-bottom:16px;display:flex;align-items:center;gap:20px;">
+      <div class="card cart-item-row" data-line="{{ forloop.index }}" data-key="{{ item.key }}">
         {% if item.image %}
           <img src="{{ item.image | image_url: width: 80 }}" alt="{{ item.title }}" style="width:80px;height:80px;object-fit:cover;border-radius:8px;">
         {% endif %}
@@ -32,11 +79,20 @@
           <h3 style="font-size:16px;font-weight:700;">{{ item.title }}</h3>
           <p style="color:var(--gray-400);font-size:14px;">Qty: {{ item.quantity }}</p>
         </div>
-        <p style="color:var(--orange);font-weight:700;">{{ item.line_price | money }}</p>
+        <div class="cart-item-actions">
+          <p style="color:var(--orange);font-weight:700;margin:0;">{{ item.line_price | money }}</p>
+          <button class="cart-remove-btn" data-line="{{ forloop.index }}" aria-label="Remove {{ item.title }} from cart" title="Remove from cart">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 6 5 6 21 6"></polyline>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+            </svg>
+            Remove
+          </button>
+        </div>
       </div>
     {% endfor %}
     <div style="text-align:right;margin-top:24px;">
-      <p style="font-size:20px;font-weight:700;margin-bottom:16px;">Total: {{ cart.total_price | money }}</p>
+      <p style="font-size:20px;font-weight:700;margin-bottom:16px;">Total: <span id="cart-total">{{ cart.total_price | money }}</span></p>
       <a href="/checkout" class="btn-primary">Checkout</a>
     </div>
   {% else %}
@@ -44,6 +100,50 @@
     <a href="/" class="btn-primary" style="margin-top:16px;">Continue Shopping</a>
   {% endif %}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var cartSection = document.getElementById('main-cart');
+  if (!cartSection) return;
+
+  cartSection.addEventListener('click', function(e) {
+    var btn = e.target.closest('.cart-remove-btn');
+    if (!btn) return;
+
+    var line = parseInt(btn.getAttribute('data-line'), 10);
+    var row = btn.closest('.cart-item-row');
+
+    // Visual feedback
+    btn.classList.add('removing');
+    btn.textContent = 'Removing...';
+    if (row) row.classList.add('removing');
+
+    // AJAX call to update cart
+    fetch('/cart/change.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ line: line, quantity: 0 })
+    })
+    .then(function(response) { return response.json(); })
+    .then(function(cart) {
+      if (cart.item_count === 0) {
+        // Cart is now empty — reload to show empty state
+        window.location.reload();
+      } else {
+        // Reload to update line numbers and totals correctly
+        window.location.reload();
+      }
+    })
+    .catch(function(err) {
+      console.error('Error removing item:', err);
+      btn.classList.remove('removing');
+      btn.textContent = 'Remove';
+      if (row) row.classList.remove('removing');
+      alert('Failed to remove item. Please try again.');
+    });
+  });
+});
+</script>
 
 {% schema %}
 {
