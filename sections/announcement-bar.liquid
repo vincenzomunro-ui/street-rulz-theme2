@@ -1,0 +1,62 @@
+{% if section.settings.show_bar %}
+<div class="announce-bar" style="background: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
+  {{ section.settings.icon }} {{ section.settings.text }} &nbsp;|&nbsp; <a href="{{ section.settings.link_url }}" style="color: {{ section.settings.text_color }};">{{ section.settings.link_text }}</a>
+  <button id="closeAnnounce" style="position:absolute;right:16px;top:50%;transform:translateY(-50%);background:none;color:{{ section.settings.text_color }};font-size:18px;cursor:pointer;">×</button>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Announcement Bar",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_bar",
+      "label": "Show Announcement Bar",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "icon",
+      "label": "Icon (emoji)",
+      "default": "★"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Announcement Text",
+      "default": "Play Rain or Shine — Gold Coast's Only Cage Football Facility"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "Book a Pitch →"
+    },
+    {
+      "type": "text",
+      "id": "link_url",
+      "label": "Link URL",
+      "default": "/pages/book-a-court"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#5B5D5D"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#FDFDFD"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Announcement Bar"
+    }
+  ]
+}
+{% endschema %}
