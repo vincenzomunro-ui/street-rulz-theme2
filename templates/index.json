@@ -16,7 +16,7 @@
         "badge_text": "PLAY RAIN OR SHINE — ALL-WEATHER PITCHES",
         "heading_line1": "Street Rulz Football",
         "heading_line2": "Queenslands Best Caged Football Pitches",
-        "subheading": "7 World Class Caged Pitches",
+        "subheading": "",
         "cta1_text": "Book a Pitch — From $110/hr",
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "Join a Competition",
@@ -128,7 +128,7 @@
         "label": "EVERYTHING UNDER ONE ROOF",
         "heading": "Your Way to Play",
         "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered.",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -209,7 +209,7 @@
         "label": "HAPPENING NOW",
         "heading": "What's On This Week",
         "subheading": "From social kick-abouts to competitive leagues — there's something on every day.",
-        "bg_color": "#5b1515",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -315,7 +315,7 @@
         "heading": "Thursday Comp Ladder",
         "subheading": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)",
         "updated_text": "Updated after Round 3 — 19 Feb 2026",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -366,7 +366,7 @@
         "label": "PRICING",
         "heading": "Simple, Transparent Pricing",
         "subheading": "No hidden fees. Book by the hour and bring as many players as you want.",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -405,7 +405,7 @@
         "label": "HOW IT WORKS",
         "heading": "Book in 60 Seconds",
         "subheading": "Getting on the pitch is easy.",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -418,7 +418,7 @@
         "subheading": "Located at Tallebudgera on the Gold Coast. Easy access from the M1 motorway.",
         "address_title": "Street Rulz Football",
         "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -490,7 +490,7 @@
         "label": "OPENING HOURS",
         "heading": "When We're Open",
         "note": "Open by Appointment",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }
@@ -504,7 +504,7 @@
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "Contact Us",
         "cta2_link": "/pages/contact",
-        "bg_color": "",
+        "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""
       }

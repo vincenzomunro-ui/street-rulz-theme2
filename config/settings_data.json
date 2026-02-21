@@ -18,6 +18,20 @@
     "email": "admin@rulz.com.au",
     "announcement_text": "Queenslands Best 5 & 7-a-side Cage Football, Play Rain or Shine",
     "announcement_show": true,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_bar": true,
+          "icon": "",
+          "text": "Queenslands Best 5 & 7-a-side Caged Football Facility",
+          "link_text": "Book a Pitch",
+          "link_url": "/pages/book-a-court",
+          "bg_color": "#ff7f30",
+          "text_color": "#fdfdfd"
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "5134484470793087125": {
