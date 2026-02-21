@@ -76,7 +76,7 @@
       "settings": {
         "label": "CHOOSE YOUR PITCH",
         "heading": "Select Your Pitch Size",
-        "subheading": "Choose between our 6x 5-a-side or 1x 7-a-side pitches, then pick your time slot.",
+        "subheading": "Choose between our 6x 5-a-side or 1x 7-a-side pitches, then pick your time slot",
         "note": "All pitches are floodlit, enclosed, and all-weather. Unlimited players per booking.",
         "bg_color": "#181a19",
         "text_color": "",
@@ -89,44 +89,44 @@
         "30min": {
           "type": "slot",
           "settings": {
-            "duration": "30",
+            "duration": "30 Minutes",
             "title": "Quick Kick",
             "badge": "",
             "highlighted": false,
-            "description": "Perfect for a fast warm-up or training session.",
+            "description": "Perfect for a fast warm-up or training session",
             "price": "From $55"
           }
         },
         "60min": {
           "type": "slot",
           "settings": {
-            "duration": "60",
+            "duration": "60 Minutes",
             "title": "Standard Game",
             "badge": "POPULAR",
             "highlighted": true,
-            "description": "The most popular option. Enough time for a proper match.",
+            "description": "The most popular option. Enough time for a proper session",
             "price": "From $110"
           }
         },
         "90min": {
           "type": "slot",
           "settings": {
-            "duration": "90",
+            "duration": "90 Minutes",
             "title": "Extended Play",
             "badge": "",
             "highlighted": false,
-            "description": "Extra time for multiple games or a tournament-style session.",
+            "description": "Extra time for multiple games or a tournament-style session",
             "price": "From $165"
           }
         },
         "120min": {
           "type": "slot",
           "settings": {
-            "duration": "120",
+            "duration": "120 Minutes",
             "title": "Full Session",
             "badge": "",
             "highlighted": false,
-            "description": "The ultimate booking. Great for events, team training, or all-day fun.",
+            "description": "The ultimate session. Great for events, team training, or all-day fun",
             "price": "From $220"
           }
         }
@@ -140,7 +140,7 @@
       "settings": {
         "label": "FLEXIBLE BOOKING",
         "heading": "Choose Your Session Length",
-        "subheading": "Book the time that suits your game. All sessions include balls and bibs.",
+        "subheading": "Book the time that suits your game",
         "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary.",
         "bg_color": "#181a19",
         "text_color": "",
