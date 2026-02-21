@@ -43,8 +43,8 @@
         "stat3": {
           "type": "stat",
           "settings": {
-            "number": "24/7",
-            "label": "Floodlit"
+            "number": "7v7",
+            "label": "1 x Pitches"
           }
         },
         "stat4": {
