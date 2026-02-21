@@ -14,8 +14,8 @@
       "settings": {
         "background_image": "shopify://shop_images/IMG_1349.jpg",
         "show_logo": false,
-        "heading": "Competitions",
-        "subheading": "10-week Street Rulz leagues with graded divisions.",
+        "heading": "LEAGUES",
+        "subheading": "Rulz Competitive Leagues run 10-week seasons with prizes across Men's, Women's, and Juniors divisions",
         "bg_color": "",
         "text_color": "",
         "card_color": ""
@@ -24,77 +24,77 @@
     "compinfo": {
       "type": "comp-info",
       "blocks": {
+        "c5": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Team Registration",
+            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others.",
+            "detail": "5-8 players per team"
+          }
+        },
         "c1": {
           "type": "info_card",
           "settings": {
-            "icon": "📅",
-            "title": "10-Week Seasons",
-            "description": "Each competition runs for 10 weeks with a round-robin format. Finals are played in the last 2 weeks.",
+            "icon": "",
+            "title": "10 Week Seasons",
+            "description": "Each league runs for 10 weeks with a round robin format. Finals are played in the last 2 weeks",
             "detail": "New season starting soon"
           }
         },
         "c2": {
           "type": "info_card",
           "settings": {
-            "icon": "🏆",
+            "icon": "",
             "title": "Graded Divisions",
-            "description": "We grade teams so every match is competitive and fun. Divisions for juniors, social, and competitive players.",
+            "description": "We grade teams so every match is competitive and fun. Divisions for juniors, social, and competitive players",
             "detail": "All skill levels welcome"
+          }
+        },
+        "c6": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Professional Referees",
+            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
+            "detail": "Qualified refs every game"
           }
         },
         "c3": {
           "type": "info_card",
           "settings": {
-            "icon": "⚽",
+            "icon": "",
             "title": "Thursday Nights",
-            "description": "Our flagship 5-a-side comp runs every Thursday evening under the lights. Games are fast, intense, and social.",
+            "description": "Our flagship 5-a-side comp runs every Thursday evening under the lights. Games are fast, intense, and social",
             "detail": "Kick-off from 6:00 PM"
           }
         },
         "c4": {
           "type": "info_card",
           "settings": {
-            "icon": "🎖️",
+            "icon": "",
             "title": "Prizes & Awards",
-            "description": "Season winners receive trophies and prizes. Individual awards for Golden Boot and Player of the Season.",
+            "description": "Season winners receive trophies and prizes. Individual award for Golden Boot and Player of the Season",
             "detail": "Trophies for winners"
-          }
-        },
-        "c5": {
-          "type": "info_card",
-          "settings": {
-            "icon": "👥",
-            "title": "Team Registration",
-            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others.",
-            "detail": "5-8 players per team"
-          }
-        },
-        "c6": {
-          "type": "info_card",
-          "settings": {
-            "icon": "📋",
-            "title": "Professional Referees",
-            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
-            "detail": "Qualified refs every game"
           }
         }
       },
       "block_order": [
+        "c5",
         "c1",
         "c2",
+        "c6",
         "c3",
-        "c4",
-        "c5",
-        "c6"
+        "c4"
       ],
       "settings": {
         "label": "HOW IT WORKS",
-        "heading": "Street Rulz Competitions",
-        "subheading": "10-week seasons with graded divisions for juniors, youth, and adults.",
+        "heading": "RULZ COMPETATIVE LEAGUES",
+        "subheading": "Graded divisions for juniors, youth, and adults.",
         "majesty_heading": "Register Your Team",
-        "majesty_description": "Team registrations, fixtures, and results are managed through Majesty. Click below to register your team, view upcoming fixtures, or check live results.",
+        "majesty_description": "Team registrations, and fixtures are managed through Majesty. Click below to register your team, or view upcoming fixtures",
         "majesty_link": "https://rulz.majestri.com.au/whats-on",
-        "majesty_button_text": "Register on Majesty",
+        "majesty_button_text": "Register",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
