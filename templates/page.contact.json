@@ -15,7 +15,10 @@
         "background_image": "shopify://shop_images/done.jpg",
         "show_logo": false,
         "heading": "Contact Us",
-        "subheading": "Get in touch to book a pitch, organise an event, or ask a question."
+        "subheading": "Get in touch to book a pitch, organise an event, or ask a question.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "contact-form": {
@@ -23,7 +26,10 @@
       "settings": {
         "badge": "GET IN TOUCH",
         "heading": "We'd Love to Hear from You",
-        "description": "Whether you want to book a pitch, organise an event, or just ask a question — drop us a line."
+        "description": "Whether you want to book a pitch, organise an event, or just ask a question — drop us a line.",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "findus": {
@@ -33,7 +39,10 @@
         "heading": "Come Play",
         "subheading": "Located at Tallebudgera on the Gold Coast. Easy access from the M1 motorway.",
         "address_title": "Street Rulz Football",
-        "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia"
+        "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     },
     "hours": {
@@ -101,7 +110,10 @@
       "settings": {
         "label": "OPENING HOURS",
         "heading": "When We're Open",
-        "note": "Open by Appointment"
+        "note": "Open by Appointment",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
       }
     }
   },
