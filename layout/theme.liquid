@@ -125,39 +125,6 @@
 <script src="{{ 'main.js' | asset_url }}" defer></script>
 
 <!-- Relocate Cowlendar subscription widget on Academy page -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Only run on the academy page
-    if (window.location.pathname.indexOf('/pages/academy') === -1) return;
-    
-    // Find the Enrol CTA button
-    var enrolBtn = document.querySelector('a[href*="rulz-academy-monthly"]');
-    if (!enrolBtn) return;
-    
-    // Create a container after the enrol button's parent div
-    var container = document.createElement('div');
-    container.id = 'academy-subscription-widget';
-    container.style.cssText = 'margin-top:48px;max-width:700px;margin-left:auto;margin-right:auto;';
-    
-    // Insert after the enrol button's parent
-    var enrolParent = enrolBtn.parentElement;
-    if (enrolParent && enrolParent.parentElement) {
-      enrolParent.parentElement.insertBefore(container, enrolParent.nextSibling);
-    }
-    
-    function moveWidget() {
-      var appBlocks = document.querySelectorAll('.shopify-app-block');
-      appBlocks.forEach(function(block) {
-        if (block.closest('#academy-subscription-widget')) return;
-        container.appendChild(block);
-      });
-    }
-    
-    moveWidget();
-    setTimeout(moveWidget, 500);
-    setTimeout(moveWidget, 1500);
-    setTimeout(moveWidget, 3000);
-  });
-</script>
+<script src="{{ 'academy-widget.js' | asset_url }}" defer></script>
 </body>
 </html>
