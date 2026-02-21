@@ -208,7 +208,7 @@
       "settings": {
         "label": "HAPPENING NOW",
         "heading": "What's On This Week",
-        "subheading": "From social kicks to competitive leagues, there's something on everyday.",
+        "subheading": "From social kicks to competitive leagues, there's something on everyday",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -335,7 +335,7 @@
             "row2_value": "$140/hr",
             "row3_label": "",
             "row3_value": "",
-            "note": "Members discount available. Unlimited players per booking.",
+            "note": "Members discount available. Unlimited players per booking",
             "cta_text": "Book Weekday",
             "cta_link": "/pages/book-a-court"
           }
@@ -352,7 +352,7 @@
             "row2_value": "",
             "row3_label": "",
             "row3_value": "",
-            "note": "Same great rate all day on weekends. Members discount available. Unlimited players per booking.",
+            "note": "Same great rate all day on weekends. Members discount available. Unlimited players per booking",
             "cta_text": "Book Weekend",
             "cta_link": "/pages/book-a-court"
           }
@@ -365,7 +365,7 @@
       "settings": {
         "label": "PRICING",
         "heading": "Book, pay, score",
-        "subheading": "No hidden fees. Book by the hour and bring as many players as you want.",
+        "subheading": "No hidden fees. Book by the hour and bring as many players as you want",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -378,21 +378,21 @@
           "type": "step",
           "settings": {
             "title": "Pick Your Pitch & Time",
-            "description": "Choose from 7 pitches. Book online or call us. Available 7 days a week."
+            "description": "Choose from 7 pitches, Book online, Available 7 days a week"
           }
         },
         "s2": {
           "type": "step",
           "settings": {
             "title": "Rock Up & Play",
-            "description": "Bring your mates, boots optional. We supply balls and bibs. Pitches are enclosed — no ball chasing."
+            "description": "Bring your mates, boots optional.\nWe supply the balls, bibs, and good vibes"
           }
         },
         "s3": {
           "type": "step",
           "settings": {
             "title": "Come Back for More",
-            "description": "Join a comp, book a party, or become a Rulz Member for discounts on every session."
+            "description": "Join a League, Comp, Academy or Book a party"
           }
         }
       },
@@ -404,7 +404,7 @@
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Book in 60 Seconds",
-        "subheading": "Getting on the pitch is easy.",
+        "subheading": "Getting on the pitch is easy",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
