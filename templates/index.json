@@ -20,7 +20,10 @@
         "cta1_text": "Book a Pitch — From $110/hr",
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "Join a Competition",
-        "cta2_link": "/pages/competitions"
+        "cta2_link": "/pages/competitions",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "stats": {
@@ -61,7 +64,11 @@
         "stat3",
         "stat4"
       ],
-      "settings": {}
+      "settings": {
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
+      }
     },
     "services": {
       "type": "services",
@@ -120,7 +127,10 @@
       "settings": {
         "label": "EVERYTHING UNDER ONE ROOF",
         "heading": "Your Way to Play",
-        "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered."
+        "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "break1": {
@@ -131,7 +141,10 @@
         "heading": "Where Street Culture Meets Elite Football",
         "subheading": "Premium cage football on the Gold Coast",
         "cta_text": "",
-        "cta_link": ""
+        "cta_link": "",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "whatson": {
@@ -195,7 +208,10 @@
       "settings": {
         "label": "HAPPENING NOW",
         "heading": "What's On This Week",
-        "subheading": "From social kick-abouts to competitive leagues — there's something on every day."
+        "subheading": "From social kick-abouts to competitive leagues — there's something on every day.",
+        "bg_color": "#5b1515",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "ladder": {
@@ -298,7 +314,10 @@
         "label": "COMPETITIONS",
         "heading": "Thursday Comp Ladder",
         "subheading": "Rulz Competitive Comp — 10 Week Season (Round 3 of 10)",
-        "updated_text": "Updated after Round 3 — 19 Feb 2026"
+        "updated_text": "Updated after Round 3 — 19 Feb 2026",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "pricing": {
@@ -346,7 +365,10 @@
       "settings": {
         "label": "PRICING",
         "heading": "Simple, Transparent Pricing",
-        "subheading": "No hidden fees. Book by the hour and bring as many players as you want."
+        "subheading": "No hidden fees. Book by the hour and bring as many players as you want.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "howitworks": {
@@ -382,7 +404,10 @@
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Book in 60 Seconds",
-        "subheading": "Getting on the pitch is easy."
+        "subheading": "Getting on the pitch is easy.",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "findus": {
@@ -392,7 +417,10 @@
         "heading": "Come Play",
         "subheading": "Located at Tallebudgera on the Gold Coast. Easy access from the M1 motorway.",
         "address_title": "Street Rulz Football",
-        "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia"
+        "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Queensland\nAustralia",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "hours_N99Xhz": {
@@ -461,7 +489,10 @@
       "settings": {
         "label": "OPENING HOURS",
         "heading": "When We're Open",
-        "note": "Open by Appointment"
+        "note": "Open by Appointment",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     },
     "cta": {
@@ -472,7 +503,10 @@
         "cta1_text": "Book a Pitch",
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "Contact Us",
-        "cta2_link": "/pages/contact"
+        "cta2_link": "/pages/contact",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
       }
     }
   },
