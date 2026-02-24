@@ -127,7 +127,7 @@
       "settings": {
         "label": "Everyway you can play at",
         "heading": "Street Rulz Football",
-        "subheading": "From Casual kicks to Leagues, Competition's, Academies, Parties and More",
+        "subheading": "From Casual Kicks to Leagues, Academies, Parties and More",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -240,8 +240,8 @@
             "draws": "0",
             "losses": "1",
             "goals_for": "31",
-            "goals_against": "20",
-            "goal_diff": "+11",
+            "goals_against": "21",
+            "goal_diff": "+10",
             "points": "6"
           }
         },
@@ -250,13 +250,13 @@
           "settings": {
             "team": "Third Leg Strikers",
             "played": "3",
-            "wins": "1",
+            "wins": "2",
             "draws": "0",
-            "losses": "2",
-            "goals_for": "19",
-            "goals_against": "21",
-            "goal_diff": "-2",
-            "points": "3"
+            "losses": "1",
+            "goals_for": "21",
+            "goals_against": "17",
+            "goal_diff": "+4",
+            "points": "6"
           }
         },
         "t4": {
@@ -268,8 +268,8 @@
             "draws": "0",
             "losses": "2",
             "goals_for": "17",
-            "goals_against": "25",
-            "goal_diff": "-8",
+            "goals_against": "22",
+            "goal_diff": "-5",
             "points": "3"
           }
         },
@@ -296,8 +296,8 @@
             "draws": "0",
             "losses": "3",
             "goals_for": "16",
-            "goals_against": "31",
-            "goal_diff": "-15",
+            "goals_against": "34",
+            "goal_diff": "-18",
             "points": "0"
           }
         }
@@ -313,8 +313,8 @@
       "settings": {
         "label": "Leagues",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League -  10 Week Season (Round 3 of 10)",
-        "updated_text": "Updated after Round 3 — 19 Feb 2026",
+        "subheading": "Rulz Competitive League — 10 Week Season (Round 3 of 10)",
+        "updated_text": "Updated after Round 3 — 24 Feb 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"

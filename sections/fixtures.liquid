@@ -1,0 +1,266 @@
+{% if section.settings.bg_color != blank or section.settings.text_color != blank %}
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.bg_color != blank %}background-color: {{ section.settings.bg_color }} !important;{% endif %}
+    {% if section.settings.text_color != blank %}color: {{ section.settings.text_color }} !important;{% endif %}
+  }
+  {% if section.settings.card_color != blank %}
+  #shopify-section-{{ section.id }} .fixture-round-card {
+    background-color: {{ section.settings.card_color }} !important;
+  }
+  {% endif %}
+</style>
+{% endif %}
+
+<style>
+  .fixtures-container { max-width: 800px; margin: 0 auto; }
+  .fixture-round-card {
+    background: var(--dark-card, #1d1f1e);
+    border: 1px solid var(--gray-800, #2a2c2b);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .fixture-round-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--gray-800, #2a2c2b);
+  }
+  .fixture-round-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white, #fff);
+  }
+  .fixture-round-date {
+    font-size: 13px;
+    color: var(--gray-400, #9ca3af);
+  }
+  .fixture-match {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .fixture-match:last-child { border-bottom: none; }
+  .fixture-team {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white, #fff);
+  }
+  .fixture-team.away { text-align: right; }
+  .fixture-score {
+    min-width: 70px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--orange, #ff6b35);
+    letter-spacing: 2px;
+  }
+  .fixture-time {
+    font-size: 11px;
+    color: var(--gray-400, #9ca3af);
+    text-align: center;
+    margin-top: 2px;
+  }
+  .fixture-court {
+    font-size: 11px;
+    color: var(--gray-600, #6b7280);
+    text-align: center;
+  }
+  .fixture-upcoming .fixture-score {
+    color: var(--gray-400, #9ca3af);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+  .fixture-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  .badge-completed {
+    background: rgba(34,197,94,0.15);
+    color: #4ade80;
+  }
+  .badge-upcoming {
+    background: rgba(255,107,53,0.15);
+    color: #ff6b35;
+  }
+  @media (max-width: 600px) {
+    .fixture-team { font-size: 12px; }
+    .fixture-score { font-size: 14px; min-width: 50px; }
+    .fixture-round-card { padding: 16px; }
+  }
+</style>
+
+<div class="section">
+  <div class="section-label">{{ section.settings.label }}</div>
+  <h2 class="section-title">{{ section.settings.heading }}</h2>
+  <p class="section-subtitle" style="margin-bottom:32px;">{{ section.settings.subheading }}</p>
+
+  <div class="fixtures-container">
+    {% for block in section.blocks %}
+      {% if block.type == 'round' %}
+        <div class="fixture-round-card {% if block.settings.is_upcoming %}fixture-upcoming{% endif %}" {{ block.shopify_attributes }}>
+          <div class="fixture-round-header">
+            <div>
+              <div class="fixture-round-title">{{ block.settings.round_title }}</div>
+              <div class="fixture-round-date">{{ block.settings.round_date }}</div>
+            </div>
+            {% if block.settings.is_upcoming %}
+              <span class="fixture-badge badge-upcoming">Upcoming</span>
+            {% else %}
+              <span class="fixture-badge badge-completed">Completed</span>
+            {% endif %}
+          </div>
+
+          {% if block.settings.game1_home != blank %}
+          <div class="fixture-match">
+            <span class="fixture-team">{{ block.settings.game1_home }}</span>
+            <div>
+              {% if block.settings.is_upcoming %}
+                <div class="fixture-score">{{ block.settings.game1_time }}</div>
+              {% else %}
+                <div class="fixture-score">{{ block.settings.game1_home_score }} – {{ block.settings.game1_away_score }}</div>
+              {% endif %}
+              <div class="fixture-court">{{ block.settings.game1_court }}</div>
+            </div>
+            <span class="fixture-team away">{{ block.settings.game1_away }}</span>
+          </div>
+          {% endif %}
+
+          {% if block.settings.game2_home != blank %}
+          <div class="fixture-match">
+            <span class="fixture-team">{{ block.settings.game2_home }}</span>
+            <div>
+              {% if block.settings.is_upcoming %}
+                <div class="fixture-score">{{ block.settings.game2_time }}</div>
+              {% else %}
+                <div class="fixture-score">{{ block.settings.game2_home_score }} – {{ block.settings.game2_away_score }}</div>
+              {% endif %}
+              <div class="fixture-court">{{ block.settings.game2_court }}</div>
+            </div>
+            <span class="fixture-team away">{{ block.settings.game2_away }}</span>
+          </div>
+          {% endif %}
+
+          {% if block.settings.game3_home != blank %}
+          <div class="fixture-match">
+            <span class="fixture-team">{{ block.settings.game3_home }}</span>
+            <div>
+              {% if block.settings.is_upcoming %}
+                <div class="fixture-score">{{ block.settings.game3_time }}</div>
+              {% else %}
+                <div class="fixture-score">{{ block.settings.game3_home_score }} – {{ block.settings.game3_away_score }}</div>
+              {% endif %}
+              <div class="fixture-court">{{ block.settings.game3_court }}</div>
+            </div>
+            <span class="fixture-team away">{{ block.settings.game3_away }}</span>
+          </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Fixtures & Results",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section Label",
+      "default": "FIXTURES"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Fixtures & Results"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "All match results and upcoming fixtures for the current season."
+    },
+    {
+      "type": "header",
+      "content": "Section Colors (leave blank for defaults)"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "card_color",
+      "label": "Card/Tile Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "round",
+      "name": "Round",
+      "settings": [
+        {
+          "type": "text",
+          "id": "round_title",
+          "label": "Round Title",
+          "default": "Round 1"
+        },
+        {
+          "type": "text",
+          "id": "round_date",
+          "label": "Date",
+          "default": "Thursday 5th Feb"
+        },
+        {
+          "type": "checkbox",
+          "id": "is_upcoming",
+          "label": "Is Upcoming (not yet played)?",
+          "default": false
+        },
+        { "type": "header", "content": "Game 1" },
+        { "type": "text", "id": "game1_home", "label": "Game 1 - Home Team" },
+        { "type": "text", "id": "game1_away", "label": "Game 1 - Away Team" },
+        { "type": "text", "id": "game1_home_score", "label": "Game 1 - Home Score", "default": "0" },
+        { "type": "text", "id": "game1_away_score", "label": "Game 1 - Away Score", "default": "0" },
+        { "type": "text", "id": "game1_court", "label": "Game 1 - Court", "default": "Court 1" },
+        { "type": "text", "id": "game1_time", "label": "Game 1 - Time", "default": "6:30pm" },
+        { "type": "header", "content": "Game 2" },
+        { "type": "text", "id": "game2_home", "label": "Game 2 - Home Team" },
+        { "type": "text", "id": "game2_away", "label": "Game 2 - Away Team" },
+        { "type": "text", "id": "game2_home_score", "label": "Game 2 - Home Score", "default": "0" },
+        { "type": "text", "id": "game2_away_score", "label": "Game 2 - Away Score", "default": "0" },
+        { "type": "text", "id": "game2_court", "label": "Game 2 - Court", "default": "Court 2" },
+        { "type": "text", "id": "game2_time", "label": "Game 2 - Time", "default": "6:30pm" },
+        { "type": "header", "content": "Game 3" },
+        { "type": "text", "id": "game3_home", "label": "Game 3 - Home Team" },
+        { "type": "text", "id": "game3_away", "label": "Game 3 - Away Team" },
+        { "type": "text", "id": "game3_home_score", "label": "Game 3 - Home Score", "default": "0" },
+        { "type": "text", "id": "game3_away_score", "label": "Game 3 - Away Score", "default": "0" },
+        { "type": "text", "id": "game3_court", "label": "Game 3 - Court", "default": "Court 3" },
+        { "type": "text", "id": "game3_time", "label": "Game 3 - Time", "default": "7:15pm" }
+      ]
+    }
+  ]
+}
+{% endschema %}
