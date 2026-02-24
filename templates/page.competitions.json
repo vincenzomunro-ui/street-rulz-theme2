@@ -163,10 +163,10 @@
           "type": "team_row",
           "settings": {
             "team": "Screaming Schooners",
-            "played": "3",
+            "played": "2",
             "wins": "0",
             "draws": "0",
-            "losses": "3",
+            "losses": "2",
             "goals_for": "19",
             "goals_against": "26",
             "goal_diff": "-7",
