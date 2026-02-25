@@ -88,7 +88,7 @@
         "label": "PARTY PACKAGES",
         "heading": "Choose Your Party Package",
         "subheading": "Celebrate in style at Gold Coast's only cage football facility. We handle the football — you handle the fun.",
-        "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings.",
+        "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -100,49 +100,49 @@
         "b1": {
           "type": "info_item",
           "settings": {
-            "icon": "🏟️",
+            "icon": "",
             "title": "Private Pitch",
-            "description": "Your own enclosed cage pitch for the duration of the party."
+            "description": "Your own caged pitch for the duration of the party"
           }
         },
         "b2": {
           "type": "info_item",
           "settings": {
-            "icon": "⚽",
+            "icon": "",
             "title": "Balls & Bibs",
-            "description": "Quality match balls and team bibs supplied for every party."
+            "description": "Quality match balls and team bibs supplied for every party"
           }
         },
         "b3": {
           "type": "info_item",
           "settings": {
-            "icon": "🎉",
+            "icon": "",
             "title": "Party Area",
-            "description": "Dedicated space for cake, presents, and celebrations."
+            "description": "Dedicated space for cake, presents, and celebrations"
           }
         },
         "b4": {
           "type": "info_item",
           "settings": {
-            "icon": "🧑‍🏫",
+            "icon": "",
             "title": "Party Host",
-            "description": "A dedicated host to run games and keep the fun going."
+            "description": "A dedicated host to run games and keep the fun going"
           }
         },
         "b5": {
           "type": "info_item",
           "settings": {
-            "icon": "🅿️",
+            "icon": "",
             "title": "Free Parking",
-            "description": "Plenty of free parking for all your guests."
+            "description": "Plenty of free parking for all your guests"
           }
         },
         "b6": {
           "type": "info_item",
           "settings": {
-            "icon": "🌧️",
+            "icon": "",
             "title": "All-Weather",
-            "description": "Enclosed pitches mean the party goes ahead rain or shine."
+            "description": "Caged pitches mean the party goes ahead rain or shine"
           }
         }
       },
@@ -169,21 +169,21 @@
           "type": "step",
           "settings": {
             "title": "Choose Your Package",
-            "description": "Pick from our Kick-Off, Ultimate, or VIP packages above."
+            "description": "Pick from our Kick-Off, Epic Pitch, or VIP packages above"
           }
         },
         "s2": {
           "type": "step",
           "settings": {
             "title": "Call or Message Us",
-            "description": "Contact us to confirm your date, time, and any special requests."
+            "description": "Contact us to confirm your date, time, and any special requests"
           }
         },
         "s3": {
           "type": "step",
           "settings": {
             "title": "Party Time!",
-            "description": "Show up with the birthday crew. We handle everything else."
+            "description": "Show up with the birthday crew. We handle everything else"
           }
         }
       },
@@ -195,7 +195,7 @@
       "settings": {
         "label": "HOW TO BOOK",
         "heading": "Book Your Party",
-        "subheading": "Planning the ultimate football party is easy.",
+        "subheading": "Planning the ultimate football party is easy",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
