@@ -15,7 +15,7 @@
         "background_image": "shopify://shop_images/Donee.jpg",
         "show_logo": false,
         "heading": "About Us",
-        "subheading": "The family behind Gold Coast's home of cage football.",
+        "subheading": "The family behind Gold Coast's home of caged football.",
         "bg_color": "",
         "text_color": "",
         "card_color": ""
@@ -27,33 +27,33 @@
         "value-1": {
           "type": "value",
           "settings": {
-            "icon": "⚽",
+            "icon": "",
             "title": "Community",
-            "text": "Building connections through the beautiful game."
+            "text": "Building connections through the beautiful game"
           }
         },
         "value-2": {
           "type": "value",
           "settings": {
-            "icon": "🏟️",
+            "icon": "",
             "title": "Quality",
-            "text": "FIFA Grade 3 turf and premium enclosed pitches."
+            "text": "FIFA Grade 3 turf and premium caged pitches"
           }
         },
         "value-3": {
           "type": "value",
           "settings": {
-            "icon": "👨‍👩‍👧‍👦",
+            "icon": "",
             "title": "Family",
-            "text": "Family-owned, family-run, family-focused."
+            "text": "Family owned, family run, family focused"
           }
         },
         "value-4": {
           "type": "value",
           "settings": {
-            "icon": "🔥",
+            "icon": "",
             "title": "Passion",
-            "text": "Decades of football experience in every detail."
+            "text": "Decades of football experience in every detail"
           }
         }
       },
@@ -66,7 +66,7 @@
       "settings": {
         "badge": "OUR STORY",
         "heading": "Built from the Ground Up",
-        "text": "<p>Street Rulz Football was born from a simple belief — that the Gold Coast deserves a world-class small-sided football facility where community, culture, and competition come together.</p><p>What started as a family vision has grown into 7 premium enclosed pitches at Tallebudgera, built with FIFA Grade 3 artificial turf and designed for players of every level. From casual kick-abouts to competitive leagues, birthday parties to junior academies — Rulz is where street culture meets elite football.</p><p>We're a family-run business, and that's by design. Every decision we make is driven by a genuine love for the game and a commitment to the community we serve.</p>",
+        "text": "<p>Street Rulz Football was born from a simple belief, that Gold Coast deserves a world-class small sided football facility where community, culture, and competition come together.</p><p>What started as a family vision has grown into 7 premium caged pitches at Tallebudgera, built with FIFA Grade 3 artificial turf and designed for players of every level. From casual kick bouts to competitive leagues, birthday parties, junior academies and more! Rulz is where elite football meets street culture.</p><p>We're a family run business, and that's by design. Every decision we make is driven by a genuine love for the game and a commitment to the community we serve.</p>",
         "image": "shopify://shop_images/IMG_0953_2.jpg",
         "image_alt": "Street Rulz Football facility at Tallebudgera",
         "bg_color": "#181a19",
@@ -82,7 +82,7 @@
           "settings": {
             "photo": "shopify://shop_images/IMG_0633_c838b879-a4a6-4e14-912c-b86d420f7db4.jpg",
             "name": "Mark Munro",
-            "role": "Co-Founder 0412766969",
+            "role": "Co-Founder",
             "bio": "With over 50 years of football experience, Mark has lived every side of the game — as a player, coach, and club director. His leadership and vision have been the driving force behind Street Rulz Football from day one. Combining an elite sporting background with a decades-long career in engineering and design, Mark has transformed the project from concept to reality. Holding AFC/FFA B & C Licences and a KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport, Mark's philosophy is simple and powerful: \"It's not just about playing — it's about raising the standard.\""
           }
         },
@@ -100,7 +100,7 @@
           "settings": {
             "photo": "shopify://shop_images/IMG_0635.jpg",
             "name": "Vincenzo Munro",
-            "role": "Manager 0412766696",
+            "role": "Manager",
             "bio": "Vincenzo plays a central role in the operational and creative direction of Rulz. He is a manager who lives and breathes the discipline, culture, and passion of the game. With over 10 years of futsal, 5-a-side, and community football experience, he has played a key role in shaping the identity of Street Rulz Football. From branding and vision to build and operations, Vincenzo has been hands-on in every stage of development."
           }
         },
@@ -133,7 +133,7 @@
       "settings": {
         "badge": "THE CREW",
         "heading": "Meet Our Team",
-        "description": "Meet the team behind Street Rulz Football. A family-driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive.",
+        "description": "Meet the team behind Street Rulz Football. A family driven crew committed to building Australia's best five-a-side experience. Together, we bring decades of passion, expertise, and hard work to create a space where community and football come alive",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": ""

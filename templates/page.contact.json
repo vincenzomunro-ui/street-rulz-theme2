@@ -26,7 +26,7 @@
       "settings": {
         "badge": "GET IN TOUCH",
         "heading": "We'd Love to Hear from You",
-        "description": "Whether you want to book a pitch, organise an event, or just ask a question — drop us a line.",
+        "description": "Whether you want to book a pitch, organise an event, or just ask a question, we are here to help",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -48,69 +48,29 @@
     "hours": {
       "type": "hours",
       "blocks": {
-        "d1": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Monday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "d2": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Tuesday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "d3": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Wednesday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "d4": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Thursday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "d5": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Friday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
         "d6": {
           "type": "hours_row",
           "settings": {
-            "day": "Saturday",
+            "day": "Monday - Friday",
             "time": "8:00 AM – 10:00 PM"
           }
         },
         "d7": {
           "type": "hours_row",
           "settings": {
-            "day": "Sunday",
+            "day": "Saturday - Sunday",
             "time": "8:00 AM – 10:00PM"
           }
         }
       },
       "block_order": [
-        "d1",
-        "d2",
-        "d3",
-        "d4",
-        "d5",
         "d6",
         "d7"
       ],
       "settings": {
         "label": "OPENING HOURS",
         "heading": "When We're Open",
-        "note": "Open by Appointment",
+        "note": "Open by Booking",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
