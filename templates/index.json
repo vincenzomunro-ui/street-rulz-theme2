@@ -462,6 +462,33 @@
         "text_color": "",
         "card_color": "#2b2b2b"
       }
+    },
+    "1771983673ad0f272f": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_AXhVVN": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "https://www.instagram.com/streetrulz_football/",
+            "html_area": "https://www.instagram.com/streetrulz_football/"
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_AXhVVN"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -475,6 +502,7 @@
     "howitworks",
     "findus",
     "hours_N99Xhz",
-    "cta"
+    "cta",
+    "1771983673ad0f272f"
   ]
 }
