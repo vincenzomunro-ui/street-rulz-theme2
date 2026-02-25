@@ -29,7 +29,7 @@
           "settings": {
             "icon": "",
             "title": "Team Registration",
-            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others.",
+            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others",
             "detail": "5-8 players per team"
           }
         },
@@ -56,7 +56,7 @@
           "settings": {
             "icon": "",
             "title": "Professional Referees",
-            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
+            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct",
             "detail": "Qualified refs every game"
           }
         },
@@ -347,8 +347,8 @@
   "order": [
     "header",
     "compinfo",
-    "ladder",
     "fixtures",
+    "ladder",
     "cta"
   ]
 }
