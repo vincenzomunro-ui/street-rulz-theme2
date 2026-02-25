@@ -45,7 +45,7 @@
         "premium": {
           "type": "package",
           "settings": {
-            "title": "Ultimate Party",
+            "title": "Epic Pitch Party",
             "price": "$350",
             "subtitle": "1.5 hour pitch hire + 45 min party area",
             "badge": "MOST POPULAR",
@@ -63,7 +63,7 @@
         "vip": {
           "type": "package",
           "settings": {
-            "title": "VIP Experience",
+            "title": "VIP Party",
             "price": "$450",
             "subtitle": "2 hour pitch hire + 1 hour party area",
             "badge": "",
