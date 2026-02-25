@@ -420,62 +420,22 @@
     "hours_N99Xhz": {
       "type": "hours",
       "blocks": {
-        "hours_row_xMUtdf": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Monday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "hours_row_BPHMGj": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Tuesday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "hours_row_yGcrg7": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Wednesday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "hours_row_GpmFTN": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Thursday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
-        "hours_row_A9hwcX": {
-          "type": "hours_row",
-          "settings": {
-            "day": "Friday",
-            "time": "8:00 AM – 10:00 PM"
-          }
-        },
         "hours_row_A66yJk": {
           "type": "hours_row",
           "settings": {
-            "day": "Saturday",
+            "day": "Monday - Friday",
             "time": "8:00 AM – 10:00 PM"
           }
         },
         "hours_row_HLFR8Y": {
           "type": "hours_row",
           "settings": {
-            "day": "Sunday",
+            "day": "Saturday - Sunday",
             "time": "8:00 AM – 10:00 PM"
           }
         }
       },
       "block_order": [
-        "hours_row_xMUtdf",
-        "hours_row_BPHMGj",
-        "hours_row_yGcrg7",
-        "hours_row_GpmFTN",
-        "hours_row_A9hwcX",
         "hours_row_A66yJk",
         "hours_row_HLFR8Y"
       ],
@@ -483,7 +443,7 @@
       "settings": {
         "label": "OPENING HOURS",
         "heading": "When We're Open",
-        "note": "Open by Appointment",
+        "note": "Open by Bookings",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
