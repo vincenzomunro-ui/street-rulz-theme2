@@ -12,10 +12,10 @@
     "header": {
       "type": "page-header",
       "settings": {
-        "background_image": "shopify://shop_images/done.jpg",
+        "background_image": "shopify://shop_images/IMG_1349_2.jpg",
         "show_logo": false,
         "heading": "Contact Us",
-        "subheading": "Get in touch to book a pitch, organise an event, or ask a question.",
+        "subheading": "Get in touch to book a pitch, organise an event, or ask a question",
         "bg_color": "",
         "text_color": "",
         "card_color": ""
