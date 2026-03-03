@@ -29,7 +29,7 @@
           "settings": {
             "icon": "",
             "title": "Team Registration",
-            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others",
+            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others.",
             "detail": "5-8 players per team"
           }
         },
@@ -56,7 +56,7 @@
           "settings": {
             "icon": "",
             "title": "Professional Referees",
-            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct",
+            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
             "detail": "Qualified refs every game"
           }
         },
@@ -106,70 +106,70 @@
         "t1": {
           "type": "team_row",
           "settings": {
-            "team": "Spirit of Mawen",
-            "played": "3",
+            "team": "Big Sexy FC",
+            "played": "4",
             "wins": "3",
             "draws": "0",
-            "losses": "0",
-            "goals_for": "30",
-            "goals_against": "21",
-            "goal_diff": "+9",
+            "losses": "1",
+            "goals_for": "43",
+            "goals_against": "29",
+            "goal_diff": "+14",
             "points": "9"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
-            "team": "Big Sexy FC",
-            "played": "3",
-            "wins": "2",
+            "team": "Third Leg Strikers",
+            "played": "4",
+            "wins": "3",
             "draws": "0",
             "losses": "1",
             "goals_for": "31",
-            "goals_against": "21",
-            "goal_diff": "+10",
-            "points": "6"
+            "goals_against": "24",
+            "goal_diff": "+7",
+            "points": "9"
           }
         },
         "t3": {
           "type": "team_row",
           "settings": {
-            "team": "Third Leg Strikers",
-            "played": "3",
-            "wins": "2",
+            "team": "Spirit of Mawen",
+            "played": "4",
+            "wins": "3",
             "draws": "0",
             "losses": "1",
-            "goals_for": "21",
-            "goals_against": "17",
-            "goal_diff": "+4",
-            "points": "6"
+            "goals_for": "37",
+            "goals_against": "31",
+            "goal_diff": "+6",
+            "points": "9"
           }
         },
         "t4": {
           "type": "team_row",
           "settings": {
             "team": "Headstart",
-            "played": "3",
-            "wins": "1",
+            "played": "4",
+            "wins": "2",
             "draws": "0",
             "losses": "2",
-            "goals_for": "17",
-            "goals_against": "22",
-            "goal_diff": "-5",
-            "points": "3"
+            "goals_for": "24",
+            "goals_against": "26",
+            "goal_diff": "-2",
+            "points": "6"
           }
         },
         "t5": {
           "type": "team_row",
           "settings": {
             "team": "Screaming Schooners",
-            "played": "2",
+            "played": "4",
             "wins": "0",
             "draws": "0",
-            "losses": "2",
-            "goals_for": "19",
-            "goals_against": "26",
-            "goal_diff": "-7",
+            "losses": "4",
+            "goals_for": "27",
+            "goals_against": "38",
+            "goal_diff": "-11",
             "points": "0"
           }
         },
@@ -177,13 +177,13 @@
           "type": "team_row",
           "settings": {
             "team": "School Run United",
-            "played": "3",
+            "played": "4",
             "wins": "0",
             "draws": "0",
-            "losses": "3",
-            "goals_for": "16",
-            "goals_against": "27",
-            "goal_diff": "-11",
+            "losses": "4",
+            "goals_for": "20",
+            "goals_against": "34",
+            "goal_diff": "-14",
             "points": "0"
           }
         }
@@ -199,8 +199,8 @@
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League — 10 Week Season (Round 3 of 10)",
-        "updated_text": "Updated after Round 3 — 24 Feb 2026",
+        "subheading": "Rulz Competitive League — 10 Week Season (Round 4 of 10)",
+        "updated_text": "Updated after Round 4 — 3 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -209,28 +209,54 @@
     "fixtures": {
       "type": "fixtures",
       "blocks": {
-        "r4": {
+        "r5": {
           "type": "round",
           "settings": {
-            "round_title": "Round 4",
-            "round_date": "Thursday 26th February",
+            "round_title": "Round 5",
+            "round_date": "Thursday 6th March",
             "is_upcoming": true,
-            "game1_home": "Big Sexy FC",
-            "game1_away": "Screaming Schooners",
+            "game1_home": "Spirit of Mawen",
+            "game1_away": "School Run United",
             "game1_home_score": "0",
             "game1_away_score": "0",
             "game1_court": "Court 1",
             "game1_time": "6:30pm",
-            "game2_home": "School Run United",
-            "game2_away": "Headstart",
+            "game2_home": "Big Sexy FC",
+            "game2_away": "Third Leg Strikers",
             "game2_home_score": "0",
             "game2_away_score": "0",
             "game2_court": "Court 2",
             "game2_time": "6:30pm",
-            "game3_home": "Spirit of Mawen",
-            "game3_away": "Third Leg Strikers",
+            "game3_home": "Headstart",
+            "game3_away": "Screaming Schooners",
             "game3_home_score": "0",
             "game3_away_score": "0",
+            "game3_court": "Court 3",
+            "game3_time": "7:15pm"
+          }
+        },
+        "r4": {
+          "type": "round",
+          "settings": {
+            "round_title": "Round 4",
+            "round_date": "Thursday 27th February",
+            "is_upcoming": false,
+            "game1_home": "Big Sexy FC",
+            "game1_away": "Screaming Schooners",
+            "game1_home_score": "12",
+            "game1_away_score": "8",
+            "game1_court": "Court 1",
+            "game1_time": "6:30pm",
+            "game2_home": "School Run United",
+            "game2_away": "Headstart",
+            "game2_home_score": "4",
+            "game2_away_score": "7",
+            "game2_court": "Court 2",
+            "game2_time": "6:30pm",
+            "game3_home": "Spirit of Mawen",
+            "game3_away": "Third Leg Strikers",
+            "game3_home_score": "7",
+            "game3_away_score": "10",
             "game3_court": "Court 3",
             "game3_time": "7:15pm"
           }
@@ -315,6 +341,7 @@
         }
       },
       "block_order": [
+        "r5",
         "r4",
         "r3",
         "r2",
@@ -347,8 +374,8 @@
   "order": [
     "header",
     "compinfo",
-    "fixtures",
     "ladder",
+    "fixtures",
     "cta"
   ]
 }
