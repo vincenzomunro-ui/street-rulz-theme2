@@ -49,7 +49,7 @@
             "price": "$350",
             "subtitle": "2 hour",
             "badge": "MOST POPULAR",
-            "highlighted": true,
+            "highlighted": false,
             "include_1": "1.5 hours on a 5-a-side pitch + 30 minutes in the party area",
             "include_2": "Balls, bibs & prizes",
             "include_3": "Dedicated party host",
