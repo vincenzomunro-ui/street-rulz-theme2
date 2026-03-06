@@ -14,7 +14,7 @@
       "settings": {
         "show_logo": false,
         "heading": "Senior Leagues",
-        "subheading": "Competitive and social 5-a-side for adults \u2014 rolling 12-week seasons."
+        "subheading": "Competitive and social 5-a-side for adults — rolling 12-week seasons."
       }
     },
     "schedule": {
@@ -23,60 +23,60 @@
         "mon": {
           "type": "day_card",
           "settings": {
-            "icon": "\u26bd",
+            "icon": "⚽",
             "day": "Monday",
             "category": "Masters Men's 35+ & Women's Social",
             "age_groups": "Masters 35+ Div 1/2, Women's Social Div 1/2",
             "format": "5v5",
-            "time": "6:30pm \u2013 9:00pm",
+            "time": "6:30pm – 9:00pm",
             "price": "$99"
           }
         },
         "tue": {
           "type": "day_card",
           "settings": {
-            "icon": "\u26bd",
+            "icon": "⚽",
             "day": "Tuesday",
             "category": "Men's Social",
             "age_groups": "Division 2 & Division 3",
             "format": "5v5",
-            "time": "6:30pm \u2013 9:00pm",
+            "time": "6:30pm – 9:00pm",
             "price": "$99"
           }
         },
         "wed": {
           "type": "day_card",
           "settings": {
-            "icon": "\u26bd",
+            "icon": "⚽",
             "day": "Wednesday",
             "category": "Men's Social",
             "age_groups": "Division 1 & Division 2",
             "format": "5v5",
-            "time": "6:30pm \u2013 9:00pm",
+            "time": "6:30pm – 9:00pm",
             "price": "$99"
           }
         },
         "thu": {
           "type": "day_card",
           "settings": {
-            "icon": "\ud83c\udfc6",
+            "icon": "🏆",
             "day": "Thursday",
             "category": "Competitive League",
-            "age_groups": "Open \u2014 all skill levels",
+            "age_groups": "Open — all skill levels",
             "format": "5v5",
-            "time": "6:30pm \u2013 8:30pm",
+            "time": "6:30pm – 8:30pm",
             "price": "$99"
           }
         },
         "fri": {
           "type": "day_card",
           "settings": {
-            "icon": "\ud83c\udf89",
+            "icon": "🎉",
             "day": "Friday",
             "category": "Mixed Social League",
-            "age_groups": "Open \u2014 social, low barrier to entry",
+            "age_groups": "Open — social, low barrier to entry",
             "format": "5v5",
-            "time": "6:30pm \u2013 9:00pm",
+            "time": "6:30pm – 9:00pm",
             "price": "$95"
           }
         }
@@ -91,9 +91,10 @@
       "settings": {
         "label": "SCHEDULE",
         "heading": "Weekly Senior Nights",
-        "subheading": "Rolling 12-week seasons. $99 one-off bond to secure your spot, then $99 per week. Your bond covers the final game.",
+        "subheading": "Rolling 12-week seasons. $99 one-off bond to secure your spot, then $99 per week. Your bond covers the grand final game.",
         "note": "Season 1 starts Monday 20 April 2026. Friday Mixed: $95/week.",
         "bg_color": "#181a19",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -103,7 +104,7 @@
         "r1": {
           "type": "rule_card",
           "settings": {
-            "icon": "\u23f1\ufe0f",
+            "icon": "⏱️",
             "title": "Match Duration",
             "description": "20 minutes each way (40 minutes total). Games start on time."
           }
@@ -111,25 +112,25 @@
         "r2": {
           "type": "rule_card",
           "settings": {
-            "icon": "\ud83d\udd04",
+            "icon": "🔄",
             "title": "Substitutions",
-            "description": "Rolling substitutions allowed. Recommended squad: 6\u20138 players (max roster 9)."
+            "description": "Rolling substitutions allowed. Recommended squad: 6–8 players (max roster 9)."
           }
         },
         "r3": {
           "type": "rule_card",
           "settings": {
-            "icon": "\ud83c\udfdf\ufe0f",
+            "icon": "🏟️",
             "title": "Courts & Refs",
-            "description": "Courts 4\u20136 allocated for seniors. Qualified referees, match balls, bibs, and live score tracking provided."
+            "description": "Courts 4–6 allocated for seniors. Qualified referees, match balls, bibs, and live score tracking provided."
           }
         },
         "r4": {
           "type": "rule_card",
           "settings": {
-            "icon": "\ud83c\udf27\ufe0f",
+            "icon": "🌧️",
             "title": "Weather Policy",
-            "description": "RULZ is all-weather. We play rain or shine \u2014 only suspended for lightning."
+            "description": "RULZ is all-weather. We play rain or shine — only suspended for lightning."
           }
         }
       },
@@ -144,6 +145,7 @@
         "heading": "Match Rules & Format",
         "subheading": "Simple rules, fast football, no nonsense.",
         "bg_color": "#1e1e1e",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -175,14 +177,14 @@
           "type": "question",
           "settings": {
             "question": "How does pricing work?",
-            "answer": "$99 one-off game bond to secure your team's spot, then $99 per team per week at the desk. You don't pay for your final game \u2014 the bond covers it. No admin fees. Friday Mixed is $95/week."
+            "answer": "$99 one-off game bond to secure your team's spot, then $99 per team per week at the desk. You don't pay for your final game — the bond covers it. No admin fees. Friday Mixed is $95/week."
           }
         },
         "q5": {
           "type": "question",
           "settings": {
             "question": "What about Masters 35+?",
-            "answer": "Masters Men's 35+ runs Monday nights. Same pricing, same format \u2014 just for the over-35s who still want competitive football."
+            "answer": "Masters Men's 35+ runs Monday nights. Same pricing, same format — just for the over-35s who still want competitive football."
           }
         }
       },
@@ -196,17 +198,22 @@
       "settings": {
         "label": "FAQ",
         "heading": "Frequently Asked Questions",
-        "bg_color": "#1e1e1e"
+        "bg_color": "#1e1e1e",
+        "text_color": ""
       }
     },
     "cta": {
       "type": "cta-banner",
       "settings": {
         "heading": "Ready to Get on the Pitch?",
-        "subheading": "Season 1 starts Monday 20 April. $99 bond to lock in your team \u2014 then pay weekly.",
+        "subheading": "Season 1 starts Monday 20 April. $99 bond to lock in your team — then pay weekly.",
         "cta1_text": "Register Your Team",
+        "cta1_link": "",
         "cta2_text": "Contact Us",
-        "bg_color": "#181a19"
+        "cta2_link": "",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": ""
       }
     }
   },
