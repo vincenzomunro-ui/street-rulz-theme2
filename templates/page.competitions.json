@@ -24,44 +24,55 @@
         "service_card_VTJAFq": {
           "type": "service_card",
           "settings": {
-            "icon": "\u26bd",
+            "icon": "⚽",
             "title": "Junior & Youth League",
             "description": "5-a-side leagues for juniors and youth. 10-week seasons with graded divisions, qualified refs, and trophies.",
             "price": "Registrations Open",
             "link": "/pages/juniors"
           }
         },
+        "service_card_rWExTk": {
+          "type": "service_card",
+          "settings": {
+            "icon": "🎉",
+            "title": "RULZ Little Legends",
+            "description": "One-day junior 5-a-side carnival. Fast games, group stages, knockouts, medals, and MVP awards. From just $10!",
+            "price": "From $10/team",
+            "link": "/pages/junior-fiesta"
+          }
+        },
         "service_card_wLG8Wm": {
           "type": "service_card",
           "settings": {
-            "icon": "\ud83c\udfc6",
+            "icon": "🏆",
             "title": "Senior League",
             "description": "Thursday night 5-a-side for adults. Competitive and social divisions, 10-week seasons with prizes.",
             "price": "$100/team/week",
             "link": "/pages/seniors"
           }
         },
-        "service_card_rWExTk": {
+        "service_card_EJ8cLy": {
           "type": "service_card",
           "settings": {
-            "icon": "\ud83c\udf89",
-            "title": "RULZ Little Legends",
-            "description": "One-day junior 5-a-side carnival. Fast games, group stages, knockouts, medals, and MVP awards. From just $10!",
-            "price": "From $10/team",
-            "link": "/pages/junior-fiesta"
+            "icon": "⚽",
+            "title": "RULZ FIESTA",
+            "description": "RULZ FIESTA is back from out sold out event last time",
+            "price": "",
+            "link": ""
           }
         }
       },
       "block_order": [
         "service_card_VTJAFq",
+        "service_card_rWExTk",
         "service_card_wLG8Wm",
-        "service_card_rWExTk"
+        "service_card_EJ8cLy"
       ],
       "name": "Services Grid",
       "settings": {
         "label": "UPCOMING SEASONS",
         "heading": "Upcoming Leagues & Events",
-        "subheading": "See what's coming up \u2014 register your team early to lock in the best price."
+        "subheading": "See what's coming up — register your team early to lock in the best price."
       }
     },
     "compinfo": {
@@ -242,8 +253,8 @@
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 5 of 10)",
-        "updated_text": "Updated after Round 5 \u2014 6 Mar 2026",
+        "subheading": "Rulz Competitive League — 10 Week Season (Round 5 of 10)",
+        "updated_text": "Updated after Round 5 — 6 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
