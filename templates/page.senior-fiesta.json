@@ -1,0 +1,287 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "show_logo": false,
+        "heading": "RULZ Senior Fiesta",
+        "subheading": "One-day 5-a-side carnival for adults — fast games, trophies, and a proper day out."
+      }
+    },
+    "event": {
+      "type": "event-hero",
+      "blocks": {
+        "t1": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Early Bird",
+            "price": "$150",
+            "description": "First 12 teams to register",
+            "spots": "12 spots only",
+            "badge": "BEST VALUE",
+            "highlighted": true
+          }
+        },
+        "t2": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Standard",
+            "price": "$180",
+            "description": "Remaining spots after early bird sells out",
+            "spots": "Open until full",
+            "badge": "",
+            "highlighted": false
+          }
+        },
+        "t3": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Late Entry",
+            "price": "$200",
+            "description": "Final spots — last 48 hours only",
+            "spots": "Subject to availability",
+            "badge": "LAST CHANCE",
+            "highlighted": false
+          }
+        }
+      },
+      "block_order": ["t1", "t2", "t3"],
+      "settings": {
+        "label": "TOURNAMENT",
+        "heading": "RULZ Senior Fiesta 2026",
+        "subheading": "The Gold Coast's biggest adult 5-a-side carnival. Fast games, group stages, knockout rounds, trophies, BBQ, and cold ones.",
+        "event_date": "Saturday 7 June 2026",
+        "event_time": "9:00am – 4:00pm",
+        "event_ages": "18+ (Open, Masters 35+, Mixed)",
+        "event_teams": "48 Teams Max",
+        "cta_text": "Register Your Team",
+        "bg_color": "#181a19",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "info": {
+      "type": "comp-info",
+      "blocks": {
+        "h1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "🏟️",
+            "title": "7 Courts Running",
+            "description": "All 7 cages in action — group games running simultaneously across every court. Non-stop football from 9am."
+          }
+        },
+        "h2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "🏆",
+            "title": "Group Stage + Knockout",
+            "description": "Teams play 3–4 group games, then top teams advance to quarter-finals, semis, and the grand final."
+          }
+        },
+        "h3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "🥇",
+            "title": "Trophies & Awards",
+            "description": "Winners and runners-up trophies for each division. Golden Boot and MVP awards. Bragging rights included."
+          }
+        },
+        "h4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "🍔",
+            "title": "BBQ & Bar",
+            "description": "BBQ, coffee van, and licensed bar running all day. A proper carnival atmosphere — bring the family."
+          }
+        },
+        "h5": {
+          "type": "highlight",
+          "settings": {
+            "icon": "📸",
+            "title": "Photos & Highlights",
+            "description": "Professional photos and video highlights posted after the event. Tag your team and share the memories."
+          }
+        },
+        "h6": {
+          "type": "highlight",
+          "settings": {
+            "icon": "👨‍⚖️",
+            "title": "Qualified Referees",
+            "description": "Every game officiated by a qualified referee. Fair play, clear rules, and a safe competitive environment."
+          }
+        }
+      },
+      "block_order": ["h1", "h2", "h3", "h4", "h5", "h6"],
+      "settings": {
+        "label": "WHAT'S INCLUDED",
+        "heading": "Everything You Need to Know",
+        "subheading": "A full day of football, food, and fun.",
+        "bg_color": "#1e1e1e",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "rules": {
+      "type": "rules-info",
+      "blocks": {
+        "r1": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "⏱️",
+            "title": "Game Duration",
+            "description": "Group games: 14 minutes (7 each way). Knockout games: 16 minutes (8 each way). Grand final: 20 minutes."
+          }
+        },
+        "r2": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "👥",
+            "title": "Squad Size",
+            "description": "5v5 on the pitch. Maximum squad: 9 players. Rolling substitutions allowed."
+          }
+        },
+        "r3": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🔢",
+            "title": "Divisions",
+            "description": "Open Men's, Masters 35+, Mixed. Groups formed based on entries — minimum 6 teams per division."
+          }
+        },
+        "r4": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "📋",
+            "title": "Points System",
+            "description": "Win: 3 pts. Draw: 1 pt. Loss: 0 pts. Goal difference used as tiebreaker."
+          }
+        }
+      },
+      "block_order": ["r1", "r2", "r3", "r4"],
+      "settings": {
+        "label": "FORMAT",
+        "heading": "Tournament Format",
+        "subheading": "Fast, fair, and competitive — designed to maximise game time for every team.",
+        "bg_color": "#181a19",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "timeline": {
+      "type": "season-timeline",
+      "blocks": {
+        "m1": {
+          "type": "milestone",
+          "settings": {
+            "date": "Now",
+            "title": "Early Bird Registration Open",
+            "description": "First 12 teams per division get the early bird rate — $150 per team. Lock in your spot."
+          }
+        },
+        "m2": {
+          "type": "milestone",
+          "settings": {
+            "date": "19 May",
+            "title": "Standard Registration",
+            "description": "Early bird sold out? Standard rate is $180 per team. Still great value."
+          }
+        },
+        "m3": {
+          "type": "milestone",
+          "settings": {
+            "date": "5 June",
+            "title": "Late Entry (48hrs)",
+            "description": "Final spots at $200. Subject to availability — don't leave it this late."
+          }
+        },
+        "m4": {
+          "type": "milestone",
+          "settings": {
+            "date": "7 June",
+            "title": "Game Day!",
+            "description": "Gates open 8:30am. First whistle 9:00am. Grand finals approx 3:00pm. Presentations and drinks at 3:30pm."
+          }
+        }
+      },
+      "block_order": ["m1", "m2", "m3", "m4"],
+      "settings": {
+        "label": "KEY DATES",
+        "heading": "Tournament Timeline",
+        "subheading": "Mark these dates in your calendar.",
+        "bg_color": "#1e1e1e"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How many games will my team play?",
+            "answer": "Minimum 3–4 group games guaranteed. Teams that advance to knockouts play 5–6 games total."
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "What divisions are available?",
+            "answer": "Open Men's (all ages 18+), Masters 35+, and Mixed. We'll grade divisions based on entries to keep it competitive and fair."
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "What if it rains?",
+            "answer": "The tournament runs rain or shine. Only lightning causes postponement — in which case we'll reschedule or refund."
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Is there parking?",
+            "answer": "Yes — free parking available at the venue. Arrive early for the best spots."
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Can spectators come?",
+            "answer": "Absolutely — spectators are welcome and encouraged. There's seating around the courts, a BBQ, coffee van, and licensed bar on site."
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "settings": {
+        "label": "FAQ",
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#181a19"
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Lock In Your Team",
+        "subheading": "Early bird spots are limited to 12 teams per division. Don't miss the Gold Coast's biggest adult 5-a-side carnival.",
+        "cta1_text": "Register Now — $150",
+        "cta2_text": "Contact Us",
+        "bg_color": "#1e1e1e"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "event",
+    "info",
+    "rules",
+    "timeline",
+    "faq",
+    "cta"
+  ]
+}
