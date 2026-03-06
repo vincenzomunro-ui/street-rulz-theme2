@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "header": {
@@ -14,7 +5,7 @@
       "settings": {
         "show_logo": false,
         "heading": "Events at RULZ",
-        "subheading": "From one-day fiestas to school holiday clinics — there's always something happening at Street Rulz Football. Pick an event below to find out more and register.",
+        "subheading": "From one-day fiestas to school holiday clinics \u2014 there's always something happening at Street Rulz Football. Pick an event below to find out more and register.",
         "bg_color": "",
         "text_color": "",
         "card_color": ""
@@ -32,7 +23,7 @@
             "price": "From $10/player",
             "badge": "EARLY BIRD OPEN",
             "cta_text": "Register Now",
-            "link": "/pages/junior-fiesta"
+            "link": ""
           }
         },
         "senior_fiesta": {
@@ -44,7 +35,7 @@
             "price": "$30/head",
             "badge": "NEW",
             "cta_text": "Register Now",
-            "link": "/pages/senior-fiesta"
+            "link": ""
           }
         },
         "holiday_clinics": {
@@ -52,15 +43,19 @@
           "settings": {
             "title": "School Holiday Clinics",
             "date": "April & July School Holidays",
-            "description": "Fun-filled football clinics for kids aged 5–14 during the school holidays. Skills, games, and heaps of fun — no experience needed.",
+            "description": "Fun-filled football clinics for kids aged 5\u201314 during the school holidays. Skills, games, and heaps of fun \u2014 no experience needed.",
             "price": "From $55/child",
             "badge": "",
             "cta_text": "Book a Spot",
-            "link": "/pages/holiday-clinics"
+            "link": ""
           }
         }
       },
-      "block_order": ["junior_legends", "senior_fiesta", "holiday_clinics"],
+      "block_order": [
+        "junior_legends",
+        "senior_fiesta",
+        "holiday_clinics"
+      ],
       "settings": {
         "heading": "Upcoming Events",
         "subheading": "Check out what's coming up at Street Rulz Football. Click an event to find out more and register.",
@@ -70,5 +65,8 @@
       }
     }
   },
-  "order": ["header", "events"]
+  "order": [
+    "header",
+    "events"
+  ]
 }
