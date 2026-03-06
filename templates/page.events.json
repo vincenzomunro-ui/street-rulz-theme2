@@ -14,10 +14,7 @@
       "settings": {
         "show_logo": false,
         "heading": "Events at RULZ",
-        "subheading": "From one-day fiestas to school holiday clinics \u2014 there's always something happening at Street Rulz Football. Pick an event below to find out more and register.",
-        "bg_color": "",
-        "text_color": "",
-        "card_color": ""
+        "subheading": "From one-day fiestas to school holiday clinics — there's always something happening at Street Rulz Football. Pick an event below to find out more and register."
       }
     },
     "events_grid": {
@@ -26,19 +23,19 @@
         "junior_legends": {
           "type": "service_card",
           "settings": {
-            "icon": "\u26bd",
+            "icon": "⚽",
             "title": "Junior Little Legends",
-            "description": "Our biggest junior event of the season! Teams of 5 battle it out in a one-day round-robin tournament. Trophies, medals, and a BBQ for the whole family.\n\nSaturday 7 June 2026 \u2022 From $10/player",
+            "description": "Our biggest junior event of the season! Teams of 5 battle it out in a one-day round-robin tournament. Trophies, medals, and a BBQ for the whole family.\n\nSaturday 7 June 2026 • From $10/player",
             "price": "EARLY BIRD OPEN",
-            "link": ""
+            "link": "shopify://pages/rulz-little-legend"
           }
         },
         "senior_fiesta": {
           "type": "service_card",
           "settings": {
-            "icon": "\ud83c\udfc6",
+            "icon": "🏆",
             "title": "RULZ Senior Fiesta",
-            "description": "The ultimate one-day senior tournament. Open Men\u2019s, Masters 35+, and Mixed divisions. BBQ, licensed bar, trophies, and bragging rights.\n\nSaturday 7 June 2026 \u2022 $30/head",
+            "description": "The ultimate one-day senior tournament. Open Men’s, Masters 35+, and Mixed divisions. BBQ, licensed bar, trophies, and bragging rights.\n\nSaturday 7 June 2026 • $30/head",
             "price": "NEW",
             "link": ""
           }
@@ -46,9 +43,9 @@
         "holiday_clinics": {
           "type": "service_card",
           "settings": {
-            "icon": "\ud83c\udfdb\ufe0f",
+            "icon": "🏛️",
             "title": "School Holiday Clinics",
-            "description": "Fun-filled football clinics for kids aged 5\u201314 during the school holidays. Skills, games, and heaps of fun \u2014 no experience needed.\n\nApril & July School Holidays \u2022 From $55/child",
+            "description": "Fun-filled football clinics for kids aged 5–14 during the school holidays. Skills, games, and heaps of fun — no experience needed.\n\nApril & July School Holidays • From $55/child",
             "price": "",
             "link": ""
           }
@@ -62,10 +59,7 @@
       "settings": {
         "label": "WHAT'S ON",
         "heading": "Upcoming Events",
-        "subheading": "Click an event to find out more and register your team.",
-        "bg_color": "",
-        "text_color": "",
-        "card_color": ""
+        "subheading": "Click an event to find out more and register your team."
       }
     }
   },
