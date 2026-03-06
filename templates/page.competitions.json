@@ -18,6 +18,63 @@
         "subheading": "Rulz Competitive Leagues run 10-week seasons with prizes across Men's, Women's, and Juniors divisions"
       }
     },
+    "services_G9Ahz8": {
+      "type": "services",
+      "blocks": {
+        "service_card_VTJAFq": {
+          "type": "service_card",
+          "settings": {
+            "icon": "⚽",
+            "title": "Pitch Hire",
+            "description": "Book one of our 7 premium enclosed pitches. Perfect for casual games with mates.",
+            "price": "From $110/hr",
+            "link": "/pages/book-a-court"
+          }
+        },
+        "service_card_wLG8Wm": {
+          "type": "service_card",
+          "settings": {
+            "icon": "🏆",
+            "title": "Leagues",
+            "description": "Thursday night 5-a-side leagues. 10-week seasons with prizes.",
+            "price": "$100/team/week",
+            "link": "/pages/competitions"
+          }
+        },
+        "service_card_rWExTk": {
+          "type": "service_card",
+          "settings": {
+            "icon": "🎂",
+            "title": "Birthday Parties",
+            "description": "The ultimate football birthday experience for kids and adults.",
+            "price": "From $350",
+            "link": "/pages/birthday-parties"
+          }
+        },
+        "service_card_3g9fAa": {
+          "type": "service_card",
+          "settings": {
+            "icon": "🎓",
+            "title": "Rulz Academy",
+            "description": "Monday junior coaching sessions. Develop skills in a fun cage environment.",
+            "price": "$15/session",
+            "link": "/pages/academy"
+          }
+        }
+      },
+      "block_order": [
+        "service_card_VTJAFq",
+        "service_card_wLG8Wm",
+        "service_card_rWExTk",
+        "service_card_3g9fAa"
+      ],
+      "name": "Services Grid",
+      "settings": {
+        "label": "EVERYTHING UNDER ONE ROOF",
+        "heading": "Upcoming Leagues",
+        "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered."
+      }
+    },
     "compinfo": {
       "type": "comp-info",
       "blocks": {
@@ -370,6 +427,7 @@
   },
   "order": [
     "header",
+    "services_G9Ahz8",
     "compinfo",
     "ladder",
     "fixtures",
