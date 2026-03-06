@@ -1,0 +1,24 @@
+Available pages:
+- about-us
+- academy
+- birthday-parties
+- book-a-court
+- competitions (the current Leagues page)
+- contact
+- events
+- holiday-clinics
+- junior-fiesta (Little Legends)
+- juniors (Junior & Youth league)
+- senior-fiesta
+- seniors (Senior league)
+
+Service Grid on competitions page currently has:
+- Pitch Hire -> /pages/book-a-court
+- Leagues -> /pages/competitions
+- Birthday Parties -> /pages/birthday-parties
+- Rulz Academy -> /pages/academy
+
+Needs to change to upcoming leagues:
+1. Junior & Youth League -> /pages/juniors
+2. Senior League -> /pages/seniors
+3. Fiestas (Little Legends) -> /pages/junior-fiesta

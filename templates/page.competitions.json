@@ -24,55 +24,44 @@
         "service_card_VTJAFq": {
           "type": "service_card",
           "settings": {
-            "icon": "⚽",
-            "title": "Pitch Hire",
-            "description": "Book one of our 7 premium enclosed pitches. Perfect for casual games with mates.",
-            "price": "From $110/hr",
-            "link": "/pages/book-a-court"
+            "icon": "\u26bd",
+            "title": "Junior & Youth League",
+            "description": "5-a-side leagues for juniors and youth. 10-week seasons with graded divisions, qualified refs, and trophies.",
+            "price": "Registrations Open",
+            "link": "/pages/juniors"
           }
         },
         "service_card_wLG8Wm": {
           "type": "service_card",
           "settings": {
-            "icon": "🏆",
-            "title": "Leagues",
-            "description": "Thursday night 5-a-side leagues. 10-week seasons with prizes.",
+            "icon": "\ud83c\udfc6",
+            "title": "Senior League",
+            "description": "Thursday night 5-a-side for adults. Competitive and social divisions, 10-week seasons with prizes.",
             "price": "$100/team/week",
-            "link": "/pages/competitions"
+            "link": "/pages/seniors"
           }
         },
         "service_card_rWExTk": {
           "type": "service_card",
           "settings": {
-            "icon": "🎂",
-            "title": "Birthday Parties",
-            "description": "The ultimate football birthday experience for kids and adults.",
-            "price": "From $350",
-            "link": "/pages/birthday-parties"
-          }
-        },
-        "service_card_3g9fAa": {
-          "type": "service_card",
-          "settings": {
-            "icon": "🎓",
-            "title": "Rulz Academy",
-            "description": "Monday junior coaching sessions. Develop skills in a fun cage environment.",
-            "price": "$15/session",
-            "link": "/pages/academy"
+            "icon": "\ud83c\udf89",
+            "title": "RULZ Little Legends",
+            "description": "One-day junior 5-a-side carnival. Fast games, group stages, knockouts, medals, and MVP awards. From just $10!",
+            "price": "From $10/team",
+            "link": "/pages/junior-fiesta"
           }
         }
       },
       "block_order": [
         "service_card_VTJAFq",
         "service_card_wLG8Wm",
-        "service_card_rWExTk",
-        "service_card_3g9fAa"
+        "service_card_rWExTk"
       ],
       "name": "Services Grid",
       "settings": {
-        "label": "EVERYTHING UNDER ONE ROOF",
-        "heading": "Upcoming Leagues",
-        "subheading": "From casual kick-abouts to competitive leagues — we've got every type of player covered."
+        "label": "UPCOMING SEASONS",
+        "heading": "Upcoming Leagues & Events",
+        "subheading": "See what's coming up \u2014 register your team early to lock in the best price."
       }
     },
     "compinfo": {

@@ -31,6 +31,17 @@
 - [x] Add Child's Name field to product.fiesta.json (Junior Fiesta — parent registers child)
 - [x] Add Child's Date of Birth field to product.fiesta.json (age verification)
 - [x] Update Fiesta product template labels to be parent-friendly for junior events
-- [ ] Add per-tier Book Now button + product link to event-hero section
-- [ ] Update Junior Fiesta template tiers with product link placeholders
-- [ ] Remove single "Register Your Team" CTA from bottom of event-hero
+- [x] Add per-tier Book Now button + product link to event-hero section
+- [x] Update Junior Fiesta template tiers with product link placeholders
+- [x] Remove single "Register Your Team" CTA from bottom of event-hero
+- [ ] Update Services Grid on Competitions page to show upcoming leagues instead of generic services
+- [ ] Add Junior & Youth League card with link
+- [ ] Add Senior League card with link
+- [ ] Add Fiestas card with link to Junior Fiesta/Little Legends page
+- [ ] Push updated competitions template to GitHub
+- [ ] Resolve git merge conflict on competitions page
+- [ ] Update Round 5 scores in fixtures section
+- [ ] Recalculate ladder standings after Round 5
+- [ ] Generate fair Round 6 schedule (12 March)
+- [ ] Update leaderboard on home page
+- [ ] Update leaderboard on competitions/leagues page
