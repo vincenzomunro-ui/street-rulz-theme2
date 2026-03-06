@@ -215,27 +215,27 @@
           "type": "team_row",
           "settings": {
             "team": "Big Sexy FC",
-            "played": "4",
-            "wins": "3",
+            "played": "5",
+            "wins": "4",
             "draws": "0",
             "losses": "1",
-            "goals_for": "43",
-            "goals_against": "29",
-            "goal_diff": "+14",
-            "points": "9"
+            "goals_for": "51",
+            "goals_against": "36",
+            "goal_diff": "+15",
+            "points": "12"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
             "team": "Third Leg Strikers",
-            "played": "4",
+            "played": "5",
             "wins": "3",
             "draws": "0",
-            "losses": "1",
-            "goals_for": "31",
-            "goals_against": "24",
-            "goal_diff": "+7",
+            "losses": "2",
+            "goals_for": "38",
+            "goals_against": "32",
+            "goal_diff": "+6",
             "points": "9"
           }
         },
@@ -243,13 +243,13 @@
           "type": "team_row",
           "settings": {
             "team": "Spirit of Mawen",
-            "played": "4",
+            "played": "5",
             "wins": "3",
             "draws": "0",
-            "losses": "1",
-            "goals_for": "37",
-            "goals_against": "31",
-            "goal_diff": "+6",
+            "losses": "2",
+            "goals_for": "46",
+            "goals_against": "44",
+            "goal_diff": "+2",
             "points": "9"
           }
         },
@@ -257,41 +257,41 @@
           "type": "team_row",
           "settings": {
             "team": "Headstart",
-            "played": "4",
-            "wins": "2",
+            "played": "5",
+            "wins": "3",
             "draws": "0",
             "losses": "2",
-            "goals_for": "24",
-            "goals_against": "26",
-            "goal_diff": "-2",
-            "points": "6"
+            "goals_for": "34",
+            "goals_against": "35",
+            "goal_diff": "-1",
+            "points": "9"
           }
         },
         "t5": {
           "type": "team_row",
           "settings": {
-            "team": "Screaming Schooners",
-            "played": "4",
-            "wins": "0",
+            "team": "School Run United",
+            "played": "5",
+            "wins": "1",
             "draws": "0",
             "losses": "4",
-            "goals_for": "27",
-            "goals_against": "38",
-            "goal_diff": "-11",
-            "points": "0"
+            "goals_for": "33",
+            "goals_against": "43",
+            "goal_diff": "-10",
+            "points": "3"
           }
         },
         "t6": {
           "type": "team_row",
           "settings": {
-            "team": "School Run United",
-            "played": "4",
+            "team": "Screaming Schooners",
+            "played": "5",
             "wins": "0",
             "draws": "0",
-            "losses": "4",
-            "goals_for": "20",
-            "goals_against": "34",
-            "goal_diff": "-14",
+            "losses": "5",
+            "goals_for": "36",
+            "goals_against": "48",
+            "goal_diff": "-12",
             "points": "0"
           }
         }
@@ -307,8 +307,8 @@
       "settings": {
         "label": "Leagues",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League — 10 Week Season (Round 4 of 10)",
-        "updated_text": "Updated after Round 4 — 3 Mar 2026",
+        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 5 of 10)",
+        "updated_text": "Updated after Round 5 \u2014 6 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"

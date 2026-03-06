@@ -150,27 +150,27 @@
           "type": "team_row",
           "settings": {
             "team": "Big Sexy FC",
-            "played": "4",
-            "wins": "3",
+            "played": "5",
+            "wins": "4",
             "draws": "0",
             "losses": "1",
-            "goals_for": "43",
-            "goals_against": "29",
-            "goal_diff": "+14",
-            "points": "9"
+            "goals_for": "51",
+            "goals_against": "36",
+            "goal_diff": "+15",
+            "points": "12"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
             "team": "Third Leg Strikers",
-            "played": "4",
+            "played": "5",
             "wins": "3",
             "draws": "0",
-            "losses": "1",
-            "goals_for": "31",
-            "goals_against": "24",
-            "goal_diff": "+7",
+            "losses": "2",
+            "goals_for": "38",
+            "goals_against": "32",
+            "goal_diff": "+6",
             "points": "9"
           }
         },
@@ -178,13 +178,13 @@
           "type": "team_row",
           "settings": {
             "team": "Spirit of Mawen",
-            "played": "4",
+            "played": "5",
             "wins": "3",
             "draws": "0",
-            "losses": "1",
-            "goals_for": "37",
-            "goals_against": "31",
-            "goal_diff": "+6",
+            "losses": "2",
+            "goals_for": "46",
+            "goals_against": "44",
+            "goal_diff": "+2",
             "points": "9"
           }
         },
@@ -192,41 +192,41 @@
           "type": "team_row",
           "settings": {
             "team": "Headstart",
-            "played": "4",
-            "wins": "2",
+            "played": "5",
+            "wins": "3",
             "draws": "0",
             "losses": "2",
-            "goals_for": "24",
-            "goals_against": "26",
-            "goal_diff": "-2",
-            "points": "6"
+            "goals_for": "34",
+            "goals_against": "35",
+            "goal_diff": "-1",
+            "points": "9"
           }
         },
         "t5": {
           "type": "team_row",
           "settings": {
-            "team": "Screaming Schooners",
-            "played": "4",
-            "wins": "0",
+            "team": "School Run United",
+            "played": "5",
+            "wins": "1",
             "draws": "0",
             "losses": "4",
-            "goals_for": "27",
-            "goals_against": "38",
-            "goal_diff": "-11",
-            "points": "0"
+            "goals_for": "33",
+            "goals_against": "43",
+            "goal_diff": "-10",
+            "points": "3"
           }
         },
         "t6": {
           "type": "team_row",
           "settings": {
-            "team": "School Run United",
-            "played": "4",
+            "team": "Screaming Schooners",
+            "played": "5",
             "wins": "0",
             "draws": "0",
-            "losses": "4",
-            "goals_for": "20",
-            "goals_against": "34",
-            "goal_diff": "-14",
+            "losses": "5",
+            "goals_for": "36",
+            "goals_against": "48",
+            "goal_diff": "-12",
             "points": "0"
           }
         }
@@ -242,8 +242,8 @@
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League — 10 Week Season (Round 4 of 10)",
-        "updated_text": "Updated after Round 4 — 3 Mar 2026",
+        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 5 of 10)",
+        "updated_text": "Updated after Round 5 \u2014 6 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -252,28 +252,54 @@
     "fixtures": {
       "type": "fixtures",
       "blocks": {
+        "r6": {
+          "type": "round",
+          "settings": {
+            "round_title": "Round 6",
+            "round_date": "Thursday 12th March",
+            "is_upcoming": true,
+            "game1_home": "Headstart",
+            "game1_away": "Spirit of Mawen",
+            "game1_home_score": "0",
+            "game1_away_score": "0",
+            "game1_court": "Court 1",
+            "game1_time": "6:30pm",
+            "game2_home": "School Run United",
+            "game2_away": "Big Sexy FC",
+            "game2_home_score": "0",
+            "game2_away_score": "0",
+            "game2_court": "Court 2",
+            "game2_time": "6:30pm",
+            "game3_home": "Third Leg Strikers",
+            "game3_away": "Screaming Schooners",
+            "game3_home_score": "0",
+            "game3_away_score": "0",
+            "game3_court": "Court 3",
+            "game3_time": "7:15pm"
+          }
+        },
         "r5": {
           "type": "round",
           "settings": {
             "round_title": "Round 5",
             "round_date": "Thursday 5th March",
-            "is_upcoming": true,
+            "is_upcoming": false,
             "game1_home": "Headstart",
             "game1_away": "Screaming Schooners",
-            "game1_home_score": "0",
-            "game1_away_score": "0",
+            "game1_home_score": "10",
+            "game1_away_score": "9",
             "game1_court": "Court 1",
             "game1_time": "6:30pm",
             "game2_home": "Big Sexy FC",
             "game2_away": "Third Leg Strikers",
-            "game2_home_score": "0",
-            "game2_away_score": "0",
+            "game2_home_score": "8",
+            "game2_away_score": "7",
             "game2_court": "Court 2",
-            "game2_time": "7:00pm",
+            "game2_time": "6:30pm",
             "game3_home": "Spirit of Mawen",
             "game3_away": "School Run United",
-            "game3_home_score": "0",
-            "game3_away_score": "0",
+            "game3_home_score": "9",
+            "game3_away_score": "13",
             "game3_court": "Court 3",
             "game3_time": "7:15pm"
           }
@@ -384,6 +410,7 @@
         }
       },
       "block_order": [
+        "r6",
         "r5",
         "r4",
         "r3",

@@ -39,9 +39,9 @@
 - [ ] Add Senior League card with link
 - [ ] Add Fiestas card with link to Junior Fiesta/Little Legends page
 - [ ] Push updated competitions template to GitHub
-- [ ] Resolve git merge conflict on competitions page
-- [ ] Update Round 5 scores in fixtures section
-- [ ] Recalculate ladder standings after Round 5
-- [ ] Generate fair Round 6 schedule (12 March)
-- [ ] Update leaderboard on home page
-- [ ] Update leaderboard on competitions/leagues page
+- [x] Resolve git merge conflict on competitions page
+- [x] Update Round 5 scores in fixtures section
+- [x] Recalculate ladder standings after Round 5
+- [x] Generate fair Round 6 schedule (12 March)
+- [x] Update leaderboard on home page
+- [x] Update leaderboard on competitions/leagues page
