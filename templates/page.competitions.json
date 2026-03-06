@@ -55,10 +55,10 @@
           "type": "service_card",
           "settings": {
             "icon": "⚽",
-            "title": "RULZ FIESTA",
-            "description": "RULZ FIESTA is back from out sold out event last time",
-            "price": "",
-            "link": ""
+            "title": "RULZ Senior Fiesta",
+            "description": "The ultimate one-day senior 5-a-side tournament. Open Men's, Masters 35+, and Mixed divisions. BBQ, licensed bar, trophies, and bragging rights. Back after our sold-out event!",
+            "price": "$30/head",
+            "link": "/pages/senior-fiesta"
           }
         }
       },

@@ -45,3 +45,9 @@
 - [x] Generate fair Round 6 schedule (12 March)
 - [x] Update leaderboard on home page
 - [x] Update leaderboard on competitions/leagues page
+- [x] Pull latest Shopify changes from GitHub
+- [x] Review all service grids across all pages for filler/placeholder content
+- [x] Remove Academy references from service grids and navigation
+- [x] Update service grid descriptions, pricing, and links for current offerings
+- [x] Streamline website content — remove outdated references, fix missing info
+- [ ] Push updated theme to GitHub

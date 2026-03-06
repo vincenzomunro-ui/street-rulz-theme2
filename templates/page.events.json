@@ -26,9 +26,9 @@
           "settings": {
             "icon": "⚽",
             "title": "Junior Little Legends",
-            "description": "Our biggest junior event of the season! Teams of 5 battle it out in a one-day round-robin tournament. Trophies, medals, and a BBQ for the whole family.\n\nSaturday 7 June 2026 • From $10/team early bird specical",
+            "description": "Our biggest junior event of the season! Teams of 5 battle it out in a one-day round-robin tournament. Trophies, medals, and a BBQ for the whole family.\n\nSaturday 7 June 2026 • From $10/team early bird special",
             "price": "EARLY BIRD OPEN",
-            "link": "shopify://pages/rulz-little-legend"
+            "link": "/pages/junior-fiesta"
           }
         },
         "senior_fiesta": {
@@ -38,7 +38,7 @@
             "title": "RULZ Senior Fiesta",
             "description": "The ultimate one-day senior tournament. Open Men’s, Masters 35+, and Mixed divisions. BBQ, licensed bar, trophies, and bragging rights.\n\nSaturday 7 June 2026 •",
             "price": "NEW $30/head",
-            "link": "shopify://pages/senior-fiesta"
+            "link": "/pages/senior-fiesta"
           }
         },
         "holiday_clinics": {
@@ -48,7 +48,7 @@
             "title": "School Holiday Clinics",
             "description": "Fun-filled football clinics for kids aged 5–14 during the school holidays. Skills, games, and heaps of fun — no experience needed.\n\nApril & July School Holidays •",
             "price": "From $55/child",
-            "link": "shopify://pages/hoilday-program"
+            "link": "/pages/holiday-program"
           }
         }
       },

@@ -1,0 +1,33 @@
+WEBSITE AUDIT - Service Grids, Academy Refs, Filler Content
+============================================================
+
+FILES WITH SERVICE GRIDS (templates):
+- index.json (home page)
+- page.competitions.json (leagues page)
+- page.events.json (events page)
+- page.home.json (alt home?)
+- page.parties.json (parties page)
+
+ACADEMY REFERENCES TO REMOVE/UPDATE:
+1. templates/index.json - service card "Rulz Academy" in home page service grid
+2. templates/page.events.json - "Monday Junior Academy" in whats-on section
+3. sections/services.liquid - default "Rulz Academy" card in schema defaults
+4. sections/whats-on.liquid - default "Monday Junior Academy" in schema defaults
+5. sections/hero.liquid:88 - default subheading mentions "train at the academy"
+6. sections/contact-form.liquid:112 - Academy option in contact form dropdown
+7. layout/theme.liquid:84 - Academy link in navigation
+8. layout/theme.liquid:7 - meta description mentions "enrol in the academy"
+9. layout/theme.liquid:127-128 - Academy widget script
+
+PAGES TO REVIEW SERVICE GRIDS:
+- Home (index.json) - currently has Pitch Hire, Leagues, Birthday Parties, Rulz Academy
+- Competitions (page.competitions.json) - updated to upcoming leagues
+- Events (page.events.json) - has whats-on section
+- Parties (page.parties.json) - has service grid
+
+CURRENT OFFERINGS (replace Academy with):
+- Pitch Hire
+- Leagues (Senior + Junior)
+- Birthday Parties
+- Fiestas / Little Legends events
+- Holiday Clinics (seasonal)
