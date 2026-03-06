@@ -15,10 +15,7 @@
         "background_image": "shopify://shop_images/IMG_1349.jpg",
         "show_logo": false,
         "heading": "LEAGUES",
-        "subheading": "Rulz Competitive Leagues run 10-week seasons with prizes across Men's, Women's, and Juniors divisions",
-        "bg_color": "",
-        "text_color": "",
-        "card_color": ""
+        "subheading": "Rulz Competitive Leagues run 10-week seasons with prizes across Men's, Women's, and Juniors divisions"
       }
     },
     "compinfo": {
@@ -213,7 +210,7 @@
           "type": "round",
           "settings": {
             "round_title": "Round 5",
-            "round_date": "Thursday 6th March",
+            "round_date": "Thursday 5th March",
             "is_upcoming": true,
             "game1_home": "Headstart",
             "game1_away": "Screaming Schooners",
@@ -239,7 +236,7 @@
           "type": "round",
           "settings": {
             "round_title": "Round 4",
-            "round_date": "Thursday 27th February",
+            "round_date": "Thursday 26th February",
             "is_upcoming": false,
             "game1_home": "Big Sexy FC",
             "game1_away": "Screaming Schooners",
