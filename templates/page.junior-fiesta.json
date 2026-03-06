@@ -12,6 +12,7 @@
     "header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/IMG_1350.jpg",
         "show_logo": false,
         "heading": "RULZ Junior Fiesta",
         "subheading": "One-day 5-a-side carnival — fast games, medals, and non-stop football."
@@ -120,7 +121,7 @@
           "settings": {
             "icon": "🥇",
             "title": "Medals & Trophies",
-            "description": "Every player receives a participation medal. Winners and runners-up get trophies. Golden Boot and MVP awards.",
+            "description": "Winners and runners-up get trophies. Golden Boot and MVP awards.",
             "detail": ""
           }
         },
