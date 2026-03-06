@@ -12,6 +12,7 @@
     "header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
         "show_logo": false,
         "heading": "Junior Leagues",
         "subheading": "Structured 5-a-side competition for boys and girls aged U8 – U13."
@@ -57,13 +58,18 @@
           }
         }
       },
-      "block_order": ["mon", "tue", "wed"],
+      "block_order": [
+        "mon",
+        "tue",
+        "wed"
+      ],
       "settings": {
         "label": "SCHEDULE",
         "heading": "Weekly Junior League Nights",
         "subheading": "10-week seasons with graded divisions. $85 one-off bond to secure your spot, then $85 per week. Your bond covers the final game.",
         "note": "Season 1: Boys Monday 20 April, Girls Tuesday 21 April, Youth Wednesday 23 April 2026. Finals week: Monday 22 June.",
         "bg_color": "#181a19",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -119,12 +125,20 @@
           }
         }
       },
-      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6"],
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ],
       "settings": {
         "label": "RULES",
         "heading": "Match Rules & Format",
         "subheading": "Everything parents and coaches need to know.",
         "bg_color": "#1e1e1e",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -153,12 +167,17 @@
           }
         }
       },
-      "block_order": ["s1", "s2", "s3"],
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Getting Started is Easy",
         "subheading": "Three simple steps to get your team on the pitch.",
         "bg_color": "#181a19",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -208,11 +227,19 @@
           }
         }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5", "q6"],
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
       "settings": {
         "label": "FAQ",
         "heading": "Frequently Asked Questions",
-        "bg_color": "#1e1e1e"
+        "bg_color": "#1e1e1e",
+        "text_color": ""
       }
     },
     "cta": {
@@ -221,8 +248,12 @@
         "heading": "Ready to Register Your Team?",
         "subheading": "Season 1 starts week of 20 April. Boys Monday, Girls Tuesday, Youth Wednesday. Limited spots per age group — get in early.",
         "cta1_text": "Register Now",
+        "cta1_link": "",
         "cta2_text": "Contact Us",
-        "bg_color": "#181a19"
+        "cta2_link": "",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": ""
       }
     }
   },
