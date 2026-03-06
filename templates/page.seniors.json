@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "show_logo": false,
+        "heading": "Senior Leagues",
+        "subheading": "Competitive and social 5-a-side for adults — rolling 12-week seasons."
+      }
+    },
+    "schedule": {
+      "type": "league-schedule",
+      "blocks": {
+        "mon": {
+          "type": "day_card",
+          "settings": {
+            "icon": "⚽",
+            "day": "Monday",
+            "category": "Men's Open",
+            "age_groups": "Division 1 & Division 2",
+            "format": "5v5",
+            "time": "6:30pm – 9:00pm",
+            "price": "$100"
+          }
+        },
+        "tue": {
+          "type": "day_card",
+          "settings": {
+            "icon": "⚽",
+            "day": "Tuesday",
+            "category": "Men's Open",
+            "age_groups": "Division 1 & Division 2",
+            "format": "5v5",
+            "time": "6:30pm – 9:00pm",
+            "price": "$100"
+          }
+        },
+        "wed": {
+          "type": "day_card",
+          "settings": {
+            "icon": "⚽",
+            "day": "Wednesday",
+            "category": "Social Seniors",
+            "age_groups": "Men's & Women's Social",
+            "format": "5v5",
+            "time": "6:00pm – 9:00pm",
+            "price": "$10 per head"
+          }
+        },
+        "thu": {
+          "type": "day_card",
+          "settings": {
+            "icon": "🏆",
+            "day": "Thursday",
+            "category": "Competitive League",
+            "age_groups": "Open — all skill levels",
+            "format": "5v5",
+            "time": "6:30pm – 8:30pm",
+            "price": "$100"
+          }
+        },
+        "fri": {
+          "type": "day_card",
+          "settings": {
+            "icon": "🎉",
+            "day": "Friday (Optional)",
+            "category": "Mixed Social League",
+            "age_groups": "Open — social, low barrier to entry",
+            "format": "5v5",
+            "time": "6:30pm – 9:00pm",
+            "price": "TBC"
+          }
+        }
+      },
+      "block_order": ["mon", "tue", "wed", "thu", "fri"],
+      "settings": {
+        "label": "SCHEDULE",
+        "heading": "Weekly Senior Nights",
+        "subheading": "Rolling 12-week seasons. No registration fee — pay per week.",
+        "note": "Season 1 starts Monday 30 March 2026. Social Wednesdays: $10 per head, 6–9pm.",
+        "bg_color": "#181a19",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "rules": {
+      "type": "rules-info",
+      "blocks": {
+        "r1": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "⏱️",
+            "title": "Match Duration",
+            "description": "20 minutes each way (40 minutes total). Games start on time."
+          }
+        },
+        "r2": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🔄",
+            "title": "Substitutions",
+            "description": "Rolling substitutions allowed. Recommended squad: 6–8 players (max roster 9)."
+          }
+        },
+        "r3": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🏟️",
+            "title": "Courts & Refs",
+            "description": "Courts 4–6 allocated for seniors. Qualified referees, match balls, bibs, and live score tracking provided."
+          }
+        },
+        "r4": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🌧️",
+            "title": "Weather Policy",
+            "description": "RULZ is all-weather. We play rain or shine — only suspended for lightning."
+          }
+        }
+      },
+      "block_order": ["r1", "r2", "r3", "r4"],
+      "settings": {
+        "label": "RULES",
+        "heading": "Match Rules & Format",
+        "subheading": "Simple rules, fast football, no nonsense.",
+        "bg_color": "#1e1e1e",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "What's the difference between competitive and social?",
+            "answer": "Competitive leagues run a 12-week season with a ladder, finals, and trophies. Social Wednesdays are casual — $10 per head, just turn up and play."
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I join as an individual?",
+            "answer": "Social Wednesdays welcome individuals — we'll sort you into teams on the night. For competitive leagues, you need to register as a team."
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "What do I need to bring?",
+            "answer": "Indoor boots or trainers, shin pads, and a water bottle. We provide everything else."
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a registration fee?",
+            "answer": "No registration fee for leagues — it's $100 per team per night. Social Wednesdays are $10 per person."
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4"],
+      "settings": {
+        "label": "FAQ",
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#1e1e1e"
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Ready to Get on the Pitch?",
+        "subheading": "Competitive season starts 30 March. Social Wednesdays running now — $10 per head.",
+        "cta1_text": "Register Your Team",
+        "cta2_text": "Contact Us",
+        "bg_color": "#181a19"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "schedule",
+    "rules",
+    "faq",
+    "cta"
+  ]
+}

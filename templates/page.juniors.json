@@ -1,0 +1,237 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "show_logo": false,
+        "heading": "Junior Leagues",
+        "subheading": "Structured 5-a-side competition for boys and girls aged U8 – U13."
+      }
+    },
+    "schedule": {
+      "type": "league-schedule",
+      "blocks": {
+        "mon": {
+          "type": "day_card",
+          "settings": {
+            "icon": "⚽",
+            "day": "Monday",
+            "category": "Boys Juniors",
+            "age_groups": "U8 (if numbers), U9 (6v6 unisex), U10, U11, U12, U13",
+            "format": "5v5 (U10+) / 6v6 (U8–U9)",
+            "time": "4:45pm – 7:45pm",
+            "price": "$85"
+          }
+        },
+        "tue": {
+          "type": "day_card",
+          "settings": {
+            "icon": "⚽",
+            "day": "Tuesday",
+            "category": "Girls Juniors",
+            "age_groups": "U8, U9 (6v6), U10, U11, U12, U13",
+            "format": "5v5 (U10+) / 6v6 (U8–U9)",
+            "time": "4:45pm – 7:45pm",
+            "price": "$85"
+          }
+        },
+        "wed": {
+          "type": "day_card",
+          "settings": {
+            "icon": "⚽",
+            "day": "Wednesday",
+            "category": "Youth",
+            "age_groups": "U14, U15, U17",
+            "format": "5v5",
+            "time": "4:45pm – 7:45pm",
+            "price": "$85"
+          }
+        }
+      },
+      "block_order": ["mon", "tue", "wed"],
+      "settings": {
+        "label": "SCHEDULE",
+        "heading": "Weekly Junior League Nights",
+        "subheading": "10-week seasons with graded divisions. No registration fee — pay per week.",
+        "note": "Season 1 starts Monday 20 April 2026. Finals week: Monday 22 June.",
+        "bg_color": "#181a19",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "rules": {
+      "type": "rules-info",
+      "blocks": {
+        "r1": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "⏱️",
+            "title": "Match Duration",
+            "description": "Juniors: 18 minutes each way (36 minutes total). Youth: 20 minutes each way (40 minutes total)."
+          }
+        },
+        "r2": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🔄",
+            "title": "Substitutions",
+            "description": "Rolling substitutions allowed. Recommended: 1 sub, maximum 3. Squad size: 6–8 players (max roster 9)."
+          }
+        },
+        "r3": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🏟️",
+            "title": "Courts & Refs",
+            "description": "Courts 1–3 allocated for juniors. RULZ provides qualified referees, match balls, bibs, and score tracking."
+          }
+        },
+        "r4": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "⚡",
+            "title": "Warm Up & Arrival",
+            "description": "Teams arrive 10–15 minutes early. 5-minute warm-up before kickoff. Games start on time — no exceptions."
+          }
+        },
+        "r5": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🌧️",
+            "title": "Weather Policy",
+            "description": "RULZ is all-weather — we play rain or shine. Games only suspended for lightning."
+          }
+        },
+        "r6": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "📋",
+            "title": "Age Eligibility",
+            "description": "Age group is based on year of birth. Captain confirms on registration. Team changes allowed before registration deadline."
+          }
+        }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6"],
+      "settings": {
+        "label": "RULES",
+        "heading": "Match Rules & Format",
+        "subheading": "Everything parents and coaches need to know.",
+        "bg_color": "#1e1e1e",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "howit": {
+      "type": "how-it-works",
+      "blocks": {
+        "s1": {
+          "type": "step",
+          "settings": {
+            "title": "Register Your Team",
+            "description": "Sign up online or at the venue. Provide team name, captain contact, player names, and emergency details."
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "title": "Turn Up & Play",
+            "description": "Arrive 10–15 minutes early. We provide refs, balls, bibs, and score tracking. Just bring your boots and shin pads."
+          }
+        },
+        "s3": {
+          "type": "step",
+          "settings": {
+            "title": "Climb the Ladder",
+            "description": "Results updated weekly on our website. Top teams qualify for finals week with trophies and medals."
+          }
+        }
+      },
+      "block_order": ["s1", "s2", "s3"],
+      "settings": {
+        "label": "HOW IT WORKS",
+        "heading": "Getting Started is Easy",
+        "subheading": "Three simple steps to get your team on the pitch.",
+        "bg_color": "#181a19",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "What do my kids need to bring?",
+            "answer": "Indoor boots or trainers, shin pads, water bottle, and sunscreen. We provide match balls and bibs."
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "What if it rains?",
+            "answer": "RULZ is all-weather — we only cancel for lightning. The cages are designed for play in any conditions."
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Can we change teams mid-season?",
+            "answer": "Team changes are allowed before the registration deadline. Contact admin to arrange transfers."
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "How many players per team?",
+            "answer": "Recommended squad size is 6–8 players (max roster 9). This allows for absences and rolling subs."
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a registration fee?",
+            "answer": "No registration fee. It's a pay-per-week model — $85 per team per night. Just turn up and play."
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "What age groups are available?",
+            "answer": "U8, U9, U10, U11, U12, U13 for juniors. U14, U15, U17 for youth. Age is based on year of birth."
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5", "q6"],
+      "settings": {
+        "label": "FAQ",
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#1e1e1e"
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Ready to Register Your Team?",
+        "subheading": "Season 1 starts Monday 20 April. Limited spots per age group — get in early.",
+        "cta1_text": "Register Now",
+        "cta2_text": "Contact Us",
+        "bg_color": "#181a19"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "schedule",
+    "rules",
+    "howit",
+    "faq",
+    "cta"
+  ]
+}

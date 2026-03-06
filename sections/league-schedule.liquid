@@ -1,0 +1,83 @@
+{% if section.settings.bg_color != blank or section.settings.text_color != blank %}
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.bg_color != blank %}background-color: {{ section.settings.bg_color }} !important;{% endif %}
+    {% if section.settings.text_color != blank %}color: {{ section.settings.text_color }} !important;{% endif %}
+  }
+  {% if section.settings.card_color != blank %}
+  #shopify-section-{{ section.id }} .card,
+  #shopify-section-{{ section.id }} .schedule-card {
+    background-color: {{ section.settings.card_color }} !important;
+  }
+  {% endif %}
+</style>
+{% endif %}
+<div class="section">
+  <div style="text-align:center;margin-bottom:48px;">
+    <p class="section-label">{{ section.settings.label }}</p>
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+    {% if section.settings.subheading != blank %}
+      <p class="section-subtitle">{{ section.settings.subheading }}</p>
+    {% endif %}
+  </div>
+  <div class="grid-3" style="gap:24px;">
+    {% for block in section.blocks %}
+      {% if block.type == 'day_card' %}
+        <div class="schedule-card card" style="padding:28px;border-left:3px solid var(--orange);" {{ block.shopify_attributes }}>
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+            <span style="font-size:24px;">{{ block.settings.icon }}</span>
+            <h3 style="font-size:20px;font-weight:700;margin:0;">{{ block.settings.day }}</h3>
+          </div>
+          <p style="font-size:14px;color:var(--orange);font-weight:600;margin-bottom:12px;">{{ block.settings.category }}</p>
+          {% if block.settings.age_groups != blank %}
+            <p style="font-size:14px;color:var(--gray-400);line-height:1.7;margin-bottom:12px;">{{ block.settings.age_groups }}</p>
+          {% endif %}
+          {% if block.settings.format != blank %}
+            <p style="font-size:13px;color:var(--gray-500);margin-bottom:8px;">Format: {{ block.settings.format }}</p>
+          {% endif %}
+          {% if block.settings.time != blank %}
+            <p style="font-size:13px;color:var(--gray-500);margin-bottom:8px;">Time: {{ block.settings.time }}</p>
+          {% endif %}
+          <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--gray-800);">
+            <span style="font-size:18px;font-weight:700;color:var(--orange);">{{ block.settings.price }}</span>
+            <span style="font-size:12px;color:var(--gray-500);"> / team / night</span>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% if section.settings.note != blank %}
+    <p style="text-align:center;font-size:13px;color:var(--gray-500);margin-top:32px;">{{ section.settings.note }}</p>
+  {% endif %}
+</div>
+{% schema %}
+{
+  "name": "League Schedule",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Section Label", "default": "SCHEDULE" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Weekly League Nights" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "Structured competition every week — juniors, youth, and seniors." },
+    { "type": "textarea", "id": "note", "label": "Bottom Note", "default": "No registration fee — pay-per-week model. Just turn up and play." },
+    { "type": "header", "content": "Section Colors" },
+    { "type": "text", "id": "bg_color", "label": "Background Color" },
+    { "type": "text", "id": "text_color", "label": "Text Color" },
+    { "type": "text", "id": "card_color", "label": "Card Color" }
+  ],
+  "blocks": [
+    {
+      "type": "day_card",
+      "name": "Day Card",
+      "settings": [
+        { "type": "text", "id": "icon", "label": "Icon/Emoji", "default": "⚽" },
+        { "type": "text", "id": "day", "label": "Day", "default": "Monday" },
+        { "type": "text", "id": "category", "label": "Category", "default": "Boys Juniors" },
+        { "type": "textarea", "id": "age_groups", "label": "Age Groups", "default": "U8, U9 (6v6), U10, U11, U12, U13" },
+        { "type": "text", "id": "format", "label": "Format", "default": "5v5 (U10+) / 6v6 (U8–U9)" },
+        { "type": "text", "id": "time", "label": "Time Slot", "default": "4:45pm – 7:45pm" },
+        { "type": "text", "id": "price", "label": "Price", "default": "$85" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "League Schedule" }]
+}
+{% endschema %}
