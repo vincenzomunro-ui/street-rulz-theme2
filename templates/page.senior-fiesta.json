@@ -23,46 +23,22 @@
         "t1": {
           "type": "tier",
           "settings": {
-            "tier_name": "Early Bird",
-            "price": "$50",
-            "description": "First 8 teams to register",
-            "spots": "8 spots only",
-            "badge": "BEST VALUE",
+            "tier_name": "Player Entry",
+            "price": "$30",
+            "description": "Per player \u2014 enter your team name at checkout",
+            "spots": "Limited spots available",
+            "badge": "FLAT RATE",
             "highlighted": true
-          }
-        },
-        "t2": {
-          "type": "tier",
-          "settings": {
-            "tier_name": "Standard",
-            "price": "$75",
-            "description": "Remaining spots after early bird sells out",
-            "spots": "Open until full",
-            "badge": "",
-            "highlighted": false
-          }
-        },
-        "t3": {
-          "type": "tier",
-          "settings": {
-            "tier_name": "Late Entry",
-            "price": "$100",
-            "description": "Final spots \u2014 last 48 hours only",
-            "spots": "Subject to availability",
-            "badge": "LAST CHANCE",
-            "highlighted": false
           }
         }
       },
       "block_order": [
-        "t1",
-        "t2",
-        "t3"
+        "t1"
       ],
       "settings": {
         "label": "TOURNAMENT",
         "heading": "RULZ Senior Fiesta 2026",
-        "subheading": "The Gold Coast's biggest adult 5-a-side carnival. Fast games, group stages, knockout rounds, trophies, BBQ, and cold ones.",
+        "subheading": "The Gold Coast's biggest adult 5-a-side carnival. Fast games, group stages, knockout rounds, trophies, BBQ, and cold ones. Just $30 per player.",
         "event_date": "Saturday 7 June 2026",
         "event_time": "9:00am \u2013 4:00pm",
         "event_ages": "18+ (Open, Masters 35+, Mixed)",
@@ -197,24 +173,24 @@
           "type": "milestone",
           "settings": {
             "date": "Now",
-            "title": "Early Bird Registration Open",
-            "description": "First 8 teams get the early bird rate \u2014 $50 per team. Lock in your spot."
+            "title": "Registrations Open",
+            "description": "Pay $30 per player and enter your team name in the order notes at checkout. Get your mates sorted early."
           }
         },
         "m2": {
           "type": "milestone",
           "settings": {
             "date": "19 May",
-            "title": "Standard Registration",
-            "description": "Early bird sold out? Standard rate is $75 per team. Still great value."
+            "title": "Teams Confirmed",
+            "description": "We'll group players by team name and confirm divisions. Make sure everyone on your team has registered."
           }
         },
         "m3": {
           "type": "milestone",
           "settings": {
             "date": "5 June",
-            "title": "Late Entry (48hrs)",
-            "description": "Final spots at $100. Subject to availability \u2014 don't leave it this late."
+            "title": "Game Day",
+            "description": "Show up, play hard, win trophies. BBQ and drinks on site all day."
           }
         },
         "m4": {
@@ -295,8 +271,8 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Lock In Your Team",
-        "subheading": "Early bird spots are limited to 8 teams. Don't miss the Gold Coast's biggest adult 5-a-side carnival.",
-        "cta1_text": "Register Now \u2014 $50",
+        "subheading": "$30 per player. Enter your team name at checkout \u2014 we'll sort the rest.",
+        "cta1_text": "Register Now \u2014 $30",
         "cta2_text": "Contact Us",
         "bg_color": "#1e1e1e"
       }
