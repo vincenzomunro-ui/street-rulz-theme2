@@ -62,7 +62,7 @@
             "icon": "🏆",
             "day": "Thursday",
             "category": "Competitive League",
-            "age_groups": "Open — all skill levels",
+            "age_groups": "Open — Div 2,3",
             "format": "5v5",
             "time": "6:30pm – 8:30pm",
             "price": "$100"
@@ -81,13 +81,20 @@
           }
         }
       },
-      "block_order": ["mon", "tue", "wed", "thu", "fri"],
+      "block_order": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
       "settings": {
         "label": "SCHEDULE",
         "heading": "Weekly Senior Nights",
         "subheading": "Rolling 12-week seasons. $100 one-off bond to secure your spot, then $100 per week. Your bond covers the final game.",
         "note": "Season 1 starts Monday 20 April 2026. Friday Mixed: $95/week.",
         "bg_color": "#181a19",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -127,12 +134,18 @@
           }
         }
       },
-      "block_order": ["r1", "r2", "r3", "r4"],
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
       "settings": {
         "label": "RULES",
         "heading": "Match Rules & Format",
         "subheading": "Simple rules, fast football, no nonsense.",
         "bg_color": "#1e1e1e",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -175,11 +188,18 @@
           }
         }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
       "settings": {
         "label": "FAQ",
         "heading": "Frequently Asked Questions",
-        "bg_color": "#1e1e1e"
+        "bg_color": "#1e1e1e",
+        "text_color": ""
       }
     },
     "cta": {
@@ -188,8 +208,12 @@
         "heading": "Ready to Get on the Pitch?",
         "subheading": "Season 1 starts Monday 20 April. $100 bond to lock in your team — then pay weekly.",
         "cta1_text": "Register Your Team",
+        "cta1_link": "",
         "cta2_text": "Contact Us",
-        "bg_color": "#181a19"
+        "cta2_link": "",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": ""
       }
     }
   },
