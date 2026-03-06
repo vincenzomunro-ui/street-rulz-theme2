@@ -45,8 +45,8 @@
           "settings": {
             "icon": "🏛️",
             "title": "School Holiday Clinics",
-            "description": "Fun-filled football clinics for kids aged 5–14 during the school holidays. Skills, games, and heaps of fun — no experience needed.\n\nApril & July School Holidays • From $55/child",
-            "price": "",
+            "description": "Fun-filled football clinics for kids aged 5–14 during the school holidays. Skills, games, and heaps of fun — no experience needed.\n\nApril & July School Holidays •",
+            "price": "From $55/child",
             "link": "shopify://pages/hoilday-program"
           }
         }
