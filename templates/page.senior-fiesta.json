@@ -24,9 +24,9 @@
           "type": "tier",
           "settings": {
             "tier_name": "Early Bird",
-            "price": "$150",
-            "description": "First 12 teams to register",
-            "spots": "12 spots only",
+            "price": "$50",
+            "description": "First 8 teams to register",
+            "spots": "8 spots only",
             "badge": "BEST VALUE",
             "highlighted": true
           }
@@ -35,7 +35,7 @@
           "type": "tier",
           "settings": {
             "tier_name": "Standard",
-            "price": "$180",
+            "price": "$75",
             "description": "Remaining spots after early bird sells out",
             "spots": "Open until full",
             "badge": "",
@@ -46,7 +46,7 @@
           "type": "tier",
           "settings": {
             "tier_name": "Late Entry",
-            "price": "$200",
+            "price": "$100",
             "description": "Final spots \u2014 last 48 hours only",
             "spots": "Subject to availability",
             "badge": "LAST CHANCE",
@@ -66,7 +66,7 @@
         "event_date": "Saturday 7 June 2026",
         "event_time": "9:00am \u2013 4:00pm",
         "event_ages": "18+ (Open, Masters 35+, Mixed)",
-        "event_teams": "48 Teams Max",
+        "event_teams": "16\u201324 Teams",
         "cta_text": "Register Your Team",
         "bg_color": "#181a19",
         "card_color": "#2b2b2b"
@@ -198,7 +198,7 @@
           "settings": {
             "date": "Now",
             "title": "Early Bird Registration Open",
-            "description": "First 12 teams per division get the early bird rate \u2014 $150 per team. Lock in your spot."
+            "description": "First 8 teams get the early bird rate \u2014 $50 per team. Lock in your spot."
           }
         },
         "m2": {
@@ -206,7 +206,7 @@
           "settings": {
             "date": "19 May",
             "title": "Standard Registration",
-            "description": "Early bird sold out? Standard rate is $180 per team. Still great value."
+            "description": "Early bird sold out? Standard rate is $75 per team. Still great value."
           }
         },
         "m3": {
@@ -214,7 +214,7 @@
           "settings": {
             "date": "5 June",
             "title": "Late Entry (48hrs)",
-            "description": "Final spots at $200. Subject to availability \u2014 don't leave it this late."
+            "description": "Final spots at $100. Subject to availability \u2014 don't leave it this late."
           }
         },
         "m4": {
@@ -295,8 +295,8 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Lock In Your Team",
-        "subheading": "Early bird spots are limited to 12 teams per division. Don't miss the Gold Coast's biggest adult 5-a-side carnival.",
-        "cta1_text": "Register Now \u2014 $150",
+        "subheading": "Early bird spots are limited to 8 teams. Don't miss the Gold Coast's biggest adult 5-a-side carnival.",
+        "cta1_text": "Register Now \u2014 $50",
         "cta2_text": "Contact Us",
         "bg_color": "#1e1e1e"
       }

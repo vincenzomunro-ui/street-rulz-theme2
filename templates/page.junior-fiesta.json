@@ -23,21 +23,21 @@
         "t1": {
           "type": "tier",
           "settings": {
-            "tier_name": "Early Bird",
-            "price": "$120",
-            "description": "First 12 teams to register",
-            "spots": "12 spots only",
-            "badge": "BEST VALUE",
+            "tier_name": "Early Bird 1",
+            "price": "$10",
+            "description": "First 4 teams to register",
+            "spots": "4 spots only",
+            "badge": "CHEAPEST",
             "highlighted": true
           }
         },
         "t2": {
           "type": "tier",
           "settings": {
-            "tier_name": "Standard",
-            "price": "$150",
-            "description": "Remaining spots after early bird sells out",
-            "spots": "Open until full",
+            "tier_name": "Early Bird 2",
+            "price": "$30",
+            "description": "Next 4 teams after Early Bird 1 sells out",
+            "spots": "4 spots only",
             "badge": "",
             "highlighted": false
           }
@@ -45,11 +45,22 @@
         "t3": {
           "type": "tier",
           "settings": {
-            "tier_name": "Late Entry",
-            "price": "$180",
-            "description": "Final spots \u2014 last 48 hours only",
-            "spots": "Subject to availability",
-            "badge": "LAST CHANCE",
+            "tier_name": "Early Bird 3",
+            "price": "$50",
+            "description": "Last 4 early bird spots",
+            "spots": "4 spots only",
+            "badge": "",
+            "highlighted": false
+          }
+        },
+        "t4": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Standard Entry",
+            "price": "$80",
+            "description": "Remaining spots after all early birds sell out",
+            "spots": "20 spots available",
+            "badge": "",
             "highlighted": false
           }
         }
@@ -57,16 +68,17 @@
       "block_order": [
         "t1",
         "t2",
-        "t3"
+        "t3",
+        "t4"
       ],
       "settings": {
         "label": "TOURNAMENT",
         "heading": "RULZ Junior Fiesta 2026",
-        "subheading": "The Gold Coast's biggest junior 5-a-side carnival. Fast games, group stages, knockout rounds, and medals for every player.",
+        "subheading": "The Gold Coast's first junior 5-a-side carnival. Fast games, group stages, knockout rounds, medals, and MVP awards. First 4 teams just $10!",
         "event_date": "Sunday 29 March 2026",
-        "event_time": "8:00am \u2013 2:00pm",
-        "event_ages": "U7 \u2013 U13",
-        "event_teams": "32 Teams Max",
+        "event_time": "9:00am \u2013 3:00pm",
+        "event_ages": "U7 / U8",
+        "event_teams": "32 Teams (up to 40)",
         "cta_text": "Register Your Team",
         "bg_color": "#181a19",
         "card_color": "#2b2b2b"
@@ -198,7 +210,7 @@
           "settings": {
             "date": "Now",
             "title": "Early Bird Registration Open",
-            "description": "First 12 teams get the early bird rate \u2014 $120 per team. Lock in your spot."
+            "description": "First 4 teams get in for just $10 per team. Then $30, then $50. Lock in your spot early!"
           }
         },
         "m2": {
@@ -206,7 +218,7 @@
           "settings": {
             "date": "15 March",
             "title": "Standard Registration",
-            "description": "Early bird sold out? Standard rate is $150 per team. Still great value."
+            "description": "Early birds sold out? Standard entry is $80 per team. Still great value for a full day of football."
           }
         },
         "m3": {
@@ -214,7 +226,7 @@
           "settings": {
             "date": "27 March",
             "title": "Late Entry (48hrs)",
-            "description": "Final spots at $180. Subject to availability \u2014 don't leave it this late."
+            "description": "Last spots at $80. Subject to availability \u2014 register before they are gone."
           }
         },
         "m4": {
@@ -295,8 +307,8 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Lock In Your Team",
-        "subheading": "Early bird spots are limited to 12 teams. Don't miss the Gold Coast's biggest junior 5-a-side carnival.",
-        "cta1_text": "Register Now \u2014 $120",
+        "subheading": "Early bird spots start at just $10 per team. First in, best dressed \u2014 prices go up as spots fill.",
+        "cta1_text": "Register Now \u2014 From $10",
         "cta2_text": "Contact Us",
         "bg_color": "#1e1e1e"
       }
