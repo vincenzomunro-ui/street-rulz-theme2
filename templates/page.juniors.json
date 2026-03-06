@@ -61,8 +61,8 @@
       "settings": {
         "label": "SCHEDULE",
         "heading": "Weekly Junior League Nights",
-        "subheading": "10-week seasons with graded divisions. No registration fee — pay per week.",
-        "note": "Season 1 starts Monday 20 April 2026. Finals week: Monday 22 June.",
+        "subheading": "10-week seasons with graded divisions. $85 one-off bond to secure your spot, then $85 per week. Your bond covers the final game.",
+        "note": "Season 1: Boys Monday 20 April, Girls Tuesday 21 April, Youth Wednesday 23 April 2026. Finals week: Monday 22 June.",
         "bg_color": "#181a19",
         "card_color": "#2b2b2b"
       }
@@ -197,7 +197,7 @@
           "type": "question",
           "settings": {
             "question": "Is there a registration fee?",
-            "answer": "No registration fee. It's a pay-per-week model — $85 per team per night. Just turn up and play."
+            "answer": "$85 one-off game bond to secure your team's spot, then $85 per team per week at the desk. You don't pay for your final game — the bond covers it. No admin fees."
           }
         },
         "q6": {
@@ -219,7 +219,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Ready to Register Your Team?",
-        "subheading": "Season 1 starts Monday 20 April. Limited spots per age group — get in early.",
+        "subheading": "Season 1 starts week of 20 April. Boys Monday, Girls Tuesday, Youth Wednesday. Limited spots per age group — get in early.",
         "cta1_text": "Register Now",
         "cta2_text": "Contact Us",
         "bg_color": "#181a19"

@@ -25,8 +25,8 @@
           "settings": {
             "icon": "⚽",
             "day": "Monday",
-            "category": "Men's Open",
-            "age_groups": "Division 1 & Division 2",
+            "category": "Masters Men's 35+ & Women's Social",
+            "age_groups": "Masters 35+ Div 1/2, Women's Social Div 1/2",
             "format": "5v5",
             "time": "6:30pm – 9:00pm",
             "price": "$100"
@@ -37,8 +37,8 @@
           "settings": {
             "icon": "⚽",
             "day": "Tuesday",
-            "category": "Men's Open",
-            "age_groups": "Division 1 & Division 2",
+            "category": "Men's Social",
+            "age_groups": "Division 2 & Division 3",
             "format": "5v5",
             "time": "6:30pm – 9:00pm",
             "price": "$100"
@@ -49,11 +49,11 @@
           "settings": {
             "icon": "⚽",
             "day": "Wednesday",
-            "category": "Social Seniors",
-            "age_groups": "Men's & Women's Social",
+            "category": "Men's Social",
+            "age_groups": "Division 1 & Division 2",
             "format": "5v5",
-            "time": "6:00pm – 9:00pm",
-            "price": "$10 per head"
+            "time": "6:30pm – 9:00pm",
+            "price": "$100"
           }
         },
         "thu": {
@@ -72,12 +72,12 @@
           "type": "day_card",
           "settings": {
             "icon": "🎉",
-            "day": "Friday (Optional)",
+            "day": "Friday",
             "category": "Mixed Social League",
             "age_groups": "Open — social, low barrier to entry",
             "format": "5v5",
             "time": "6:30pm – 9:00pm",
-            "price": "TBC"
+            "price": "$95"
           }
         }
       },
@@ -85,8 +85,8 @@
       "settings": {
         "label": "SCHEDULE",
         "heading": "Weekly Senior Nights",
-        "subheading": "Rolling 12-week seasons. No registration fee — pay per week.",
-        "note": "Season 1 starts Monday 30 March 2026. Social Wednesdays: $10 per head, 6–9pm.",
+        "subheading": "Rolling 12-week seasons. $100 one-off bond to secure your spot, then $100 per week. Your bond covers the final game.",
+        "note": "Season 1 starts Monday 20 April 2026. Friday Mixed: $95/week.",
         "bg_color": "#181a19",
         "card_color": "#2b2b2b"
       }
@@ -143,14 +143,14 @@
           "type": "question",
           "settings": {
             "question": "What's the difference between competitive and social?",
-            "answer": "Competitive leagues run a 12-week season with a ladder, finals, and trophies. Social Wednesdays are casual — $10 per head, just turn up and play."
+            "answer": "Competitive leagues run a 12-week season with a ladder, finals, and trophies. Divisions are graded so you play at your level."
           }
         },
         "q2": {
           "type": "question",
           "settings": {
             "question": "Can I join as an individual?",
-            "answer": "Social Wednesdays welcome individuals — we'll sort you into teams on the night. For competitive leagues, you need to register as a team."
+            "answer": "For competitive leagues, you need to register as a team. If you're looking for a team, get in touch and we'll try to place you."
           }
         },
         "q3": {
@@ -163,12 +163,19 @@
         "q4": {
           "type": "question",
           "settings": {
-            "question": "Is there a registration fee?",
-            "answer": "No registration fee for leagues — it's $100 per team per night. Social Wednesdays are $10 per person."
+            "question": "How does pricing work?",
+            "answer": "$100 one-off game bond to secure your team's spot, then $100 per team per week at the desk. You don't pay for your final game — the bond covers it. No admin fees. Friday Mixed is $95/week."
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "What about Masters 35+?",
+            "answer": "Masters Men's 35+ runs Monday nights. Same pricing, same format — just for the over-35s who still want competitive football."
           }
         }
       },
-      "block_order": ["q1", "q2", "q3", "q4"],
+      "block_order": ["q1", "q2", "q3", "q4", "q5"],
       "settings": {
         "label": "FAQ",
         "heading": "Frequently Asked Questions",
@@ -179,7 +186,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Ready to Get on the Pitch?",
-        "subheading": "Competitive season starts 30 March. Social Wednesdays running now — $10 per head.",
+        "subheading": "Season 1 starts Monday 20 April. $100 bond to lock in your team — then pay weekly.",
         "cta1_text": "Register Your Team",
         "cta2_text": "Contact Us",
         "bg_color": "#181a19"
