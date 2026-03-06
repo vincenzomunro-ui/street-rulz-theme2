@@ -23,3 +23,11 @@
 - [ ] Upload team photos for About Us page
 - [ ] Upload service images for Home page cards
 - [ ] Set social media URLs in theme settings
+- [x] Add required Email field to product.fiesta.json template
+- [x] Add required Email field to product.party.json template
+- [x] Add required Email field to any other product templates (main-product.liquid)
+- [x] Rebuild Junior Fiesta page to use product-tiers section with 4 Shopify products
+- [ ] Push email field + product-tiers changes to GitHub
+- [x] Add Child's Name field to product.fiesta.json (Junior Fiesta — parent registers child)
+- [x] Add Child's Date of Birth field to product.fiesta.json (age verification)
+- [x] Update Fiesta product template labels to be parent-friendly for junior events
