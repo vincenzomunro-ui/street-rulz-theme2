@@ -1,0 +1,80 @@
+{% comment %} Fiesta Product — with Team Name (required) and Dietary Requirements fields {% endcomment %}
+<div class="section">
+  <h1 class="section-title">{{ product.title }}</h1>
+  <div style="max-width:720px;font-size:16px;color:var(--gray-200);line-height:1.8;">
+    {{ product.description }}
+  </div>
+  {% if product.available %}
+    {% form 'product', product %}
+      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+
+      <div style="margin-top:24px;max-width:480px;">
+        {%- comment -%} Team Name — Required {%- endcomment -%}
+        <div style="margin-bottom:16px;">
+          <label for="team-name" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
+            Team Name <span style="color:var(--orange);">*</span>
+          </label>
+          <input
+            type="text"
+            id="team-name"
+            name="properties[Team Name]"
+            placeholder="e.g. The Strikers"
+            required
+            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--orange, #ff6600)'"
+            onblur="this.style.borderColor='var(--gray-600, #444)'"
+          >
+          <p style="font-size:12px;color:var(--gray-400, #999);margin-top:4px;">
+            Make sure all your teammates enter the same team name so we can group you together.
+          </p>
+        </div>
+
+        {%- comment -%} Player Name — Required {%- endcomment -%}
+        <div style="margin-bottom:16px;">
+          <label for="player-name" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
+            Your Full Name <span style="color:var(--orange);">*</span>
+          </label>
+          <input
+            type="text"
+            id="player-name"
+            name="properties[Player Name]"
+            placeholder="e.g. John Smith"
+            required
+            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--orange, #ff6600)'"
+            onblur="this.style.borderColor='var(--gray-600, #444)'"
+          >
+        </div>
+
+        {%- comment -%} Dietary Requirements — Optional {%- endcomment -%}
+        <div style="margin-bottom:24px;">
+          <label for="dietary" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
+            Dietary Requirements <span style="font-weight:400;font-size:12px;color:var(--gray-400);">(optional)</span>
+          </label>
+          <input
+            type="text"
+            id="dietary"
+            name="properties[Dietary Requirements]"
+            placeholder="e.g. Gluten free, vegetarian, none"
+            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--orange, #ff6600)'"
+            onblur="this.style.borderColor='var(--gray-600, #444)'"
+          >
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary" style="margin-top:8px;">
+        Add to Cart — {{ product.price | money }}
+      </button>
+    {% endform %}
+  {% else %}
+    <p style="margin-top:24px;font-size:18px;color:var(--orange);font-weight:700;">Sold Out</p>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Fiesta Product",
+  "settings": []
+}
+{% endschema %}
