@@ -46,7 +46,7 @@
           "type": "tier",
           "settings": {
             "tier_name": "Late Entry",
-            "price": "$180",
+            "price": "$70",
             "description": "Final spots — last 48 hours only",
             "spots": "Subject to availability",
             "badge": "LAST CHANCE",
