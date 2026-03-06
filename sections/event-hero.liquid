@@ -60,7 +60,12 @@
             <p style="font-size:32px;font-weight:800;color:var(--orange);margin-bottom:4px;">{{ block.settings.price }}</p>
             <p style="font-size:13px;color:var(--gray-400);margin-bottom:16px;">{{ block.settings.description }}</p>
             {% if block.settings.spots != blank %}
-              <p style="font-size:12px;color:var(--gray-500);font-weight:600;">{{ block.settings.spots }}</p>
+              <p style="font-size:12px;color:var(--gray-500);font-weight:600;margin-bottom:16px;">{{ block.settings.spots }}</p>
+            {% endif %}
+            {% if block.settings.link != blank %}
+              <a href="{{ block.settings.link }}" class="btn-primary" style="display:inline-block;font-size:14px;padding:12px 28px;margin-top:8px;text-decoration:none;">
+                {% if block.settings.button_text != blank %}{{ block.settings.button_text }}{% else %}Book Now{% endif %} &rarr;
+              </a>
             {% endif %}
           </div>
         {% endif %}
@@ -101,7 +106,9 @@
         { "type": "textarea", "id": "description", "label": "Description", "default": "First 12 teams — limited spots" },
         { "type": "text", "id": "spots", "label": "Spots Info", "default": "12 spots only" },
         { "type": "text", "id": "badge", "label": "Badge (optional)" },
-        { "type": "checkbox", "id": "highlighted", "label": "Highlight this tier", "default": false }
+        { "type": "checkbox", "id": "highlighted", "label": "Highlight this tier", "default": false },
+        { "type": "url", "id": "link", "label": "Product Link", "info": "Link to the Shopify product page for this tier" },
+        { "type": "text", "id": "button_text", "label": "Button Text", "default": "Book Now" }
       ]
     }
   ],

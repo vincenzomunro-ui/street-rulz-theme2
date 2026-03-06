@@ -19,88 +19,71 @@
     },
     "event": {
       "type": "event-hero",
-      "blocks": {},
-      "block_order": [],
+      "blocks": {
+        "t1": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Early Bird 1",
+            "price": "$10",
+            "description": "First 4 teams to register \u2014 the cheapest entry!",
+            "spots": "4 spots only",
+            "badge": "CHEAPEST",
+            "highlighted": true,
+            "button_text": "Book Now"
+          }
+        },
+        "t2": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Early Bird 2",
+            "price": "$30",
+            "description": "Next 4 teams after Early Bird 1 sells out.",
+            "spots": "4 spots only",
+            "badge": "",
+            "highlighted": false,
+            "button_text": "Book Now"
+          }
+        },
+        "t3": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Early Bird 3",
+            "price": "$50",
+            "description": "Last 4 early bird spots before standard pricing.",
+            "spots": "4 spots only",
+            "badge": "",
+            "highlighted": false,
+            "button_text": "Book Now"
+          }
+        },
+        "t4": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Standard Entry",
+            "price": "$80",
+            "description": "Remaining spots after all early birds sell out.",
+            "spots": "20 spots available",
+            "badge": "",
+            "highlighted": false,
+            "button_text": "Book Now"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
       "settings": {
         "label": "TOURNAMENT",
         "heading": "RULZ Little Legends 2026",
-        "subheading": "The Gold Coast's first junior 5-a-side carnival. Fast games, group stages, knockout rounds, medals, and MVP awards.",
+        "subheading": "The Gold Coast's first junior 5-a-side carnival. Fast games, group stages, knockout rounds, medals, and MVP awards. First 4 teams just $10!",
         "event_date": "Sunday 29 March 2026",
         "event_time": "9:00am \u2013 3:00pm",
         "event_ages": "U7 / U8",
         "event_teams": "32 Teams (up to 40)",
         "cta_text": "",
-        "bg_color": "#181a19",
-        "card_color": "#2b2b2b"
-      }
-    },
-    "pricing": {
-      "type": "product-tiers",
-      "blocks": {
-        "eb1": {
-          "type": "product_tier",
-          "settings": {
-            "tier_label": "Early Bird 1",
-            "fallback_price": "$10",
-            "description": "First 4 teams to register \u2014 the cheapest entry!",
-            "price_unit": "per team",
-            "spots_text": "4 spots only",
-            "badge": "CHEAPEST",
-            "highlighted": true,
-            "cta_text": "Register \u2192"
-          }
-        },
-        "eb2": {
-          "type": "product_tier",
-          "settings": {
-            "tier_label": "Early Bird 2",
-            "fallback_price": "$30",
-            "description": "Next 4 teams after Early Bird 1 sells out.",
-            "price_unit": "per team",
-            "spots_text": "4 spots only",
-            "badge": "",
-            "highlighted": false,
-            "cta_text": "Register \u2192"
-          }
-        },
-        "eb3": {
-          "type": "product_tier",
-          "settings": {
-            "tier_label": "Early Bird 3",
-            "fallback_price": "$50",
-            "description": "Last 4 early bird spots before standard pricing.",
-            "price_unit": "per team",
-            "spots_text": "4 spots only",
-            "badge": "",
-            "highlighted": false,
-            "cta_text": "Register \u2192"
-          }
-        },
-        "std": {
-          "type": "product_tier",
-          "settings": {
-            "tier_label": "Standard Entry",
-            "fallback_price": "$80",
-            "description": "Remaining spots after all early birds sell out.",
-            "price_unit": "per team",
-            "spots_text": "20 spots available",
-            "badge": "",
-            "highlighted": false,
-            "cta_text": "Register \u2192"
-          }
-        }
-      },
-      "block_order": [
-        "eb1",
-        "eb2",
-        "eb3",
-        "std"
-      ],
-      "settings": {
-        "label": "PRICING",
-        "heading": "Choose Your Entry",
-        "subheading": "Lock in the cheapest price \u2014 tiers sell out in order. Once a tier is gone, it's gone!",
-        "note": "After importing your products, connect each tier to its Shopify product in the Theme Editor. Inventory and sold-out states update automatically.",
         "bg_color": "#181a19",
         "card_color": "#2b2b2b"
       }
@@ -338,7 +321,6 @@
   "order": [
     "header",
     "event",
-    "pricing",
     "info",
     "rules",
     "timeline",

@@ -27,7 +27,10 @@
 - [x] Add required Email field to product.party.json template
 - [x] Add required Email field to any other product templates (main-product.liquid)
 - [x] Rebuild Junior Fiesta page to use product-tiers section with 4 Shopify products
-- [ ] Push email field + product-tiers changes to GitHub
+- [x] Push email field + product-tiers changes to GitHub
 - [x] Add Child's Name field to product.fiesta.json (Junior Fiesta — parent registers child)
 - [x] Add Child's Date of Birth field to product.fiesta.json (age verification)
 - [x] Update Fiesta product template labels to be parent-friendly for junior events
+- [ ] Add per-tier Book Now button + product link to event-hero section
+- [ ] Update Junior Fiesta template tiers with product link placeholders
+- [ ] Remove single "Register Your Team" CTA from bottom of event-hero
