@@ -35,9 +35,9 @@
           "type": "tier",
           "settings": {
             "tier_name": "Standard",
-            "price": "$150",
+            "price": "$30",
             "description": "Remaining spots after early bird sells out",
-            "spots": "Open until full",
+            "spots": "Open",
             "badge": "",
             "highlighted": false
           }
