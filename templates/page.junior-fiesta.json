@@ -26,7 +26,7 @@
             "tier_name": "Early Bird",
             "price": "$10",
             "description": "First 4 teams to register",
-            "spots": "12 spots only",
+            "spots": "6 spots only",
             "badge": "BEST VALUE",
             "highlighted": true
           }
@@ -37,7 +37,7 @@
             "tier_name": "Standard",
             "price": "$30",
             "description": "Remaining spots after early bird sells out",
-            "spots": "Open",
+            "spots": "6 spots After early bird sells out",
             "badge": "",
             "highlighted": false
           }
