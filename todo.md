@@ -50,4 +50,5 @@
 - [x] Remove Academy references from service grids and navigation
 - [x] Update service grid descriptions, pricing, and links for current offerings
 - [x] Streamline website content — remove outdated references, fix missing info
-- [ ] Push updated theme to GitHub
+- [x] Push updated theme to GitHub
+- [ ] Fix holiday clinic page 404 error — correct page slug/template
