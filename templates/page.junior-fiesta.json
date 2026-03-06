@@ -14,7 +14,7 @@
       "settings": {
         "show_logo": false,
         "heading": "RULZ Junior Fiesta",
-        "subheading": "One-day 5-a-side carnival — fast games, medals, and non-stop football."
+        "subheading": "One-day 5-a-side carnival \u2014 fast games, medals, and non-stop football."
       }
     },
     "event": {
@@ -47,21 +47,25 @@
           "settings": {
             "tier_name": "Late Entry",
             "price": "$180",
-            "description": "Final spots — last 48 hours only",
+            "description": "Final spots \u2014 last 48 hours only",
             "spots": "Subject to availability",
             "badge": "LAST CHANCE",
             "highlighted": false
           }
         }
       },
-      "block_order": ["t1", "t2", "t3"],
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
       "settings": {
         "label": "TOURNAMENT",
         "heading": "RULZ Junior Fiesta 2026",
         "subheading": "The Gold Coast's biggest junior 5-a-side carnival. Fast games, group stages, knockout rounds, and medals for every player.",
         "event_date": "Sunday 29 March 2026",
-        "event_time": "8:00am – 2:00pm",
-        "event_ages": "U7 – U13",
+        "event_time": "8:00am \u2013 2:00pm",
+        "event_ages": "U7 \u2013 U13",
         "event_teams": "32 Teams Max",
         "cta_text": "Register Your Team",
         "bg_color": "#181a19",
@@ -72,55 +76,62 @@
       "type": "comp-info",
       "blocks": {
         "h1": {
-          "type": "highlight",
+          "type": "info_card",
           "settings": {
-            "icon": "🏟️",
+            "icon": "\ud83c\udfdf\ufe0f",
             "title": "7 Courts Running",
-            "description": "All 7 cages in action — group games running simultaneously across every court. Non-stop football from 8am."
+            "description": "All 7 cages in action \u2014 group games running simultaneously across every court. Non-stop football from 8am."
           }
         },
         "h2": {
-          "type": "highlight",
+          "type": "info_card",
           "settings": {
-            "icon": "🏆",
+            "icon": "\ud83c\udfc6",
             "title": "Group Stage + Knockout",
-            "description": "Teams play 3–4 group games, then top teams advance to quarter-finals, semis, and the grand final."
+            "description": "Teams play 3\u20134 group games, then top teams advance to quarter-finals, semis, and the grand final."
           }
         },
         "h3": {
-          "type": "highlight",
+          "type": "info_card",
           "settings": {
-            "icon": "🥇",
+            "icon": "\ud83e\udd47",
             "title": "Medals & Trophies",
             "description": "Every player receives a participation medal. Winners and runners-up get trophies. Golden Boot and MVP awards."
           }
         },
         "h4": {
-          "type": "highlight",
+          "type": "info_card",
           "settings": {
-            "icon": "🍔",
+            "icon": "\ud83c\udf54",
             "title": "Food & Music",
             "description": "BBQ, coffee van, and music all day. A proper carnival atmosphere for the whole family."
           }
         },
         "h5": {
-          "type": "highlight",
+          "type": "info_card",
           "settings": {
-            "icon": "📸",
+            "icon": "\ud83d\udcf8",
             "title": "Photos & Highlights",
             "description": "Professional photos and video highlights posted after the event. Tag your team and share the memories."
           }
         },
         "h6": {
-          "type": "highlight",
+          "type": "info_card",
           "settings": {
-            "icon": "👨‍⚖️",
+            "icon": "\ud83d\udc68\u200d\u2696\ufe0f",
             "title": "Qualified Referees",
             "description": "Every game officiated by a qualified referee. Fair play, clear rules, and a safe environment for all kids."
           }
         }
       },
-      "block_order": ["h1", "h2", "h3", "h4", "h5", "h6"],
+      "block_order": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ],
       "settings": {
         "label": "WHAT'S INCLUDED",
         "heading": "Everything You Need to Know",
@@ -135,7 +146,7 @@
         "r1": {
           "type": "rule_card",
           "settings": {
-            "icon": "⏱️",
+            "icon": "\u23f1\ufe0f",
             "title": "Game Duration",
             "description": "Group games: 12 minutes (6 each way). Knockout games: 14 minutes (7 each way). Grand final: 16 minutes."
           }
@@ -143,7 +154,7 @@
         "r2": {
           "type": "rule_card",
           "settings": {
-            "icon": "👥",
+            "icon": "\ud83d\udc65",
             "title": "Squad Size",
             "description": "5v5 on the pitch. Maximum squad: 8 players. Rolling substitutions allowed."
           }
@@ -151,25 +162,30 @@
         "r3": {
           "type": "rule_card",
           "settings": {
-            "icon": "🔢",
+            "icon": "\ud83d\udd22",
             "title": "Age Groups",
-            "description": "U7, U8, U9, U10, U11, U12, U13. Groups formed based on entries — minimum 4 teams per age group."
+            "description": "U7, U8, U9, U10, U11, U12, U13. Groups formed based on entries \u2014 minimum 4 teams per age group."
           }
         },
         "r4": {
           "type": "rule_card",
           "settings": {
-            "icon": "📋",
+            "icon": "\ud83d\udccb",
             "title": "Points System",
             "description": "Win: 3 pts. Draw: 1 pt. Loss: 0 pts. Goal difference used as tiebreaker."
           }
         }
       },
-      "block_order": ["r1", "r2", "r3", "r4"],
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
       "settings": {
         "label": "FORMAT",
         "heading": "Tournament Format",
-        "subheading": "Fast, fair, and fun — designed to maximise game time for every team.",
+        "subheading": "Fast, fair, and fun \u2014 designed to maximise game time for every team.",
         "bg_color": "#181a19",
         "card_color": "#2b2b2b"
       }
@@ -182,7 +198,7 @@
           "settings": {
             "date": "Now",
             "title": "Early Bird Registration Open",
-            "description": "First 12 teams get the early bird rate — $120 per team. Lock in your spot."
+            "description": "First 12 teams get the early bird rate \u2014 $120 per team. Lock in your spot."
           }
         },
         "m2": {
@@ -198,7 +214,7 @@
           "settings": {
             "date": "27 March",
             "title": "Late Entry (48hrs)",
-            "description": "Final spots at $180. Subject to availability — don't leave it this late."
+            "description": "Final spots at $180. Subject to availability \u2014 don't leave it this late."
           }
         },
         "m4": {
@@ -210,7 +226,12 @@
           }
         }
       },
-      "block_order": ["m1", "m2", "m3", "m4"],
+      "block_order": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
       "settings": {
         "label": "KEY DATES",
         "heading": "Tournament Timeline",
@@ -225,39 +246,45 @@
           "type": "question",
           "settings": {
             "question": "How many games will my team play?",
-            "answer": "Minimum 3–4 group games guaranteed. Teams that advance to knockouts play 5–6 games total."
+            "answer": "Minimum 3\u20134 group games guaranteed. Teams that advance to knockouts play 5\u20136 games total."
           }
         },
         "q2": {
           "type": "question",
           "settings": {
             "question": "Can I enter as an individual?",
-            "answer": "This is a team event — you need to register as a team. If you need extra players, contact us and we'll try to connect you with others."
+            "answer": "This is a team event \u2014 you need to register as a team. If you need extra players, contact us and we'll try to connect you with others."
           }
         },
         "q3": {
           "type": "question",
           "settings": {
             "question": "What if it rains?",
-            "answer": "The tournament runs rain or shine. Only lightning causes postponement — in which case we'll reschedule or refund."
+            "answer": "The tournament runs rain or shine. Only lightning causes postponement \u2014 in which case we'll reschedule or refund."
           }
         },
         "q4": {
           "type": "question",
           "settings": {
             "question": "Is there parking?",
-            "answer": "Yes — free parking available at the venue. Arrive early for the best spots."
+            "answer": "Yes \u2014 free parking available at the venue. Arrive early for the best spots."
           }
         },
         "q5": {
           "type": "question",
           "settings": {
             "question": "Can parents watch?",
-            "answer": "Absolutely — spectators are welcome and encouraged. There's seating around the courts and a BBQ/coffee van on site."
+            "answer": "Absolutely \u2014 spectators are welcome and encouraged. There's seating around the courts and a BBQ/coffee van on site."
           }
         }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
       "settings": {
         "label": "FAQ",
         "heading": "Frequently Asked Questions",
@@ -269,7 +296,7 @@
       "settings": {
         "heading": "Lock In Your Team",
         "subheading": "Early bird spots are limited to 12 teams. Don't miss the Gold Coast's biggest junior 5-a-side carnival.",
-        "cta1_text": "Register Now — $120",
+        "cta1_text": "Register Now \u2014 $120",
         "cta2_text": "Contact Us",
         "bg_color": "#1e1e1e"
       }
