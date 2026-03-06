@@ -64,11 +64,7 @@
         "stat3",
         "stat4"
       ],
-      "settings": {
-        "bg_color": "",
-        "text_color": "",
-        "card_color": ""
-      }
+      "settings": {}
     },
     "services": {
       "type": "services",
@@ -100,10 +96,10 @@
           "settings": {
             "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.32.48_am.png",
             "icon": "",
-            "title": "Rulz Junior Academy",
-            "description": "Perfect weekly session for boys and girls aged U8–U13 who want structured coaching, technical drills, small-sided games, all inside our premium caged setup",
-            "price": "$20/session",
-            "link": "/pages/academy"
+            "title": "Rulz Junior Fiesta",
+            "description": "",
+            "price": "From $10 a Team",
+            "link": "shopify://pages/rulz-little-legend"
           }
         },
         "birthdays": {
@@ -147,18 +143,6 @@
     "whatson": {
       "type": "whats-on",
       "blocks": {
-        "eventmon": {
-          "type": "event",
-          "settings": {
-            "title": "Monday Junior Academy",
-            "details": "Monday - 4:00 PM – 5:30 PM - $20/session -Ages U8-U13's",
-            "tag_text": "ENROL",
-            "tag_style": "tag-enrol",
-            "urgent": false,
-            "link": "/pages/academy",
-            "link_text": "Enrol"
-          }
-        },
         "eventwed": {
           "type": "event",
           "settings": {
@@ -197,7 +181,6 @@
         }
       },
       "block_order": [
-        "eventmon",
         "eventwed",
         "eventthu",
         "eventsat"
@@ -307,8 +290,8 @@
       "settings": {
         "label": "Leagues",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 5 of 10)",
-        "updated_text": "Updated after Round 5 \u2014 6 Mar 2026",
+        "subheading": "Rulz Competitive League — 10 Week Season (Round 5 of 10)",
+        "updated_text": "Updated after Round 5 — 6 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -359,10 +342,7 @@
       "settings": {
         "label": "PRICING",
         "heading": "Book, pay, score",
-        "subheading": "No hidden fees. Book by the hour and bring as many players as you want",
-        "bg_color": "#181a19",
-        "text_color": "",
-        "card_color": "#2b2b2b"
+        "subheading": "No hidden fees. Book by the hour and bring as many players as you want"
       }
     },
     "howitworks": {
