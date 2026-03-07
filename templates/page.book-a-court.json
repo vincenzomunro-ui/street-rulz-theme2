@@ -15,10 +15,7 @@
         "background_image": "shopify://shop_images/yes.jpg",
         "show_logo": false,
         "heading": "Book a Pitch",
-        "subheading": "Book one of our 7 premium caged pitches. Perfect for casual games with mates. Balls and bibs supplied",
-        "bg_color": "",
-        "text_color": "",
-        "card_color": ""
+        "subheading": "Book one of our 7 premium caged pitches. Perfect for casual games with mates. Balls and bibs supplied"
       }
     },
     "pitch-select": {
@@ -59,11 +56,11 @@
             "feature_3": "53% larger then our 5-a-Side",
             "feature_4": "Balls & bibs supplied",
             "price_label_1": "Weekday",
-            "price_value_1": "$180/hr",
+            "price_value_1": "$150/hr",
             "price_label_2": "Weekday Peak (4pm-10pm)",
-            "price_value_2": "$220/hr",
+            "price_value_2": "$190/hr",
             "price_label_3": "Weekend",
-            "price_value_3": "$200/hr",
+            "price_value_3": "$180/hr",
             "cta_text": "Book 7-a-Side",
             "cta_link": "#booking-calendar-7aside"
           }
@@ -77,10 +74,7 @@
         "label": "CHOOSE YOUR PITCH",
         "heading": "Select Your Pitch Size",
         "subheading": "Choose between our 6x 5-a-side or 1x 7-a-side pitches, then pick your time slot",
-        "note": "All pitches are floodlit, enclosed, and all-weather. Unlimited players per booking.",
-        "bg_color": "#181a19",
-        "text_color": "",
-        "card_color": "#2b2b2b"
+        "note": "All pitches are floodlit, enclosed, and all-weather. Unlimited players per booking."
       }
     },
     "timeslots": {
@@ -141,10 +135,7 @@
         "label": "FLEXIBLE BOOKING",
         "heading": "Choose Your Session Length",
         "subheading": "Book the time that suits your game",
-        "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary.",
-        "bg_color": "#181a19",
-        "text_color": "",
-        "card_color": "#2b2b2b"
+        "note": "Prices shown are for 5-a-side weekday off-peak. Peak and 7-a-side rates may vary."
       }
     },
     "bookinginfo": {
