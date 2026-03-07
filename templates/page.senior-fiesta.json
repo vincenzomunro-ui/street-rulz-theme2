@@ -15,7 +15,7 @@
         "background_image": "shopify://shop_images/IMG_1349_2.jpg",
         "show_logo": false,
         "heading": "RULZ Senior Fiesta",
-        "subheading": "One-day 5-a-side carnival for adults — fast games, trophies, and a proper day out."
+        "subheading": "Three nights of 5-a-side football — one division per night. Pick your division and lock in your team."
       }
     },
     "event": {
@@ -24,30 +24,58 @@
         "t1": {
           "type": "tier",
           "settings": {
-            "tier_name": "Player Entry",
+            "tier_name": "Mixed Division",
             "price": "$30",
-            "description": "Per player — enter your team name at checkout",
+            "description": "Friday 27th March — Mixed teams battle it out under the lights. Grab your mates and enter a mixed squad.",
             "spots": "Limited spots available",
-            "badge": "FLAT RATE",
+            "badge": "FRIDAY NIGHT",
+            "highlighted": false,
+            "link": "",
+            "button_text": "Book Mixed"
+          }
+        },
+        "t2": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Men's Open Division",
+            "price": "$30",
+            "description": "Saturday 28th March — Open Men's division. No age limit, no holding back. Bring your best squad.",
+            "spots": "Limited spots available",
+            "badge": "SATURDAY NIGHT",
             "highlighted": true,
             "link": "",
-            "button_text": "Book Now"
+            "button_text": "Book Men's Open"
+          }
+        },
+        "t3": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Women's Open Division",
+            "price": "$30",
+            "description": "Sunday 29th March — Women's Open division. Competitive 5-a-side tournament with trophies and prizes.",
+            "spots": "Limited spots available",
+            "badge": "SUNDAY NIGHT",
+            "highlighted": false,
+            "link": "",
+            "button_text": "Book Women's Open"
           }
         }
       },
       "block_order": [
-        "t1"
+        "t1",
+        "t2",
+        "t3"
       ],
       "settings": {
         "label": "TOURNAMENT",
         "heading": "RULZ Senior Fiesta 2026",
-        "subheading": "The Gold Coast's biggest adult 5-a-side carnival. Fast games, group stages, knockout rounds, trophies, BBQ, and cold ones. Just $30 per player.",
-        "event_date": "Saturday 7 June 2026",
-        "event_time": "9:00am – 4:00pm",
-        "event_ages": "18+ (Open, Masters 35+, Mixed)",
-        "event_teams": "16–24 Teams",
-        "cta_text": "Register Your Team",
-        "cta_link": "shopify://products/rulz-senior-fiesta-entry",
+        "subheading": "Three nights. Three divisions. $30 per player. Fast 5-a-side games, group stages, knockout rounds, trophies, BBQ, and cold ones on site.",
+        "event_date": "Fri 27 – Sun 29 March 2026",
+        "event_time": "6:00pm – 10:00pm each night",
+        "event_ages": "18+ Adults Only",
+        "event_teams": "Limited Teams Per Night",
+        "cta_text": "",
+        "cta_link": "",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -61,7 +89,7 @@
           "settings": {
             "icon": "🏟️",
             "title": "7 Courts Running",
-            "description": "All 7 cages in action — group games running simultaneously across every court. Non-stop football from 9am.",
+            "description": "All 7 cages in action — group games running simultaneously across every court. Non-stop football all night.",
             "detail": ""
           }
         },
@@ -88,7 +116,7 @@
           "settings": {
             "icon": "🍔",
             "title": "BBQ & Bar",
-            "description": "BBQ, coffee van, and licensed bar running all day. A proper carnival atmosphere — bring the family.",
+            "description": "BBQ, coffee van, and licensed bar running each night. A proper carnival atmosphere — bring the crew.",
             "detail": ""
           }
         },
@@ -122,11 +150,11 @@
       "settings": {
         "label": "WHAT'S INCLUDED",
         "heading": "Everything You Need to Know",
-        "subheading": "A full day of football, food, and fun.",
+        "subheading": "Three nights of football, food, and fun.",
         "majesty_heading": "Register Your Team",
-        "majesty_description": "Team registrations and fixtures are managed through Majesty. Click below to register your team, view fixtures, or check results.",
+        "majesty_description": "",
         "majesty_link": "",
-        "majesty_button_text": "Register on Majesty",
+        "majesty_button_text": "",
         "bg_color": "#1e1e1e",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -156,7 +184,7 @@
           "settings": {
             "icon": "🔢",
             "title": "Divisions",
-            "description": "Open Men's, Masters 35+, Mixed. Groups formed based on entries — minimum 6 teams per division."
+            "description": "Mixed (Friday), Men's Open (Saturday), Women's Open (Sunday). One division per night — pick yours and register."
           }
         },
         "r4": {
@@ -191,13 +219,13 @@
           "settings": {
             "date": "Now",
             "title": "Registrations Open",
-            "description": "Pay $30 per player and enter your team name in the order notes at checkout. Get your mates sorted early."
+            "description": "Pay $30 per player and select your division at checkout. Get your mates sorted early — spots are limited."
           }
         },
         "m2": {
           "type": "milestone",
           "settings": {
-            "date": "19 May",
+            "date": "20 March",
             "title": "Teams Confirmed",
             "description": "We'll group players by team name and confirm divisions. Make sure everyone on your team has registered."
           }
@@ -205,17 +233,25 @@
         "m3": {
           "type": "milestone",
           "settings": {
-            "date": "5 June",
-            "title": "Game Day",
-            "description": "Show up, play hard, win trophies. BBQ and drinks on site all day."
+            "date": "Fri 27 March",
+            "title": "Mixed Division Night",
+            "description": "Gates open 5:30pm. First whistle 6:00pm. Grand final approx 9:30pm. Presentations and drinks after."
           }
         },
         "m4": {
           "type": "milestone",
           "settings": {
-            "date": "7 June",
-            "title": "Game Day!",
-            "description": "Gates open 8:30am. First whistle 9:00am. Grand finals approx 3:00pm. Presentations and drinks at 3:30pm."
+            "date": "Sat 28 March",
+            "title": "Men's Open Night",
+            "description": "Gates open 5:30pm. First whistle 6:00pm. Grand final approx 9:30pm. Presentations and drinks after."
+          }
+        },
+        "m5": {
+          "type": "milestone",
+          "settings": {
+            "date": "Sun 29 March",
+            "title": "Women's Open Night",
+            "description": "Gates open 5:30pm. First whistle 6:00pm. Grand final approx 9:30pm. Presentations and drinks after."
           }
         }
       },
@@ -223,7 +259,8 @@
         "m1",
         "m2",
         "m3",
-        "m4"
+        "m4",
+        "m5"
       ],
       "settings": {
         "label": "KEY DATES",
@@ -247,7 +284,7 @@
           "type": "question",
           "settings": {
             "question": "What divisions are available?",
-            "answer": "Open Men's (all ages 18+), Masters 35+, and Mixed. We'll grade divisions based on entries to keep it competitive and fair."
+            "answer": "Mixed (Friday 27th), Men's Open (Saturday 28th), and Women's Open (Sunday 29th). Each division runs on its own night."
           }
         },
         "q3": {
@@ -270,6 +307,13 @@
             "question": "Can spectators come?",
             "answer": "Absolutely — spectators are welcome and encouraged. There's seating around the courts, a BBQ, coffee van, and licensed bar on site."
           }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Can I play in more than one division?",
+            "answer": "Yes — if you want to play Mixed on Friday and Men's/Women's Open on another night, just register and pay separately for each division."
+          }
         }
       },
       "block_order": [
@@ -277,7 +321,8 @@
         "q2",
         "q3",
         "q4",
-        "q5"
+        "q5",
+        "q6"
       ],
       "settings": {
         "label": "FAQ",
@@ -290,7 +335,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Lock In Your Team",
-        "subheading": "$30 per player. Enter your team name at checkout — we'll sort the rest.",
+        "subheading": "$30 per player. Pick your division, enter your team name at checkout — we'll sort the rest.",
         "cta1_text": "Register Now — $30",
         "cta1_link": "",
         "cta2_text": "Contact Us",

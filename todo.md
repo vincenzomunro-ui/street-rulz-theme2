@@ -62,3 +62,5 @@
 - [x] Remove Child's Date of Birth from fiesta product template
 - [x] Add Player Name field to fiesta product template
 - [x] Add Preferred Division dropdown (Men's Open, Women's, Mixed) to fiesta product template
+- [x] Pull latest Shopify theme edits
+- [x] Update Senior Fiesta page to show 3 division nights: Mixed (Fri 27 Mar), Men's Open (Sat 28 Mar), Women's Open (Sun 29 Mar)
