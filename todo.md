@@ -51,4 +51,5 @@
 - [x] Update service grid descriptions, pricing, and links for current offerings
 - [x] Streamline website content — remove outdated references, fix missing info
 - [x] Push updated theme to GitHub
-- [ ] Fix holiday clinic page 404 error — correct page slug/template
+- [x] Fix holiday clinic page 404 error — correct page slug/template
+- [ ] Add preferred time field to party booking product template

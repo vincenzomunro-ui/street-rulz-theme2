@@ -62,6 +62,43 @@
           </p>
         </div>
 
+        {%- comment -%} Preferred Time — Required {%- endcomment -%}
+        <div style="margin-bottom:16px;">
+          <label for="party-time" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
+            Preferred Time <span style="color:var(--orange);">*</span>
+          </label>
+          <select
+            id="party-time"
+            name="properties[Preferred Time]"
+            required
+            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;appearance:none;-webkit-appearance:none;background-image:url('data:image/svg+xml;utf8,<svg fill=\'white\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\'><path d=\'M7 10l5 5 5-5z\'/></svg>');background-repeat:no-repeat;background-position:right 12px center;background-size:20px;"
+            onfocus="this.style.borderColor='var(--orange, #ff6600)'"
+            onblur="this.style.borderColor='var(--gray-600, #444)'"
+          >
+            <option value="" disabled selected>Select a time...</option>
+            <option value="9:00 AM">9:00 AM</option>
+            <option value="9:30 AM">9:30 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="10:30 AM">10:30 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="11:30 AM">11:30 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="12:30 PM">12:30 PM</option>
+            <option value="1:00 PM">1:00 PM</option>
+            <option value="1:30 PM">1:30 PM</option>
+            <option value="2:00 PM">2:00 PM</option>
+            <option value="2:30 PM">2:30 PM</option>
+            <option value="3:00 PM">3:00 PM</option>
+            <option value="3:30 PM">3:30 PM</option>
+            <option value="4:00 PM">4:00 PM</option>
+            <option value="4:30 PM">4:30 PM</option>
+            <option value="5:00 PM">5:00 PM</option>
+          </select>
+          <p style="font-size:12px;color:var(--gray-400, #999);margin-top:4px;">
+            What time would you like the gates opened?
+          </p>
+        </div>
+
         {%- comment -%} Expected Number of Kids — Required {%- endcomment -%}
         <div style="margin-bottom:16px;">
           <label for="expected-kids" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
