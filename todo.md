@@ -52,4 +52,5 @@
 - [x] Streamline website content — remove outdated references, fix missing info
 - [x] Push updated theme to GitHub
 - [x] Fix holiday clinic page 404 error — correct page slug/template
-- [ ] Add preferred time field to party booking product template
+- [x] Add preferred time field to party booking product template
+- [ ] Extend party time dropdown to 9:00 PM
