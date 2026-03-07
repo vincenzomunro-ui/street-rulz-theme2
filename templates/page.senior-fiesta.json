@@ -12,6 +12,7 @@
     "header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/IMG_1349_2.jpg",
         "show_logo": false,
         "heading": "RULZ Senior Fiesta",
         "subheading": "One-day 5-a-side carnival for adults — fast games, trophies, and a proper day out."
@@ -28,7 +29,9 @@
             "description": "Per player — enter your team name at checkout",
             "spots": "Limited spots available",
             "badge": "FLAT RATE",
-            "highlighted": true
+            "highlighted": true,
+            "link": "",
+            "button_text": "Book Now"
           }
         }
       },
