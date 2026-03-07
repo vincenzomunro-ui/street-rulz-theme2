@@ -53,4 +53,12 @@
 - [x] Push updated theme to GitHub
 - [x] Fix holiday clinic page 404 error — correct page slug/template
 - [x] Add preferred time field to party booking product template
-- [ ] Extend party time dropdown to 9:00 PM
+- [x] Extend party time dropdown to 9:00 PM
+- [x] Pull latest Shopify manual changes into GitHub
+- [x] Review Meta Ads account performance data
+- [x] Identify best-performing ad creatives
+- [x] Propose $25/day strategy with top creatives + Kings School video
+- [x] Remove Parent/Guardian Name and Child's Name from fiesta product template
+- [x] Remove Child's Date of Birth from fiesta product template
+- [x] Add Player Name field to fiesta product template
+- [x] Add Preferred Division dropdown (Men's Open, Women's, Mixed) to fiesta product template

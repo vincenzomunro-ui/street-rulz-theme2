@@ -1,7 +1,7 @@
 {% comment %}
-  Fiesta Product — Junior & Senior Fiesta checkout form.
-  Fields: Team Name, Parent/Guardian Name, Child's Name, Child's Date of Birth, Email.
-  All fields required. Parent registers on behalf of child (junior events).
+  Fiesta Product — Senior & Junior Fiesta checkout form.
+  Fields: Team Name, Player Name, Preferred Division, Email.
+  All fields required.
 {% endcomment %}
 <div class="section">
   <h1 class="section-title">{{ product.title }}</h1>
@@ -33,16 +33,16 @@
           </p>
         </div>
 
-        {%- comment -%} Parent / Guardian Name — Required {%- endcomment -%}
+        {%- comment -%} Player Name — Required {%- endcomment -%}
         <div style="margin-bottom:16px;">
-          <label for="parent-name" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
-            Parent / Guardian Name <span style="color:var(--orange);">*</span>
+          <label for="player-name" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
+            Player Name <span style="color:var(--orange);">*</span>
           </label>
           <input
             type="text"
-            id="parent-name"
-            name="properties[Parent Name]"
-            placeholder="e.g. Sarah Smith"
+            id="player-name"
+            name="properties[Player Name]"
+            placeholder="e.g. John Smith"
             required
             style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;"
             onfocus="this.style.borderColor='var(--orange, #ff6600)'"
@@ -50,39 +50,26 @@
           >
         </div>
 
-        {%- comment -%} Child's Name — Required {%- endcomment -%}
+        {%- comment -%} Preferred Division — Required {%- endcomment -%}
         <div style="margin-bottom:16px;">
-          <label for="child-name" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
-            Child's Name <span style="color:var(--orange);">*</span>
+          <label for="preferred-division" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
+            Preferred Division <span style="color:var(--orange);">*</span>
           </label>
-          <input
-            type="text"
-            id="child-name"
-            name="properties[Child Name]"
-            placeholder="e.g. Jack Smith"
+          <select
+            id="preferred-division"
+            name="properties[Preferred Division]"
             required
-            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;"
+            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;appearance:auto;cursor:pointer;"
             onfocus="this.style.borderColor='var(--orange, #ff6600)'"
             onblur="this.style.borderColor='var(--gray-600, #444)'"
           >
-        </div>
-
-        {%- comment -%} Child's Date of Birth — Required {%- endcomment -%}
-        <div style="margin-bottom:16px;">
-          <label for="child-dob" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
-            Child's Date of Birth <span style="color:var(--orange);">*</span>
-          </label>
-          <input
-            type="date"
-            id="child-dob"
-            name="properties[Child DOB]"
-            required
-            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;color-scheme:dark;"
-            onfocus="this.style.borderColor='var(--orange, #ff6600)'"
-            onblur="this.style.borderColor='var(--gray-600, #444)'"
-          >
+            <option value="" disabled selected>Select your division</option>
+            <option value="Men's Open">Men's Open</option>
+            <option value="Women's">Women's</option>
+            <option value="Mixed">Mixed</option>
+          </select>
           <p style="font-size:12px;color:var(--gray-400, #999);margin-top:4px;">
-            Used to verify your child is in the correct age group.
+            Choose which division your team wants to enter.
           </p>
         </div>
 
@@ -95,7 +82,7 @@
             type="email"
             id="customer-email"
             name="properties[Email]"
-            placeholder="e.g. sarah@example.com"
+            placeholder="e.g. john@example.com"
             required
             style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;"
             onfocus="this.style.borderColor='var(--orange, #ff6600)'"
