@@ -270,6 +270,20 @@
         "text_color": ""
       }
     },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Lock In Your Team",
+        "subheading": "$30 per player. Pick your division, enter your team name at checkout — we'll sort the rest.",
+        "cta1_text": "Register Now — $30",
+        "cta1_link": "shopify://products/rulz-senior-fiesta-entry",
+        "cta2_text": "Contact Us",
+        "cta2_link": "shopify://pages/contact",
+        "bg_color": "#1e1e1e",
+        "text_color": "",
+        "card_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -330,20 +344,6 @@
         "bg_color": "#181a19",
         "text_color": ""
       }
-    },
-    "cta": {
-      "type": "cta-banner",
-      "settings": {
-        "heading": "Lock In Your Team",
-        "subheading": "$30 per player. Pick your division, enter your team name at checkout — we'll sort the rest.",
-        "cta1_text": "Register Now — $30",
-        "cta1_link": "shopify://products/rulz-senior-fiesta-entry",
-        "cta2_text": "Contact Us",
-        "cta2_link": "shopify://pages/contact",
-        "bg_color": "#1e1e1e",
-        "text_color": "",
-        "card_color": ""
-      }
     }
   },
   "order": [
@@ -352,7 +352,7 @@
     "info",
     "rules",
     "timeline",
-    "faq",
-    "cta"
+    "cta",
+    "faq"
   ]
 }
