@@ -146,6 +146,7 @@
         "fp3",
         "fp4"
       ],
+      "disabled": true,
       "settings": {
         "label": "FOOD PACKAGES",
         "heading": "Food Menu Options",
