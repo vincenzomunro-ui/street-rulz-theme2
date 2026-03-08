@@ -15,7 +15,7 @@
         "background_image": "shopify://shop_images/IMG_1350.jpg",
         "show_logo": false,
         "heading": "RULZ Junior Fiesta",
-        "subheading": "One-day 5-a-side carnival — fast games, medals, and non-stop football."
+        "subheading": "One day 6-a-side carnival for Juniors"
       }
     },
     "event": {
@@ -26,7 +26,7 @@
           "settings": {
             "tier_name": "Early Bird 1",
             "price": "$10",
-            "description": "First 4 teams to register — the cheapest entry!",
+            "description": "First 4 teams to register, the cheapest entry!",
             "spots": "4 spots only",
             "badge": "CHEAPEST",
             "highlighted": true,
@@ -39,7 +39,7 @@
           "settings": {
             "tier_name": "Early Bird 2",
             "price": "$30",
-            "description": "Next 4 teams after Early Bird 1 sells out.",
+            "description": "Next 4 teams after Early Bird 1 sells out",
             "spots": "4 spots only",
             "badge": "",
             "highlighted": false,
@@ -52,7 +52,7 @@
           "settings": {
             "tier_name": "Early Bird 3",
             "price": "$50",
-            "description": "Last 4 early bird spots before standard pricing.",
+            "description": "Last 4 early bird spots before standard pricing",
             "spots": "4 spots only",
             "badge": "",
             "highlighted": false,
@@ -65,7 +65,7 @@
           "settings": {
             "tier_name": "Standard Entry",
             "price": "$80",
-            "description": "Remaining spots after all early birds sell out.",
+            "description": "Remaining spots after all early birds sell out",
             "spots": "20 spots available",
             "badge": "",
             "highlighted": false,
@@ -83,7 +83,7 @@
       "settings": {
         "label": "Carnival",
         "heading": "RULZ Little Legends 2026",
-        "subheading": "The Gold Coast's first junior 6-a-side carnival. Fast games, group stages, knockout rounds, medals, and MVP awards. First 4 teams just $10!",
+        "subheading": "Rulz junior 6-a-side carnival. Fast games, group stages, knockout rounds, and medals. First 4 teams just $10!",
         "event_date": "Sunday 29 March 2026",
         "event_time": "8:00am – 3:00pm",
         "event_ages": "U7 / U8",
