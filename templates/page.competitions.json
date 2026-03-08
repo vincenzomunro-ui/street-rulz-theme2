@@ -54,6 +54,17 @@
             "link": "/pages/seniors"
           }
         },
+        "service_card_sunday7s": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1368.png",
+            "icon": "🏟️",
+            "title": "Sunday 7s",
+            "description": "Women's and Men's 7-a-side football every Sunday. Full-size pitch, qualified refs, proper football. Bond + $140/player/week.",
+            "price": "$140/player/week",
+            "link": "/pages/sunday-7s"
+          }
+        },
         "service_card_EJ8cLy": {
           "type": "service_card",
           "settings": {
@@ -63,16 +74,6 @@
             "description": "The ultimate one-day senior 5-a-side tournament. Open Men's, Masters 35+, and Mixed divisions. BBQ, licensed bar, trophies, and bragging rights. Back after our sold-out event!",
             "price": "$30/head",
             "link": "/pages/senior-fiesta"
-          }
-        },
-        "service_card_sunday7s": {
-          "type": "service_card",
-          "settings": {
-            "icon": "🏟️",
-            "title": "Sunday 7s",
-            "description": "Women's and Men's 7-a-side football every Sunday. Full-size pitch, qualified refs, proper football. Bond + $140/player/week.",
-            "price": "$140/player/week",
-            "link": "/pages/sunday-7s"
           }
         }
       },
