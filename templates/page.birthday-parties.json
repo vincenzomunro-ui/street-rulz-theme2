@@ -88,6 +88,71 @@
         "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings"
       }
     },
+    "foodpackages": {
+      "type": "food-packages",
+      "blocks": {
+        "fp1": {
+          "type": "food_package",
+          "settings": {
+            "icon": "🌭",
+            "title": "Sausage Sizzle",
+            "subtitle": "Classic Aussie favourite",
+            "item_1": "Baguette roll",
+            "item_2": "Caramelised onion",
+            "item_3": "Tomato & BBQ sauces",
+            "item_4": ""
+          }
+        },
+        "fp2": {
+          "type": "food_package",
+          "settings": {
+            "icon": "🥧",
+            "title": "Pies & Pastries",
+            "subtitle": "Hot from the oven",
+            "item_1": "Steak pies",
+            "item_2": "Plain pies",
+            "item_3": "Sausage rolls",
+            "item_4": ""
+          }
+        },
+        "fp3": {
+          "type": "food_package",
+          "settings": {
+            "icon": "🍔",
+            "title": "Burgers",
+            "subtitle": "Freshly made",
+            "item_1": "Brioche bun",
+            "item_2": "Beef patty",
+            "item_3": "Caramelised onion & cheese",
+            "item_4": "Tomato & BBQ sauces"
+          }
+        },
+        "fp4": {
+          "type": "food_package",
+          "settings": {
+            "icon": "🍕",
+            "title": "Pizza Party",
+            "subtitle": "Crowd pleaser",
+            "item_1": "Cheese pizzas",
+            "item_2": "Pepperoni pizzas",
+            "item_3": "Beef pizzas",
+            "item_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "fp1",
+        "fp2",
+        "fp3",
+        "fp4"
+      ],
+      "settings": {
+        "label": "FOOD PACKAGES",
+        "heading": "Food Menu Options",
+        "subheading": "Included with Epic Pitch and VIP packages. Choose your menu when you book.",
+        "note": "Food packages are included with Epic Pitch and VIP parties. Kick-Off parties include a sausage sizzle by default. Special dietary requirements? Let us know when booking."
+      }
+    },
     "bookinginfo": {
       "type": "booking-info",
       "blocks": {
@@ -213,6 +278,7 @@
   "order": [
     "header",
     "packages",
+    "foodpackages",
     "bookinginfo",
     "howitworks",
     "cta"

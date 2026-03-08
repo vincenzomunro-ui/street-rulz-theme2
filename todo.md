@@ -72,3 +72,8 @@
 - [x] Push Sunday 7s page to GitHub (pending push)
 - [x] Pull latest Shopify changes
 - [x] Fix Leagues dropdown hover gap — menu disappears before user can select
+- [x] Review birthday parties page and product-party template
+- [x] Add food package dropdown to product-party template for Epic Pitch + VIP packages
+- [x] Add dynamic notes/special requests text area with context-specific placeholders
+- [x] Add read-only food package info cards to birthday parties page for all packages
+- [x] Add "Food Package Included" badge to Epic Pitch and VIP headings
