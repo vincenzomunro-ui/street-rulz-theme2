@@ -381,6 +381,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 8px;
+  text-align: center;
 }
 .section-title {
   font-family: 'Archivo Black', sans-serif;
@@ -389,12 +390,16 @@ button { cursor: pointer; border: none; font-family: inherit; }
   line-height: 1.15;
   margin-bottom: 16px;
   text-transform: uppercase;
+  text-align: center;
 }
 .section-subtitle {
   font-size: 16px;
   color: var(--gray-400);
   max-width: 560px;
   line-height: 1.7;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ===== CARDS ===== */
