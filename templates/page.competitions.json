@@ -49,7 +49,7 @@
             "image": "shopify://shop_images/Screenshot_2026-03-08_at_7.31.59_pm.png",
             "icon": "",
             "title": "Sunday 7's",
-            "description": "Women's and Men's 7-a-side football every Sunday. Full-size pitch, qualified refs, proper football. Bond + $140/player/week.",
+            "description": "Sunday 7-a-side league for Men's and Women's. Full-size pitch, qualified refs, proper football",
             "price": "$140/team/week",
             "link": "/pages/sunday-7s"
           }
@@ -108,10 +108,11 @@
         },
         "c3": {
           "type": "info_card",
+          "disabled": true,
           "settings": {
             "icon": "",
-            "title": "Thursday Nights",
-            "description": "Our flagship 5-a-side comp runs every Thursday evening under the lights. Games are fast, intense, and social",
+            "title": "5v5 & 7v7 Leagues",
+            "description": "We run both 5v5 and 7v7 leagues",
             "detail": "Kick-off from 6:00 PM"
           }
         },
