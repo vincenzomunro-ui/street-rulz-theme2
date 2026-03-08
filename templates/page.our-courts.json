@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "background_image": "",
+        "show_logo": false,
+        "heading": "Our Courts",
+        "subheading": "7 premium floodlit caged pitches on Queensland's Gold Coast. Purpose-built for fast, non-stop street football."
+      }
+    },
+    "stats": {
+      "type": "court-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "number": "7",
+            "label": "Caged Pitches"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "number": "6",
+            "label": "5-a-Side Courts"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "number": "1",
+            "label": "7-a-Side Court"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "number": "24/7",
+            "label": "Floodlit"
+          }
+        }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"],
+      "settings": {
+        "bg_color": "#181a19"
+      }
+    },
+    "courts": {
+      "type": "courts-showcase",
+      "blocks": {
+        "5aside": {
+          "type": "court_card",
+          "settings": {
+            "image": "",
+            "title": "5-a-Side Pitches",
+            "subtitle": "6 PITCHES AVAILABLE",
+            "badge": "MOST POPULAR",
+            "description": "Our premium caged 5-a-side pitches are built for fast, intense football. Synthetic turf, floodlit, and fully enclosed — no outs, no stoppages, just pure street football.",
+            "spec_1": "Floodlit all-weather",
+            "spec_2": "Synthetic turf surface",
+            "spec_3": "Fully caged walls",
+            "spec_4": "Balls & bibs supplied",
+            "cta_text": "Book 5-a-Side",
+            "cta_link": "/pages/book-a-court"
+          }
+        },
+        "7aside": {
+          "type": "court_card",
+          "settings": {
+            "image": "",
+            "title": "7-a-Side Pitch",
+            "subtitle": "FULL SIZE COURT",
+            "badge": "",
+            "description": "Our largest pitch — 53% bigger than the 5-a-side courts. Perfect for league matches, bigger groups, and corporate events. Same premium caged setup with floodlights.",
+            "spec_1": "53% larger than 5-a-side",
+            "spec_2": "League match standard",
+            "spec_3": "Fully caged walls",
+            "spec_4": "Balls & bibs supplied",
+            "cta_text": "Book 7-a-Side",
+            "cta_link": "/pages/book-a-court"
+          }
+        }
+      },
+      "block_order": ["5aside", "7aside"],
+      "settings": {
+        "label": "OUR FACILITY",
+        "heading": "World-Class Caged Pitches",
+        "subheading": "Purpose-built for fast, non-stop street football. Every pitch is floodlit, all-weather, and fully enclosed."
+      }
+    },
+    "rules": {
+      "type": "match-rules",
+      "blocks": {
+        "r1": {
+          "type": "rule",
+          "settings": {
+            "icon": "👥",
+            "title": "7 Players Per Team",
+            "description": "Including goalkeeper. Up to 4 substitutes allowed per team on the bench."
+          }
+        },
+        "r2": {
+          "type": "rule",
+          "settings": {
+            "icon": "⏱️",
+            "title": "Match Duration",
+            "description": "Seniors play 20-minute halves. Juniors play 15-minute halves."
+          }
+        },
+        "r3": {
+          "type": "rule",
+          "settings": {
+            "icon": "🚫",
+            "title": "No Offside",
+            "description": "Standard offside rules do not apply. Play is continuous and fast-paced."
+          }
+        },
+        "r4": {
+          "type": "rule",
+          "settings": {
+            "icon": "🏟️",
+            "title": "Caged Football",
+            "description": "No outs, no throw-ins, no kick-ins. The ball stays in play off the walls at all times."
+          }
+        },
+        "r5": {
+          "type": "rule",
+          "settings": {
+            "icon": "⚡",
+            "title": "No Stoppages",
+            "description": "Play is continuous with no stoppages unless there is an injury on the pitch."
+          }
+        },
+        "r6": {
+          "type": "rule",
+          "settings": {
+            "icon": "🔄",
+            "title": "Rolling Substitutions",
+            "description": "Substitutions can only be made when your team has possession of the ball. Rolling subs with conditions apply."
+          }
+        }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6"],
+      "settings": {
+        "label": "MATCH FORMAT",
+        "heading": "How We Play",
+        "subheading": "Fast, fair, non-stop caged football. No outs. No delays. Just pure street rules.",
+        "note": "<p>Full match rules are provided to all teams before the season starts. Referees enforce all rules on the pitch. Any disputes are handled by Street Rulz management.</p>",
+        "bg_color": "#181a19"
+      }
+    },
+    "gallery": {
+      "type": "photo-gallery",
+      "blocks": {
+        "p1": {
+          "type": "photo",
+          "settings": {
+            "image": "",
+            "caption": "Aerial view of our 7 caged pitches"
+          }
+        },
+        "p2": {
+          "type": "photo",
+          "settings": {
+            "image": "",
+            "caption": "5-a-side action under floodlights"
+          }
+        },
+        "p3": {
+          "type": "photo",
+          "settings": {
+            "image": "",
+            "caption": "7-a-side pitch — our biggest court"
+          }
+        },
+        "p4": {
+          "type": "photo",
+          "settings": {
+            "image": "",
+            "caption": "Premium synthetic turf surface"
+          }
+        },
+        "p5": {
+          "type": "photo",
+          "settings": {
+            "image": "",
+            "caption": "Night games under the lights"
+          }
+        }
+      },
+      "block_order": ["p1", "p2", "p3", "p4", "p5"],
+      "settings": {
+        "label": "GALLERY",
+        "heading": "See Our Facility",
+        "subheading": "Queensland's best 5 & 7-a-side caged football facility."
+      }
+    },
+    "included": {
+      "type": "booking-info",
+      "blocks": {
+        "i1": {
+          "type": "info_item",
+          "settings": {
+            "icon": "",
+            "title": "Balls Supplied",
+            "description": "Quality match balls provided for every session"
+          }
+        },
+        "i2": {
+          "type": "info_item",
+          "settings": {
+            "icon": "",
+            "title": "Bibs Included",
+            "description": "Team bibs so you can sort out the sides"
+          }
+        },
+        "i3": {
+          "type": "info_item",
+          "settings": {
+            "icon": "",
+            "title": "Floodlit Pitches",
+            "description": "All pitches are floodlit for evening games"
+          }
+        },
+        "i4": {
+          "type": "info_item",
+          "settings": {
+            "icon": "",
+            "title": "All-Weather Surface",
+            "description": "Premium synthetic turf — play rain or shine"
+          }
+        },
+        "i5": {
+          "type": "info_item",
+          "settings": {
+            "icon": "",
+            "title": "Free Parking",
+            "description": "Plenty of free parking right at the venue"
+          }
+        },
+        "i6": {
+          "type": "info_item",
+          "settings": {
+            "icon": "",
+            "title": "Fully Caged",
+            "description": "No outs, no delays — the ball stays in play"
+          }
+        }
+      },
+      "block_order": ["i1", "i2", "i3", "i4", "i5", "i6"],
+      "settings": {
+        "label": "EVERY PITCH INCLUDES",
+        "heading": "What You Get",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Ready to Get on the Pitch?",
+        "subheading": "Book one of our 7 premium caged pitches in under 60 seconds.",
+        "cta1_text": "Book a Pitch",
+        "cta1_link": "/pages/book-a-court",
+        "cta2_text": "Contact Us",
+        "cta2_link": "/pages/contact",
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
+      }
+    }
+  },
+  "order": [
+    "header",
+    "stats",
+    "courts",
+    "rules",
+    "gallery",
+    "included",
+    "cta"
+  ]
+}

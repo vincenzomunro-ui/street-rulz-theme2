@@ -81,3 +81,5 @@
 - [x] Push subheading alignment fix to GitHub
 - [x] Fix Events navigation dropdown — Events has child items but no dropdown on live site
 - [x] Fix dropdown arrow causing nav items to wrap — keep arrow inline, prevent text wrapping
+- [x] Build "Our Courts" page template with match rules, court specs, and photo placeholders
+- [x] Push Our Courts page to GitHub

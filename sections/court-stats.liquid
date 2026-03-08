@@ -1,0 +1,94 @@
+{% if section.settings.bg_color != blank %}
+<style>
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.bg_color }} !important;
+  }
+</style>
+{% endif %}
+
+<style>
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+  .stat-item {
+    padding: 32px 16px;
+    background: var(--dark-card);
+    border: 1px solid var(--gray-600);
+    border-radius: var(--radius-lg);
+    transition: border-color var(--transition);
+  }
+  .stat-item:hover {
+    border-color: var(--orange-border);
+  }
+  .stat-number {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(32px, 4vw, 48px);
+    color: var(--orange);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .stat-label {
+    font-size: 13px;
+    color: var(--gray-400);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  @media (max-width: 768px) {
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+<div class="section">
+  <div class="stats-row">
+    {% for block in section.blocks %}
+      {% if block.type == 'stat' %}
+        <div class="stat-item" {{ block.shopify_attributes }}>
+          <div class="stat-number">{{ block.settings.number }}</div>
+          <div class="stat-label">{{ block.settings.label }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Court Stats",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Stat",
+      "settings": [
+        {
+          "type": "text",
+          "id": "number",
+          "label": "Number",
+          "default": "7"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Pitches"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Court Stats"
+    }
+  ]
+}
+{% endschema %}
