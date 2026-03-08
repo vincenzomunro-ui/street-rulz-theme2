@@ -79,3 +79,4 @@
 - [x] Add "Food Package Included" badge to Epic Pitch and VIP headings
 - [x] Fix subheading alignment across all sections — ensure headings, labels, and subheadings are consistently centred
 - [x] Push subheading alignment fix to GitHub
+- [x] Fix Events navigation dropdown — Events has child items but no dropdown on live site

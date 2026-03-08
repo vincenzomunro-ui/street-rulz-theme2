@@ -24,16 +24,13 @@
     </a>
     <ul class="nav-links">
       {% for link in linklists.main-menu.links %}
-        {% if link.title == 'Leagues' %}
+        {% if link.links.size > 0 %}
           <li class="nav-dropdown">
             <a href="{{ link.url }}"{% if link.active %} class="active"{% endif %}>{{ link.title }} <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-left:4px;vertical-align:middle;"><path d="M1 1l4 4 4-4"/></svg></a>
             <ul class="nav-dropdown-menu">
-              <li><a href="/pages/competitions">All Leagues</a></li>
-              <li><a href="/pages/juniors">Junior & Youth</a></li>
-              <li><a href="/pages/seniors">Senior Leagues</a></li>
-              <li><a href="/pages/sunday-7s">Sunday 7s</a></li>
-              <li><a href="/pages/junior-fiesta">Little Legends Fiesta</a></li>
-              <li><a href="/pages/senior-fiesta">Senior Fiesta</a></li>
+              {% for child in link.links %}
+                <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+              {% endfor %}
             </ul>
           </li>
         {% else %}
@@ -63,15 +60,12 @@
     <img src="{{ 'logo.png' | asset_url }}" alt="Street Rulz Football" style="width:80px;height:80px;object-fit:contain;margin:0 auto 16px;display:block;">
   </div>
   {% for link in linklists.main-menu.links %}
-    {% if link.title == 'Leagues' %}
+    {% if link.links.size > 0 %}
       <a href="{{ link.url }}"{% if link.active %} class="active"{% endif %} style="font-weight:700;">{{ link.title }}</a>
       <div style="padding-left:16px;display:flex;flex-direction:column;gap:4px;margin-bottom:8px;">
-        <a href="/pages/competitions" style="font-size:14px;color:var(--gray-400);">All Leagues</a>
-        <a href="/pages/juniors" style="font-size:14px;color:var(--gray-400);">Junior & Youth</a>
-        <a href="/pages/seniors" style="font-size:14px;color:var(--gray-400);">Senior Leagues</a>
-        <a href="/pages/sunday-7s" style="font-size:14px;color:var(--gray-400);">Sunday 7s</a>
-        <a href="/pages/junior-fiesta" style="font-size:14px;color:var(--gray-400);">Little Legends Fiesta</a>
-        <a href="/pages/senior-fiesta" style="font-size:14px;color:var(--gray-400);">Senior Fiesta</a>
+        {% for child in link.links %}
+          <a href="{{ child.url }}" style="font-size:14px;color:var(--gray-400);">{{ child.title }}</a>
+        {% endfor %}
       </div>
     {% else %}
       <a href="{{ link.url }}"{% if link.active %} class="active"{% endif %}>{{ link.title }}</a>
