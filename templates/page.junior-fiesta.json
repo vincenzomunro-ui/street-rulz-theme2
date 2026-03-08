@@ -101,54 +101,54 @@
         "h1": {
           "type": "info_card",
           "settings": {
-            "icon": "🏟️",
+            "icon": "",
             "title": "7 Courts Running",
-            "description": "All 7 cages in action — group games running simultaneously across every court. Non-stop football from 8am.",
+            "description": "All 7 caged pitches in action, group games running simultaneously across every court. Non-stop football from 8am",
             "detail": ""
           }
         },
         "h2": {
           "type": "info_card",
           "settings": {
-            "icon": "🏆",
+            "icon": "",
             "title": "Group Stage + Knockout",
-            "description": "Teams play 3 group games, then top teams advance the grand final.",
+            "description": "Teams play 3 group games, then top teams advance the grand final",
             "detail": ""
           }
         },
         "h3": {
           "type": "info_card",
           "settings": {
-            "icon": "🥇",
+            "icon": "",
             "title": "Medals & Trophies",
-            "description": "Winners and runners-up get trophies. Golden Boot and MVP awards.",
+            "description": "Winners and runners-up get trophies",
             "detail": ""
           }
         },
         "h4": {
           "type": "info_card",
           "settings": {
-            "icon": "🍔",
+            "icon": "",
             "title": "Food & Music",
-            "description": "BBQ, coffee, pizza and music all day. A proper carnival atmosphere for the whole family.",
+            "description": "BBQ, coffee, pizza and music all day. A proper carnival atmosphere for the whole family",
             "detail": ""
           }
         },
         "h5": {
           "type": "info_card",
           "settings": {
-            "icon": "📸",
+            "icon": "",
             "title": "Photos & Highlights",
-            "description": "Professional photos and video highlights posted after the event. Tag your team and share the memories.",
+            "description": "Professional photos and video highlights posted after the event. Tag your team and share the memories",
             "detail": ""
           }
         },
         "h6": {
           "type": "info_card",
           "settings": {
-            "icon": "👨‍⚖️",
+            "icon": "",
             "title": "Qualified Referees",
-            "description": "Every game officiated by a qualified referee. Fair play, clear rules, and a safe environment for all kids.",
+            "description": "Every game officiated by a qualified referee. Fair play, clear rules, and a safe environment for all kids",
             "detail": ""
           }
         }
@@ -180,7 +180,7 @@
         "r1": {
           "type": "rule_card",
           "settings": {
-            "icon": "⏱️",
+            "icon": "",
             "title": "Game Duration",
             "description": "Group games: 24 minutes (12 each way). Knockout games: 24 minutes (12 each way). Grand final: 15 minutes."
           }
@@ -188,7 +188,7 @@
         "r2": {
           "type": "rule_card",
           "settings": {
-            "icon": "👥",
+            "icon": "",
             "title": "Squad Size",
             "description": "6v6 on the pitch. Maximum squad: 8 players. Rolling substitutions allowed."
           }
@@ -196,7 +196,7 @@
         "r3": {
           "type": "rule_card",
           "settings": {
-            "icon": "🔢",
+            "icon": "",
             "title": "Age Groups",
             "description": "U7, U8  Groups formed based on entries — minimum 4 teams per age group."
           }
@@ -204,7 +204,7 @@
         "r4": {
           "type": "rule_card",
           "settings": {
-            "icon": "📋",
+            "icon": "",
             "title": "Points System",
             "description": "Win: 3 pts. Draw: 1 pt. Loss: 0 pts. Goal difference used as tiebreaker."
           }
