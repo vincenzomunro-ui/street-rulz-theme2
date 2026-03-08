@@ -11,12 +11,20 @@
   "sections": {
     "header": {
       "type": "page-header",
-      "settings": {}
+      "settings": {
+        "background_image": "shopify://shop_images/IMG_0953_2.jpg",
+        "show_logo": false,
+        "heading": "",
+        "subheading": ""
+      }
     },
     "main": {
       "type": "main-page",
       "settings": {}
     }
   },
-  "order": ["header", "main"]
+  "order": [
+    "header",
+    "main"
+  ]
 }
