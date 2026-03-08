@@ -267,6 +267,7 @@
         "m3",
         "m4"
       ],
+      "disabled": true,
       "settings": {
         "label": "KEY DATES",
         "heading": "Tournament Timeline",
@@ -282,35 +283,35 @@
           "type": "question",
           "settings": {
             "question": "How many games will my team play?",
-            "answer": "Minimum 3 group games guaranteed. Teams that advance to knockouts play 4 games total."
+            "answer": "Minimum 3 group games guaranteed, teams that advance to finals play 4 games total."
           }
         },
         "q2": {
           "type": "question",
           "settings": {
             "question": "Can I enter as an individual?",
-            "answer": "This is a team event — you need to register as a team. If you need extra players, contact us and we'll try to connect you with others."
+            "answer": "This is a team event, you need to register as a team. If you need extra players, contact us and we'll try to connect you with others."
           }
         },
         "q3": {
           "type": "question",
           "settings": {
             "question": "What if it rains?",
-            "answer": "The tournament runs rain or shine. Only lightning causes postponement — in which case we'll reschedule or refund."
+            "answer": "The tournament runs rain or shine. Only postponed due to lighting."
           }
         },
         "q4": {
           "type": "question",
           "settings": {
             "question": "Is there parking?",
-            "answer": "Yes — free parking available at the venue. Arrive early for the best spots."
+            "answer": "Yes, free parking available at the venue, arrive early for the best spots"
           }
         },
         "q5": {
           "type": "question",
           "settings": {
             "question": "Can parents watch?",
-            "answer": "Absolutely — spectators are welcome and encouraged. There's seating around the courts and a BBQ/coffee van on site."
+            "answer": "Absolutely, spectators are welcome and encouraged. There's seating around the courts and Rulz Clubhouse open for food and drink."
           }
         }
       },
@@ -332,7 +333,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Lock In Your Team",
-        "subheading": "Early bird spots start at just $10 per team. First in, best dressed — prices go up as spots fill.",
+        "subheading": "Early bird spots start at just $10 per team. First in, best dressed, prices go up as spots fill",
         "cta1_text": "Register Now — From $10",
         "cta1_link": "shopify://products/rulz-junior-fiesta-early-bird-1",
         "cta2_text": "Contact Us",
