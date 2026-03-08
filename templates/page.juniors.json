@@ -230,14 +230,14 @@
           "type": "question",
           "settings": {
             "question": "Is there a registration fee?",
-            "answer": "$85 one-off game bond to secure your team's spot, then $85 per team per week at the desk. You don't pay for your final game — the bond covers it. No admin fees."
+            "answer": "$85 one off game bond to secure your team's spot, then $85 per team per week at the desk. You don't pay for your final game the bond covers it, no admin fees."
           }
         },
         "q6": {
           "type": "question",
           "settings": {
             "question": "What age groups are available?",
-            "answer": "U8, U9, U10, U11, U12, U13 for juniors. U14, U15, U17 for youth. Age is based on year of birth."
+            "answer": "U8, U9, U10, U11, U12, U13 for juniors. U14, U15, U17 for youth. Age is based on year of birth"
           }
         }
       },
