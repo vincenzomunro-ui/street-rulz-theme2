@@ -12,7 +12,7 @@
     "header": {
       "type": "page-header",
       "settings": {
-        "background_image": "",
+        "background_image": "shopify://shop_images/IMG_0953_2.jpg",
         "show_logo": false,
         "heading": "Our Courts",
         "subheading": "7 premium floodlit caged pitches on Queensland's Gold Coast. Purpose-built for fast, non-stop street football."
@@ -50,7 +50,12 @@
           }
         }
       },
-      "block_order": ["s1", "s2", "s3", "s4"],
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
       "settings": {
         "bg_color": "#181a19"
       }
@@ -61,7 +66,7 @@
         "5aside": {
           "type": "court_card",
           "settings": {
-            "image": "",
+            "image": "shopify://shop_images/Donee.jpg",
             "title": "5-a-Side Pitches",
             "subtitle": "6 PITCHES AVAILABLE",
             "badge": "MOST POPULAR",
@@ -77,7 +82,7 @@
         "7aside": {
           "type": "court_card",
           "settings": {
-            "image": "",
+            "image": "shopify://shop_images/DSC09731.jpg",
             "title": "7-a-Side Pitch",
             "subtitle": "FULL SIZE COURT",
             "badge": "",
@@ -91,11 +96,16 @@
           }
         }
       },
-      "block_order": ["5aside", "7aside"],
+      "block_order": [
+        "5aside",
+        "7aside"
+      ],
       "settings": {
         "label": "OUR FACILITY",
         "heading": "World-Class Caged Pitches",
-        "subheading": "Purpose-built for fast, non-stop street football. Every pitch is floodlit, all-weather, and fully enclosed."
+        "subheading": "Purpose-built for fast, non-stop street football. Every pitch is floodlit, all-weather, and fully enclosed.",
+        "bg_color": "",
+        "text_color": ""
       }
     },
     "rules": {
@@ -150,13 +160,21 @@
           }
         }
       },
-      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6"],
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ],
       "settings": {
         "label": "MATCH FORMAT",
         "heading": "How We Play",
         "subheading": "Fast, fair, non-stop caged football. No outs. No delays. Just pure street rules.",
         "note": "<p>Full match rules are provided to all teams before the season starts. Referees enforce all rules on the pitch. Any disputes are handled by Street Rulz management.</p>",
-        "bg_color": "#181a19"
+        "bg_color": "#181a19",
+        "text_color": ""
       }
     },
     "gallery": {
@@ -165,44 +183,46 @@
         "p1": {
           "type": "photo",
           "settings": {
-            "image": "",
             "caption": "Aerial view of our 7 caged pitches"
           }
         },
         "p2": {
           "type": "photo",
           "settings": {
-            "image": "",
             "caption": "5-a-side action under floodlights"
           }
         },
         "p3": {
           "type": "photo",
           "settings": {
-            "image": "",
             "caption": "7-a-side pitch — our biggest court"
           }
         },
         "p4": {
           "type": "photo",
           "settings": {
-            "image": "",
             "caption": "Premium synthetic turf surface"
           }
         },
         "p5": {
           "type": "photo",
           "settings": {
-            "image": "",
             "caption": "Night games under the lights"
           }
         }
       },
-      "block_order": ["p1", "p2", "p3", "p4", "p5"],
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
       "settings": {
         "label": "GALLERY",
         "heading": "See Our Facility",
-        "subheading": "Queensland's best 5 & 7-a-side caged football facility."
+        "subheading": "Queensland's best 5 & 7-a-side caged football facility.",
+        "bg_color": ""
       }
     },
     "included": {
@@ -257,7 +277,14 @@
           }
         }
       },
-      "block_order": ["i1", "i2", "i3", "i4", "i5", "i6"],
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
       "settings": {
         "label": "EVERY PITCH INCLUDES",
         "heading": "What You Get",
