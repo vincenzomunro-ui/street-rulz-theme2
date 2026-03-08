@@ -15,10 +15,7 @@
         "background_image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
         "show_logo": false,
         "heading": "Birthday Parties",
-        "subheading": "The ultimate football birthday experience for kids and adults on the Gold Coast.",
-        "bg_color": "",
-        "text_color": "",
-        "card_color": ""
+        "subheading": "The ultimate football birthday experience for kids and adults on the Gold Coast."
       }
     },
     "packages": {
@@ -68,7 +65,7 @@
             "subtitle": "3 hour",
             "badge": "MOST POPULAR",
             "highlighted": true,
-            "include_1": "2 hours on a 7-a-side pitch + 1 hour in the party area",
+            "include_1": "2 hours on a 5-a-side pitch + 1 hour in the party area",
             "include_2": "Balls, bibs, medals and drone video",
             "include_3": "Dedicated party host",
             "include_4": "Up to 20 kids",
@@ -88,10 +85,7 @@
         "label": "PARTY PACKAGES",
         "heading": "Choose Your Party Package",
         "subheading": "Celebrate in style at Gold Coast's only cage football facility. We handle the football — you handle the fun.",
-        "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings",
-        "bg_color": "#181a19",
-        "text_color": "",
-        "card_color": "#2b2b2b"
+        "note": "Custom packages available on request. Contact us for corporate events, team-building, and large group bookings"
       }
     },
     "bookinginfo": {
