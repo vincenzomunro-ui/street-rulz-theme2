@@ -12,6 +12,7 @@
     "header": {
       "type": "page-header",
       "settings": {
+        "background_image": "shopify://shop_images/Screenshot_2026-03-08_at_7.27.16_pm.png",
         "show_logo": false,
         "heading": "Senior Leagues",
         "subheading": "Competitive and social 5-a-side for adults — rolling 12-week seasons."
