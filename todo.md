@@ -70,3 +70,5 @@
 - [x] Create Sunday 7s page template (page.sunday-7s.json) with Women's and Men's sections
 - [x] Add Sunday 7s to Leagues navigation dropdown
 - [x] Push Sunday 7s page to GitHub (pending push)
+- [x] Pull latest Shopify changes
+- [x] Fix Leagues dropdown hover gap — menu disappears before user can select
