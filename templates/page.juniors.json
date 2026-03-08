@@ -149,21 +149,21 @@
           "type": "step",
           "settings": {
             "title": "Register Your Team",
-            "description": "Sign up online or at the venue. Provide team name, captain contact, player names, and emergency details."
+            "description": "Sign up online, provide team name, captain contact, player names, and emergency details"
           }
         },
         "s2": {
           "type": "step",
           "settings": {
             "title": "Turn Up & Play",
-            "description": "Arrive 10–15 minutes early. We provide refs, balls, bibs, and score tracking. Just bring your boots and shin pads."
+            "description": "Arrive 10–15 minutes early. We provide refs, balls, bibs, and score tracking. Just bring your boots and shin pads"
           }
         },
         "s3": {
           "type": "step",
           "settings": {
             "title": "Climb the Ladder",
-            "description": "Results updated weekly on our website. Top teams qualify for finals week with trophies and medals."
+            "description": "Results updated weekly on our website. Top teams qualify for finals week with trophies and medals"
           }
         }
       },
@@ -175,7 +175,7 @@
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "Getting Started is Easy",
-        "subheading": "Three simple steps to get your team on the pitch.",
+        "subheading": "Three simple steps to get your team on the pitch",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -185,7 +185,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Ready to Register Your Team?",
-        "subheading": "Season 1 starts week of 20 April. Boys Monday, Girls Tuesday, Youth Wednesday. Limited spots per age group — get in early.",
+        "subheading": "Season 1 starts:  Monday 20th of April. Boys Monday, Girls Tuesday, Youth Wednesday, limited spots per age group, get in early",
         "cta1_text": "Register Now",
         "cta1_link": "https://rulz.majestri.com.au/event-landing?enc=6VdLUKndi53HUDBJA7meHw%3d%3d",
         "cta2_text": "Contact Us",
@@ -209,7 +209,7 @@
           "type": "question",
           "settings": {
             "question": "What if it rains?",
-            "answer": "RULZ is all-weather — we only cancel for lightning. The cages are designed for play in any conditions."
+            "answer": "Rulz is all-weather, we only cancel for lightning. The cages are designed for play in any conditions."
           }
         },
         "q3": {
@@ -223,7 +223,7 @@
           "type": "question",
           "settings": {
             "question": "How many players per team?",
-            "answer": "Recommended squad size is 6–8 players (max roster 9). This allows for absences and rolling subs."
+            "answer": "Recommended squad size is 6–9 players. This allows for absences and rolling subs."
           }
         },
         "q5": {
