@@ -64,12 +64,23 @@
             "price": "$30/head",
             "link": "/pages/senior-fiesta"
           }
+        },
+        "service_card_sunday7s": {
+          "type": "service_card",
+          "settings": {
+            "icon": "🏟️",
+            "title": "Sunday 7s",
+            "description": "Women's and Men's 7-a-side football every Sunday. Full-size pitch, qualified refs, proper football. Bond + $140/player/week.",
+            "price": "$140/player/week",
+            "link": "/pages/sunday-7s"
+          }
         }
       },
       "block_order": [
         "service_card_VTJAFq",
         "service_card_rWExTk",
         "service_card_wLG8Wm",
+        "service_card_sunday7s",
         "service_card_EJ8cLy"
       ],
       "name": "Services Grid",

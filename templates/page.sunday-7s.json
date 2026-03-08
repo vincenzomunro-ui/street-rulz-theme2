@@ -1,0 +1,276 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "show_logo": false,
+        "heading": "Sunday 7s",
+        "subheading": "Women's and Men's 7-a-side football every Sunday at Street Rulz Football, Tallebudgera."
+      }
+    },
+    "schedule": {
+      "type": "league-schedule",
+      "blocks": {
+        "womens": {
+          "type": "day_card",
+          "settings": {
+            "icon": "🟣",
+            "day": "Sunday — Women's",
+            "category": "Women's Sunday 7s",
+            "age_groups": "Open Women's Division",
+            "format": "7v7",
+            "time": "8:00am – 10:00am",
+            "price": "$140"
+          }
+        },
+        "mens": {
+          "type": "day_card",
+          "settings": {
+            "icon": "🔵",
+            "day": "Sunday — Men's",
+            "category": "Men's Sunday 7s",
+            "age_groups": "Open Men's Division",
+            "format": "7v7",
+            "time": "12:00pm – 3:00pm",
+            "price": "$140"
+          }
+        }
+      },
+      "block_order": [
+        "womens",
+        "mens"
+      ],
+      "settings": {
+        "label": "SCHEDULE",
+        "heading": "Sunday 7s Competitions",
+        "subheading": "Two competitions every Sunday — Women's in the morning, Men's in the afternoon. 7-a-side format on our full-size Court 7 pitch. $140 per player per week paid at the desk on the day.",
+        "note": "A bond payment is required to secure your team's slot. The bond covers your final game of the season and is paid via Majesty at registration.",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "bond": {
+      "type": "comp-info",
+      "blocks": {
+        "b1": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Bond Payment",
+            "description": "A bond is required to confirm your team's spot. The bond covers your final game and is paid through Majesty at registration.",
+            "detail": "Paid via Majesty"
+          }
+        },
+        "b2": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Weekly Fees",
+            "description": "Weekly fees of $140 per player are paid at the desk each Sunday. No hidden costs — just turn up and pay on the day.",
+            "detail": "$140/player/week"
+          }
+        },
+        "b3": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "7-a-Side Format",
+            "description": "Full 7-a-side football on our biggest pitch. Recommended squad size: 8–12 players to cover subs and availability.",
+            "detail": "Court 7 — full size"
+          }
+        },
+        "b4": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Qualified Referees",
+            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
+            "detail": "Every game"
+          }
+        },
+        "b5": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Balls & Bibs Supplied",
+            "description": "We provide match balls and bibs for every game. Just bring your boots, shin pads, and water bottle.",
+            "detail": "All included"
+          }
+        },
+        "b6": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "All-Weather Pitches",
+            "description": "RULZ is all-weather. We play rain or shine — only suspended for lightning. Enclosed caged pitches.",
+            "detail": "Rain or shine"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6"
+      ],
+      "settings": {
+        "label": "HOW IT WORKS",
+        "heading": "Sunday 7s — What You Need to Know",
+        "subheading": "Everything you need to get your team on the pitch.",
+        "majesty_heading": "Register Your Team",
+        "majesty_description": "Team registrations are managed through Majesty. Click below to register your team and pay your bond to secure your spot.",
+        "majesty_link": "#",
+        "majesty_button_text": "Register via Majesty",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "rules": {
+      "type": "rules-info",
+      "blocks": {
+        "r1": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "⏱️",
+            "title": "Match Duration",
+            "description": "25 minutes each way (50 minutes total). Games start on time — be ready 10 minutes before kick-off."
+          }
+        },
+        "r2": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🔄",
+            "title": "Substitutions",
+            "description": "Rolling substitutions allowed. Recommended squad: 8–12 players to cover subs and availability."
+          }
+        },
+        "r3": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🏟️",
+            "title": "Pitch & Equipment",
+            "description": "Played on Court 7 — our full-size 7-a-side enclosed pitch. Match balls, bibs, and qualified refs provided."
+          }
+        },
+        "r4": {
+          "type": "rule_card",
+          "settings": {
+            "icon": "🌧️",
+            "title": "Weather Policy",
+            "description": "RULZ is all-weather. We play rain or shine — only suspended for lightning."
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "RULES",
+        "heading": "Match Rules & Format",
+        "subheading": "Simple rules, big pitch, proper football.",
+        "bg_color": "#1e1e1e",
+        "text_color": "",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How much does it cost?",
+            "answer": "$140 per player per week, paid at the desk each Sunday. A one-off bond is also required at registration to secure your team's spot — this bond covers your final game of the season."
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "How do I register my team?",
+            "answer": "Click the 'Register via Majesty' button above. You'll pay your bond through Majesty to lock in your spot. Weekly fees are then paid at the desk each Sunday."
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "What does the bond cover?",
+            "answer": "The bond covers your final game of the season. Think of it as paying your last week upfront — it guarantees your team shows up for the whole season."
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Can I join as an individual?",
+            "answer": "Sunday 7s is team-based. If you're looking for a team, get in touch and we'll try to place you with a team that needs players."
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "What do I need to bring?",
+            "answer": "Football boots or trainers, shin pads, and a water bottle. We provide match balls, bibs, and qualified referees."
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "What's the difference between Women's and Men's sessions?",
+            "answer": "Women's runs 8:00am – 10:00am and Men's runs 12:00pm – 3:00pm. Both are 7-a-side on Court 7. Same format, same pricing, same quality."
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "settings": {
+        "label": "FAQ",
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#1e1e1e",
+        "text_color": ""
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Ready to Play Sunday 7s?",
+        "subheading": "Register your team via Majesty, pay your bond, and get on the pitch. $140/player/week at the desk.",
+        "cta1_text": "Register via Majesty",
+        "cta1_link": "#",
+        "cta2_text": "Contact Us",
+        "cta2_link": "/pages/contact",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": ""
+      }
+    }
+  },
+  "order": [
+    "header",
+    "schedule",
+    "bond",
+    "rules",
+    "faq",
+    "cta"
+  ]
+}

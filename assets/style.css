@@ -106,6 +106,39 @@ button { cursor: pointer; border: none; font-family: inherit; }
 }
 .nav-links a:hover,
 .nav-links a.active { color: var(--white); }
+
+/* Leagues dropdown */
+.nav-dropdown { position: relative; }
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--gray-900, #1a1a1a);
+  border: 1px solid var(--gray-800, #333);
+  border-radius: 8px;
+  padding: 8px 0;
+  min-width: 200px;
+  z-index: 1000;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  list-style: none;
+  margin-top: 8px;
+}
+.nav-dropdown:hover .nav-dropdown-menu { display: block; }
+.nav-dropdown-menu li { padding: 0; }
+.nav-dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 13px;
+  color: var(--gray-400) !important;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.nav-dropdown-menu a:hover {
+  background: var(--gray-800, #2b2b2b);
+  color: var(--white) !important;
+}
 .nav-phone {
   display: flex;
   align-items: center;
