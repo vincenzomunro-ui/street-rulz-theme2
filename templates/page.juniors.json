@@ -89,7 +89,7 @@
           "settings": {
             "icon": "",
             "title": "Substitutions",
-            "description": "Rolling substitutions allowed. Recommended: 1 sub, maximum 3. Squad size: 6–8 players (max roster 9)."
+            "description": "Rolling substitutions allowed, 1-3 subs & 6-9 players"
           }
         },
         "r3": {
@@ -105,7 +105,7 @@
           "settings": {
             "icon": "",
             "title": "Warm Up & Arrival",
-            "description": "Teams arrive 10–15 minutes early. 5-minute warm-up before kickoff. Games start on time — no exceptions."
+            "description": "Teams arrive 10–15 minutes early, 5-minute warm-up before kickoff. Games start on time"
           }
         },
         "r5": {
@@ -121,7 +121,7 @@
           "settings": {
             "icon": "",
             "title": "Age Eligibility",
-            "description": "Age group is based on year of birth. Captain confirms on registration. Team changes allowed before registration deadline."
+            "description": "Age group is based on year of birth, Captain confirms on registration. Team changes are allowed before registration deadline"
           }
         }
       },
