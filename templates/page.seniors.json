@@ -15,7 +15,7 @@
         "background_image": "shopify://shop_images/Screenshot_2026-03-08_at_7.27.00_pm.png",
         "show_logo": false,
         "heading": "Senior Leagues",
-        "subheading": "Competitive and social 5-a-side leagues for adults rolling 12-week seasons"
+        "subheading": "Competitive and social 5-a-side leagues for adults rolling 10-week seasons"
       }
     },
     "schedule": {
@@ -92,7 +92,7 @@
       "settings": {
         "label": "SCHEDULE",
         "heading": "Weekly Senior Nights",
-        "subheading": "Rolling 12-week seasons, $99 one off bond to secure your spot, then $99 per week. Your bond covers the grand final game",
+        "subheading": "Rolling 10-week seasons, $99 one off bond to secure your spot, then $99 per week. Your bond covers the grand final game",
         "note": "Season 1 starts: Monday 20 April",
         "bg_color": "#181a19",
         "text_color": "",
