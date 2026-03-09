@@ -30,7 +30,7 @@
             "spots": "12 spots only",
             "badge": "BEST VALUE",
             "highlighted": true,
-            "link": "",
+            "link": "shopify://products/rulz-holiday-clinic-early-bird",
             "button_text": "Book Now"
           }
         },
@@ -43,7 +43,7 @@
             "spots": "Open until full",
             "badge": "",
             "highlighted": false,
-            "link": "",
+            "link": "shopify://products/rulz-holiday-clinic-standard",
             "button_text": "Book Now"
           }
         },
