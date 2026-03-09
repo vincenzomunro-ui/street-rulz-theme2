@@ -30,7 +30,7 @@
             "age_groups": "Open Women's Division",
             "format": "7v7",
             "time": "8:00am – 10:00am",
-            "price": "$140"
+            "price": "$130"
           }
         },
         "mens": {
@@ -42,7 +42,7 @@
             "age_groups": "Open Men's Division",
             "format": "7v7",
             "time": "12:00pm – 3:00pm",
-            "price": "$140"
+            "price": "$130"
           }
         }
       },
@@ -77,8 +77,8 @@
           "settings": {
             "icon": "",
             "title": "Weekly Fees",
-            "description": "Weekly fees of $140 per player are paid at the desk each Sunday. No hidden costs — just turn up and pay on the day.",
-            "detail": "$140/player/week"
+            "description": "Weekly fees of $130 per player are paid at the desk each Sunday. No hidden costs — just turn up and pay on the day.",
+            "detail": "$130/player/week"
           }
         },
         "b3": {
