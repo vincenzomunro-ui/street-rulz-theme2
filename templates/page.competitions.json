@@ -256,32 +256,6 @@
     "fixtures": {
       "type": "fixtures",
       "blocks": {
-        "r6": {
-          "type": "round",
-          "settings": {
-            "round_title": "Round 6 NEW TEAMS",
-            "round_date": "Thursday 12th March",
-            "is_upcoming": true,
-            "game1_home": "One Nation United",
-            "game1_away": "----",
-            "game1_home_score": "0",
-            "game1_away_score": "0",
-            "game1_court": "Court 1",
-            "game1_time": "7:15pm",
-            "game2_home": "",
-            "game2_away": "",
-            "game2_home_score": "",
-            "game2_away_score": "",
-            "game2_court": "",
-            "game2_time": "",
-            "game3_home": "",
-            "game3_away": "",
-            "game3_home_score": "",
-            "game3_away_score": "",
-            "game3_court": "",
-            "game3_time": ""
-          }
-        },
         "round_7ajLPi": {
           "type": "round",
           "settings": {
@@ -306,6 +280,32 @@
             "game3_away_score": "0",
             "game3_court": "Court 2",
             "game3_time": "7:15pm"
+          }
+        },
+        "r6": {
+          "type": "round",
+          "settings": {
+            "round_title": "Round 6 NEW TEAMS",
+            "round_date": "Thursday 12th March",
+            "is_upcoming": true,
+            "game1_home": "One Nation United",
+            "game1_away": "----",
+            "game1_home_score": "0",
+            "game1_away_score": "0",
+            "game1_court": "Court 1",
+            "game1_time": "7:15pm",
+            "game2_home": "",
+            "game2_away": "",
+            "game2_home_score": "",
+            "game2_away_score": "",
+            "game2_court": "",
+            "game2_time": "",
+            "game3_home": "",
+            "game3_away": "",
+            "game3_home_score": "",
+            "game3_away_score": "",
+            "game3_court": "",
+            "game3_time": ""
           }
         },
         "r5": {
@@ -440,8 +440,8 @@
         }
       },
       "block_order": [
-        "r6",
         "round_7ajLPi",
+        "r6",
         "r5",
         "r4",
         "r3",
