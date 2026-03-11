@@ -75,7 +75,7 @@
           "settings": {
             "icon": "",
             "title": "Team Registration",
-            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others.",
+            "description": "Register your team of 5-8 players. Need players? We can help you find a team or merge with others",
             "detail": "5-8 players per team"
           }
         },
@@ -102,7 +102,7 @@
           "settings": {
             "icon": "",
             "title": "Professional Referees",
-            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
+            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct",
             "detail": "Qualified refs every game"
           }
         },
@@ -137,7 +137,7 @@
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "RULZ COMPETITIVE LEAGUES",
-        "subheading": "Graded divisions for juniors, youth, and adults.",
+        "subheading": "Graded divisions for juniors, youth, and adults",
         "majesty_heading": "Register Your Team",
         "majesty_description": "Team registrations, and fixtures are managed through Majesty. Click below to register your team, or view upcoming fixtures",
         "majesty_link": "https://rulz.majestri.com.au/whats-on",
