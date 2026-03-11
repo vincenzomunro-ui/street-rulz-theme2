@@ -24,8 +24,8 @@
         "womens": {
           "type": "day_card",
           "settings": {
-            "icon": "🟣",
-            "day": "Sunday — Women's",
+            "icon": "",
+            "day": "Sunday - Women's",
             "category": "Women's Sunday 7s",
             "age_groups": "Open Women's Division",
             "format": "7v7",
@@ -36,8 +36,8 @@
         "mens": {
           "type": "day_card",
           "settings": {
-            "icon": "🔵",
-            "day": "Sunday — Men's",
+            "icon": "",
+            "day": "Sunday - Men's",
             "category": "Men's Sunday 7s",
             "age_groups": "Open Men's Division",
             "format": "7v7",
@@ -53,8 +53,8 @@
       "settings": {
         "label": "SCHEDULE",
         "heading": "Sunday 7s Competitions",
-        "subheading": "Two competitions every Sunday — Women's in the morning, Men's in the afternoon. 7-a-side format on our full-size Court 7 pitch. $130 per team per week paid at the desk on the day.",
-        "note": "A bond payment is required to secure your team's slot. The bond covers your final game of the season and is paid via Majesty at registration.",
+        "subheading": "Two competitions every Sunday. Women's in the morning, Men's in the afternoon. 7-a-side format on our full size pitch. $130 per team per week paid at the desk on the day",
+        "note": "A bond payment is required to secure your team's slot. The bond covers your final game of the season and is paid via Majesty at registration",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
