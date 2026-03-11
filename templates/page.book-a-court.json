@@ -28,7 +28,7 @@
             "title": "5-a-Side Pitches",
             "badge": "MOST POPULAR",
             "highlighted": true,
-            "description": "Perfect for smaller teams and casual kicks. Fast paced action in our premium caged pitches.",
+            "description": "Perfect for smaller teams and casual kicks. Fast paced action in our premium caged pitches",
             "feature_1": "Ideal for 5-12 players",
             "feature_2": "6x 5-a-Side pitches available",
             "feature_3": "Fast paced",
@@ -50,7 +50,7 @@
             "title": "7-a-Side Pitch",
             "badge": "",
             "highlighted": false,
-            "description": "Ideal for larger teams. Our biggest pitch for the ultimate game.",
+            "description": "Ideal for larger teams. Our biggest pitch for the ultimate game",
             "feature_1": "Ideal for 10-18 players",
             "feature_2": "Full size 7-a-side pitch",
             "feature_3": "53% larger then our 5-a-Side",
@@ -306,7 +306,7 @@
             "name_color": "#fdfdfd",
             "date_color": "#7a7a7a",
             "more_color": "#1a73e8",
-            "submit_button_background_color": "#0084FF",
+            "submit_button_background_color": "#0084ff",
             "submit_button_text": "#ffffff",
             "business_info_color": "#000000"
           }
