@@ -15,7 +15,7 @@
         "background_image": "shopify://shop_images/IMG_1349_2.jpg",
         "show_logo": false,
         "heading": "Events at RULZ",
-        "subheading": "From one-day fiestas to school holiday clinics — there's always something happening at Street Rulz Football. Pick an event below to find out more and register."
+        "subheading": "From one day fiesta's to school holiday adacemies, there's always something happening at Street Rulz Football. Pick an event below to find out more and register"
       }
     },
     "events_grid": {
@@ -28,7 +28,7 @@
             "icon": "⚽",
             "title": "Junior Little Legends Fiesta",
             "description": "Our biggest junior event of the season! Teams of 5 battle it out in a one-day round-robin tournament. Trophies, medals, and a BBQ for the whole family.\n\nSaturday 7 June 2026 • From $10/team early bird special",
-            "price": "EARLY BIRD OPEN",
+            "price": "Early Bird Open",
             "link": "shopify://pages/rulz-little-legend"
           }
         },
@@ -39,7 +39,7 @@
             "icon": "🏆",
             "title": "Rulz Senior Fiesta",
             "description": "The ultimate one-day senior tournament. Open Men’s, Masters 35+, and Mixed divisions. BBQ, licensed bar, trophies, and bragging rights.\n\nSaturday 7 June 2026 •",
-            "price": "NEW $30/head",
+            "price": "$30/head",
             "link": "/pages/senior-fiesta"
           }
         },
@@ -63,7 +63,7 @@
       "settings": {
         "label": "WHAT'S ON",
         "heading": "Upcoming Events",
-        "subheading": "Click an event to find out more and register your team."
+        "subheading": "Click an event to find out more and register your team"
       }
     }
   },
