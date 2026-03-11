@@ -14,8 +14,8 @@
       "settings": {
         "background_image": "shopify://shop_images/IMG_1349_2.jpg",
         "show_logo": false,
-        "heading": "RULZ Senior Fiesta",
-        "subheading": "Three nights of 5-a-side football — one division per night. Pick your division and lock in your team."
+        "heading": "Senior Fiesta",
+        "subheading": "Three nights of 5-a-side football, one division per night. Pick your division and lock in your team"
       }
     },
     "event": {
@@ -26,7 +26,7 @@
           "settings": {
             "tier_name": "Mixed Division",
             "price": "$30",
-            "description": "Friday 27th March — Mixed teams battle it out under the lights. Grab your mates and enter a mixed squad.",
+            "description": "Friday 27th March, mixed teams battle it out under the lights. Grab your mates and enter a mixed team",
             "spots": "Limited spots available",
             "badge": "FRIDAY NIGHT",
             "highlighted": false,
@@ -39,7 +39,7 @@
           "settings": {
             "tier_name": "Men's Open Division",
             "price": "$30",
-            "description": "Saturday 28th March — Open Men's division. No age limit, no holding back. Bring your best squad.",
+            "description": "Saturday 28th March, open men's division. No age limit, no holding back. Bring your best team",
             "spots": "Limited spots available",
             "badge": "SATURDAY NIGHT",
             "highlighted": true,
@@ -52,7 +52,7 @@
           "settings": {
             "tier_name": "Women's Open Division",
             "price": "$30",
-            "description": "Sunday 29th March — Women's Open division. Competitive 5-a-side tournament with trophies and prizes.",
+            "description": "Sunday 29th March, women's open division. Competitive 5-a-side tournament with trophies and prizes",
             "spots": "Limited spots available",
             "badge": "SUNDAY NIGHT",
             "highlighted": false,
@@ -68,8 +68,8 @@
       ],
       "settings": {
         "label": "TOURNAMENT",
-        "heading": "RULZ Senior Fiesta 2026",
-        "subheading": "Three nights. Three divisions. $30 per player. Fast 5-a-side games, group stages, knockout rounds, trophies, BBQ, and cold ones on site.",
+        "heading": "RULZ Senior Fiesta",
+        "subheading": "Three nights. Three divisions. $30 per player. Fast 5-a-side games, group stages, knockout rounds, trophies, food and drinks",
         "event_date": "Fri 27 – Sun 29 March 2026",
         "event_time": "6:00pm – 10:00pm each night",
         "event_ages": "18+ Adults Only",
@@ -87,7 +87,7 @@
         "h1": {
           "type": "info_card",
           "settings": {
-            "icon": "🏟️",
+            "icon": "",
             "title": "7 Courts Running",
             "description": "All 7 cages in action — group games running simultaneously across every court. Non-stop football all night.",
             "detail": ""
@@ -96,7 +96,7 @@
         "h2": {
           "type": "info_card",
           "settings": {
-            "icon": "🏆",
+            "icon": "",
             "title": "Group Stage + Knockout",
             "description": "Teams play 3–4 group games, then top teams advance to quarter-finals, semis, and the grand final.",
             "detail": ""
@@ -105,7 +105,7 @@
         "h3": {
           "type": "info_card",
           "settings": {
-            "icon": "🥇",
+            "icon": "",
             "title": "Trophies & Awards",
             "description": "Winners and runners-up trophies for each division. Golden Boot and MVP awards. Bragging rights included.",
             "detail": ""
@@ -114,7 +114,7 @@
         "h4": {
           "type": "info_card",
           "settings": {
-            "icon": "🍔",
+            "icon": "",
             "title": "BBQ & Bar",
             "description": "BBQ, coffee van, and licensed bar running each night. A proper carnival atmosphere — bring the crew.",
             "detail": ""
@@ -123,7 +123,7 @@
         "h5": {
           "type": "info_card",
           "settings": {
-            "icon": "📸",
+            "icon": "",
             "title": "Photos & Highlights",
             "description": "Professional photos and video highlights posted after the event. Tag your team and share the memories.",
             "detail": ""
@@ -132,7 +132,7 @@
         "h6": {
           "type": "info_card",
           "settings": {
-            "icon": "👨‍⚖️",
+            "icon": "",
             "title": "Qualified Referees",
             "description": "Every game officiated by a qualified referee. Fair play, clear rules, and a safe competitive environment.",
             "detail": ""
@@ -150,7 +150,7 @@
       "settings": {
         "label": "WHAT'S INCLUDED",
         "heading": "Everything You Need to Know",
-        "subheading": "Three nights of football, food, and fun.",
+        "subheading": "Three nights of football, food, and fun",
         "majesty_heading": "Register Your Team",
         "majesty_description": "",
         "majesty_link": "shopify://products/rulz-senior-fiesta-entry",
