@@ -26,7 +26,7 @@
           "settings": {
             "icon": "",
             "day": "Sunday - Women's",
-            "category": "Women's Sunday 7s",
+            "category": "Women's Sunday 7's",
             "age_groups": "Open Women's Division",
             "format": "7v7",
             "time": "8:00am – 10:00am",
@@ -38,7 +38,7 @@
           "settings": {
             "icon": "",
             "day": "Sunday - Men's",
-            "category": "Men's Sunday 7s",
+            "category": "Men's Sunday 7's",
             "age_groups": "Open Men's Division",
             "format": "7v7",
             "time": "12:00pm – 3:00pm",
@@ -63,31 +63,13 @@
     "bond": {
       "type": "comp-info",
       "blocks": {
-        "b1": {
-          "type": "info_card",
-          "settings": {
-            "icon": "",
-            "title": "Bond Payment",
-            "description": "A bond is required to confirm your team's spot. The bond covers your final game and is paid through Majesty at registration.",
-            "detail": "Paid via Majesty"
-          }
-        },
-        "b2": {
-          "type": "info_card",
-          "settings": {
-            "icon": "",
-            "title": "Weekly Fees",
-            "description": "Weekly fees of $130 per player are paid at the desk each Sunday. No hidden costs — just turn up and pay on the day.",
-            "detail": "$130/team/week"
-          }
-        },
         "b3": {
           "type": "info_card",
           "settings": {
             "icon": "",
-            "title": "7-a-Side Format",
-            "description": "Full 7-a-side football on our biggest pitch. Recommended squad size: 8–10 players to cover subs and availability.",
-            "detail": "Court 7 — full size"
+            "title": "7-a-side Format",
+            "description": "Full 7-a-side football on our biggest pitch. Recommended team size: 8–10 players to cover subs and availability",
+            "detail": "Court 7 - full size"
           }
         },
         "b4": {
@@ -95,7 +77,7 @@
           "settings": {
             "icon": "",
             "title": "Qualified Referees",
-            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct.",
+            "description": "All matches are officiated by qualified referees. Fair play is enforced with our code of conduct",
             "detail": "Every game"
           }
         },
@@ -104,7 +86,7 @@
           "settings": {
             "icon": "",
             "title": "Balls & Bibs Supplied",
-            "description": "We provide match balls and bibs for every game. Just bring your boots, shin pads, and water bottle.",
+            "description": "We provide match balls and bibs for every game. Just bring your boots, shin pads, and water bottle",
             "detail": "All included"
           }
         },
@@ -113,22 +95,40 @@
           "settings": {
             "icon": "",
             "title": "All-Weather Pitches",
-            "description": "RULZ is all-weather. We play rain or shine — only suspended for lightning. Enclosed caged pitches.",
+            "description": "Rulz is all weather. We play rain or shine, only suspended for lightning. Enclosed caged pitches",
             "detail": "Rain or shine"
+          }
+        },
+        "b2": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Weekly Fees",
+            "description": "Weekly fees of $130 per player are paid at the desk each Sunday. No hidden cost, just turn up and pay on the day",
+            "detail": "$130/team/week"
+          }
+        },
+        "b1": {
+          "type": "info_card",
+          "settings": {
+            "icon": "",
+            "title": "Bond Payment",
+            "description": "A bond is required to confirm your team's spot. The bond covers your final game and is paid through Majesty at registration",
+            "detail": "Paid via Majesty"
           }
         }
       },
       "block_order": [
-        "b1",
-        "b2",
         "b3",
         "b4",
         "b5",
-        "b6"
+        "b6",
+        "b2",
+        "b1"
       ],
       "settings": {
         "label": "HOW IT WORKS",
-        "heading": "Sunday 7s — What You Need to Know",
+        "heading": "Sunday 7's",
         "subheading": "Everything you need to get your team on the pitch.",
         "majesty_heading": "Register Your Team",
         "majesty_description": "Team registrations are managed through Majesty. Click below to register your team and pay your bond to secure your spot.",
@@ -145,33 +145,33 @@
         "r1": {
           "type": "rule_card",
           "settings": {
-            "icon": "⏱️",
+            "icon": "",
             "title": "Match Duration",
-            "description": "25 minutes each way (50 minutes total). Games start on time — be ready 10 minutes before kick-off."
+            "description": "25 minutes each way (50 minutes total). Games start on time, be ready 10 minutes before kick-off"
           }
         },
         "r2": {
           "type": "rule_card",
           "settings": {
-            "icon": "🔄",
+            "icon": "",
             "title": "Substitutions",
-            "description": "Rolling substitutions allowed. Recommended squad: 8–10 players to cover subs and availability."
+            "description": "Rolling substitutions allowed. Recommended squad: 8–10 players to cover subs and availability"
           }
         },
         "r3": {
           "type": "rule_card",
           "settings": {
-            "icon": "🏟️",
+            "icon": "",
             "title": "Pitch & Equipment",
-            "description": "Played on Court 7 — our full-size 7-a-side enclosed pitch. Match balls, bibs, and qualified refs provided."
+            "description": "Played on pitch 7, our full-size 7-a-side caged pitch. Match balls, bibs, and qualified refs provided"
           }
         },
         "r4": {
           "type": "rule_card",
           "settings": {
-            "icon": "🌧️",
+            "icon": "",
             "title": "Weather Policy",
-            "description": "RULZ is all-weather. We play rain or shine — only suspended for lightning."
+            "description": "Rulz is all weather. We play rain or shine, only suspended for lightning"
           }
         }
       },
@@ -184,7 +184,7 @@
       "settings": {
         "label": "RULES",
         "heading": "Match Rules & Format",
-        "subheading": "Simple rules, big pitch, proper football.",
+        "subheading": "Simple rules, big pitch, proper football",
         "bg_color": "#1e1e1e",
         "text_color": "",
         "card_color": "#2b2b2b"
