@@ -43,7 +43,7 @@
             "spots": "Limited spots available",
             "badge": "SATURDAY NIGHT",
             "highlighted": true,
-            "link": "",
+            "link": "shopify://products/rulz-senior-fiesta-entry",
             "button_text": "Book Men's Open"
           }
         },
@@ -275,7 +275,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Lock In Your Team",
-        "subheading": "$30 per player, pick your division, enter your team name at checkout, we'll sort the rest.",
+        "subheading": "$30 per player, pick your division, enter your team name at checkout, we'll sort the rest",
         "cta1_text": "Register Now",
         "cta1_link": "shopify://products/rulz-senior-fiesta-entry",
         "cta2_text": "Contact Us",
