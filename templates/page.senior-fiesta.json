@@ -262,6 +262,7 @@
         "m4",
         "m5"
       ],
+      "disabled": true,
       "settings": {
         "label": "KEY DATES",
         "heading": "Tournament Timeline",
@@ -274,8 +275,8 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Lock In Your Team",
-        "subheading": "$30 per player. Pick your division, enter your team name at checkout — we'll sort the rest.",
-        "cta1_text": "Register Now — $30",
+        "subheading": "$30 per player, pick your division, enter your team name at checkout, we'll sort the rest.",
+        "cta1_text": "Register Now",
         "cta1_link": "shopify://products/rulz-senior-fiesta-entry",
         "cta2_text": "Contact Us",
         "cta2_link": "shopify://pages/contact",
