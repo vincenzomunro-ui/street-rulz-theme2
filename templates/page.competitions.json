@@ -117,7 +117,14 @@
           }
         }
       },
-      "block_order": ["c5","c1","c2","c6","c3","c4"],
+      "block_order": [
+        "c5",
+        "c1",
+        "c2",
+        "c6",
+        "c3",
+        "c4"
+      ],
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "RULZ COMPETITIVE LEAGUES",
@@ -247,12 +254,21 @@
           }
         }
       },
-      "block_order": ["t1","t2","t3","t4","t5","t6","t7","t8"],
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7",
+        "t8"
+      ],
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League — 10 Week Season (Round 6 of 10)",
-        "updated_text": "Updated after Round 6 — 13 Mar 2026",
+        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 6 of 10)",
+        "updated_text": "Updated after Round 6 \u2014 13 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -284,33 +300,13 @@
             "game3_home_score": "0",
             "game3_away_score": "0",
             "game3_court": "Court 1",
-            "game3_time": "7:15pm"
-          }
-        },
-        "r7b": {
-          "type": "round",
-          "settings": {
-            "round_title": "Round 7 — Court 2",
-            "round_date": "Thursday 19th March",
-            "is_upcoming": true,
-            "game1_home": "School Run United",
-            "game1_away": "Rulz Solo United",
-            "game1_home_score": "0",
-            "game1_away_score": "0",
-            "game1_court": "Court 2",
-            "game1_time": "7:15pm",
-            "game2_home": "",
-            "game2_away": "",
-            "game2_home_score": "",
-            "game2_away_score": "",
-            "game2_court": "",
-            "game2_time": "",
-            "game3_home": "",
-            "game3_away": "",
-            "game3_home_score": "",
-            "game3_away_score": "",
-            "game3_court": "",
-            "game3_time": ""
+            "game3_time": "7:15pm",
+            "game4_home": "School Run United",
+            "game4_away": "Rulz Solo United",
+            "game4_home_score": "0",
+            "game4_away_score": "0",
+            "game4_court": "Court 2",
+            "game4_time": "7:15pm"
           }
         },
         "round_7ajLPi": {
@@ -342,7 +338,7 @@
         "r6": {
           "type": "round",
           "settings": {
-            "round_title": "Round 6 — New Teams",
+            "round_title": "Round 6 \u2014 New Teams",
             "round_date": "Thursday 12th March",
             "is_upcoming": false,
             "game1_home": "One Nation United",
@@ -496,7 +492,16 @@
           }
         }
       },
-      "block_order": ["r7","r7b","round_7ajLPi","r6","r5","r4","r3","r2","r1"],
+      "block_order": [
+        "r7",
+        "round_7ajLPi",
+        "r6",
+        "r5",
+        "r4",
+        "r3",
+        "r2",
+        "r1"
+      ],
       "settings": {
         "label": "FIXTURES & RESULTS",
         "heading": "Fixtures & Results",
@@ -521,5 +526,12 @@
       }
     }
   },
-  "order": ["header","services_G9Ahz8","compinfo","ladder","fixtures","cta"]
+  "order": [
+    "header",
+    "services_G9Ahz8",
+    "compinfo",
+    "ladder",
+    "fixtures",
+    "cta"
+  ]
 }
