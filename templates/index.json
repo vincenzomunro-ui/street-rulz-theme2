@@ -1,23 +1,14 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
       "type": "hero",
       "settings": {
         "background_image": "shopify://shop_images/Screenshot_2026-02-25_at_11.32.12_am.png",
-        "badge_text": "PLAY RAIN OR SHINE — ALL-WEATHER PITCHES",
+        "badge_text": "PLAY RAIN OR SHINE \u2014 ALL-WEATHER PITCHES",
         "heading_line1": "Street Rulz Football",
         "heading_line2": "Queenslands Best Caged Football Pitches",
         "subheading": "",
-        "cta1_text": "Book a Pitch — From $110/hr",
+        "cta1_text": "Book a Pitch \u2014 From $110/hr",
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "Join a League",
         "cta2_link": "/pages/competitions",
@@ -147,7 +138,7 @@
           "type": "event",
           "settings": {
             "title": "Wednesday $10 Kick",
-            "details": "Wednesday · 6:00 PM – 9:00 PM · $10/person · Casual 5-a-side",
+            "details": "Wednesday \u00b7 6:00 PM \u2013 9:00 PM \u00b7 $10/person \u00b7 Casual 5-a-side",
             "tag_text": "Pay At Clubhouse",
             "tag_style": "tag-social",
             "urgent": false,
@@ -171,7 +162,7 @@
           "type": "event",
           "settings": {
             "title": "Social Saturday $10 Kick",
-            "details": "Saturday - 10:00 AM – 4:00 PM - $10/person",
+            "details": "Saturday - 10:00 AM \u2013 4:00 PM - $10/person",
             "tag_text": "Pay At Clubhouse",
             "tag_style": "tag-social",
             "urgent": false,
@@ -198,41 +189,41 @@
           "type": "team_row",
           "settings": {
             "team": "Big Sexy FC",
-            "played": "5",
-            "wins": "4",
+            "played": "6",
+            "wins": "5",
             "draws": "0",
             "losses": "1",
-            "goals_for": "51",
-            "goals_against": "36",
-            "goal_diff": "+15",
-            "points": "12"
+            "goals_for": "66",
+            "goals_against": "43",
+            "goal_diff": "+23",
+            "points": "15"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
-            "team": "Third Leg Strikers",
-            "played": "5",
-            "wins": "3",
+            "team": "Spirit of Mawen",
+            "played": "6",
+            "wins": "4",
             "draws": "0",
             "losses": "2",
-            "goals_for": "38",
-            "goals_against": "32",
-            "goal_diff": "+6",
-            "points": "9"
+            "goals_for": "53",
+            "goals_against": "50",
+            "goal_diff": "+3",
+            "points": "12"
           }
         },
         "t3": {
           "type": "team_row",
           "settings": {
-            "team": "Spirit of Mawen",
-            "played": "5",
+            "team": "Third Leg Strikers",
+            "played": "6",
             "wins": "3",
             "draws": "0",
-            "losses": "2",
+            "losses": "3",
             "goals_for": "46",
-            "goals_against": "44",
-            "goal_diff": "+2",
+            "goals_against": "41",
+            "goal_diff": "+5",
             "points": "9"
           }
         },
@@ -240,27 +231,27 @@
           "type": "team_row",
           "settings": {
             "team": "Headstart",
-            "played": "5",
+            "played": "6",
             "wins": "3",
             "draws": "0",
-            "losses": "2",
-            "goals_for": "34",
-            "goals_against": "35",
-            "goal_diff": "-1",
+            "losses": "3",
+            "goals_for": "40",
+            "goals_against": "42",
+            "goal_diff": "-2",
             "points": "9"
           }
         },
         "t5": {
           "type": "team_row",
           "settings": {
-            "team": "School Run United",
-            "played": "5",
+            "team": "One Nation United",
+            "played": "1",
             "wins": "1",
             "draws": "0",
-            "losses": "4",
-            "goals_for": "33",
-            "goals_against": "43",
-            "goal_diff": "-10",
+            "losses": "0",
+            "goals_for": "22",
+            "goals_against": "7",
+            "goal_diff": "+15",
             "points": "3"
           }
         },
@@ -268,13 +259,41 @@
           "type": "team_row",
           "settings": {
             "team": "Screaming Schooners",
-            "played": "5",
-            "wins": "0",
+            "played": "6",
+            "wins": "1",
             "draws": "0",
             "losses": "5",
-            "goals_for": "36",
-            "goals_against": "48",
+            "goals_for": "45",
+            "goals_against": "57",
             "goal_diff": "-12",
+            "points": "3"
+          }
+        },
+        "t7": {
+          "type": "team_row",
+          "settings": {
+            "team": "School Run United",
+            "played": "6",
+            "wins": "1",
+            "draws": "0",
+            "losses": "5",
+            "goals_for": "40",
+            "goals_against": "58",
+            "goal_diff": "-18",
+            "points": "3"
+          }
+        },
+        "t8": {
+          "type": "team_row",
+          "settings": {
+            "team": "Rulz Solo United",
+            "played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "7",
+            "goals_against": "22",
+            "goal_diff": "-15",
             "points": "0"
           }
         }
@@ -285,13 +304,15 @@
         "t3",
         "t4",
         "t5",
-        "t6"
+        "t6",
+        "t7",
+        "t8"
       ],
       "settings": {
         "label": "Leagues",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League — 10 Week Season (Round 5 of 10)",
-        "updated_text": "Updated after Round 5 — 6 Mar 2026",
+        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 6 of 10)",
+        "updated_text": "Updated after Round 6 \u2014 13 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -306,9 +327,9 @@
             "title": "Weekday",
             "badge": "Popular",
             "highlighted": true,
-            "row1_label": "Mon–Fri 8am–4pm",
+            "row1_label": "Mon\u2013Fri 8am\u20134pm",
             "row1_value": "$110/hr",
-            "row2_label": "Mon–Fri 4pm–10pm",
+            "row2_label": "Mon\u2013Fri 4pm\u201310pm",
             "row2_value": "$140/hr",
             "row3_label": "",
             "row3_value": "",
@@ -404,14 +425,14 @@
           "type": "hours_row",
           "settings": {
             "day": "Monday - Friday",
-            "time": "8:00 AM – 10:00 PM"
+            "time": "8:00 AM \u2013 10:00 PM"
           }
         },
         "hours_row_HLFR8Y": {
           "type": "hours_row",
           "settings": {
             "day": "Saturday - Sunday",
-            "time": "8:00 AM – 10:00 PM"
+            "time": "8:00 AM \u2013 10:00 PM"
           }
         }
       },

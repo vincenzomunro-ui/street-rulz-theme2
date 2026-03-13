@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "header": {
@@ -126,14 +117,7 @@
           }
         }
       },
-      "block_order": [
-        "c5",
-        "c1",
-        "c2",
-        "c6",
-        "c3",
-        "c4"
-      ],
+      "block_order": ["c5","c1","c2","c6","c3","c4"],
       "settings": {
         "label": "HOW IT WORKS",
         "heading": "RULZ COMPETITIVE LEAGUES",
@@ -154,41 +138,41 @@
           "type": "team_row",
           "settings": {
             "team": "Big Sexy FC",
-            "played": "5",
-            "wins": "4",
+            "played": "6",
+            "wins": "5",
             "draws": "0",
             "losses": "1",
-            "goals_for": "51",
-            "goals_against": "36",
-            "goal_diff": "+15",
-            "points": "12"
+            "goals_for": "66",
+            "goals_against": "43",
+            "goal_diff": "+23",
+            "points": "15"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
-            "team": "Third Leg Strikers",
-            "played": "5",
-            "wins": "3",
+            "team": "Spirit of Mawen",
+            "played": "6",
+            "wins": "4",
             "draws": "0",
             "losses": "2",
-            "goals_for": "38",
-            "goals_against": "32",
-            "goal_diff": "+6",
-            "points": "9"
+            "goals_for": "53",
+            "goals_against": "50",
+            "goal_diff": "+3",
+            "points": "12"
           }
         },
         "t3": {
           "type": "team_row",
           "settings": {
-            "team": "Spirit of Mawen",
-            "played": "5",
+            "team": "Third Leg Strikers",
+            "played": "6",
             "wins": "3",
             "draws": "0",
-            "losses": "2",
+            "losses": "3",
             "goals_for": "46",
-            "goals_against": "44",
-            "goal_diff": "+2",
+            "goals_against": "41",
+            "goal_diff": "+5",
             "points": "9"
           }
         },
@@ -196,27 +180,27 @@
           "type": "team_row",
           "settings": {
             "team": "Headstart",
-            "played": "5",
+            "played": "6",
             "wins": "3",
             "draws": "0",
-            "losses": "2",
-            "goals_for": "34",
-            "goals_against": "35",
-            "goal_diff": "-1",
+            "losses": "3",
+            "goals_for": "40",
+            "goals_against": "42",
+            "goal_diff": "-2",
             "points": "9"
           }
         },
         "t5": {
           "type": "team_row",
           "settings": {
-            "team": "School Run United",
-            "played": "5",
+            "team": "One Nation United",
+            "played": "1",
             "wins": "1",
             "draws": "0",
-            "losses": "4",
-            "goals_for": "33",
-            "goals_against": "43",
-            "goal_diff": "-10",
+            "losses": "0",
+            "goals_for": "22",
+            "goals_against": "7",
+            "goal_diff": "+15",
             "points": "3"
           }
         },
@@ -224,30 +208,51 @@
           "type": "team_row",
           "settings": {
             "team": "Screaming Schooners",
-            "played": "5",
-            "wins": "0",
+            "played": "6",
+            "wins": "1",
             "draws": "0",
             "losses": "5",
-            "goals_for": "36",
-            "goals_against": "48",
+            "goals_for": "45",
+            "goals_against": "57",
             "goal_diff": "-12",
+            "points": "3"
+          }
+        },
+        "t7": {
+          "type": "team_row",
+          "settings": {
+            "team": "School Run United",
+            "played": "6",
+            "wins": "1",
+            "draws": "0",
+            "losses": "5",
+            "goals_for": "40",
+            "goals_against": "58",
+            "goal_diff": "-18",
+            "points": "3"
+          }
+        },
+        "t8": {
+          "type": "team_row",
+          "settings": {
+            "team": "Rulz Solo United",
+            "played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "7",
+            "goals_against": "22",
+            "goal_diff": "-15",
             "points": "0"
           }
         }
       },
-      "block_order": [
-        "t1",
-        "t2",
-        "t3",
-        "t4",
-        "t5",
-        "t6"
-      ],
+      "block_order": ["t1","t2","t3","t4","t5","t6","t7","t8"],
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League — 10 Week Season (Round 5 of 10)",
-        "updated_text": "Updated after Round 5 — 6 Mar 2026",
+        "subheading": "Rulz Competitive League — 10 Week Season (Round 6 of 10)",
+        "updated_text": "Updated after Round 6 — 13 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -256,28 +261,80 @@
     "fixtures": {
       "type": "fixtures",
       "blocks": {
+        "r7": {
+          "type": "round",
+          "settings": {
+            "round_title": "Round 7",
+            "round_date": "Thursday 19th March",
+            "is_upcoming": true,
+            "game1_home": "Big Sexy FC",
+            "game1_away": "One Nation United",
+            "game1_home_score": "0",
+            "game1_away_score": "0",
+            "game1_court": "Court 1",
+            "game1_time": "6:30pm",
+            "game2_home": "Screaming Schooners",
+            "game2_away": "Headstart",
+            "game2_home_score": "0",
+            "game2_away_score": "0",
+            "game2_court": "Court 2",
+            "game2_time": "6:30pm",
+            "game3_home": "Third Leg Strikers",
+            "game3_away": "Spirit of Mawen",
+            "game3_home_score": "0",
+            "game3_away_score": "0",
+            "game3_court": "Court 1",
+            "game3_time": "7:15pm"
+          }
+        },
+        "r7b": {
+          "type": "round",
+          "settings": {
+            "round_title": "Round 7 — Court 2",
+            "round_date": "Thursday 19th March",
+            "is_upcoming": true,
+            "game1_home": "School Run United",
+            "game1_away": "Rulz Solo United",
+            "game1_home_score": "0",
+            "game1_away_score": "0",
+            "game1_court": "Court 2",
+            "game1_time": "7:15pm",
+            "game2_home": "",
+            "game2_away": "",
+            "game2_home_score": "",
+            "game2_away_score": "",
+            "game2_court": "",
+            "game2_time": "",
+            "game3_home": "",
+            "game3_away": "",
+            "game3_home_score": "",
+            "game3_away_score": "",
+            "game3_court": "",
+            "game3_time": ""
+          }
+        },
         "round_7ajLPi": {
           "type": "round",
           "settings": {
             "round_title": "Round 6",
             "round_date": "Thursday 12th March",
-            "is_upcoming": true,
+            "is_upcoming": false,
             "game1_home": "Third Leg Strikers",
             "game1_away": "Screaming Schooners",
-            "game1_home_score": "0",
-            "game1_away_score": "0",
+            "game1_home_score": "8",
+            "game1_away_score": "9",
             "game1_court": "Court 1",
             "game1_time": "6:30pm",
             "game2_home": "School Run United",
             "game2_away": "Big Sexy FC",
-            "game2_home_score": "0",
-            "game2_away_score": "0",
+            "game2_home_score": "7",
+            "game2_away_score": "15",
             "game2_court": "Court 2",
             "game2_time": "6:30pm",
             "game3_home": "Headstart",
             "game3_away": "Spirit of Mawen",
-            "game3_home_score": "0",
-            "game3_away_score": "0",
+            "game3_home_score": "6",
+            "game3_away_score": "7",
             "game3_court": "Court 2",
             "game3_time": "7:15pm"
           }
@@ -285,13 +342,13 @@
         "r6": {
           "type": "round",
           "settings": {
-            "round_title": "Round 6 NEW TEAMS",
+            "round_title": "Round 6 — New Teams",
             "round_date": "Thursday 12th March",
-            "is_upcoming": true,
+            "is_upcoming": false,
             "game1_home": "One Nation United",
             "game1_away": "Rulz Solo United",
-            "game1_home_score": "0",
-            "game1_away_score": "0",
+            "game1_home_score": "22",
+            "game1_away_score": "7",
             "game1_court": "Court 1",
             "game1_time": "7:15pm",
             "game2_home": "",
@@ -439,15 +496,7 @@
           }
         }
       },
-      "block_order": [
-        "round_7ajLPi",
-        "r6",
-        "r5",
-        "r4",
-        "r3",
-        "r2",
-        "r1"
-      ],
+      "block_order": ["r7","r7b","round_7ajLPi","r6","r5","r4","r3","r2","r1"],
       "settings": {
         "label": "FIXTURES & RESULTS",
         "heading": "Fixtures & Results",
@@ -472,12 +521,5 @@
       }
     }
   },
-  "order": [
-    "header",
-    "services_G9Ahz8",
-    "compinfo",
-    "ladder",
-    "fixtures",
-    "cta"
-  ]
+  "order": ["header","services_G9Ahz8","compinfo","ladder","fixtures","cta"]
 }
