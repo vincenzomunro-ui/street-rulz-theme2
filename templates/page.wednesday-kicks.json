@@ -5,8 +5,8 @@
       "settings": {
         "background_image": "shopify://shop_images/IMG_1349.jpg",
         "show_logo": false,
-        "heading": "Wednesday $10 Kicks",
-        "subheading": "Casual 5-a-side football every Wednesday night at Street Rulz. Just $10 to play — no registration, no teams, just turn up and run."
+        "heading": "$10 Kicks — Wed & Sat",
+        "subheading": "Casual 5-a-side football every Wednesday night and Saturday morning at Street Rulz. Just $10 to play — no registration, no teams, just turn up and run."
       }
     },
     "schedule": {
@@ -23,15 +23,28 @@
             "time": "6:00pm – 10:00pm",
             "price": "$10"
           }
+        },
+        "session2": {
+          "type": "day_card",
+          "settings": {
+            "icon": "",
+            "day": "Saturday Morning",
+            "category": "Casual $10 Kicks",
+            "age_groups": "16+ Open",
+            "format": "5v5",
+            "time": "From 8:00am",
+            "price": "$10"
+          }
         }
       },
       "block_order": [
-        "session1"
+        "session1",
+        "session2"
       ],
       "settings": {
         "label": "WHEN",
-        "heading": "Every Wednesday Night",
-        "subheading": "Drop in casual football every Wednesday. $10 per person, pay at the desk. No teams needed — we sort the sides on the night. Slots fill fast so get in early.",
+        "heading": "Every Wednesday & Saturday",
+        "subheading": "Drop in casual football twice a week. $10 per person, pay at the desk. No teams needed — we sort the sides on the night. Slots fill fast so get in early.",
         "note": "Sessions run while courts are available. Turn up, pay $10, and play. No booking required.",
         "bg_color": "#181a19",
         "text_color": "",
@@ -73,7 +86,7 @@
           "settings": {
             "icon": "",
             "title": "All-Weather Floodlit Courts",
-            "description": "Fully floodlit caged courts — we play rain or shine. Only suspended for lightning. Wednesday night is always on.",
+            "description": "Fully floodlit caged courts — we play rain or shine. Only suspended for lightning. Wednesday night and Saturday morning are always on.",
             "detail": "Rain or shine"
           }
         },
@@ -106,8 +119,8 @@
       ],
       "settings": {
         "label": "HOW IT WORKS",
-        "heading": "Wednesday $10 Kicks",
-        "subheading": "Everything you need to know about Gold Coast's best casual football night.",
+        "heading": "$10 Kicks — Wednesday & Saturday",
+        "subheading": "Everything you need to know about Gold Coast's best casual football sessions.",
         "majesty_heading": "",
         "majesty_description": "",
         "majesty_link": "",
@@ -133,7 +146,7 @@
           "settings": {
             "icon": "",
             "title": "Turn Up & Play",
-            "description": "No booking required. Turn up any time from 6:00pm. Pay $10 at the desk and we'll slot you into the next game."
+            "description": "No booking required. Turn up from 6:00pm Wednesdays or 8:00am Saturdays. Pay $10 at the desk and we'll slot you into the next game."
           }
         },
         "r3": {
@@ -175,7 +188,7 @@
           "type": "question",
           "settings": {
             "question": "Do I need to book in advance?",
-            "answer": "No booking required. Just turn up from 6:00pm any Wednesday, pay $10 at the desk, and we'll get you into a game."
+            "answer": "No booking required. Just turn up from 6:00pm any Wednesday or 8:00am any Saturday, pay $10 at the desk, and we'll get you into a game."
           }
         },
         "q2": {
@@ -188,21 +201,21 @@
         "q3": {
           "type": "question",
           "settings": {
-            "question": "What age is Wednesday Kicks for?",
-            "answer": "Wednesday Kicks is open to anyone 16 and over. It's mixed skill levels — whether you play every week or haven't kicked a ball in years, you're welcome."
+            "question": "What age is $10 Kicks for?",
+            "answer": "$10 Kicks is open to anyone 16 and over. It's mixed skill levels — whether you play every week or haven't kicked a ball in years, you're welcome."
           }
         },
         "q4": {
           "type": "question",
           "settings": {
-            "question": "What time does it run until?",
-            "answer": "Courts run from 6:00pm until 10:00pm. Last entry is around 9:00pm to make sure you get a full game."
+            "question": "What time does it run?",
+            "answer": "Wednesday: 6:00pm – 10:00pm (last entry ~9:00pm). Saturday: from 8:00am. Turn up and we'll get you into a game."
           }
         },
         "q5": {
           "type": "question",
           "settings": {
-            "question": "Is Wednesday Kicks a competition?",
+            "question": "Is $10 Kicks a competition?",
             "answer": "No — it's purely casual. No points, no ladder, no pressure. Just good football. If you want competitive leagues, check out our Thursday Comp or Wednesday League starting 20 April."
           }
         },
@@ -210,7 +223,7 @@
           "type": "question",
           "settings": {
             "question": "What if it's raining?",
-            "answer": "We play rain or shine. Our courts are caged and floodlit — only suspended for lightning. Wednesday Kicks is always on."
+            "answer": "We play rain or shine. Our courts are caged and floodlit — only suspended for lightning. $10 Kicks is always on."
           }
         }
       },
@@ -232,8 +245,8 @@
     "cta": {
       "type": "cta-banner",
       "settings": {
-        "heading": "See You Wednesday Night",
-        "subheading": "Just $10. No booking. No teams. Just turn up and play. Courts open from 6:00pm every Wednesday at 40 Andrews Rd, Tallebudgera.",
+        "heading": "See You on the Pitch",
+        "subheading": "Just $10. No booking. No teams. Just turn up and play. Wednesday from 6pm, Saturday from 8am — 40 Andrews Rd, Tallebudgera.",
         "cta1_text": "Book a Court Instead",
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "View All Events",
