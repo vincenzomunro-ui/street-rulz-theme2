@@ -262,7 +262,7 @@
         "m4",
         "m5"
       ],
-      "disabled": true,
+      "disabled": false,
       "settings": {
         "label": "KEY DATES",
         "heading": "Tournament Timeline",

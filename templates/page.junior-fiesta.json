@@ -240,8 +240,8 @@
           "type": "milestone",
           "settings": {
             "date": "15 March",
-            "title": "Standard Registration",
-            "description": "Early birds sold out? Standard entry is $80 per team. Still great value for a full day of football."
+            "title": "Standard Registration Open Now",
+            "description": "Early bird pricing is closing — standard entry is $80 per team. Still great value for a full day of football. Don't wait!"
           }
         },
         "m3": {
@@ -267,7 +267,7 @@
         "m3",
         "m4"
       ],
-      "disabled": true,
+      "disabled": false,
       "settings": {
         "label": "KEY DATES",
         "heading": "Tournament Timeline",
