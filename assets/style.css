@@ -208,7 +208,10 @@ button { cursor: pointer; border: none; font-family: inherit; }
   flex-direction: column;
   gap: 5px;
   background: none;
-  padding: 8px;
+  padding: 10px;
+  min-width: 44px;
+  min-height: 44px;
+  justify-content: center;
 }
 .nav-toggle span {
   width: 24px;
@@ -331,7 +334,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 .btn-primary {
   background: var(--orange);
   color: var(--white);
-  padding: 14px 32px;
+  padding: 16px 32px;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 700;
@@ -339,12 +342,13 @@ button { cursor: pointer; border: none; font-family: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  min-height: 48px;
 }
 .btn-primary:hover { background: var(--orange-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,127,48,0.3); }
 .btn-secondary {
   background: rgba(253,253,253,0.1);
   color: var(--white);
-  padding: 14px 32px;
+  padding: 16px 32px;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 600;
@@ -353,12 +357,13 @@ button { cursor: pointer; border: none; font-family: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  min-height: 48px;
 }
 .btn-secondary:hover { background: rgba(253,253,253,0.15); transform: translateY(-2px); }
 .btn-green {
   background: var(--green);
   color: var(--white);
-  padding: 14px 32px;
+  padding: 16px 32px;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 700;
@@ -366,6 +371,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  min-height: 48px;
 }
 .btn-green:hover { background: var(--green-light); transform: translateY(-2px); }
 
@@ -586,7 +592,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 .social-links { display: flex; gap: 12px; margin-top: 16px; }
 .social-link {
   display: flex; align-items: center; justify-content: center;
-  width: 40px; height: 40px; border-radius: 10px;
+  width: 44px; height: 44px; border-radius: 10px;
   background: var(--gray-800); color: var(--gray-400);
   transition: all var(--transition); font-size: 18px;
 }
@@ -869,8 +875,10 @@ button { cursor: pointer; border: none; font-family: inherit; }
   .parallax-logo { width: 80px; height: 80px; }
   .footer-logo { width: 80px; height: 80px; }
   .page-header-immersive { padding: 90px 16px 50px; }
-  .ladder-table { font-size: 12px; }
-  .ladder-table th, .ladder-table td { padding: 8px 10px; }
+  .ladder-table { font-size: 13px; }
+  .ladder-table th, .ladder-table td { padding: 10px 8px; }
+  .ladder-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .ladder-wrap::after { content: 'Swipe →'; display: block; text-align: center; font-size: 12px; color: var(--gray-500); padding: 8px 0; }
 }
 @media (max-width: 480px) {
   .hero h1 { font-size: 28px; }
@@ -1127,11 +1135,24 @@ button { cursor: pointer; border: none; font-family: inherit; }
 /* ===== RESPONSIVE — NEW SECTIONS ===== */
 @media (max-width: 768px) {
   .pitch-select-grid { grid-template-columns: 1fr; gap: 16px; }
+  .pitch-select-card { padding: 28px 20px; }
+  .pitch-select-icon { font-size: 40px; }
   .time-slots-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .time-slot-duration { font-size: 26px; }
+  .time-slot-card { padding: 20px 14px; }
   .comp-info-grid { grid-template-columns: 1fr; }
   .party-grid { grid-template-columns: 1fr; }
   .academy-highlights { grid-template-columns: 1fr; }
   .academy-details-grid { grid-template-columns: 1fr; }
   .booking-info-grid { grid-template-columns: 1fr; }
   .cowlendar-embed { padding: 12px; }
+  .btn-primary, .btn-secondary, .btn-green { padding: 16px 24px; min-height: 48px; }
+  .mobile-cta a { padding: 16px; min-height: 48px; }
+  .ladder-table { font-size: 13px; }
+  .ladder-table th, .ladder-table td { padding: 10px 8px; min-height: 44px; }
+}
+@media (max-width: 480px) {
+  .time-slots-grid { grid-template-columns: 1fr; }
+  .time-slot-duration { font-size: 24px; }
+  .pitch-select-card { padding: 24px 16px; }
 }

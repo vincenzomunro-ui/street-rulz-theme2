@@ -22,7 +22,7 @@
       {% if block.type == 'court_card' %}
         <div class="card" style="padding:0;overflow:hidden;border:1px solid var(--gray-600);position:relative;" {{ block.shopify_attributes }}>
           {% if block.settings.badge != blank %}
-            <div style="position:absolute;top:16px;right:16px;background:var(--orange);color:#fff;font-size:11px;font-weight:700;letter-spacing:1px;padding:4px 12px;border-radius:20px;z-index:2;text-transform:uppercase;">{{ block.settings.badge }}</div>
+            <div style="position:absolute;top:16px;right:16px;background:var(--orange);color:#fff;font-size:12px;font-weight:700;letter-spacing:1px;padding:6px 14px;border-radius:20px;z-index:2;text-transform:uppercase;">{{ block.settings.badge }}</div>
           {% endif %}
           <!-- Photo Spot -->
           <div style="width:100%;aspect-ratio:16/9;background:var(--gray-800);display:flex;align-items:center;justify-content:center;overflow:hidden;">
@@ -38,28 +38,28 @@
           <div style="padding:24px;">
             <h3 style="font-family:'Archivo Black',sans-serif;font-size:22px;text-transform:uppercase;margin-bottom:4px;">{{ block.settings.title }}</h3>
             {% if block.settings.subtitle != blank %}
-              <p style="color:var(--orange);font-size:13px;font-weight:600;letter-spacing:0.5px;margin-bottom:12px;">{{ block.settings.subtitle }}</p>
+              <p style="color:var(--orange);font-size:14px;font-weight:600;letter-spacing:0.5px;margin-bottom:12px;">{{ block.settings.subtitle }}</p>
             {% endif %}
             <p style="color:var(--gray-400);font-size:14px;line-height:1.7;margin-bottom:16px;">{{ block.settings.description }}</p>
             <!-- Specs Grid -->
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px;">
               {% if block.settings.spec_1 != blank %}
-                <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--gray-200);">
+                <div style="display:flex;align-items:center;gap:8px;font-size:14px;color:var(--gray-200);">
                   <span style="color:var(--orange);font-size:16px;">✓</span> {{ block.settings.spec_1 }}
                 </div>
               {% endif %}
               {% if block.settings.spec_2 != blank %}
-                <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--gray-200);">
+                <div style="display:flex;align-items:center;gap:8px;font-size:14px;color:var(--gray-200);">
                   <span style="color:var(--orange);font-size:16px;">✓</span> {{ block.settings.spec_2 }}
                 </div>
               {% endif %}
               {% if block.settings.spec_3 != blank %}
-                <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--gray-200);">
+                <div style="display:flex;align-items:center;gap:8px;font-size:14px;color:var(--gray-200);">
                   <span style="color:var(--orange);font-size:16px;">✓</span> {{ block.settings.spec_3 }}
                 </div>
               {% endif %}
               {% if block.settings.spec_4 != blank %}
-                <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--gray-200);">
+                <div style="display:flex;align-items:center;gap:8px;font-size:14px;color:var(--gray-200);">
                   <span style="color:var(--orange);font-size:16px;">✓</span> {{ block.settings.spec_4 }}
                 </div>
               {% endif %}
