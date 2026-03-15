@@ -99,6 +99,20 @@
         "card_color": "#2b2b2b"
       }
     },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Ready to Get on the Pitch?",
+        "subheading": "Season 1 starts: Monday 20th of April. $99 bond to lock in your team, then pay weekly",
+        "cta1_text": "Register Your Team",
+        "cta1_link": "https://rulz.majestri.com.au/event-landing?enc=6VdLUKndi53bGzOzDxtc9A%3d%3d",
+        "cta2_text": "Contact Us",
+        "cta2_link": "shopify://pages/contact-1",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": ""
+      }
+    },
     "rules": {
       "type": "rules-info",
       "blocks": {
@@ -194,27 +208,13 @@
         "bg_color": "#1e1e1e",
         "text_color": ""
       }
-    },
-    "cta": {
-      "type": "cta-banner",
-      "settings": {
-        "heading": "Ready to Get on the Pitch?",
-        "subheading": "Season 1 starts: Monday 20th of April. $99 bond to lock in your team, then pay weekly",
-        "cta1_text": "Register Your Team",
-        "cta1_link": "https://rulz.majestri.com.au/event-landing?enc=6VdLUKndi53bGzOzDxtc9A%3d%3d",
-        "cta2_text": "Contact Us",
-        "cta2_link": "shopify://pages/contact-1",
-        "bg_color": "#181a19",
-        "text_color": "",
-        "card_color": ""
-      }
     }
   },
   "order": [
     "header",
     "schedule",
+    "cta",
     "rules",
-    "faq",
-    "cta"
+    "faq"
   ]
 }
