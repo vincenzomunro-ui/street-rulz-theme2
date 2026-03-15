@@ -1,14 +1,23 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "hero",
       "settings": {
         "background_image": "shopify://shop_images/Screenshot_2026-02-25_at_11.32.12_am.png",
-        "badge_text": "PLAY RAIN OR SHINE \u2014 ALL-WEATHER PITCHES",
+        "badge_text": "PLAY RAIN OR SHINE — ALL-WEATHER PITCHES",
         "heading_line1": "Street Rulz Football",
         "heading_line2": "Queenslands Best Caged Football Pitches",
         "subheading": "",
-        "cta1_text": "Book a Pitch \u2014 From $110/hr",
+        "cta1_text": "Book a Pitch — From $110/hr",
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "Join a League",
         "cta2_link": "/pages/competitions",
@@ -138,12 +147,12 @@
           "type": "event",
           "settings": {
             "title": "Wednesday $10 Kick",
-            "details": "Wednesday \u00b7 6:00 PM \u2013 9:00 PM \u00b7 $10/person \u00b7 Casual 5-a-side",
+            "details": "Wednesday · 6:00 PM – 9:00 PM · $10/person · Casual 5-a-side",
             "tag_text": "Pay At Clubhouse",
             "tag_style": "tag-social",
             "urgent": false,
-            "link": "",
-            "link_text": "Book Now"
+            "link": "shopify://pages/wednesday-10-kicks",
+            "link_text": "Details"
           }
         },
         "eventthu": {
@@ -162,11 +171,11 @@
           "type": "event",
           "settings": {
             "title": "Social Saturday $10 Kick",
-            "details": "Saturday - 10:00 AM \u2013 4:00 PM - $10/person",
+            "details": "Saturday - 10:00 AM – 4:00 PM - $10/person",
             "tag_text": "Pay At Clubhouse",
             "tag_style": "tag-social",
             "urgent": false,
-            "link": "",
+            "link": "shopify://pages/wednesday-10-kicks",
             "link_text": "Details"
           }
         }
@@ -311,8 +320,8 @@
       "settings": {
         "label": "Leagues",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 6 of 10)",
-        "updated_text": "Updated after Round 6 \u2014 13 Mar 2026",
+        "subheading": "Rulz Competitive League — 10 Week Season (Round 6 of 10)",
+        "updated_text": "Updated after Round 6 — 13 Mar 2026",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -327,9 +336,9 @@
             "title": "Weekday",
             "badge": "Popular",
             "highlighted": true,
-            "row1_label": "Mon\u2013Fri 8am\u20134pm",
+            "row1_label": "Mon–Fri 8am–4pm",
             "row1_value": "$110/hr",
-            "row2_label": "Mon\u2013Fri 4pm\u201310pm",
+            "row2_label": "Mon–Fri 4pm–10pm",
             "row2_value": "$140/hr",
             "row3_label": "",
             "row3_value": "",
@@ -425,14 +434,14 @@
           "type": "hours_row",
           "settings": {
             "day": "Monday - Friday",
-            "time": "8:00 AM \u2013 10:00 PM"
+            "time": "8:00 AM – 10:00 PM"
           }
         },
         "hours_row_HLFR8Y": {
           "type": "hours_row",
           "settings": {
             "day": "Saturday - Sunday",
-            "time": "8:00 AM \u2013 10:00 PM"
+            "time": "8:00 AM – 10:00 PM"
           }
         }
       },
