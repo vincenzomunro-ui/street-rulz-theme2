@@ -44,12 +44,24 @@
             "price": "$130/team/week",
             "link": "/pages/sunday-7s"
           }
+        },
+        "service_card_fiestas": {
+          "type": "service_card",
+          "settings": {
+            "image": "",
+            "icon": "",
+            "title": "Fiestas",
+            "description": "One-night tournament events for juniors and seniors. Fast, fun, and competitive — register your team for the next Fiesta",
+            "price": "See Events",
+            "link": "/pages/junior-fiesta"
+          }
         }
       },
       "block_order": [
         "service_card_VTJAFq",
         "service_card_wLG8Wm",
-        "service_card_sunday7s"
+        "service_card_sunday7s",
+        "service_card_fiestas"
       ],
       "name": "Services Grid",
       "settings": {

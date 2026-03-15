@@ -10,19 +10,19 @@
 - [x] Add About Us to navigation
 - [x] Push final changes to GitHub and Shopify
 - [x] Publish theme as live site
-- [ ] Assign About Us template to the About Us page in Shopify admin
-- [ ] Book a Court: Build pre-selection page (5v5 vs 7v7 court selection)
-- [ ] Book a Court: Add time slot options (30min, 60min, 90min, 2hr)
-- [ ] Book a Court: Add pricing for each court type and duration
-- [ ] Book a Court: Integrate with Cowlendar/booking system
-- [ ] Check Cowlendar dashboard and fix any configuration errors
-- [ ] Competitions: Link to Majesty for competition management
-- [ ] Competitions: Build out competition info page
-- [ ] Birthday Parties: Build party booking/info page
-- [ ] Academy: Build academy enrollment/info page
-- [ ] Upload team photos for About Us page
-- [ ] Upload service images for Home page cards
-- [ ] Set social media URLs in theme settings
+- [ ] Assign About Us template to the About Us page (SHOPIFY ADMIN)
+- [x] Book a Court: Build pre-selection page (5v5 vs 7v7 court selection)
+- [x] Book a Court: Add time slot options (30min, 60min, 90min, 2hr)
+- [x] Book a Court: Add pricing for each court type and duration
+- [x] Book a Court: Integrate with Cowlendar/booking system
+- [ ] Check Cowlendar dashboard and fix any configuration errors (SHOPIFY ADMIN)
+- [x] Competitions: Link to Majesty for competition management
+- [x] Competitions: Build out competition info page
+- [x] Birthday Parties: Build party booking/info page
+- [x] Academy: Removed — academy references cleaned up
+- [x] Upload team photos for About Us page
+- [x] Upload service images for Home page cards
+- [x] Set social media URLs in theme settings
 - [x] Add required Email field to product.fiesta.json template
 - [x] Add required Email field to product.party.json template
 - [x] Add required Email field to any other product templates (main-product.liquid)
@@ -34,11 +34,11 @@
 - [x] Add per-tier Book Now button + product link to event-hero section
 - [x] Update Junior Fiesta template tiers with product link placeholders
 - [x] Remove single "Register Your Team" CTA from bottom of event-hero
-- [ ] Update Services Grid on Competitions page to show upcoming leagues instead of generic services
-- [ ] Add Junior & Youth League card with link
-- [ ] Add Senior League card with link
-- [ ] Add Fiestas card with link to Junior Fiesta/Little Legends page
-- [ ] Push updated competitions template to GitHub
+- [x] Update Services Grid on Competitions page to show upcoming leagues instead of generic services
+- [x] Add Junior & Youth League card with link
+- [x] Add Senior League card with link
+- [x] Add Fiestas card with link to Junior Fiesta/Little Legends page
+- [ ] Push updated competitions template to GitHub (Fiestas card added)
 - [x] Resolve git merge conflict on competitions page
 - [x] Update Round 5 scores in fixtures section
 - [x] Recalculate ladder standings after Round 5
