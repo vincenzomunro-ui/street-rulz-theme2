@@ -216,6 +216,17 @@
             <h3 style="font-size:16px;font-weight:800;color:var(--white);margin-bottom:4px;"> CHOOSE YOUR PIZZAS</h3>
             <p style="font-size:12px;color:var(--gray-400);margin-bottom:16px;">{{ pizza_count }} pizzas included. Extra pizzas: $18 each.</p>
             
+            <div style="padding:12px;background:var(--gray-700,#222);border-radius:6px;border:1px solid var(--gray-600,#444);margin-bottom:16px;display:flex;align-items:center;gap:10px;">
+              <input 
+                type="checkbox" 
+                id="gluten-free-pizza" 
+                name="properties[Gluten-Free Pizza Dough]" 
+                value="Yes"
+                style="width:18px;height:18px;cursor:pointer;accent-color:var(--orange,#ff6600);"
+              >
+              <label for="gluten-free-pizza" style="color:var(--white);cursor:pointer;font-weight:600;">Gluten-Free Pizza Dough Available</label>
+            </div>
+            
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
               {% assign pizzas = "Margherita,Pepperoni,Meat Lovers,Hawaiian" | split:"," %}
               {% for pizza in pizzas %}
