@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "header": {
@@ -85,43 +94,19 @@
         "fp1": {
           "type": "food_package",
           "settings": {
-            "icon": "\ud83c\udf2d",
+            "icon": "🌭",
             "title": "Sausage Sizzle",
             "subtitle": "Classic Aussie favourite",
             "item_1": "Baguette roll",
             "item_2": "Caramelised onion",
             "item_3": "Tomato & BBQ sauces",
-            "item_4": ""
-          }
-        },
-        "fp2": {
-          "type": "food_package",
-          "settings": {
-            "icon": "\ud83e\udd67",
-            "title": "Pies & Pastries",
-            "subtitle": "Hot from the oven",
-            "item_1": "Steak pies",
-            "item_2": "Plain pies",
-            "item_3": "Sausage rolls",
-            "item_4": ""
-          }
-        },
-        "fp3": {
-          "type": "food_package",
-          "settings": {
-            "icon": "\ud83c\udf54",
-            "title": "Burgers",
-            "subtitle": "Freshly made",
-            "item_1": "Brioche bun",
-            "item_2": "Beef patty",
-            "item_3": "Caramelised onion & cheese",
-            "item_4": "Tomato & BBQ sauces"
+            "item_4": "Cheese"
           }
         },
         "fp4": {
           "type": "food_package",
           "settings": {
-            "icon": "\ud83c\udf55",
+            "icon": "🍕",
             "title": "Pizza Party",
             "subtitle": "Crowd pleaser",
             "item_1": "Cheese pizzas",
@@ -133,8 +118,6 @@
       },
       "block_order": [
         "fp1",
-        "fp2",
-        "fp3",
         "fp4"
       ],
       "settings": {
@@ -143,7 +126,6 @@
         "subheading": "Included with Epic Pitch and VIP packages. Choose your menu when you book.",
         "note": "Food packages are included with Epic Pitch and VIP parties. Kick-Off parties include a sausage sizzle by default. Special dietary requirements? Let us know when booking.",
         "bg_color": "#181a19",
-        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
