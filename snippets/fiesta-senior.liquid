@@ -70,6 +70,26 @@
           >
         </div>
 
+        {%- comment -%} Email Address — Required {%- endcomment -%}
+        <div style="margin-bottom:16px;">
+          <label for="customer-email" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
+            Email Address <span style="color:var(--orange);">*</span>
+          </label>
+          <input
+            type="email"
+            id="customer-email"
+            name="properties[Email]"
+            placeholder="e.g. john@example.com"
+            required
+            style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--orange, #ff6600)'"
+            onblur="this.style.borderColor='var(--gray-600, #444)'"
+          >
+          <p style="font-size:12px;color:var(--gray-400, #999);margin-top:4px;">
+            We'll send event updates, draw info, and confirmation to this email.
+          </p>
+        </div>
+
         {%- comment -%} Division (Men's/Women's/Mixed) — Required {%- endcomment -%}
         <div style="margin-bottom:16px;">
           <label for="division" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
