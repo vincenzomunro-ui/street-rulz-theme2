@@ -1,0 +1,188 @@
+<!-- EPIC PITCH PARTY PRODUCT FORM -->
+<!-- Place this in product page before "Add to Cart" button -->
+
+<div class="product-form-fields">
+  <h3>Customize Your Party</h3>
+  
+  <div class="form-field">
+    <label><strong>Select Food Items *</strong></label>
+    <div class="food-options">
+      <label class="checkbox">
+        <input type="checkbox" name="food" value="sausage-sizzle"> Sausage Sizzle
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="food" value="pies"> Pies & Pastries
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="food" value="burgers"> Burgers
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="food" value="pizza"> Pizza Party
+      </label>
+    </div>
+  </div>
+
+  <div class="form-field">
+    <label for="pizza-flavor"><strong>Pizza Flavors (if selected) *</strong></label>
+    <select id="pizza-flavor" name="pizza_flavor" multiple>
+      <option value="cheese">Cheese Pizzas</option>
+      <option value="pepperoni">Pepperoni Pizzas</option>
+      <option value="beef">Beef Pizzas</option>
+    </select>
+    <small>Hold Ctrl (Cmd on Mac) to select multiple</small>
+  </div>
+
+  <div class="form-field">
+    <label><strong>Drink Selection *</strong></label>
+    <div class="drink-options">
+      <label class="checkbox">
+        <input type="checkbox" name="drink" value="solo"> Solo
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="drink" value="fanta"> Fanta
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="drink" value="coke-zero"> Coke Zero
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="drink" value="coke"> Coke
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="drink" value="sprite"> Sprite
+      </label>
+    </div>
+  </div>
+
+  <div class="form-field">
+    <label for="child-names"><strong>Child Names (comma-separated) *</strong></label>
+    <input type="text" id="child-names" name="child_names" placeholder="e.g., Emma, Jack, Sarah" required>
+  </div>
+
+  <div class="form-field">
+    <label for="dietary"><strong>Dietary Requirements (Optional)</strong></label>
+    <textarea id="dietary" name="dietary" placeholder="Allergies, vegetarian, etc." rows="2"></textarea>
+  </div>
+
+  <div class="form-field">
+    <label for="contact-name"><strong>Parent/Guardian Name *</strong></label>
+    <input type="text" id="contact-name" name="contact_name" placeholder="e.g., John Smith" required>
+  </div>
+
+  <div class="form-field">
+    <label for="contact-phone"><strong>Contact Phone *</strong></label>
+    <input type="tel" id="contact-phone" name="contact_phone" placeholder="04XX XXX XXX" required>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.product-form-fields');
+  
+  if (form) {
+    const addToCartButton = document.querySelector('[name="add"]') || document.querySelector('button[type="submit"]');
+    
+    if (addToCartButton) {
+      addToCartButton.addEventListener('click', function(e) {
+        const foods = Array.from(document.querySelectorAll('input[name="food"]:checked')).map(x => x.value);
+        const drinks = Array.from(document.querySelectorAll('input[name="drink"]:checked')).map(x => x.value);
+        
+        const formData = {
+          food: foods.join(', '),
+          pizza_flavor: document.getElementById('pizza-flavor').value,
+          drinks: drinks.join(', '),
+          child_names: document.getElementById('child-names').value,
+          dietary: document.getElementById('dietary').value,
+          contact_name: document.getElementById('contact-name').value,
+          contact_phone: document.getElementById('contact-phone').value
+        };
+        
+        if (!formData.child_names || !formData.contact_name || !formData.contact_phone || foods.length === 0 || drinks.length === 0) {
+          e.preventDefault();
+          alert('Please fill in all required fields and select food & drinks');
+          return;
+        }
+        
+        localStorage.setItem('epic-pitch-form', JSON.stringify(formData));
+        
+        fetch('https://admin.rulz.com.au/api/calendar/add', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            product: 'Epic Pitch Party',
+            ...formData,
+            date: new Date().toISOString()
+          })
+        }).catch(err => console.log('Calendar notified'));
+      });
+    }
+  }
+});
+</script>
+
+<style>
+.product-form-fields {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border-left: 4px solid #567256;
+}
+
+.product-form-fields h3 {
+  margin-top: 0;
+  color: #567256;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.food-options,
+.drink-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 8px;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: #567256;
+  outline: none;
+  box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+}
+
+.form-field small {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #999;
+}
+</style>

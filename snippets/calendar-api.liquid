@@ -1,0 +1,47 @@
+
+<!-- Calendar API Receiver Snippet -->
+<script>
+window.StreetRulzCalendar = {
+  addEvent: function(data) {
+    console.log('📅 Calendar event:', data);
+    
+    // Post to admin calendar
+    fetch('https://admin.rulz.com.au/api/calendar/add', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-API-Key': 'street-rulz-secure-key'
+      },
+      body: JSON.stringify({
+        product: data.product,
+        ...data,
+        timestamp: new Date().toISOString()
+      })
+    })
+    .then(r => r.json())
+    .then(result => {
+      console.log('✅ Calendar updated:', result);
+      window.location.href = '/checkout';
+    })
+    .catch(err => {
+      console.log('Calendar sync (background), proceeding to checkout');
+      window.location.href = '/checkout';
+    });
+  }
+};
+
+// Inject into all product forms
+document.addEventListener('DOMContentLoaded', function() {
+  const forms = document.querySelectorAll('.product-form-fields');
+  forms.forEach(form => {
+    const button = form.closest('form')?.querySelector('[type="submit"]');
+    if (button) {
+      button.addEventListener('click', function(e) {
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData);
+        StreetRulzCalendar.addEvent(data);
+      });
+    }
+  });
+});
+</script>

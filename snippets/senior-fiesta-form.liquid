@@ -1,0 +1,121 @@
+<!-- SENIOR FIESTA PRODUCT FORM -->
+<!-- Place this in product page before "Add to Cart" button -->
+
+<div class="product-form-fields">
+  <h3>Register Your Team</h3>
+  
+  <div class="form-field">
+    <label for="division"><strong>Division *</strong></label>
+    <select id="division" name="division" required>
+      <option value="">-- Select --</option>
+      <option value="Mixed">Mixed (18+)</option>
+      <option value="Mens">Men's (18+)</option>
+      <option value="Womens">Women's (18+)</option>
+    </select>
+  </div>
+
+  <div class="form-field">
+    <label for="team-name"><strong>Team Name *</strong></label>
+    <input type="text" id="team-name" name="team_name" placeholder="e.g., Gold Coast Legends" required>
+  </div>
+
+  <div class="form-field">
+    <label for="captain-name"><strong>Team Captain Name *</strong></label>
+    <input type="text" id="captain-name" name="captain_name" placeholder="e.g., John Smith" required>
+  </div>
+
+  <div class="form-field">
+    <label for="contact-phone"><strong>Contact Phone *</strong></label>
+    <input type="tel" id="contact-phone" name="contact_phone" placeholder="04XX XXX XXX" required>
+  </div>
+
+  <div class="form-field">
+    <label for="player-count"><strong>Number of Players *</strong></label>
+    <input type="number" id="player-count" name="player_count" min="6" max="20" value="6" required>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.product-form-fields');
+  
+  if (form) {
+    const addToCartButton = document.querySelector('[name="add"]') || document.querySelector('button[type="submit"]');
+    
+    if (addToCartButton) {
+      addToCartButton.addEventListener('click', function(e) {
+        const formData = {
+          division: document.getElementById('division').value,
+          team_name: document.getElementById('team-name').value,
+          captain_name: document.getElementById('captain-name').value,
+          contact_phone: document.getElementById('contact-phone').value,
+          player_count: document.getElementById('player-count').value
+        };
+        
+        if (!formData.division || !formData.team_name || !formData.captain_name || !formData.contact_phone) {
+          e.preventDefault();
+          alert('Please fill in all required fields');
+          return;
+        }
+        
+        localStorage.setItem('senior-fiesta-form', JSON.stringify(formData));
+        
+        fetch('https://admin.rulz.com.au/api/calendar/add', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            product: 'Senior Fiesta',
+            ...formData,
+            date: new Date().toISOString()
+          })
+        }).catch(err => console.log('Calendar notified'));
+      });
+    }
+  }
+});
+</script>
+
+<style>
+.product-form-fields {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border-left: 4px solid #567256;
+}
+
+.product-form-fields h3 {
+  margin-top: 0;
+  color: #567256;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: #567256;
+  outline: none;
+  box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+}
+</style>
