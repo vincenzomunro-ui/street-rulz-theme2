@@ -1,10 +1,10 @@
 {% comment %} Main Product — Product display with required email capture {% endcomment %}
 
-{% comment %} CUSTOM TEMPLATE ROUTING — Check for template_suffix and load custom section {% endcomment %}
+{% comment %} CUSTOM TEMPLATE ROUTING — Check for template_suffix and load custom form includes {% endcomment %}
 {% if product.template_suffix == 'product-fiesta' %}
-  {% section 'product-fiesta' %}
+  {% include 'sections/product-fiesta' %}
 {% elsif product.template_suffix == 'product-party' %}
-  {% section 'product-party' %}
+  {% include 'sections/product-party' %}
 {% else %}
   {%- comment -%} DEFAULT PRODUCT FORM {%- endcomment -%}
   <div class="section">
