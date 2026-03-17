@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         localStorage.setItem('epic-pitch-form', JSON.stringify(formData));
         
-        fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        fetch('https://cowlendar.com/api/bookings/6919c0739e502635e27acdae/addformspree.io/f/YOUR_FORM_ID', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'X-Cowlendar-Client': 'street-rulz' },
           body: JSON.stringify({

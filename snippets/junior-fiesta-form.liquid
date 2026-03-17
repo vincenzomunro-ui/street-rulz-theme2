@@ -71,7 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('junior-fiesta-form', JSON.stringify(formData));
         
         // Send to calendar (admin@rulz.com.au)
-        fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        // Data saved locally
+        // fetch('https://formspree.io/f/YOUR_FORM_ID', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'X-Cowlendar-Client': 'street-rulz' },
           body: JSON.stringify({
