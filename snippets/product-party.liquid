@@ -212,17 +212,46 @@
             </div>
           </div>
 
-          {%- comment -%} ========== DRINK SELECTION (4 × 2L Bottles) ========== {%- endcomment -%}
+          {%- comment -%} ========== DRINK SELECTION (With 2L & 1.25L Options) ========== {%- endcomment -%}
           <div style="margin-bottom:24px;">
-            <h3 style="font-size:16px;font-weight:800;color:var(--white);margin-bottom:4px;"> SELECT 4 × 2L SOFT DRINKS</h3>
-            <p style="font-size:12px;color:var(--gray-400);margin-bottom:16px;">Choose 4 × 2L bottles to complete your package.</p>
+            <h3 style="font-size:16px;font-weight:800;color:var(--white);margin-bottom:4px;"> SELECT SOFT DRINKS</h3>
+            <p style="font-size:12px;color:var(--gray-400);margin-bottom:16px;">Choose your quantities. Available in 2L or 1.25L sizes.</p>
             
-            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+            <div style="display:grid;grid-template-columns:1fr;gap:16px;">
               {% assign drinks = "Coca-Cola,Coke Zero,Sprite,Fanta Orange,Lemonade,Iced Tea" | split:"," %}
               {% for drink in drinks %}
-                <div style="display:flex;align-items:center;padding:12px;background:var(--gray-700,#222);border-radius:6px;border:1px solid var(--gray-600,#444);">
-                  <input type="checkbox" id="drink-{{ forloop.index }}" name="properties[Drink {{ forloop.index }}]" value="{{ drink }}" style="width:18px;height:18px;cursor:pointer;accent-color:var(--orange,#ff6600);">
-                  <label for="drink-{{ forloop.index }}" style="margin-left:8px;color:var(--white);cursor:pointer;flex:1;">{{ drink }} (2L)</label>
+                <div style="padding:12px;background:var(--gray-700,#222);border-radius:6px;border:1px solid var(--gray-600,#444);">
+                  <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+                    <label style="color:var(--white);font-weight:600;flex:1;">{{ drink }}</label>
+                    
+                    {%- comment -%} 2L Option {%- endcomment -%}
+                    <div style="display:flex;align-items:center;gap:6px;">
+                      <label for="drink-2L-{{ forloop.index }}" style="color:var(--gray-300);font-size:12px;">2L</label>
+                      <input 
+                        type="number" 
+                        id="drink-2L-{{ forloop.index }}" 
+                        name="properties[{{ drink }} 2L]" 
+                        value="0" 
+                        min="0" 
+                        max="10"
+                        style="width:50px;padding:6px;font-size:13px;border:1px solid var(--gray-600,#444);border-radius:4px;background:var(--gray-800,#1a1a1a);color:var(--orange,#ff6600);font-weight:700;text-align:center;"
+                      >
+                    </div>
+                    
+                    {%- comment -%} 1.25L Option {%- endcomment -%}
+                    <div style="display:flex;align-items:center;gap:6px;">
+                      <label for="drink-1.25L-{{ forloop.index }}" style="color:var(--gray-300);font-size:12px;">1.25L</label>
+                      <input 
+                        type="number" 
+                        id="drink-1.25L-{{ forloop.index }}" 
+                        name="properties[{{ drink }} 1.25L]" 
+                        value="0" 
+                        min="0" 
+                        max="10"
+                        style="width:50px;padding:6px;font-size:13px;border:1px solid var(--gray-600,#444);border-radius:4px;background:var(--gray-800,#1a1a1a);color:var(--orange,#ff6600);font-weight:700;text-align:center;"
+                      >
+                    </div>
+                  </div>
                 </div>
               {% endfor %}
             </div>
