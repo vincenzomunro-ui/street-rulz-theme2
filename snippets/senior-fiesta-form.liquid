@@ -60,9 +60,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         localStorage.setItem('senior-fiesta-form', JSON.stringify(formData));
         
-        fetch('https://admin.rulz.com.au/api/calendar/add', {
+        fetch('https://formspree.io/f/YOUR_FORM_ID', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json', 'X-Cowlendar-Client': 'street-rulz' },
           body: JSON.stringify({
             product: 'Senior Fiesta',
             ...formData,
