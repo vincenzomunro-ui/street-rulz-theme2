@@ -1156,3 +1156,36 @@ button { cursor: pointer; border: none; font-family: inherit; }
   .time-slot-duration { font-size: 24px; }
   .pitch-select-card { padding: 24px 16px; }
 }
+
+
+/* ===== MOBILE MENU SCROLL FIX ===== */
+/* Enable scrolling on mobile navigation menus */
+.header__mobile-nav,
+.mobile-nav,
+.header-nav--mobile,
+nav[class*="mobile"],
+.menu-drawer,
+.drawer,
+[class*="menu"][class*="mobile"] {
+  max-height: calc(100vh - 80px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.header__mobile-nav::-webkit-scrollbar,
+.mobile-nav::-webkit-scrollbar {
+  width: 6px;
+}
+
+.header__mobile-nav::-webkit-scrollbar-track,
+.mobile-nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.header__mobile-nav::-webkit-scrollbar-thumb,
+.mobile-nav::-webkit-scrollbar-thumb {
+  background: #567256;
+  border-radius: 3px;
+}
