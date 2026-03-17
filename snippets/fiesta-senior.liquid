@@ -9,7 +9,7 @@
     {{ product.description }}
   </div>
   {% if product.available %}
-    {% form 'product', product %}
+    {% form 'product', product, class: 'vtls-exclude-atc-injector' %}
       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
       <div style="margin-top:24px;max-width:480px;">
