@@ -1,0 +1,256 @@
+{% comment %}
+  EPIC PITCH PARTY PRODUCT PAGE TEMPLATE
+  Displays pizza & drink selectors for Epic Pitch Party bookings
+  Applied to: Epic Pitch Party product
+{% endcomment %}
+
+<div class="product-container">
+  <div class="product-header">
+    <h1>{{ product.title }}</h1>
+  </div>
+
+  <div class="product-content">
+    <div class="product-images">
+      {% if product.featured_image %}
+        <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+      {% endif %}
+    </div>
+
+    <div class="product-details">
+      <div class="product-price">
+        <span class="price">{{ product.price | money }}</span>
+        <span class="duration">(2-hour private court)</span>
+      </div>
+
+      <div class="product-description">
+        {{ product.description }}
+      </div>
+
+      {% comment %} FOOD SELECTION {% endcomment %}
+      <div class="party-food-selector">
+        <label><strong>Select Your Food Options (Choose as many as you like)</strong></label>
+        
+        <div class="food-section">
+          <h4>🌭 Sausage Sizzle</h4>
+          <p>Classic Aussie favourite</p>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="sausage-sizzle"> Sausage Sizzle (Baguette roll, caramelised onion, sauces)
+          </label>
+        </div>
+
+        <div class="food-section">
+          <h4>🥧 Pies & Pastries</h4>
+          <p>Hot from the oven</p>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="steak-pie"> Steak Pies
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="plain-pie"> Plain Pies
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="sausage-roll"> Sausage Rolls
+          </label>
+        </div>
+
+        <div class="food-section">
+          <h4>🍔 Burgers</h4>
+          <p>Freshly made</p>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="burger"> Burgers (Brioche bun, beef patty, caramelised onion, cheese, sauces)
+          </label>
+        </div>
+
+        <div class="food-section">
+          <h4>🍕 Pizza Party</h4>
+          <p>Crowd pleaser</p>
+          <label for="pizza-flavor"><strong>Select Your Pizza Flavors</strong></label>
+          <select id="pizza-flavor" name="pizza_flavor" multiple required>
+            <option value="">-- Select pizzas (hold Ctrl to select multiple) --</option>
+            <option value="cheese-pizza">Cheese Pizzas</option>
+            <option value="pepperoni-pizza">Pepperoni Pizzas</option>
+            <option value="beef-pizza">Beef Pizzas</option>
+          </select>
+        </div>
+      </div>
+
+      {% comment %} DRINK SELECTION {% endcomment %}
+      <div class="party-drink-selector">
+        <label><strong>Select Your Drinks (Choose as many as you like)</strong></label>
+        <div class="drink-options">
+          <label class="checkbox">
+            <input type="checkbox" name="drink" value="solo"> Solo
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="drink" value="fanta"> Fanta
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="drink" value="coke-zero"> Coke Zero
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="drink" value="coke"> Coke
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="drink" value="sprite"> Sprite
+          </label>
+        </div>
+      </div>
+
+      {% comment %} CHILD NAMES {% endcomment %}
+      <div class="party-child-names">
+        <label for="child-names"><strong>Child Names (comma-separated)</strong></label>
+        <input type="text" id="child-names" name="child_names" placeholder="e.g., Emma, Jack, Sarah" required>
+      </div>
+
+      {% comment %} DIETARY REQUIREMENTS {% endcomment %}
+      <div class="party-dietary">
+        <label for="dietary"><strong>Any Dietary Requirements? (Optional)</strong></label>
+        <textarea id="dietary" name="dietary_requirements" placeholder="e.g., Nut allergy, vegetarian" rows="3"></textarea>
+      </div>
+
+      {% comment %} CONTACT NAME {% endcomment %}
+      <div class="party-contact-name">
+        <label for="contact-name"><strong>Your Name (Parent/Guardian)</strong></label>
+        <input type="text" id="contact-name" name="contact_name" placeholder="e.g., John Smith" required>
+      </div>
+
+      {% comment %} CONTACT PHONE {% endcomment %}
+      <div class="party-contact-phone">
+        <label for="contact-phone"><strong>Contact Phone</strong></label>
+        <input type="tel" id="contact-phone" name="contact_phone" placeholder="04XX XXX XXX" required>
+      </div>
+
+      {% comment %} ADD TO CART BUTTON {% endcomment %}
+      <div class="product-add-to-cart">
+        <button type="submit" class="btn btn-primary" id="add-to-cart">
+          Book Party — {{ product.price | money }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .party-food-selector,
+  .party-drink-selector,
+  .party-child-names,
+  .party-dietary,
+  .party-contact-name,
+  .party-contact-phone {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+
+  .party-food-selector label,
+  .party-drink-selector label,
+  .party-child-names label,
+  .party-dietary label,
+  .party-contact-name label,
+  .party-contact-phone label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .food-section {
+    margin: 15px 0;
+    padding: 12px;
+    background: white;
+    border-left: 4px solid #567256;
+    border-radius: 4px;
+  }
+
+  .food-section h4 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    color: #567256;
+  }
+
+  .food-section p {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    color: #999;
+  }
+
+  .drink-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  .checkbox input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .food-section select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .food-section select:focus {
+    border-color: #567256;
+    outline: none;
+    box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+  }
+
+  .food-section select[multiple] {
+    min-height: 100px;
+  }
+
+  .party-child-names input,
+  .party-dietary textarea,
+  .party-contact-name input,
+  .party-contact-phone input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .party-child-names input:focus,
+  .party-dietary textarea:focus,
+  .party-contact-name input:focus,
+  .party-contact-phone input:focus {
+    border-color: #567256;
+    outline: none;
+    box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+  }
+
+  .product-add-to-cart {
+    margin-top: 30px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 16px;
+    background-color: #567256;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #FF7F30;
+  }
+</style>

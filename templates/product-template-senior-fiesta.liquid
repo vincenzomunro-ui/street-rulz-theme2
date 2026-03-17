@@ -1,0 +1,141 @@
+{% comment %}
+  SENIOR FIESTA PRODUCT PAGE TEMPLATE
+  Displays division selector (Mixed, Men's, Women's) for Senior Fiesta products
+  Applied to: Senior Fiesta, Senior Fiesta Early Bird
+{% endcomment %}
+
+<div class="product-container">
+  <div class="product-header">
+    <h1>{{ product.title }}</h1>
+  </div>
+
+  <div class="product-content">
+    <div class="product-images">
+      {% if product.featured_image %}
+        <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+      {% endif %}
+    </div>
+
+    <div class="product-details">
+      <div class="product-price">
+        <span class="price">{{ product.price | money }}</span>
+        {% if product.compare_at_price %}
+          <span class="compare-price">{{ product.compare_at_price | money }}</span>
+        {% endif %}
+      </div>
+
+      <div class="product-description">
+        {{ product.description }}
+      </div>
+
+      {% comment %} SENIOR FIESTA DIVISION SELECTOR {% endcomment %}
+      <div class="fiesta-division-selector">
+        <label for="division"><strong>Choose Your Division</strong></label>
+        <select id="division" name="division" required>
+          <option value="">— Select Division —</option>
+          <option value="mixed">Mixed (18+)</option>
+          <option value="mens">Men's (18+)</option>
+          <option value="womens">Women's (18+)</option>
+        </select>
+      </div>
+
+      {% comment %} TEAM NAME FIELD {% endcomment %}
+      <div class="fiesta-team-name">
+        <label for="team-name"><strong>Team Name</strong></label>
+        <input type="text" id="team-name" name="team_name" placeholder="e.g., Gold Coast Legends" required>
+      </div>
+
+      {% comment %} TEAM CAPTAIN NAME {% endcomment %}
+      <div class="fiesta-captain-name">
+        <label for="captain-name"><strong>Team Captain / Primary Contact</strong></label>
+        <input type="text" id="captain-name" name="captain_name" placeholder="e.g., John Smith" required>
+      </div>
+
+      {% comment %} CONTACT PHONE {% endcomment %}
+      <div class="fiesta-phone">
+        <label for="contact-phone"><strong>Contact Phone</strong></label>
+        <input type="tel" id="contact-phone" name="contact_phone" placeholder="04XX XXX XXX" required>
+      </div>
+
+      {% comment %} PLAYER COUNT {% endcomment %}
+      <div class="fiesta-player-count">
+        <label for="player-count"><strong>Number of Players Registering</strong></label>
+        <input type="number" id="player-count" name="player_count" min="6" max="20" value="6" required>
+      </div>
+
+      {% comment %} ADD TO CART BUTTON {% endcomment %}
+      <div class="product-add-to-cart">
+        <button type="submit" class="btn btn-primary" id="add-to-cart">
+          Add to Cart — {{ product.price | money }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .fiesta-division-selector,
+  .fiesta-team-name,
+  .fiesta-captain-name,
+  .fiesta-phone,
+  .fiesta-player-count {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+
+  .fiesta-division-selector label,
+  .fiesta-team-name label,
+  .fiesta-captain-name label,
+  .fiesta-phone label,
+  .fiesta-player-count label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .fiesta-division-selector select,
+  .fiesta-team-name input,
+  .fiesta-captain-name input,
+  .fiesta-phone input,
+  .fiesta-player-count input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .fiesta-division-selector select:focus,
+  .fiesta-team-name input:focus,
+  .fiesta-captain-name input:focus,
+  .fiesta-phone input:focus,
+  .fiesta-player-count input:focus {
+    border-color: #567256;
+    outline: none;
+    box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+  }
+
+  .product-add-to-cart {
+    margin-top: 30px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 16px;
+    background-color: #567256;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #FF7F30;
+  }
+</style>

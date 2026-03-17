@@ -1,0 +1,151 @@
+{% comment %}
+  JUNIOR FIESTA PRODUCT PAGE TEMPLATE
+  Displays age division selector (U7, U8, U9) for Junior Fiesta products
+  Applied to: Junior Fiesta, Junior Fiesta Early Bird
+{% endcomment %}
+
+<div class="product-container">
+  <div class="product-header">
+    <h1>{{ product.title }}</h1>
+  </div>
+
+  <div class="product-content">
+    <div class="product-images">
+      {% if product.featured_image %}
+        <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+      {% endif %}
+    </div>
+
+    <div class="product-details">
+      <div class="product-price">
+        <span class="price">{{ product.price | money }}</span>
+        {% if product.compare_at_price %}
+          <span class="compare-price">{{ product.compare_at_price | money }}</span>
+        {% endif %}
+      </div>
+
+      <div class="product-description">
+        {{ product.description }}
+      </div>
+
+      {% comment %} JUNIOR FIESTA AGE DIVISION SELECTOR {% endcomment %}
+      <div class="fiesta-age-selector">
+        <label for="age-division"><strong>Which Age Group is Your Team?</strong></label>
+        <select id="age-division" name="age_division" required>
+          <option value="">— Select Age Division —</option>
+          <option value="u7">Under 7s (U7) — Ages 6–7</option>
+          <option value="u8">Under 8s (U8) — Ages 7–8</option>
+          <option value="u9">Under 9s (U9) — Ages 8–9</option>
+        </select>
+      </div>
+
+      {% comment %} TEAM NAME FIELD {% endcomment %}
+      <div class="fiesta-team-name">
+        <label for="team-name"><strong>Team Name</strong></label>
+        <input type="text" id="team-name" name="team_name" placeholder="e.g., Gold Coast United" required>
+      </div>
+
+      {% comment %} PARENT/GUARDIAN NAME {% endcomment %}
+      <div class="fiesta-parent-name">
+        <label for="parent-name"><strong>Parent / Guardian Name</strong></label>
+        <input type="text" id="parent-name" name="parent_name" placeholder="e.g., John Smith" required>
+      </div>
+
+      {% comment %} CONTACT PHONE {% endcomment %}
+      <div class="fiesta-phone">
+        <label for="contact-phone"><strong>Contact Phone</strong></label>
+        <input type="tel" id="contact-phone" name="contact_phone" placeholder="04XX XXX XXX" required>
+      </div>
+
+      {% comment %} PLAYER COUNT {% endcomment %}
+      <div class="fiesta-player-count">
+        <label for="player-count"><strong>Number of Players in Team</strong></label>
+        <input type="number" id="player-count" name="player_count" min="4" max="10" value="6" required>
+      </div>
+
+      {% comment %} SPECIAL NEEDS {% endcomment %}
+      <div class="fiesta-special-needs">
+        <label for="special-needs"><strong>Any Special Needs? (Optional)</strong></label>
+        <textarea id="special-needs" name="special_needs" placeholder="e.g., One player uses asthma inhaler" rows="3"></textarea>
+      </div>
+
+      {% comment %} ADD TO CART BUTTON {% endcomment %}
+      <div class="product-add-to-cart">
+        <button type="submit" class="btn btn-primary" id="add-to-cart">
+          Add to Cart — {{ product.price | money }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .fiesta-age-selector,
+  .fiesta-team-name,
+  .fiesta-parent-name,
+  .fiesta-phone,
+  .fiesta-player-count,
+  .fiesta-special-needs {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+
+  .fiesta-age-selector label,
+  .fiesta-team-name label,
+  .fiesta-parent-name label,
+  .fiesta-phone label,
+  .fiesta-player-count label,
+  .fiesta-special-needs label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .fiesta-age-selector select,
+  .fiesta-team-name input,
+  .fiesta-parent-name input,
+  .fiesta-phone input,
+  .fiesta-player-count input,
+  .fiesta-special-needs textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .fiesta-age-selector select:focus,
+  .fiesta-team-name input:focus,
+  .fiesta-parent-name input:focus,
+  .fiesta-phone input:focus,
+  .fiesta-player-count input:focus,
+  .fiesta-special-needs textarea:focus {
+    border-color: #567256;
+    outline: none;
+    box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+  }
+
+  .product-add-to-cart {
+    margin-top: 30px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 16px;
+    background-color: #567256;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #FF7F30;
+  }
+</style>

@@ -1,0 +1,307 @@
+{% comment %}
+  VIP EXPERIENCE PARTY PRODUCT PAGE TEMPLATE
+  Displays beverage selector for VIP Party bookings
+  Applied to: VIP Experience Party product
+{% endcomment %}
+
+<div class="product-container">
+  <div class="product-header">
+    <h1>{{ product.title }}</h1>
+  </div>
+
+  <div class="product-content">
+    <div class="product-images">
+      {% if product.featured_image %}
+        <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{ product.title }}">
+      {% endif %}
+    </div>
+
+    <div class="product-details">
+      <div class="product-price">
+        <span class="price">{{ product.price | money }}</span>
+        <span class="duration">(2.5-hour VIP private court)</span>
+      </div>
+
+      <div class="product-description">
+        {{ product.description }}
+      </div>
+
+      {% comment %} FOOD SELECTION {% endcomment %}
+      <div class="vip-food-selector">
+        <label><strong>Select Your Food Options (Choose as many as you like)</strong></label>
+        
+        <div class="food-section">
+          <h4>🌭 Sausage Sizzle</h4>
+          <p>Classic Aussie favourite</p>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="sausage-sizzle"> Sausage Sizzle (Baguette roll, caramelised onion, sauces)
+          </label>
+        </div>
+
+        <div class="food-section">
+          <h4>🥧 Pies & Pastries</h4>
+          <p>Hot from the oven</p>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="steak-pie"> Steak Pies
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="plain-pie"> Plain Pies
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="sausage-roll"> Sausage Rolls
+          </label>
+        </div>
+
+        <div class="food-section">
+          <h4>🍔 Burgers</h4>
+          <p>Freshly made</p>
+          <label class="checkbox">
+            <input type="checkbox" name="food" value="burger"> Burgers (Brioche bun, beef patty, caramelised onion, cheese, sauces)
+          </label>
+        </div>
+
+        <div class="food-section">
+          <h4>🍕 Pizza Party</h4>
+          <p>Crowd pleaser</p>
+          <label for="pizza-flavor"><strong>Select Your Pizza Flavors</strong></label>
+          <select id="pizza-flavor" name="pizza_flavor" multiple required>
+            <option value="">-- Select pizzas (hold Ctrl to select multiple) --</option>
+            <option value="cheese-pizza">Cheese Pizzas</option>
+            <option value="pepperoni-pizza">Pepperoni Pizzas</option>
+            <option value="beef-pizza">Beef Pizzas</option>
+          </select>
+        </div>
+      </div>
+
+      {% comment %} BEVERAGE SELECTION (6 x 2L bottles) {% endcomment %}
+      <div class="vip-beverage-selector">
+        <label><strong>Select Your 6 × 2L Beverage Bottles</strong></label>
+        <p class="subtitle">Choose one type for each bottle:</p>
+        <div class="beverage-grid">
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="solo" required> Bottle 1: Solo
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="fanta" required> Bottle 1: Fanta
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="coke-zero" required> Bottle 1: Coke Zero
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="coke" required> Bottle 1: Coke
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="sprite" required> Bottle 1: Sprite
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="lemonade" required> Bottle 1: Lemonade
+            </label>
+          </div>
+        </div>
+
+        <p class="subtitle" style="margin-top: 20px;">Repeat for Bottles 2-6...</p>
+        <p class="hint">After checkout, you'll enter your complete beverage preferences for all 6 bottles.</p>
+      </div>
+
+      {% comment %} CHILD NAMES {% endcomment %}
+      <div class="vip-child-names">
+        <label for="child-names"><strong>Child Names (comma-separated)</strong></label>
+        <input type="text" id="child-names" name="child_names" placeholder="e.g., Emma, Jack, Sarah, Tom" required>
+      </div>
+
+      {% comment %} DIETARY REQUIREMENTS {% endcomment %}
+      <div class="vip-dietary">
+        <label for="dietary"><strong>Any Dietary Requirements? (Optional)</strong></label>
+        <textarea id="dietary" name="dietary_requirements" placeholder="e.g., Nut allergy, vegetarian, gluten-free" rows="3"></textarea>
+      </div>
+
+      {% comment %} SPECIAL REQUESTS {% endcomment %}
+      <div class="vip-special-requests">
+        <label for="special-requests"><strong>Special Requests? (Optional)</strong></label>
+        <textarea id="special-requests" name="special_requests" placeholder="e.g., Birthday cake required, specific music playlist" rows="3"></textarea>
+      </div>
+
+      {% comment %} CONTACT NAME {% endcomment %}
+      <div class="vip-contact-name">
+        <label for="contact-name"><strong>Your Name (Parent/Guardian)</strong></label>
+        <input type="text" id="contact-name" name="contact_name" placeholder="e.g., John Smith" required>
+      </div>
+
+      {% comment %} CONTACT PHONE {% endcomment %}
+      <div class="vip-contact-phone">
+        <label for="contact-phone"><strong>Contact Phone</strong></label>
+        <input type="tel" id="contact-phone" name="contact_phone" placeholder="04XX XXX XXX" required>
+      </div>
+
+      {% comment %} ADD TO CART BUTTON {% endcomment %}
+      <div class="product-add-to-cart">
+        <button type="submit" class="btn btn-primary" id="add-to-cart">
+          Book VIP Party — {{ product.price | money }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .vip-food-selector,
+  .vip-beverage-selector,
+  .vip-child-names,
+  .vip-dietary,
+  .vip-special-requests,
+  .vip-contact-name,
+  .vip-contact-phone {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+
+  .vip-food-selector label,
+  .vip-beverage-selector label,
+  .vip-child-names label,
+  .vip-dietary label,
+  .vip-special-requests label,
+  .vip-contact-name label,
+  .vip-contact-phone label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .food-section {
+    margin: 15px 0;
+    padding: 12px;
+    background: white;
+    border-left: 4px solid #567256;
+    border-radius: 4px;
+  }
+
+  .food-section h4 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    color: #567256;
+  }
+
+  .food-section p {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    color: #999;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    color: #666;
+    margin: 10px 0;
+    font-weight: normal;
+  }
+
+  .hint {
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0;
+    font-style: italic;
+  }
+
+  .beverage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .beverage-option {
+    padding: 8px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .radio {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  .radio input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .food-section select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .food-section select:focus {
+    border-color: #567256;
+    outline: none;
+    box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+  }
+
+  .food-section select[multiple] {
+    min-height: 100px;
+  }
+
+  .vip-child-names input,
+  .vip-dietary textarea,
+  .vip-special-requests textarea,
+  .vip-contact-name input,
+  .vip-contact-phone input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  .vip-child-names input:focus,
+  .vip-dietary textarea:focus,
+  .vip-special-requests textarea:focus,
+  .vip-contact-name input:focus,
+  .vip-contact-phone input:focus {
+    border-color: #567256;
+    outline: none;
+    box-shadow: 0 0 5px rgba(86, 114, 86, 0.3);
+  }
+
+  .product-add-to-cart {
+    margin-top: 30px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 16px;
+    background-color: #567256;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #FF7F30;
+  }
+</style>
