@@ -176,29 +176,40 @@
         </div>
 
         {% if is_premium %}
-          {%- comment -%} ========== FOOD PACKAGE SECTION (Premium Only) ========== {%- endcomment -%}
-          <div style="border-top:1px solid var(--gray-600,#444);padding-top:24px;margin-top:8px;margin-bottom:16px;">
-            <h3 style="font-size:18px;font-weight:800;color:var(--white);margin-bottom:4px;">🍽️ Choose Your Food Package</h3>
-            <p style="font-size:13px;color:var(--gray-400);margin-bottom:16px;">Included with your {{ product.title }}. Select your preferred menu below.</p>
+          {%- comment -%} ========== PIZZA SELECTION (7 Pizzas) ========== {%- endcomment -%}
+          <div style="border-top:1px solid var(--gray-600,#444);padding-top:24px;margin-top:8px;margin-bottom:24px;">
+            <h3 style="font-size:16px;font-weight:800;color:var(--white);margin-bottom:4px;">🍕 SELECT 7 PIZZAS</h3>
+            <p style="font-size:12px;color:var(--gray-400);margin-bottom:16px;">Choose your 7 pizzas. Tick the boxes below to lock in your pre-order.</p>
+            
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+              {% assign pizzas = "Margherita,Pepperoni,Hawaiian,Meat Lovers,BBQ Chicken,Veggie Supreme,Buffalo Chicken" | split:"," %}
+              {% for pizza in pizzas %}
+                <div style="display:flex;align-items:center;padding:12px;background:var(--gray-700,#222);border-radius:6px;border:1px solid var(--gray-600,#444);">
+                  <input type="checkbox" id="pizza-{{ forloop.index }}" name="properties[Pizza {{ forloop.index }}]" value="{{ pizza }}" style="width:18px;height:18px;cursor:pointer;accent-color:var(--orange,#ff6600);">
+                  <label for="pizza-{{ forloop.index }}" style="margin-left:8px;color:var(--white);cursor:pointer;flex:1;">{{ pizza }}</label>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
 
-            <select
-              id="food-package"
-              name="properties[Food Package]"
-              required
-              style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;appearance:none;-webkit-appearance:none;background-image:url('data:image/svg+xml;utf8,<svg fill=\'white\' xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\'><path d=\'M7 10l5 5 5-5z\'/></svg>');background-repeat:no-repeat;background-position:right 12px center;background-size:20px;"
-              onfocus="this.style.borderColor='var(--orange, #ff6600)'"
-              onblur="this.style.borderColor='var(--gray-600, #444)'"
-              onchange="updateFoodNotes(this.value)"
-            >
-              <option value="Sausage Sizzle" selected>🌭 Sausage Sizzle — Baguette roll, caramelised onion, sauces</option>
-              <option value="Pies & Pastries">🥧 Pies & Pastries — Steak pies, plain pies, sausage rolls</option>
-              <option value="Burgers">🍔 Burgers — Brioche bun, beef patty, onion, cheese, sauces</option>
-              <option value="Pizza Party">🍕 Pizza Party — Cheese, pepperoni & beef pizzas</option>
-            </select>
+          {%- comment -%} ========== DRINK SELECTION (4 × 2L Bottles) ========== {%- endcomment -%}
+          <div style="margin-bottom:24px;">
+            <h3 style="font-size:16px;font-weight:800;color:var(--white);margin-bottom:4px;">🥤 SELECT 4 × 2L SOFT DRINKS</h3>
+            <p style="font-size:12px;color:var(--gray-400);margin-bottom:16px;">Choose 4 × 2L bottles to complete your package.</p>
+            
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+              {% assign drinks = "Coca-Cola,Coke Zero,Sprite,Fanta Orange,Lemonade,Iced Tea" | split:"," %}
+              {% for drink in drinks %}
+                <div style="display:flex;align-items:center;padding:12px;background:var(--gray-700,#222);border-radius:6px;border:1px solid var(--gray-600,#444);">
+                  <input type="checkbox" id="drink-{{ forloop.index }}" name="properties[Drink {{ forloop.index }}]" value="{{ drink }}" style="width:18px;height:18px;cursor:pointer;accent-color:var(--orange,#ff6600);">
+                  <label for="drink-{{ forloop.index }}" style="margin-left:8px;color:var(--white);cursor:pointer;flex:1;">{{ drink }} (2L)</label>
+                </div>
+              {% endfor %}
+            </div>
           </div>
 
           {%- comment -%} Special Requests / Notes (Premium Only) {%- endcomment -%}
-          <div id="food-notes-wrapper" style="margin-bottom:24px;">
+          <div style="margin-bottom:24px;">
             <label for="food-notes" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">
               Special Food Requests (Optional)
             </label>
@@ -206,34 +217,15 @@
               id="food-notes"
               name="properties[Food Special Requests]"
               rows="3"
-              placeholder="e.g. 'Some kids prefer no onion', 'sauces on the side please'"
+              placeholder="e.g. 'No pepperoni for 3 kids', 'allergies: peanuts', 'extra ice please'"
               style="width:100%;padding:12px 16px;font-size:16px;border:2px solid var(--gray-600, #444);border-radius:8px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);outline:none;transition:border-color 0.2s;resize:vertical;font-family:inherit;"
               onfocus="this.style.borderColor='var(--orange, #ff6600)'"
               onblur="this.style.borderColor='var(--gray-600, #444)'"
             ></textarea>
             <p style="font-size:12px;color:var(--gray-400, #999);margin-top:4px;">
-              This helps us personalise the food experience for your party. We'll do our best to accommodate requests — our team will confirm closer to the date.
+              This helps us personalise the food experience for your party.
             </p>
           </div>
-
-          <script>
-            function updateFoodNotes(value) {
-              var el = document.getElementById('food-notes');
-              if (!el) return;
-              var placeholders = {
-                'Sausage Sizzle': "e.g. 'Some kids prefer no onion', 'sauces on the side please'",
-                'Pies & Pastries': "e.g. 'Prefer steak pies only', '2 kids are vegetarian', 'extra sausage rolls please'",
-                'Burgers': "e.g. 'No onion for a few kids', '3 patties with no cheese', 'one without sauce'",
-                'Pizza Party': "e.g. 'No pepperoni for 3 kids', 'extra cheese on half the pizzas', 'one plain margarita please'"
-              };
-              el.placeholder = placeholders[value] || '';
-            }
-            // Set initial placeholder on page load
-            document.addEventListener('DOMContentLoaded', function() {
-              var sel = document.getElementById('food-package');
-              if (sel) updateFoodNotes(sel.value);
-            });
-          </script>
         {% endif %}
       </div>
 
