@@ -3,18 +3,22 @@
 {% comment %} Detect package type by product handle {% endcomment %}
 {% assign is_premium = false %}
 {% assign pizza_count = 0 %}
+{% assign drink_count = 0 %}
 {% assign package_type = 'base' %}
 
 {% if product.handle contains 'vip' %}
   {% assign is_premium = true %}
   {% assign pizza_count = 7 %}
+  {% assign drink_count = 8 %}
   {% assign package_type = 'vip' %}
 {% elsif product.handle contains 'ultimate' or product.handle contains 'epic' %}
   {% assign is_premium = true %}
   {% assign pizza_count = 5 %}
+  {% assign drink_count = 6 %}
   {% assign package_type = 'epic' %}
 {% else %}
   {% assign pizza_count = 4 %}
+  {% assign drink_count = 4 %}
   {% assign package_type = 'base' %}
 {% endif %}
 
@@ -215,7 +219,7 @@
           {%- comment -%} ========== DRINK SELECTION (With 2L & 1.25L Options) ========== {%- endcomment -%}
           <div style="margin-bottom:24px;">
             <h3 style="font-size:16px;font-weight:800;color:var(--white);margin-bottom:4px;"> SELECT SOFT DRINKS</h3>
-            <p style="font-size:12px;color:var(--gray-400);margin-bottom:16px;">Choose your quantities. Available in 2L or 1.25L sizes.</p>
+            <p style="font-size:12px;color:var(--gray-400);margin-bottom:16px;">{{ drink_count }} × 2L bottles included. Choose your mix of 2L or 1.25L sizes.</p>
             
             <div style="display:grid;grid-template-columns:1fr;gap:16px;">
               {% assign drinks = "Coca-Cola,Coke Zero,Sprite,Fanta Orange,Lemonade,Iced Tea,Water" | split:"," %}
