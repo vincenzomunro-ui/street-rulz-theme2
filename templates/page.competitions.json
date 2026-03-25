@@ -326,7 +326,13 @@
             "game4_home_score": "0",
             "game4_away_score": "0",
             "game4_court": "Court 2",
-            "game4_time": "7:15pm"
+            "game4_time": "7:15pm",
+            "game5_home": "Third Leg Strikers",
+            "game5_away": "BYE",
+            "game5_home_score": "-",
+            "game5_away_score": "-",
+            "game5_court": "-",
+            "game5_time": "BYE"
           }
         },
         "r7": {
