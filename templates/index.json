@@ -10,17 +10,13 @@
 {
   "sections": {
     "fiesta_notice": {
-      "type": "cta-banner",
+      "type": "announcement",
       "settings": {
-        "heading": "Fiesta Cancelled — Registrations Not Met",
-        "subheading": "",
-        "cta1_text": "Book Pitch",
-        "cta1_link": "/pages/book-a-court",
-        "cta2_text": "",
-        "cta2_link": "",
-        "bg_color": "#FFF5E6",
-        "text_color": "#333333",
-        "card_color": "#FFE8CC"
+        "text": "Fiesta Cancelled — Registrations Not Met. ",
+        "link_text": "Book Pitch",
+        "link": "/pages/book-a-court",
+        "background": "#FFF5E6",
+        "text_color": "#333333"
       }
     },
     "hero": {
