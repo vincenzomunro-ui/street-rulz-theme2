@@ -12,9 +12,9 @@
     "fiesta_notice": {
       "type": "cta-banner",
       "settings": {
-        "heading": "Fiesta Cancelled — Minimum Registrations Not Met",
-        "subheading": "Refunds processed. Join $10 Social Kicks or book a pitch.",
-        "cta1_text": "Book Pitch",
+        "heading": "Fiesta Cancelled — Registrations Not Met",
+        "subheading": "",
+        "cta1_text": "Book Now",
         "cta1_link": "/pages/book-a-court",
         "cta2_text": "",
         "cta2_link": "",
