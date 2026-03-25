@@ -59,7 +59,7 @@
             "icon": "⚽",
             "title": "Social Wednesday",
             "description": "Casual midweek football action. Mix and mingle with other players, no pressure, just pure fun on the pitch.\n\nEvery Wednesday • 6pm-9pm",
-            "price": "$10",
+            "price": "$10/person",
             "link": "/pages/social-wednesday"
           }
         },
@@ -70,7 +70,7 @@
             "icon": "🍺",
             "title": "Hospitality Monday",
             "description": "Corporate teams, mates nights out, work socials - bring your crew and dominate the pitch. Post-game drinks in the bar.\n\nEvery Monday • 6pm-9pm",
-            "price": "$10",
+            "price": "$10/person",
             "link": "/pages/hospitality-monday"
           }
         },
@@ -81,7 +81,7 @@
             "icon": "👥",
             "title": "Mixed Socials Friday",
             "description": "Open, mixed, no-pressure football action. Join a pickup game or bring your crew. Relaxed vibes, competitive play.\n\nEvery Friday • 4pm-9pm",
-            "price": "$10",
+            "price": "$10/person",
             "link": "/pages/mixed-socials-friday"
           }
         }
