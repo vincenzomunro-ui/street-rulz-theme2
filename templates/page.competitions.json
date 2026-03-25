@@ -272,6 +272,20 @@
             "goal_diff": "-13",
             "points": "3"
           }
+        },
+        "t9": {
+          "type": "team_row",
+          "settings": {
+            "team": "Custard Feet FC",
+            "played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_diff": "0",
+            "points": "0"
+          }
         }
       },
       "block_order": [
@@ -282,7 +296,8 @@
         "t5",
         "t6",
         "t7",
-        "t8"
+        "t8",
+        "t9"
       ],
       "settings": {
         "label": "CURRENT SEASON",
