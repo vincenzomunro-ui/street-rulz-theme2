@@ -9,16 +9,6 @@
  */
 {
   "sections": {
-    "fiesta_notice": {
-      "type": "announcement",
-      "settings": {
-        "text": "Fiesta Cancelled — Registrations Not Met. ",
-        "link_text": "Book Pitch",
-        "link": "/pages/book-a-court",
-        "background": "#FF7F30",
-        "text_color": "#FFFFFF"
-      }
-    },
     "hero": {
       "type": "hero",
       "settings": {
@@ -519,7 +509,7 @@
         "cta1_link": "/pages/rulz-gear",
         "cta2_text": "",
         "cta2_link": "",
-        "bg_color": "#FF7F30",
+        "bg_color": "#ff7f30",
         "text_color": "#ffffff",
         "card_color": "#ff6b35"
       }
@@ -581,7 +571,6 @@
     }
   },
   "order": [
-    "fiesta_notice",
     "hero",
     "stats",
     "services",
