@@ -69,8 +69,8 @@
       "settings": {
         "label": "HOLIDAY CAMP",
         "heading": "RULZ Holiday Mini Camp",
-        "subheading": "Expert coaches, skill circuits, mini World Cup game — all in one action-packed day. Pick any date April 7–18.",
-        "event_date": "School Holidays — April 7-18, 2026",
+        "subheading": "Expert coaches, skill circuits, mini World Cup game — all in one action-packed day. Choose Wednesday 10 April or Wednesday 17 April.",
+        "event_date": "Wednesday 10 April & Wednesday 17 April, 2026",
         "event_time": "9:00am – 1:30pm",
         "event_ages": "Ages 5 – 13",
         "event_teams": "Limited Spots",
@@ -88,7 +88,7 @@
           "type": "step",
           "settings": {
             "title": "Book Online",
-            "description": "Select your preferred date (April 7–18), then grab an early bird spot ($55) or standard ($70). Add the optional Player Fuel Pack for $15."
+            "description": "Select your preferred date (April 10 or April 17), then grab an early bird spot ($55) or standard ($70). Add the optional Player Fuel Pack for $15."
           }
         },
         "s2": {
