@@ -29,15 +29,16 @@
     "fiesta_banner": {
       "type": "cta-banner",
       "settings": {
-        "heading": "⚽ FIESTA'S ARE COMING BACK TO RULZ",
-        "subheading": "Sunday 29 March — Little Legends Junior Fiesta. U7 & U8 | 6v6 | 8am–3pm | Limited spots available",
-        "cta1_text": "Junior Fiesta — Register Now",
-        "cta1_link": "/pages/junior-fiesta",
-        "cta2_text": "Senior Fiesta — 27-29 Mar",
-        "cta2_link": "/pages/senior-fiesta",
+        "heading": "",
+        "subheading": "",
+        "cta1_text": "",
+        "cta1_link": "",
+        "cta2_text": "",
+        "cta2_link": "",
         "bg_color": "#FF7F3F",
         "text_color": "#ffffff",
-        "card_color": "#ff6b35"
+        "card_color": "#ff6b35",
+        "disabled": true
       }
     },
     "stats": {
