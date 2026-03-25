@@ -25,7 +25,7 @@
           "type": "package",
           "settings": {
             "title": "Kick-Off Party",
-            "price": "$250",
+            "price": "$295",
             "subtitle": "1.5 hour",
             "badge": "",
             "highlighted": false,
@@ -43,11 +43,11 @@
           "type": "package",
           "settings": {
             "title": "Epic Pitch Party",
-            "price": "$350",
+            "price": "$395",
             "subtitle": "2 hour",
             "badge": "",
             "highlighted": false,
-            "include_1": "1.5 hours on a 5-a-side pitch + 30 minutes in the party area",
+            "include_1": "5-a-side pitch and in the party area",
             "include_2": "Balls and bibs",
             "include_3": "Dedicated party host",
             "include_4": "Up to 16 kids",
