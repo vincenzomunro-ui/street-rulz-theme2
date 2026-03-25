@@ -26,6 +26,66 @@
         "card_color": ""
       }
     },
+    "kicks_grid": {
+      "type": "services",
+      "blocks": {
+        "monday": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "⚽",
+            "title": "Hospitality Monday",
+            "description": "Corporate teams, mates nights out, work socials — bring your crew and dominate the pitch. Post-game drinks in the bar.\n\nEvery Monday • 6pm-9pm",
+            "price": "From $10/person",
+            "link": "/pages/hospitality-monday"
+          }
+        },
+        "wednesday": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "⚽",
+            "title": "Social Wednesday",
+            "description": "Casual midweek football action. Mix and mingle with other players, no pressure, just pure fun on the pitch.\n\nEvery Wednesday • 6pm-9pm",
+            "price": "From $10/person",
+            "link": "/pages/social-wednesday"
+          }
+        },
+        "friday": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "⚽",
+            "title": "Mixed Socials Friday",
+            "description": "Open, mixed, no-pressure football action. Join a pickup game or bring your crew. Relaxed vibes, competitive play.\n\nEvery Friday • 4pm-9pm",
+            "price": "From $10/person",
+            "link": "/pages/mixed-socials-friday"
+          }
+        },
+        "saturday": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "⚽",
+            "title": "Social Saturday",
+            "description": "Weekend football action for all skill levels. Teams welcome or join a pickup. Casual vibes and BBQ after.\n\nEvery Saturday • 10am-4pm",
+            "price": "From $10/person",
+            "link": "/pages/social-saturday"
+          }
+        }
+      },
+      "block_order": [
+        "monday",
+        "wednesday",
+        "friday",
+        "saturday"
+      ],
+      "settings": {
+        "label": "$10 KICKS",
+        "heading": "$10 Social Kicks Every Week",
+        "subheading": "Casual football action. Drop in anytime, no experience needed. Pay at the clubhouse"
+      }
+    },
     "stats": {
       "type": "stats-bar",
       "blocks": {
@@ -558,6 +618,7 @@
   },
   "order": [
     "hero",
+    "kicks_grid",
     "stats",
     "services",
     "break1",
