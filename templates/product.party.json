@@ -1,11 +1,13 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
+ * Birthday Party Product Template
+ * Three Packages: Kick-Off ($295), Epic Pitch ($395), VIP Party ($495)
+ * All include ball hire, bibs, party area access
+ * Epic Pitch & VIP include food package (sausage sizzle or pizza)
+ * 
+ * Products:
+ * - kick-off-party ($295, 1.5 hour, up to 12 kids)
+ * - ultimate-party ($395, 2 hour, up to 16 kids, food included)
+ * - vip-experience ($495, 2.5 hour, up to 20 kids, food included)
  */
 {
   "sections": {
