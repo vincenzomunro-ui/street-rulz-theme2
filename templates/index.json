@@ -99,7 +99,7 @@
             "title": "$10 Kick",
             "description": "Casual football action for all skill levels. Drop in anytime inside of Monday, Wesnesday, Friday and Saturday! \nno experience needed. \nPay at the clubhouse",
             "price": "From $10/person",
-            "link": "/pages/social-wednesday"
+            "link": "shopify://pages/wednesday-10-kicks"
           }
         },
         "birthdays": {
