@@ -26,29 +26,14 @@
         "card_color": ""
       }
     },
-    "fiesta_banner": {
-      "type": "cta-banner",
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "cta1_text": "",
-        "cta1_link": "",
-        "cta2_text": "",
-        "cta2_link": "",
-        "bg_color": "#FF7F3F",
-        "text_color": "#ffffff",
-        "card_color": "#ff6b35",
-        "disabled": true
-      }
-    },
     "stats": {
       "type": "stats-bar",
       "blocks": {
         "stat1": {
           "type": "stat",
           "settings": {
-            "number": "Footwear",
-            "label": "OUTDOOR BOOTS"
+            "number": "STUDS",
+            "label": "Footwear"
           }
         },
         "stat2": {
@@ -573,7 +558,6 @@
   },
   "order": [
     "hero",
-    "fiesta_banner",
     "stats",
     "services",
     "break1",
