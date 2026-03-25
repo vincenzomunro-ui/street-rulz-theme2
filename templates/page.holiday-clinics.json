@@ -81,6 +81,18 @@
         "card_color": "#2b2b2b"
       }
     },
+    "info-note": {
+      "type": "info-note",
+      "settings": {
+        "badge": "QUICK NOTE",
+        "heading": "School Holidays & Clinic Dates",
+        "description": "School holidays run April 7–18, 2026. However, we run dedicated RULZ Holiday Mini Camp clinics on two specific dates: **Wednesday 10 April** and **Wednesday 17 April**. Select your preferred date when booking. Can't make these dates? Contact us about alternative times.",
+        "bg_color": "#2b3a2b",
+        "text_color": "",
+        "button_text": "Contact Us",
+        "button_link": "/pages/contact"
+      }
+    },
     "howit": {
       "type": "how-it-works",
       "blocks": {
@@ -250,6 +262,7 @@
   "order": [
     "header",
     "event",
+    "info-note",
     "howit",
     "info",
     "faq",
