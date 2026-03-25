@@ -1,13 +1,37 @@
 /*
- * Birthday Party Product Template
- * Three Packages: Kick-Off ($295), Epic Pitch ($395), VIP Party ($495)
- * All include ball hire, bibs, party area access
- * Epic Pitch & VIP include food package (sausage sizzle or pizza)
+ * Birthday Party Products — Three Packages
  * 
- * Products:
- * - kick-off-party ($295, 1.5 hour, up to 12 kids)
- * - ultimate-party ($395, 2 hour, up to 16 kids, food included)
- * - vip-experience ($495, 2.5 hour, up to 20 kids, food included)
+ * KICK-OFF PARTY ($295, 1.5 hour, up to 12 kids)
+ * ✓ 1 hour on a 5-a-side pitch
+ * ✓ 30 minutes in the party area
+ * ✓ Balls and bibs supplied
+ * ✓ Up to 12 kids
+ * ✓ Sausage sizzle included
+ * 
+ * EPIC PITCH PARTY ($395, 2 hour, up to 16 kids)
+ * ✓ 5-a-side pitch AND in the party area
+ * ✓ Balls and bibs
+ * ✓ Party host
+ * ✓ Up to 16 kids
+ * ✓ Mini tournament format
+ * ✓ Food Package included
+ * 
+ * VIP PARTY ($495, 2.5 hour, up to 20 kids) — MOST POPULAR
+ * ✓ 2.5 hours on a 5-a-side pitch AND in the party area
+ * ✓ Balls, bibs, medals
+ * ✓ Dedicated party host
+ * ✓ Up to 20 kids
+ * ✓ Full tournament with finals
+ * ✓ Food Package included
+ * 
+ * Food Options (Epic & VIP only):
+ * - Sausage Sizzle: Baguette roll, caramelised onion, tomato & BBQ sauces, cheese
+ * - Pizza Party: Cheese, pepperoni, beef pizzas
+ * 
+ * Shopify Products:
+ * - kick-off-party
+ * - ultimate-party
+ * - vip-experience
  */
 {
   "sections": {
