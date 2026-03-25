@@ -750,6 +750,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 .float-btn:hover { transform: scale(1.1); }
 .float-whatsapp { background: #25D366; color: white; }
 .float-phone { background: var(--green); color: white; }
+.float-instagram { background: #E4405F; color: white; }
 
 /* ===== MOBILE STICKY CTA ===== */
 .mobile-cta {
