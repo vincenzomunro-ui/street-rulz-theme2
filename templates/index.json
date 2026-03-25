@@ -126,6 +126,20 @@
       ],
       "settings": {}
     },
+    "kicks_banner": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "⚽ $10 SOCIAL KICKS — EVERY WEEK",
+        "subheading": "Monday, Wednesday, Friday & Saturday. Drop in anytime, pay at the clubhouse. No experience needed",
+        "cta1_text": "View Schedule",
+        "cta1_link": "/pages/social-kicks",
+        "cta2_text": "",
+        "cta2_link": "",
+        "bg_color": "#567256",
+        "text_color": "#ffffff",
+        "card_color": "#FF7F30"
+      }
+    },
     "services": {
       "type": "services",
       "blocks": {
@@ -155,11 +169,11 @@
           "type": "service_card",
           "settings": {
             "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.32.48_am.png",
-            "icon": "",
-            "title": "",
-            "description": "",
-            "price": "From $10/team",
-            "link": "shopify://pages/wednesday-10-kicks"
+            "icon": "⚽",
+            "title": "Social Kicks",
+            "description": "Join us for $10 casual football every week. No experience needed. Drop in anytime, pay at the clubhouse",
+            "price": "$10/person",
+            "link": "/pages/social-kicks"
           }
         },
         "birthdays": {
@@ -619,6 +633,7 @@
   "order": [
     "hero",
     "kicks_grid",
+    "kicks_banner",
     "stats",
     "services",
     "break1",
