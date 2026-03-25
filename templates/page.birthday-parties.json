@@ -62,10 +62,10 @@
           "settings": {
             "title": "VIP Party",
             "price": "$495",
-            "subtitle": "3 hour",
+            "subtitle": "2.5 hour",
             "badge": "MOST POPULAR",
             "highlighted": true,
-            "include_1": "2 hours on a 5-a-side pitch + 1 hour in the party area",
+            "include_1": "2.5 hours on a 5-a-side pitch AND in the party area",
             "include_2": "Balls, bibs, medals and drone video",
             "include_3": "Dedicated party host",
             "include_4": "Up to 20 kids",
