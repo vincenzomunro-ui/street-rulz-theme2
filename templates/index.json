@@ -32,8 +32,8 @@
         "stat1": {
           "type": "stat",
           "settings": {
-            "number": "STUDS",
-            "label": "Footwear"
+            "number": "SHOES",
+            "label": "STUDDED BOOTS"
           }
         },
         "stat2": {
