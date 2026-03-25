@@ -74,6 +74,74 @@
         "card_color": "#2b2b2b"
       }
     },
+    "trust-guarantees": {
+      "type": "trust-guarantees",
+      "blocks": {
+        "guarantee-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "✓",
+            "title": "30-Day Happiness Guarantee",
+            "description": "Unhappy with your party or league experience? Full refund, no questions asked. Your satisfaction is our priority."
+          }
+        },
+        "guarantee-2": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "✓",
+            "title": "Certified Coaching Staff",
+            "description": "All coaches hold AFC/FFA certification and first aid training. Your players are in expert hands."
+          }
+        },
+        "guarantee-3": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "✓",
+            "title": "FIFA Grade 3 Facility",
+            "description": "Professional-grade artificial turf, meets FIFA standards. Built to tournament specifications."
+          }
+        },
+        "guarantee-4": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "✓",
+            "title": "Family Owned & Operated",
+            "description": "30+ years of football experience across the Munro family. Every decision driven by passion for the game."
+          }
+        },
+        "guarantee-5": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "✓",
+            "title": "Only Cage Football on Gold Coast",
+            "description": "Unique facility. Play rain or shine in a fully enclosed, all-weather environment."
+          }
+        },
+        "guarantee-6": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "✓",
+            "title": "ISO Quality Standards",
+            "description": "Professional operations, transparent pricing, safety first. We operate with industry-leading standards."
+          }
+        }
+      },
+      "block_order": [
+        "guarantee-1",
+        "guarantee-2",
+        "guarantee-3",
+        "guarantee-4",
+        "guarantee-5",
+        "guarantee-6"
+      ],
+      "settings": {
+        "badge": "WHY CHOOSE RULZ",
+        "heading": "Our Commitment to You",
+        "description": "We stand behind our promise: the best 5-a-side experience on the Gold Coast",
+        "bg_color": "#1d1f1e",
+        "text_color": ""
+      }
+    },
     "about-team": {
       "type": "about-team",
       "blocks": {
@@ -82,8 +150,8 @@
           "settings": {
             "photo": "shopify://shop_images/IMG_0633_c838b879-a4a6-4e14-912c-b86d420f7db4.jpg",
             "name": "Mark Munro",
-            "role": "Co-Founder",
-            "bio": "With over 50 years of football experience, Mark has lived every side of the game — as a player, coach, and club director. His leadership and vision have been the driving force behind Street Rulz Football from day one. Combining an elite sporting background with a decades-long career in engineering and design, Mark has transformed the project from concept to reality. Holding AFC/FFA B & C Licences and a KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport, Mark's philosophy is simple and powerful: \"It's not just about playing — it's about raising the standard.\""
+            "role": "Co-Founder & Head Coach",
+            "bio": "With over 50 years of football experience, Mark has lived every side of the game — as a player, coach, and club director. Holding AFC/FFA B & C Licences and a KNVB (Dutch) Youth Elite Coaching Certification from the Australian Institute of Sport, Mark's expertise and vision have been the foundation of Street Rulz. His philosophy is simple: \"It's not just about playing — it's about raising the standard.\" Mark personally oversees all coaching and facility standards."
           }
         },
         "member-patricia": {
@@ -157,6 +225,7 @@
   "order": [
     "page-header",
     "about-story",
+    "trust-guarantees",
     "about-team",
     "cta-banner"
   ]
