@@ -500,6 +500,20 @@
         "card_color": "#2b2b2b"
       }
     },
+    "rulz_gear": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "🛍️ RULZ GEAR — Premium Branded Merch",
+        "subheading": "Rep the Rulz with our exclusive collection of football gear, apparel, and accessories. Designed for players, built for champions.",
+        "cta1_text": "Shop Rulz Gear",
+        "cta1_link": "/pages/rulz-gear",
+        "cta2_text": "",
+        "cta2_link": "",
+        "bg_color": "#FF7F30",
+        "text_color": "#ffffff",
+        "card_color": "#ff6b35"
+      }
+    },
     "cta": {
       "type": "cta-banner",
       "settings": {
@@ -567,6 +581,7 @@
     "howitworks",
     "findus",
     "hours_N99Xhz",
+    "rulz_gear",
     "cta",
     "17729690424a5d2b24",
     "1771983673ad0f272f",
