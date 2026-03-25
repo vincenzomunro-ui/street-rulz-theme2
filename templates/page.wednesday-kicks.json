@@ -30,7 +30,7 @@
             "age_groups": "16+ Open",
             "format": "5v5",
             "time": "6:00pm – 9:00pm",
-            "price": "$10"
+            "price": "$10/person"
           }
         },
         "session2": {
@@ -42,7 +42,7 @@
             "age_groups": "16+ Open",
             "format": "5v5",
             "time": "6:00pm – 9:00pm",
-            "price": "$10"
+            "price": "$10/person"
           }
         },
         "session3": {
@@ -54,7 +54,7 @@
             "age_groups": "All Ages",
             "format": "5v5 + 7v7",
             "time": "4:00pm – 9:00pm",
-            "price": "$10"
+            "price": "$10/person"
           }
         },
         "session4": {
@@ -66,7 +66,7 @@
             "age_groups": "16+ Open",
             "format": "5v5",
             "time": "10:00am – 4:00pm",
-            "price": "$10"
+            "price": "$10/person"
           }
         }
       },
