@@ -32,17 +32,6 @@
             "link": ""
           }
         },
-        "senior_fiesta": {
-          "type": "service_card",
-          "disabled": true,
-          "settings": {
-            "icon": "⚽",
-            "title": "",
-            "description": "",
-            "price": "",
-            "link": ""
-          }
-        },
         "holiday_clinics": {
           "type": "service_card",
           "settings": {
@@ -90,7 +79,6 @@
       },
       "block_order": [
         "junior_legends",
-        "senior_fiesta",
         "holiday_clinics",
         "social_wednesday",
         "hospitality_monday",

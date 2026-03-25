@@ -1,11 +1,7 @@
 {% comment %} Main Product — Product display with required email capture {% endcomment %}
 
 {% comment %} CUSTOM TEMPLATE ROUTING — Render custom forms from snippets based on template_suffix {% endcomment %}
-{% if product.template_suffix == 'fiesta-junior' %}
-  {% render 'fiesta-junior', product: product %}
-{% elsif product.template_suffix == 'fiesta-senior' %}
-  {% render 'fiesta-senior', product: product %}
-{% elsif product.template_suffix == 'product-party' %}
+{% if product.template_suffix == 'product-party' %}
   {% render 'product-party', product: product %}
 {% else %}
   {%- comment -%} DEFAULT PRODUCT FORM {%- endcomment -%}
