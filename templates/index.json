@@ -192,12 +192,38 @@
             "link": "shopify://pages/wednesday-10-kicks",
             "link_text": "Details"
           }
+        },
+        "eventmon": {
+          "type": "event",
+          "settings": {
+            "title": "Hospitality Monday",
+            "details": "Monday · 6:00 PM – 9:00 PM · $10/person · Corporate & social teams",
+            "tag_text": "Teams Welcome",
+            "tag_style": "tag-social",
+            "urgent": false,
+            "link": "/pages/hospitality-monday",
+            "link_text": "Details"
+          }
+        },
+        "eventfri": {
+          "type": "event",
+          "settings": {
+            "title": "Mixed Socials Friday",
+            "details": "Friday · 4:00 PM – 9:00 PM · $10/person · Open mixed pickup",
+            "tag_text": "Come Solo or Crew",
+            "tag_style": "tag-social",
+            "urgent": false,
+            "link": "/pages/mixed-socials-friday",
+            "link_text": "Details"
+          }
         }
       },
       "block_order": [
         "eventwed",
         "eventthu",
-        "eventsat"
+        "eventsat",
+        "eventmon",
+        "eventfri"
       ],
       "settings": {
         "label": "HAPPENING NOW",

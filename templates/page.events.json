@@ -53,12 +53,48 @@
             "price": "From $55/child",
             "link": "shopify://pages/hoilday-program"
           }
+        },
+        "social_wednesday": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "⚽",
+            "title": "Social Wednesday",
+            "description": "Casual midweek football action. Mix and mingle with other players, no pressure, just pure fun on the pitch.\n\nEvery Wednesday • 6pm-9pm",
+            "price": "$10",
+            "link": "/pages/social-wednesday"
+          }
+        },
+        "hospitality_monday": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "🍺",
+            "title": "Hospitality Monday",
+            "description": "Corporate teams, mates nights out, work socials — bring your crew and dominate the pitch. Post-game drinks in the bar.\n\nEvery Monday • 6pm-9pm",
+            "price": "$10",
+            "link": "/pages/hospitality-monday"
+          }
+        },
+        "mixed_socials_friday": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "👥",
+            "title": "Mixed Socials Friday",
+            "description": "Open, mixed, no-pressure football action. Join a pickup game or bring your crew. Relaxed vibes, competitive play.\n\nEvery Friday • 4pm-9pm",
+            "price": "$10",
+            "link": "/pages/mixed-socials-friday"
+          }
         }
       },
       "block_order": [
         "junior_legends",
         "senior_fiesta",
-        "holiday_clinics"
+        "holiday_clinics",
+        "social_wednesday",
+        "hospitality_monday",
+        "mixed_socials_friday"
       ],
       "settings": {
         "label": "WHAT'S ON",
