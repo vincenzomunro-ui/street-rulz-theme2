@@ -1,0 +1,18 @@
+/*
+ * Holiday Clinic Product Template
+ * Products: rulz-holiday-clinic-early-bird, rulz-holiday-clinic-standard, rulz-holiday-clinic-fuel-pack
+ * Date Option: April 10, April 17
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "bg_color": "",
+        "text_color": "",
+        "card_color": ""
+      }
+    }
+  },
+  "order": ["main"]
+}
