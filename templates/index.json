@@ -12,12 +12,12 @@
     "fiesta_notice": {
       "type": "cta-banner",
       "settings": {
-        "heading": "⚽ UPCOMING FIESTA EVENT — MINIMUM REGISTRATIONS NOT MET",
-        "subheading": "Our scheduled fiesta has been cancelled due to insufficient team registrations. Refunds processed automatically. Join our $10 Social Kicks (Mon/Wed/Fri/Sat) or book a private pitch instead!",
-        "cta1_text": "Book a Private Pitch",
+        "heading": "Fiesta Cancelled — Minimum Registrations Not Met",
+        "subheading": "Refunds processed. Join $10 Social Kicks or book a pitch.",
+        "cta1_text": "Book Pitch",
         "cta1_link": "/pages/book-a-court",
-        "cta2_text": "Join Social Kicks",
-        "cta2_link": "/pages/social-wednesday",
+        "cta2_text": "",
+        "cta2_link": "",
         "bg_color": "#FFF5E6",
         "text_color": "#333333",
         "card_color": "#FFE8CC"
