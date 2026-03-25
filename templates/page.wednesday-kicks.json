@@ -14,8 +14,8 @@
       "settings": {
         "background_image": "shopify://shop_images/IMG_1349.jpg",
         "show_logo": false,
-        "heading": "$10 Kicks — Wed & Sat",
-        "subheading": "Casual 5-a-side football every Wednesday night and Saturday morning at Street Rulz. Just $10 to play — no registration, no teams, just turn up and run."
+        "heading": "$10 Social Kicks",
+        "subheading": "Casual football every week at Street Rulz. Just $10 to play — no registration, no teams, just turn up and run."
       }
     },
     "schedule": {
@@ -25,11 +25,11 @@
           "type": "day_card",
           "settings": {
             "icon": "",
-            "day": "Wednesday Night",
-            "category": "Casual $10 Kicks",
+            "day": "Monday Night",
+            "category": "Hospitality Monday",
             "age_groups": "16+ Open",
             "format": "5v5",
-            "time": "6:00pm – 10:00pm",
+            "time": "6:00pm – 9:00pm",
             "price": "$10"
           }
         },
@@ -37,23 +37,49 @@
           "type": "day_card",
           "settings": {
             "icon": "",
-            "day": "Saturday Morning",
-            "category": "Casual $10 Kicks",
+            "day": "Wednesday Night",
+            "category": "Social Wednesday",
             "age_groups": "16+ Open",
             "format": "5v5",
-            "time": "From 8:00am",
+            "time": "6:00pm – 9:00pm",
+            "price": "$10"
+          }
+        },
+        "session3": {
+          "type": "day_card",
+          "settings": {
+            "icon": "",
+            "day": "Friday Evening",
+            "category": "Mixed Socials Friday",
+            "age_groups": "All Ages",
+            "format": "5v5 + 7v7",
+            "time": "4:00pm – 9:00pm",
+            "price": "$10"
+          }
+        },
+        "session4": {
+          "type": "day_card",
+          "settings": {
+            "icon": "",
+            "day": "Saturday Morning",
+            "category": "Social Saturday",
+            "age_groups": "16+ Open",
+            "format": "5v5",
+            "time": "10:00am – 4:00pm",
             "price": "$10"
           }
         }
       },
       "block_order": [
         "session1",
-        "session2"
+        "session2",
+        "session3",
+        "session4"
       ],
       "settings": {
         "label": "WHEN",
-        "heading": "Every Wednesday & Saturday",
-        "subheading": "Drop in casual football twice a week. $10 per person, pay at the desk. No teams needed — we sort the sides on the night. Slots fill fast so get in early.",
+        "heading": "Every Monday, Wednesday, Friday & Saturday",
+        "subheading": "Drop in casual football four days a week. $10 per person, pay at the desk. No teams needed — we sort the sides on the night. Slots fill fast so get in early.",
         "note": "Sessions run while courts are available. Turn up, pay $10, and play. No booking required.",
         "bg_color": "#181a19",
         "text_color": "",
