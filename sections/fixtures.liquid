@@ -182,6 +182,21 @@
             <span class="fixture-team away">{{ block.settings.game4_away }}</span>
           </div>
           {% endif %}
+
+          {% if block.settings.game5_home != blank %}
+          <div class="fixture-match">
+            <span class="fixture-team">{{ block.settings.game5_home }}</span>
+            <div>
+              {% if block.settings.is_upcoming %}
+                <div class="fixture-score">{{ block.settings.game5_time }}</div>
+              {% else %}
+                <div class="fixture-score">{{ block.settings.game5_home_score }} – {{ block.settings.game5_away_score }}</div>
+              {% endif %}
+              <div class="fixture-court">{{ block.settings.game5_court }}</div>
+            </div>
+            <span class="fixture-team away">{{ block.settings.game5_away }}</span>
+          </div>
+          {% endif %}
         </div>
       {% endif %}
     {% endfor %}
@@ -280,7 +295,14 @@
         { "type": "text", "id": "game4_home_score", "label": "Game 4 - Home Score", "default": "0" },
         { "type": "text", "id": "game4_away_score", "label": "Game 4 - Away Score", "default": "0" },
         { "type": "text", "id": "game4_court", "label": "Game 4 - Court", "default": "Court 2" },
-        { "type": "text", "id": "game4_time", "label": "Game 4 - Time", "default": "7:15pm" }
+        { "type": "text", "id": "game4_time", "label": "Game 4 - Time", "default": "7:15pm" },
+        { "type": "header", "content": "Game 5" },
+        { "type": "text", "id": "game5_home", "label": "Game 5 - Home Team" },
+        { "type": "text", "id": "game5_away", "label": "Game 5 - Away Team" },
+        { "type": "text", "id": "game5_home_score", "label": "Game 5 - Home Score", "default": "0" },
+        { "type": "text", "id": "game5_away_score", "label": "Game 5 - Away Score", "default": "0" },
+        { "type": "text", "id": "game5_court", "label": "Game 5 - Court", "default": "-" },
+        { "type": "text", "id": "game5_time", "label": "Game 5 - Time", "default": "BYE" }
       ]
     }
   ],
