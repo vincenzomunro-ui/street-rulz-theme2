@@ -18,7 +18,7 @@
         "subheading": "4.5 hours of skills, games, and fun — the perfect school holiday activity."
       }
     },
-    "event": {
+    "single-day-section": {
       "type": "event-hero",
       "blocks": {
         "t1": {
@@ -50,19 +50,6 @@
         "t3": {
           "type": "tier",
           "settings": {
-            "tier_name": "2-Day Bundle",
-            "price": "$110 / $140",
-            "description": "Both April 10 AND April 17 — guaranteed spots both days",
-            "spots": "Limited availability",
-            "badge": "BEST VALUE",
-            "highlighted": true,
-            "link": "shopify://products/holiday-clinic-2day-bundle",
-            "button_text": "Book Bundle"
-          }
-        },
-        "t4": {
-          "type": "tier",
-          "settings": {
             "tier_name": "Player Fuel Pack",
             "price": "$15",
             "description": "Optional add-on — snack + drink included",
@@ -74,12 +61,12 @@
           }
         }
       },
-      "block_order": ["t1", "t2", "t3", "t4"],
+      "block_order": ["t1", "t2", "t3"],
       "settings": {
-        "label": "HOLIDAY CAMP",
-        "heading": "RULZ Holiday Mini Camp",
-        "subheading": "Expert coaches, skill circuits, mini World Cup game — all in one action-packed day. Choose Friday 10 April or Friday 17 April.",
-        "event_date": "Friday 10 April & Friday 17 April, 2026",
+        "label": "SINGLE DAY OPTIONS",
+        "heading": "Choose Your Date",
+        "subheading": "Pick one day: Friday 10 April OR Friday 17 April. 9:00am – 1:30pm.",
+        "event_date": "Friday 10 April OR Friday 17 April, 2026",
         "event_time": "9:00am – 1:30pm",
         "event_ages": "Ages 5 – 13",
         "event_teams": "Limited Spots",
@@ -234,42 +221,75 @@
         "card_color": "#2b4a5a"
       }
     },
+    "bundle-hero": {
+      "type": "event-hero",
+      "blocks": {
+        "b1": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "2-Day Bundle",
+            "price": "$110 / $140",
+            "description": "April 10 AND April 17 — Attend both, guaranteed spots both days",
+            "spots": "Limited availability",
+            "badge": "⭐ BEST VALUE ⭐",
+            "highlighted": true,
+            "link": "shopify://products/holiday-clinic-2day-bundle",
+            "button_text": "Book Bundle Now"
+          }
+        }
+      },
+      "block_order": ["b1"],
+      "settings": {
+        "label": "MAXIMUM IMPACT",
+        "heading": "2-Day Bundle — Double The Learning",
+        "subheading": "Attend both April 10 AND April 17. Kids experience progression, familiar team, two tournaments, and guaranteed availability. The ultimate holiday camp experience.",
+        "event_date": "April 10 & April 17, 2026",
+        "event_time": "9:00am – 1:30pm each day",
+        "event_ages": "Ages 5 – 13",
+        "event_teams": "Limited Spots",
+        "cta_text": "Book 2-Day Bundle",
+        "cta_link": "shopify://products/holiday-clinic-2day-bundle",
+        "bg_color": "#2a1a3a",
+        "text_color": "#ffffff",
+        "card_color": "#5a2a6a"
+      }
+    },
     "bundle-grid": {
       "type": "comp-info",
       "blocks": {
         "b1": {
           "type": "info_card",
           "settings": {
-            "icon": "🎁",
-            "title": "2-Day Bundle — $110 / $140",
-            "description": "Attend BOTH April 10 and April 17. Guaranteed spots. Best value.",
+            "icon": "📈",
+            "title": "Double The Progression",
+            "description": "Day 1 focuses on fundamentals. Day 2 builds advanced skills. Kids improve twice as fast with structured progression.",
             "detail": ""
           }
         },
         "b2": {
           "type": "info_card",
           "settings": {
-            "icon": "📈",
-            "title": "Progression Across Days",
-            "description": "Day 1 focuses on fundamentals. Day 2 builds advanced skills. Kids improve twice as fast.",
+            "icon": "👥",
+            "title": "Familiar Team",
+            "description": "Same coaches and teammates across both days. Kids bond, feel comfortable, perform better. Stronger friendships.",
             "detail": ""
           }
         },
         "b3": {
           "type": "info_card",
           "settings": {
-            "icon": "👥",
-            "title": "Familiar Faces",
-            "description": "Same coaches and teammates across both days. Kids bond, feel comfortable, perform better.",
+            "icon": "🏆",
+            "title": "Two Tournaments",
+            "description": "Mini World Cup on both days. Kids get two chances to win medals, prizes, and experience tournament pressure.",
             "detail": ""
           }
         },
         "b4": {
           "type": "info_card",
           "settings": {
-            "icon": "🏆",
-            "title": "Two Tournaments",
-            "description": "Mini World Cup on both days. Kids get two chances to win medals and prizes.",
+            "icon": "✅",
+            "title": "Guaranteed Spots",
+            "description": "Both days reserved when you book the bundle. No risk of your second day selling out or being unavailable.",
             "detail": ""
           }
         },
@@ -277,33 +297,33 @@
           "type": "info_card",
           "settings": {
             "icon": "💰",
-            "title": "Locked Price",
-            "description": "Early Bird: $110 total (save $0 vs 2× single). Standard: $140 total (save $0 vs 2× single).",
+            "title": "Early Bird: $110",
+            "description": "2-Day Bundle Early Bird. Limited spots (first 12). Lock in the best price for maximum value.",
             "detail": ""
           }
         },
         "b6": {
           "type": "info_card",
           "settings": {
-            "icon": "✅",
-            "title": "Guaranteed Availability",
-            "description": "Bundle spots are reserved. Don't worry about your second date selling out.",
+            "icon": "💳",
+            "title": "Standard: $140",
+            "description": "2-Day Bundle Standard. Available after early bird spots fill. Same double-day experience and value.",
             "detail": ""
           }
         }
       },
       "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"],
       "settings": {
-        "label": "2-DAY BUNDLE",
-        "heading": "2-Day Bundle: Maximum Learning & Fun",
-        "subheading": "Attend both April 10 AND April 17. Guaranteed spots, familiar team, twice the improvement. The best way to experience Holiday Mini Camp.",
+        "label": "BUNDLE BENEFITS",
+        "heading": "Why Choose The 2-Day Bundle?",
+        "subheading": "More progression. Deeper friendships. Two chances to win. Guaranteed availability. Better value. This is how kids learn fastest.",
         "majesty_heading": "",
         "majesty_description": "",
         "majesty_link": "",
         "majesty_button_text": "",
-        "bg_color": "#2a1a2a",
+        "bg_color": "#1a1a2a",
         "text_color": "",
-        "card_color": "#5a2a5a"
+        "card_color": "#3a2a5a"
       }
     },
     "faq": {
@@ -312,43 +332,43 @@
         "q1": {
           "type": "question",
           "settings": {
+            "question": "Single day or 2-day bundle — which is right for us?",
+            "answer": "Single day is flexible and perfect if schedules are uncertain. Bundle is best value and best learning — guaranteed spots both days, progression, familiar team, two tournaments. If April 10 & 17 both work, the bundle is the smarter choice."
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
             "question": "What does my child need to bring?",
             "answer": "Indoor boots or trainers, shin pads, water bottle, sunscreen, and a hat. We provide all equipment."
           }
         },
-        "q2": {
+        "q3": {
           "type": "question",
           "settings": {
             "question": "What's the Player Fuel Pack?",
             "answer": "An optional $15 add-on that includes a snack and drink for your child during the camp. Add it at checkout."
           }
         },
-        "q3": {
+        "q4": {
           "type": "question",
           "settings": {
             "question": "What if it rains?",
             "answer": "RULZ is all-weather — the camp runs rain or shine. Only lightning causes cancellation (full refund if cancelled)."
           }
         },
-        "q4": {
+        "q5": {
           "type": "question",
           "settings": {
             "question": "What age groups?",
             "answer": "Ages 5–13. Kids are grouped by age for appropriate coaching and competition."
           }
         },
-        "q5": {
+        "q6": {
           "type": "question",
           "settings": {
             "question": "Can I get a refund?",
             "answer": "Full refund available up to 7 days before the camp. Contact us for transfers or credits."
-          }
-        },
-        "q6": {
-          "type": "question",
-          "settings": {
-            "question": "Should I do the bundle or two single days?",
-            "answer": "The bundle is best value — guaranteed spots both days + progression + familiar team. Singles are flexible if schedules are uncertain. Either way, kids have an amazing experience."
           }
         }
       },
@@ -363,11 +383,11 @@
     "cta": {
       "type": "cta-banner",
       "settings": {
-        "heading": "Book Your Spot Now",
-        "subheading": "Early bird spots are limited. Lock in the best price and guarantee your child's place on April 10 and/or April 17.",
-        "cta1_text": "Book Now",
+        "heading": "Book Now — Early Bird Spots Limited",
+        "subheading": "Single day ($55–$70) or 2-Day Bundle ($110–$140). Choose flexibility or maximum value. Either way, your kids have an unforgettable holiday.",
+        "cta1_text": "Single Day",
         "cta1_link": "shopify://products/rulz-holiday-clinic-early-bird",
-        "cta2_text": "Bundle Deal",
+        "cta2_text": "2-Day Bundle",
         "cta2_link": "shopify://products/holiday-clinic-2day-bundle",
         "bg_color": "#181a19",
         "text_color": "",
@@ -375,5 +395,5 @@
       }
     }
   },
-  "order": ["header", "event", "early-bird-grid", "standard-grid", "bundle-grid", "faq", "cta"]
+  "order": ["header", "single-day-section", "early-bird-grid", "standard-grid", "bundle-hero", "bundle-grid", "faq", "cta"]
 }
