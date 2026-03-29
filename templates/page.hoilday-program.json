@@ -93,7 +93,7 @@
             "spots": "12 spots only",
             "badge": "⭐ BEST VALUE ⭐",
             "highlighted": true,
-            "link": "shopify://products/holiday-clinic-2day-bundle",
+            "link": "shopify://products/holiday-clinic-bundle-early-bird",
             "button_text": "Book Bundle Early Bird"
           }
         },
@@ -106,7 +106,7 @@
             "spots": "Open enrollment",
             "badge": "BEST VALUE",
             "highlighted": false,
-            "link": "shopify://products/holiday-clinic-2day-bundle",
+            "link": "shopify://products/holiday-clinic-bundle-standard",
             "button_text": "Book Bundle Standard"
           }
         },
