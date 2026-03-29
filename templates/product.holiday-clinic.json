@@ -1,14 +1,3 @@
-/*
- * RULZ Holiday Clinic — UPDATED WITH DATE SELECTOR
- * Allows customers to choose: Wednesday 10 April OR Wednesday 17 April
- * 
- * CHANGES:
- * - Added "date-selector" section before add-to-cart
- * - Two variant options (April 10 / April 17)
- * - Automatic price/availability based on selection
- * - Early bird / Standard pricing tiers maintained
- */
-
 {
   "sections": {
     "header": {
