@@ -109,11 +109,25 @@
             "link": "shopify://products/holiday-clinic-2day-bundle",
             "button_text": "Book Bundle Standard"
           }
+        },
+        "bundle_fuel": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "2-Day Bundle Player Fuel Pack",
+            "price": "$30",
+            "description": "Snacks + drinks for BOTH days (2x $15)",
+            "spots": "Add at checkout",
+            "badge": "ADD-ON",
+            "highlighted": false,
+            "link": "shopify://products/rulz-holiday-clinic-fuel-pack",
+            "button_text": "Add to Bundle"
+          }
         }
       },
       "block_order": [
         "bundle_eb",
-        "bundle_std"
+        "bundle_std",
+        "bundle_fuel"
       ],
       "settings": {
         "label": "2-DAY BUNDLE",
