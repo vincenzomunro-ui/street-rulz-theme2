@@ -18,7 +18,7 @@
         "subheading": "4.5 hours of skills, games, and fun — the perfect school holiday activity."
       }
     },
-    "single-day-section": {
+    "single-day-hero": {
       "type": "event-hero",
       "blocks": {
         "t1": {
@@ -94,7 +94,7 @@
           "settings": {
             "icon": "⚽",
             "title": "Skill Circuits",
-            "description": "Ball mastery, passing, dribbling, and finishing drills designed for cage football. Age-appropriate stations for all levels.",
+            "description": "Ball mastery, passing, dribbling, and finishing drills. Age-appropriate stations.",
             "detail": ""
           }
         },
@@ -103,7 +103,7 @@
           "settings": {
             "icon": "🏆",
             "title": "Mini World Cup",
-            "description": "Teams compete in a mini tournament format with group games and finals. Medals and prizes for all participants.",
+            "description": "Tournament format. Group games and finals. Medals and prizes for all.",
             "detail": ""
           }
         },
@@ -112,7 +112,7 @@
           "settings": {
             "icon": "🎯",
             "title": "Fun Challenges",
-            "description": "Penalty shootouts, crossbar challenges, and skill competitions. Every kid gets a chance to shine.",
+            "description": "Penalty shootouts, crossbar challenges, skill competitions. Every kid shines.",
             "detail": ""
           }
         },
@@ -121,7 +121,7 @@
           "settings": {
             "icon": "👨‍🏫",
             "title": "Expert Coaches",
-            "description": "Qualified coaches run every session. Small group sizes ensure every player gets attention and improves.",
+            "description": "Qualified coaches. Small group sizes. Personalized attention.",
             "detail": ""
           }
         },
@@ -130,7 +130,7 @@
           "settings": {
             "icon": "☀️",
             "title": "Full Day Program",
-            "description": "9:00am – 1:30pm. All-weather caged courts. Rain or shine.",
+            "description": "9:00am – 1:30pm. Floodlit caged courts. Rain or shine.",
             "detail": ""
           }
         }
@@ -139,7 +139,7 @@
       "settings": {
         "label": "EARLY BIRD PACKAGE",
         "heading": "Early Bird: $55 Per Child",
-        "subheading": "Limited spots — first 12 registrations lock in this price. Perfect for families wanting premium coaching at the best rate.",
+        "subheading": "Limited spots — first 12 registrations lock in this price.",
         "majesty_heading": "",
         "majesty_description": "",
         "majesty_link": "",
@@ -157,7 +157,7 @@
           "settings": {
             "icon": "💳",
             "title": "Standard — $70",
-            "description": "Available after early bird spots fill. Same premium experience.",
+            "description": "Available after early bird fills. Same premium experience.",
             "detail": ""
           }
         },
@@ -166,7 +166,7 @@
           "settings": {
             "icon": "⚽",
             "title": "Skill Circuits",
-            "description": "Ball mastery, passing, dribbling, and finishing drills designed for cage football. Age-appropriate stations for all levels.",
+            "description": "Ball mastery, passing, dribbling, and finishing drills. Age-appropriate stations.",
             "detail": ""
           }
         },
@@ -175,7 +175,7 @@
           "settings": {
             "icon": "🏆",
             "title": "Mini World Cup",
-            "description": "Teams compete in a mini tournament format with group games and finals. Medals and prizes for all participants.",
+            "description": "Tournament format. Group games and finals. Medals and prizes for all.",
             "detail": ""
           }
         },
@@ -184,7 +184,7 @@
           "settings": {
             "icon": "🎯",
             "title": "Fun Challenges",
-            "description": "Penalty shootouts, crossbar challenges, and skill competitions. Every kid gets a chance to shine.",
+            "description": "Penalty shootouts, crossbar challenges, skill competitions. Every kid shines.",
             "detail": ""
           }
         },
@@ -193,7 +193,7 @@
           "settings": {
             "icon": "👨‍🏫",
             "title": "Expert Coaches",
-            "description": "Qualified coaches run every session. Small group sizes ensure every player gets attention and improves.",
+            "description": "Qualified coaches. Small group sizes. Personalized attention.",
             "detail": ""
           }
         },
@@ -202,7 +202,7 @@
           "settings": {
             "icon": "☀️",
             "title": "Full Day Program",
-            "description": "9:00am – 1:30pm. All-weather caged courts. Rain or shine.",
+            "description": "9:00am – 1:30pm. Floodlit caged courts. Rain or shine.",
             "detail": ""
           }
         }
@@ -211,7 +211,7 @@
       "settings": {
         "label": "STANDARD PACKAGE",
         "heading": "Standard: $70 Per Child",
-        "subheading": "Open enrollment. Same expert coaching, same premium experience. Register as spots become available.",
+        "subheading": "Open enrollment. Same expert coaching, same premium experience.",
         "majesty_heading": "",
         "majesty_description": "",
         "majesty_link": "",
@@ -227,31 +227,44 @@
         "b1": {
           "type": "tier",
           "settings": {
-            "tier_name": "2-Day Bundle",
-            "price": "$110 / $140",
-            "description": "April 10 AND April 17 — Attend both, guaranteed spots both days",
-            "spots": "Limited availability",
+            "tier_name": "Early Bird Bundle",
+            "price": "$110",
+            "description": "April 10 AND April 17. Limited to first 12 spots.",
+            "spots": "12 spots only",
             "badge": "⭐ BEST VALUE ⭐",
             "highlighted": true,
             "link": "shopify://products/holiday-clinic-2day-bundle",
-            "button_text": "Book Bundle Now"
+            "button_text": "Book Early Bird Bundle"
+          }
+        },
+        "b2": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Standard Bundle",
+            "price": "$140",
+            "description": "April 10 AND April 17. Available after early bird fills.",
+            "spots": "Open enrollment",
+            "badge": "BEST VALUE",
+            "highlighted": false,
+            "link": "shopify://products/holiday-clinic-2day-bundle",
+            "button_text": "Book Standard Bundle"
           }
         }
       },
-      "block_order": ["b1"],
+      "block_order": ["b1", "b2"],
       "settings": {
-        "label": "MAXIMUM IMPACT",
-        "heading": "2-Day Bundle — Double The Learning",
-        "subheading": "Attend both April 10 AND April 17. Kids experience progression, familiar team, two tournaments, and guaranteed availability. The ultimate holiday camp experience.",
+        "label": "2-DAY BUNDLE",
+        "heading": "Double The Learning — 2-Day Bundle",
+        "subheading": "Attend BOTH April 10 AND April 17. Progression, familiar team, two tournaments, guaranteed availability. The ultimate experience.",
         "event_date": "April 10 & April 17, 2026",
         "event_time": "9:00am – 1:30pm each day",
         "event_ages": "Ages 5 – 13",
         "event_teams": "Limited Spots",
-        "cta_text": "Book 2-Day Bundle",
+        "cta_text": "Book Your Bundle",
         "cta_link": "shopify://products/holiday-clinic-2day-bundle",
-        "bg_color": "#2a1a3a",
+        "bg_color": "#1a0a2a",
         "text_color": "#ffffff",
-        "card_color": "#5a2a6a"
+        "card_color": "#3a1a5a"
       }
     },
     "bundle-early-bird-grid": {
@@ -261,8 +274,8 @@
           "type": "info_card",
           "settings": {
             "icon": "⭐",
-            "title": "2-Day Bundle Early Bird — $110",
-            "description": "Limited to first 12 slots. Best price for maximum value. Attend both April 10 & 17.",
+            "title": "Early Bird Bundle — $110",
+            "description": "Limited to first 12 slots. Best price. Both April 10 & 17.",
             "detail": ""
           }
         },
@@ -271,7 +284,7 @@
           "settings": {
             "icon": "📈",
             "title": "Double Progression",
-            "description": "Day 1: Fundamentals. Day 2: Advanced skills. Structured two-day learning path for faster improvement.",
+            "description": "Day 1: Fundamentals. Day 2: Advanced skills. Structured learning path.",
             "detail": ""
           }
         },
@@ -279,8 +292,8 @@
           "type": "info_card",
           "settings": {
             "icon": "👥",
-            "title": "Familiar Team Both Days",
-            "description": "Same coaches, same teammates. Kids bond faster, feel comfortable, perform better. Stronger friendships built in.",
+            "title": "Familiar Team",
+            "description": "Same coaches, same teammates both days. Kids bond faster, perform better.",
             "detail": ""
           }
         },
@@ -289,7 +302,7 @@
           "settings": {
             "icon": "🏆",
             "title": "Two Tournaments",
-            "description": "Mini World Cup on both days. Two chances to win medals, prizes, experience tournament competition.",
+            "description": "Mini World Cup on both days. Two chances to win medals and prizes.",
             "detail": ""
           }
         },
@@ -298,7 +311,7 @@
           "settings": {
             "icon": "✅",
             "title": "Guaranteed Spots",
-            "description": "Both April 10 & 17 reserved. No risk of second day selling out or being unavailable.",
+            "description": "Both April 10 & 17 reserved. No risk of second day selling out.",
             "detail": ""
           }
         },
@@ -307,7 +320,7 @@
           "settings": {
             "icon": "🎁",
             "title": "Maximum Value",
-            "description": "Early Bird $110 for 2 full days. Lock in the best rate. Premium experience for less.",
+            "description": "$110 for 2 full days. Premium experience at the best rate.",
             "detail": ""
           }
         }
@@ -315,15 +328,15 @@
       "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"],
       "settings": {
         "label": "BUNDLE EARLY BIRD",
-        "heading": "2-Day Bundle Early Bird: $110 Per Child",
-        "subheading": "Limited to first 12 spots. Best price for two-day intensive. Progression, familiar team, two tournaments, guaranteed availability.",
+        "heading": "Early Bird Bundle: $110 Per Child",
+        "subheading": "Limited to first 12 spots. Best price for two-day intensive.",
         "majesty_heading": "",
         "majesty_description": "",
         "majesty_link": "",
         "majesty_button_text": "",
-        "bg_color": "#1a2a1a",
+        "bg_color": "#0a2a0a",
         "text_color": "",
-        "card_color": "#2a5a2a"
+        "card_color": "#1a5a1a"
       }
     },
     "bundle-standard-grid": {
@@ -333,8 +346,8 @@
           "type": "info_card",
           "settings": {
             "icon": "💳",
-            "title": "2-Day Bundle Standard — $140",
-            "description": "Available after early bird fills. Same premium two-day experience. Attend both April 10 & 17.",
+            "title": "Standard Bundle — $140",
+            "description": "Available after early bird fills. Same two-day experience.",
             "detail": ""
           }
         },
@@ -343,7 +356,7 @@
           "settings": {
             "icon": "📈",
             "title": "Double Progression",
-            "description": "Day 1: Fundamentals. Day 2: Advanced skills. Structured two-day learning path for faster improvement.",
+            "description": "Day 1: Fundamentals. Day 2: Advanced skills. Structured learning path.",
             "detail": ""
           }
         },
@@ -351,8 +364,8 @@
           "type": "info_card",
           "settings": {
             "icon": "👥",
-            "title": "Familiar Team Both Days",
-            "description": "Same coaches, same teammates. Kids bond faster, feel comfortable, perform better. Stronger friendships built in.",
+            "title": "Familiar Team",
+            "description": "Same coaches, same teammates both days. Kids bond faster, perform better.",
             "detail": ""
           }
         },
@@ -361,7 +374,7 @@
           "settings": {
             "icon": "🏆",
             "title": "Two Tournaments",
-            "description": "Mini World Cup on both days. Two chances to win medals, prizes, experience tournament competition.",
+            "description": "Mini World Cup on both days. Two chances to win medals and prizes.",
             "detail": ""
           }
         },
@@ -370,7 +383,7 @@
           "settings": {
             "icon": "✅",
             "title": "Guaranteed Spots",
-            "description": "Both April 10 & 17 reserved. No risk of second day selling out or being unavailable.",
+            "description": "Both April 10 & 17 reserved. No risk of second day selling out.",
             "detail": ""
           }
         },
@@ -379,7 +392,7 @@
           "settings": {
             "icon": "🎯",
             "title": "Flexible Pricing",
-            "description": "Standard $140 for 2 full days. Same premium experience. Available when early bird sells out.",
+            "description": "$140 for 2 full days. Same premium experience. Available when early bird fills.",
             "detail": ""
           }
         }
@@ -387,15 +400,15 @@
       "block_order": ["bs1", "bs2", "bs3", "bs4", "bs5", "bs6"],
       "settings": {
         "label": "BUNDLE STANDARD",
-        "heading": "2-Day Bundle Standard: $140 Per Child",
-        "subheading": "Open enrollment. Same two-day intensive as early bird. Progression, familiar team, two tournaments, guaranteed availability.",
+        "heading": "Standard Bundle: $140 Per Child",
+        "subheading": "Open enrollment. Same two-day intensive as early bird.",
         "majesty_heading": "",
         "majesty_description": "",
         "majesty_link": "",
         "majesty_button_text": "",
-        "bg_color": "#1a1a2a",
+        "bg_color": "#0a0a1a",
         "text_color": "",
-        "card_color": "#2a2a5a"
+        "card_color": "#1a1a3a"
       }
     },
     "faq": {
@@ -404,43 +417,43 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Single day or 2-day bundle — which is right for us?",
-            "answer": "Single day is flexible and perfect if schedules are uncertain. Bundle is best value and best learning — guaranteed spots both days, progression, familiar team, two tournaments. If April 10 & 17 both work, the bundle is the smarter choice."
+            "question": "Single day or 2-day bundle — which should we choose?",
+            "answer": "Single day ($55–$70): Best if schedules are flexible. 2-Day Bundle ($110–$140): Best learning and value. Guaranteed both days, progression, familiar team, two tournaments."
           }
         },
         "q2": {
           "type": "question",
           "settings": {
             "question": "What does my child need to bring?",
-            "answer": "Indoor boots or trainers, shin pads, water bottle, sunscreen, and a hat. We provide all equipment."
+            "answer": "Indoor boots or trainers, shin pads, water bottle, sunscreen, hat. We provide all equipment."
           }
         },
         "q3": {
           "type": "question",
           "settings": {
             "question": "What's the Player Fuel Pack?",
-            "answer": "An optional $15 add-on that includes a snack and drink for your child during the camp. Add it at checkout."
+            "answer": "Optional $15 add-on: snack + drink during camp. Add at checkout."
           }
         },
         "q4": {
           "type": "question",
           "settings": {
             "question": "What if it rains?",
-            "answer": "RULZ is all-weather — the camp runs rain or shine. Only lightning causes cancellation (full refund if cancelled)."
+            "answer": "All-weather camp. Rain or shine. Only lightning causes cancellation (full refund)."
           }
         },
         "q5": {
           "type": "question",
           "settings": {
             "question": "What age groups?",
-            "answer": "Ages 5–13. Kids are grouped by age for appropriate coaching and competition."
+            "answer": "Ages 5–13. Kids grouped by age for appropriate coaching."
           }
         },
         "q6": {
           "type": "question",
           "settings": {
             "question": "Can I get a refund?",
-            "answer": "Full refund available up to 7 days before the camp. Contact us for transfers or credits."
+            "answer": "Full refund up to 7 days before camp. Contact us for transfers or credits."
           }
         }
       },
@@ -456,7 +469,7 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Book Now — Early Bird Spots Limited",
-        "subheading": "Single day ($55–$70) or 2-Day Bundle ($110–$140). Choose flexibility or maximum value. Either way, your kids have an unforgettable holiday.",
+        "subheading": "Single day or 2-Day Bundle. Choose flexibility or maximum value. Unforgettable holiday either way.",
         "cta1_text": "Single Day",
         "cta1_link": "shopify://products/rulz-holiday-clinic-early-bird",
         "cta2_text": "2-Day Bundle",
@@ -467,5 +480,5 @@
       }
     }
   },
-  "order": ["header", "single-day-section", "early-bird-grid", "standard-grid", "bundle-hero", "bundle-early-bird-grid", "bundle-standard-grid", "faq", "cta"]
+  "order": ["header", "single-day-hero", "early-bird-grid", "standard-grid", "bundle-hero", "bundle-early-bird-grid", "bundle-standard-grid", "faq", "cta"]
 }
