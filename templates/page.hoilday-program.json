@@ -61,12 +61,23 @@
           }
         }
       },
-      "block_order": ["eb", "std", "fuel"],
+      "block_order": [
+        "eb",
+        "std",
+        "fuel"
+      ],
       "settings": {
         "label": "SINGLE DAY",
         "heading": "Choose Your Date",
         "subheading": "Friday 10 April OR Friday 17 April. 9:00am – 1:30pm.",
+        "event_date": "Sunday 29 March 2026",
+        "event_time": "8:00am – 2:00pm",
+        "event_ages": "U7 – U13",
+        "event_teams": "32 Teams Max",
+        "cta_text": "Register Your Team",
+        "cta_link": "",
         "bg_color": "#181a19",
+        "text_color": "",
         "card_color": "#2b2b2b"
       }
     },
@@ -100,12 +111,22 @@
           }
         }
       },
-      "block_order": ["bundle_eb", "bundle_std"],
+      "block_order": [
+        "bundle_eb",
+        "bundle_std"
+      ],
       "settings": {
         "label": "2-DAY BUNDLE",
         "heading": "Double The Learning — 2-Day Bundle",
         "subheading": "Attend BOTH April 10 AND April 17. Guaranteed spots. Maximum value.",
+        "event_date": "Sunday 29 March 2026",
+        "event_time": "9:00am – 2:00pm",
+        "event_ages": "U7 – U13",
+        "event_teams": "",
+        "cta_text": "Register Your Team",
+        "cta_link": "",
         "bg_color": "#1a0a2a",
+        "text_color": "",
         "card_color": "#3a1a5a"
       }
     },
@@ -141,13 +162,24 @@
           }
         }
       },
-      "block_order": ["q1", "q2", "q3", "q4"],
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
       "settings": {
         "label": "FAQ",
         "heading": "Frequently Asked Questions",
-        "bg_color": "#1e1e1e"
+        "bg_color": "#1e1e1e",
+        "text_color": ""
       }
     }
   },
-  "order": ["header", "single_day_tier", "bundle_tier", "faq"]
+  "order": [
+    "header",
+    "single_day_tier",
+    "bundle_tier",
+    "faq"
+  ]
 }
