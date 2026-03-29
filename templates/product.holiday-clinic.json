@@ -1,20 +1,330 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
+ * RULZ Holiday Clinic — UPDATED WITH DATE SELECTOR
+ * Allows customers to choose: Wednesday 10 April OR Wednesday 17 April
+ * 
+ * CHANGES:
+ * - Added "date-selector" section before add-to-cart
+ * - Two variant options (April 10 / April 17)
+ * - Automatic price/availability based on selection
+ * - Early bird / Standard pricing tiers maintained
  */
+
 {
   "sections": {
-    "main": {
-      "type": "main-product",
-      "settings": {}
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "background_image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+        "show_logo": false,
+        "heading": "Holiday Mini Camp",
+        "subheading": "4.5 hours of skills, games, and fun — the perfect school holiday activity."
+      }
+    },
+    "event": {
+      "type": "event-hero",
+      "blocks": {
+        "t1": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Early Bird",
+            "price": "$55",
+            "description": "First 12 spots — limited availability",
+            "spots": "12 spots only",
+            "badge": "BEST VALUE",
+            "highlighted": true,
+            "link": "shopify://products/rulz-holiday-clinic-early-bird",
+            "button_text": "Book Now"
+          }
+        },
+        "t2": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Standard",
+            "price": "$70",
+            "description": "Remaining spots after early bird sells out",
+            "spots": "Open until full",
+            "badge": "",
+            "highlighted": false,
+            "link": "shopify://products/rulz-holiday-clinic-standard",
+            "button_text": "Book Now"
+          }
+        },
+        "t3": {
+          "type": "tier",
+          "settings": {
+            "tier_name": "Player Fuel Pack",
+            "price": "$15",
+            "description": "Optional add-on — snack + drink included",
+            "spots": "Add at checkout",
+            "badge": "ADD-ON",
+            "highlighted": false,
+            "link": "shopify://products/rulz-holiday-clinic-fuel-pack",
+            "button_text": "Book Now"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "settings": {
+        "label": "HOLIDAY CAMP",
+        "heading": "RULZ Holiday Mini Camp",
+        "subheading": "Expert coaches, skill circuits, mini World Cup game — all in one action-packed day. Choose Wednesday 10 April or Wednesday 17 April.",
+        "event_date": "Wednesday 10 April & Wednesday 17 April, 2026",
+        "event_time": "9:00am – 1:30pm",
+        "event_ages": "Ages 5 – 13",
+        "event_teams": "Limited Spots",
+        "cta_text": "Select a Date & Book",
+        "cta_link": "shopify://products/rulz-holiday-clinic-standard",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "date-selector": {
+      "type": "date-selector",
+      "settings": {
+        "label": "SELECT YOUR DATE",
+        "heading": "Which Date Works for You?",
+        "subheading": "Choose Wednesday 10 April or Wednesday 17 April — both clinics run 9:00am – 1:30pm."
+      },
+      "blocks": {
+        "date1": {
+          "type": "date_option",
+          "settings": {
+            "date_display": "Wednesday 10 April",
+            "date_value": "2026-04-10",
+            "time": "9:00am – 1:30pm",
+            "early_bird_spots": "12 spots @ $55",
+            "early_bird_available": true,
+            "standard_spots": "Open @ $70",
+            "standard_available": true,
+            "description": "First clinic date — early bird spots available"
+          }
+        },
+        "date2": {
+          "type": "date_option",
+          "settings": {
+            "date_display": "Wednesday 17 April",
+            "date_value": "2026-04-17",
+            "time": "9:00am – 1:30pm",
+            "early_bird_spots": "12 spots @ $55",
+            "early_bird_available": true,
+            "standard_spots": "Open @ $70",
+            "standard_available": true,
+            "description": "Second clinic date — same format, same fun"
+          }
+        }
+      },
+      "block_order": [
+        "date1",
+        "date2"
+      ]
+    },
+    "info-note": {
+      "type": "info-note",
+      "settings": {
+        "badge": "QUICK NOTE",
+        "heading": "School Holidays & Clinic Dates",
+        "description": "School holidays run April 7–18, 2026. We run dedicated RULZ Holiday Mini Camp clinics on two specific dates: **Wednesday 10 April** and **Wednesday 17 April**. Select your preferred date above when booking. Can't make these dates? Contact us about alternative times.",
+        "bg_color": "#2b3a2b",
+        "text_color": "",
+        "button_text": "Contact Us",
+        "button_link": "/pages/contact"
+      }
+    },
+    "howit": {
+      "type": "how-it-works",
+      "blocks": {
+        "s1": {
+          "type": "step",
+          "settings": {
+            "title": "Select Your Date",
+            "description": "Choose April 10 or April 17 above. Both dates are identical — pick what works for your family."
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "title": "Book Online",
+            "description": "Grab an early bird spot ($55) or standard ($70). Add the optional Player Fuel Pack for $15."
+          }
+        },
+        "s3": {
+          "type": "step",
+          "settings": {
+            "title": "Drop Off at 9am",
+            "description": "Kids check in, get sorted into groups by age. Expert coaches run the sessions all day."
+          }
+        },
+        "s4": {
+          "type": "step",
+          "settings": {
+            "title": "Pick Up at 1:30pm",
+            "description": "Kids leave buzzing after skills circuits, mini tournaments, and prizes. Tired and happy."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {
+        "label": "HOW IT WORKS",
+        "heading": "What to Expect",
+        "subheading": "A full day of football fun — structured, safe, and supervised.",
+        "bg_color": "#1e1e1e",
+        "text_color": "",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "info": {
+      "type": "comp-info",
+      "blocks": {
+        "h1": {
+          "type": "info_card",
+          "settings": {
+            "icon": "⚽",
+            "title": "Skill Circuits",
+            "description": "Ball mastery, passing, dribbling, and finishing drills designed for cage football. Age-appropriate stations for all levels.",
+            "detail": ""
+          }
+        },
+        "h2": {
+          "type": "info_card",
+          "settings": {
+            "icon": "🏆",
+            "title": "Mini World Cup",
+            "description": "Teams compete in a mini tournament format with group games and finals. Medals and prizes for all participants.",
+            "detail": ""
+          }
+        },
+        "h3": {
+          "type": "info_card",
+          "settings": {
+            "icon": "🎯",
+            "title": "Fun Challenges",
+            "description": "Penalty shootouts, crossbar challenges, and skill competitions. Every kid gets a chance to shine.",
+            "detail": ""
+          }
+        },
+        "h4": {
+          "type": "info_card",
+          "settings": {
+            "icon": "👨‍🏫",
+            "title": "Expert Coaches",
+            "description": "Qualified coaches run every session. Small group sizes ensure every player gets attention and improves.",
+            "detail": ""
+          }
+        }
+      },
+      "block_order": [
+        "h1",
+        "h2",
+        "h3",
+        "h4"
+      ],
+      "settings": {
+        "label": "WHAT'S INCLUDED",
+        "heading": "A Day Packed with Football",
+        "subheading": "From warm-up to final whistle — every minute is planned.",
+        "majesty_heading": "Register Your Kids",
+        "majesty_description": "Team registrations and fixtures are managed through Majesty. Click below to register your team, view fixtures, or check results.",
+        "majesty_link": "",
+        "majesty_button_text": "Register on Majesty",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Can I choose between April 10 and April 17?",
+            "answer": "Yes! Both dates run the same clinic (9:00am – 1:30pm). Select your preferred date at the top of the page — whichever works best for your family."
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "What does my child need to bring?",
+            "answer": "Indoor boots or trainers, shin pads, water bottle, sunscreen, and a hat. We provide all equipment."
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "What's the Player Fuel Pack?",
+            "answer": "An optional $15 add-on that includes a snack and drink for your child during the camp. Add it at checkout."
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "What if it rains?",
+            "answer": "RULZ is all-weather — the camp runs rain or shine. Only lightning causes cancellation (full refund if cancelled)."
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "What age groups?",
+            "answer": "Ages 5–13. Kids are grouped by age for appropriate coaching and competition."
+          }
+        },
+        "q6": {
+          "type": "question",
+          "settings": {
+            "question": "Can I get a refund?",
+            "answer": "Full refund available up to 7 days before the camp. Contact us for transfers or credits."
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "settings": {
+        "label": "FAQ",
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#1e1e1e",
+        "text_color": ""
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Don't Miss Out",
+        "subheading": "Early bird spots are limited (12 per date) — book now to lock in $55. Standard price is $70.",
+        "cta1_text": "Select a Date & Book Above",
+        "cta1_link": "",
+        "cta2_text": "Contact Us",
+        "cta2_link": "",
+        "bg_color": "#181a19",
+        "text_color": "",
+        "card_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "header",
+    "event",
+    "date-selector",
+    "info-note",
+    "howit",
+    "info",
+    "faq",
+    "cta"
   ]
 }
