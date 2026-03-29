@@ -291,8 +291,8 @@
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 8 of 10)",
-        "updated_text": "Updated after Round 8 \u2014 26 Mar 2026 | Custard Feet FC (NEW) defeats Jet Lickers 7-4 in debut",
+        "subheading": "Rulz Competitive League — 10 Week Season (Round 8 of 10)",
+        "updated_text": "Updated after Round 8 — 26 Mar 2026 | Custard Feet FC (NEW) defeats Jet Lickers 7-4 in debut",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
@@ -305,7 +305,7 @@
           "type": "round",
           "settings": {
             "round_title": "Round 9",
-            "round_date": "Thursday 2nd April",
+            "round_date": "Thursday 5th April",
             "is_upcoming": true,
             "game1_home": "Big Sexy FC",
             "game1_away": "Headstart",
@@ -456,7 +456,7 @@
         "r6": {
           "type": "round",
           "settings": {
-            "round_title": "Round 6 \u2014 New Teams",
+            "round_title": "Round 6 — New Teams",
             "round_date": "Thursday 12th March",
             "is_upcoming": false,
             "game1_home": "One Nation United",
