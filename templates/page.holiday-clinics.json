@@ -1,12 +1,3 @@
-/*
- * RULZ Holiday Clinics PAGE — UPDATED WITH DATE SELECTOR
- * Landing page with date selector for April 10 & 17
- * 
- * CHANGES:
- * - Added "date-selector" section before info
- * - Updated copy to reference date selection
- * - "Friday" dates (April 10 & 17 are Fridays)
- */
 
 {
   "sections": {
