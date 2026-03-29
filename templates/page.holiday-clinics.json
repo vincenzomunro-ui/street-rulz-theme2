@@ -1,12 +1,13 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
+ * RULZ Holiday Clinics PAGE — UPDATED WITH DATE SELECTOR
+ * Landing page with date selector for April 10 & 17
+ * 
+ * CHANGES:
+ * - Added "date-selector" section before info
+ * - Updated copy to reference date selection
+ * - "Friday" dates (April 10 & 17 are Fridays)
  */
+
 {
   "sections": {
     "header": {
@@ -28,8 +29,8 @@
             "price": "$55",
             "description": "First 12 spots — limited availability",
             "spots": "12 spots only",
-            "badge": "BEST VALUE",
-            "highlighted": true,
+            "badge": "",
+            "highlighted": false,
             "link": "shopify://products/rulz-holiday-clinic-early-bird",
             "button_text": "Book Now"
           }
@@ -50,6 +51,19 @@
         "t3": {
           "type": "tier",
           "settings": {
+            "tier_name": "Premium Bundle",
+            "price": "$110 / $140",
+            "description": "Attend BOTH April 10 AND April 17 — guaranteed spots on both dates",
+            "spots": "Limited availability",
+            "badge": "BEST VALUE",
+            "highlighted": true,
+            "link": "shopify://products/holiday-clinic-bundle-early-bird",
+            "button_text": "Book Bundle"
+          }
+        },
+        "t4": {
+          "type": "tier",
+          "settings": {
             "tier_name": "Player Fuel Pack",
             "price": "$15",
             "description": "Optional add-on — snack + drink included",
@@ -64,7 +78,8 @@
       "block_order": [
         "t1",
         "t2",
-        "t3"
+        "t3",
+        "t4"
       ],
       "settings": {
         "label": "HOLIDAY CAMP",
@@ -81,24 +96,83 @@
         "card_color": "#2b2b2b"
       }
     },
+    "date-selector": {
+      "type": "date-selector",
+      "settings": {
+        "label": "SELECT YOUR DATE",
+        "heading": "Which Date Works for You?",
+        "subheading": "Choose Friday 10 April or Friday 17 April — both clinics run 9:00am – 1:30pm."
+      },
+      "blocks": {
+        "date1": {
+          "type": "date_option",
+          "settings": {
+            "date_display": "Friday 10 April",
+            "date_value": "2026-04-10",
+            "time": "9:00am – 1:30pm",
+            "early_bird_spots": "12 spots @ $55",
+            "early_bird_available": true,
+            "standard_spots": "Open @ $70",
+            "standard_available": true,
+            "description": "First clinic date — early bird spots available"
+          }
+        },
+        "date2": {
+          "type": "date_option",
+          "settings": {
+            "date_display": "Friday 17 April",
+            "date_value": "2026-04-17",
+            "time": "9:00am – 1:30pm",
+            "early_bird_spots": "12 spots @ $55",
+            "early_bird_available": true,
+            "standard_spots": "Open @ $70",
+            "standard_available": true,
+            "description": "Second clinic date — same format, same fun"
+          }
+        }
+      },
+      "block_order": [
+        "date1",
+        "date2"
+      ]
+    },
+    "info-note": {
+      "type": "info-note",
+      "settings": {
+        "badge": "QUICK NOTE",
+        "heading": "School Holidays & Clinic Dates",
+        "description": "School holidays run April 7–18, 2026. We run dedicated RULZ Holiday Mini Camp clinics on two specific dates: **Friday 10 April** and **Friday 17 April**. Select your preferred date above when booking. Can't make these dates? Contact us about alternative times.",
+        "bg_color": "#2b3a2b",
+        "text_color": "",
+        "button_text": "Contact Us",
+        "button_link": "/pages/contact"
+      }
+    },
     "howit": {
       "type": "how-it-works",
       "blocks": {
         "s1": {
           "type": "step",
           "settings": {
-            "title": "Book Online",
-            "description": "Select your preferred date (April 10 or April 17), then grab an early bird spot ($55) or standard ($70). Add the optional Player Fuel Pack for $15."
+            "title": "Select Your Date",
+            "description": "Choose April 10 or April 17 above. Both dates are identical — pick what works for your family."
           }
         },
         "s2": {
+          "type": "step",
+          "settings": {
+            "title": "Book Online",
+            "description": "Grab an early bird spot ($55) or standard ($70). Add the optional Player Fuel Pack for $15."
+          }
+        },
+        "s3": {
           "type": "step",
           "settings": {
             "title": "Drop Off at 9am",
             "description": "Kids check in, get sorted into groups by age. Expert coaches run the sessions all day."
           }
         },
-        "s3": {
+        "s4": {
           "type": "step",
           "settings": {
             "title": "Pick Up at 1:30pm",
@@ -109,7 +183,8 @@
       "block_order": [
         "s1",
         "s2",
-        "s3"
+        "s3",
+        "s4"
       ],
       "settings": {
         "label": "HOW IT WORKS",
@@ -185,32 +260,39 @@
         "q1": {
           "type": "question",
           "settings": {
+            "question": "Can I choose between April 10 and April 17?",
+            "answer": "Yes! Both dates run the same clinic (9:00am – 1:30pm). Select your preferred date above — whichever works best for your family."
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
             "question": "What does my child need to bring?",
             "answer": "Indoor boots or trainers, shin pads, water bottle, sunscreen, and a hat. We provide all equipment."
           }
         },
-        "q2": {
+        "q3": {
           "type": "question",
           "settings": {
             "question": "What's the Player Fuel Pack?",
             "answer": "An optional $15 add-on that includes a snack and drink for your child during the camp. Add it at checkout."
           }
         },
-        "q3": {
+        "q4": {
           "type": "question",
           "settings": {
             "question": "What if it rains?",
             "answer": "RULZ is all-weather — the camp runs rain or shine. Only lightning causes cancellation (full refund if cancelled)."
           }
         },
-        "q4": {
+        "q5": {
           "type": "question",
           "settings": {
             "question": "What age groups?",
             "answer": "Ages 5–13. Kids are grouped by age for appropriate coaching and competition."
           }
         },
-        "q5": {
+        "q6": {
           "type": "question",
           "settings": {
             "question": "Can I get a refund?",
@@ -223,7 +305,8 @@
         "q2",
         "q3",
         "q4",
-        "q5"
+        "q5",
+        "q6"
       ],
       "settings": {
         "label": "FAQ",
@@ -236,8 +319,8 @@
       "type": "cta-banner",
       "settings": {
         "heading": "Don't Miss Out",
-        "subheading": "Early bird spots are limited — book now to lock in $55. Standard price is $70.",
-        "cta1_text": "Book Now",
+        "subheading": "Early bird spots are limited (12 per date) — book now to lock in $55. Standard price is $70.",
+        "cta1_text": "Select a Date & Book Above",
         "cta1_link": "",
         "cta2_text": "Contact Us",
         "cta2_link": "",
@@ -250,6 +333,8 @@
   "order": [
     "header",
     "event",
+    "date-selector",
+    "info-note",
     "howit",
     "info",
     "faq",
