@@ -26,7 +26,7 @@
           "settings": {
             "tier_name": "Early Bird",
             "price": "$55",
-            "description": "First 12 spots — limited availability",
+            "description": "Single day — April 10 OR April 17",
             "spots": "12 spots only",
             "badge": "",
             "highlighted": false,
@@ -39,7 +39,7 @@
           "settings": {
             "tier_name": "Standard",
             "price": "$70",
-            "description": "Remaining spots after early bird sells out",
+            "description": "Single day — April 10 OR April 17",
             "spots": "Open until full",
             "badge": "",
             "highlighted": false,
@@ -50,13 +50,13 @@
         "t3": {
           "type": "tier",
           "settings": {
-            "tier_name": "Premium Bundle",
+            "tier_name": "2-Day Bundle",
             "price": "$110 / $140",
-            "description": "Attend BOTH April 10 AND April 17 — guaranteed spots on both dates",
+            "description": "Both April 10 AND April 17 — guaranteed spots both days",
             "spots": "Limited availability",
             "badge": "BEST VALUE",
             "highlighted": true,
-            "link": "shopify://products/holiday-clinic-bundle-early-bird",
+            "link": "shopify://products/holiday-clinic-2day-bundle",
             "button_text": "Book Bundle"
           }
         },
