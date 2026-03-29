@@ -254,76 +254,148 @@
         "card_color": "#5a2a6a"
       }
     },
-    "bundle-grid": {
+    "bundle-early-bird-grid": {
       "type": "comp-info",
       "blocks": {
         "b1": {
           "type": "info_card",
           "settings": {
-            "icon": "📈",
-            "title": "Double The Progression",
-            "description": "Day 1 focuses on fundamentals. Day 2 builds advanced skills. Kids improve twice as fast with structured progression.",
+            "icon": "⭐",
+            "title": "2-Day Bundle Early Bird — $110",
+            "description": "Limited to first 12 slots. Best price for maximum value. Attend both April 10 & 17.",
             "detail": ""
           }
         },
         "b2": {
           "type": "info_card",
           "settings": {
-            "icon": "👥",
-            "title": "Familiar Team",
-            "description": "Same coaches and teammates across both days. Kids bond, feel comfortable, perform better. Stronger friendships.",
+            "icon": "📈",
+            "title": "Double Progression",
+            "description": "Day 1: Fundamentals. Day 2: Advanced skills. Structured two-day learning path for faster improvement.",
             "detail": ""
           }
         },
         "b3": {
           "type": "info_card",
           "settings": {
-            "icon": "🏆",
-            "title": "Two Tournaments",
-            "description": "Mini World Cup on both days. Kids get two chances to win medals, prizes, and experience tournament pressure.",
+            "icon": "👥",
+            "title": "Familiar Team Both Days",
+            "description": "Same coaches, same teammates. Kids bond faster, feel comfortable, perform better. Stronger friendships built in.",
             "detail": ""
           }
         },
         "b4": {
           "type": "info_card",
           "settings": {
-            "icon": "✅",
-            "title": "Guaranteed Spots",
-            "description": "Both days reserved when you book the bundle. No risk of your second day selling out or being unavailable.",
+            "icon": "🏆",
+            "title": "Two Tournaments",
+            "description": "Mini World Cup on both days. Two chances to win medals, prizes, experience tournament competition.",
             "detail": ""
           }
         },
         "b5": {
           "type": "info_card",
           "settings": {
-            "icon": "💰",
-            "title": "Early Bird: $110",
-            "description": "2-Day Bundle Early Bird. Limited spots (first 12). Lock in the best price for maximum value.",
+            "icon": "✅",
+            "title": "Guaranteed Spots",
+            "description": "Both April 10 & 17 reserved. No risk of second day selling out or being unavailable.",
             "detail": ""
           }
         },
         "b6": {
           "type": "info_card",
           "settings": {
-            "icon": "💳",
-            "title": "Standard: $140",
-            "description": "2-Day Bundle Standard. Available after early bird spots fill. Same double-day experience and value.",
+            "icon": "🎁",
+            "title": "Maximum Value",
+            "description": "Early Bird $110 for 2 full days. Lock in the best rate. Premium experience for less.",
             "detail": ""
           }
         }
       },
       "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"],
       "settings": {
-        "label": "BUNDLE BENEFITS",
-        "heading": "Why Choose The 2-Day Bundle?",
-        "subheading": "More progression. Deeper friendships. Two chances to win. Guaranteed availability. Better value. This is how kids learn fastest.",
+        "label": "BUNDLE EARLY BIRD",
+        "heading": "2-Day Bundle Early Bird: $110 Per Child",
+        "subheading": "Limited to first 12 spots. Best price for two-day intensive. Progression, familiar team, two tournaments, guaranteed availability.",
+        "majesty_heading": "",
+        "majesty_description": "",
+        "majesty_link": "",
+        "majesty_button_text": "",
+        "bg_color": "#1a2a1a",
+        "text_color": "",
+        "card_color": "#2a5a2a"
+      }
+    },
+    "bundle-standard-grid": {
+      "type": "comp-info",
+      "blocks": {
+        "bs1": {
+          "type": "info_card",
+          "settings": {
+            "icon": "💳",
+            "title": "2-Day Bundle Standard — $140",
+            "description": "Available after early bird fills. Same premium two-day experience. Attend both April 10 & 17.",
+            "detail": ""
+          }
+        },
+        "bs2": {
+          "type": "info_card",
+          "settings": {
+            "icon": "📈",
+            "title": "Double Progression",
+            "description": "Day 1: Fundamentals. Day 2: Advanced skills. Structured two-day learning path for faster improvement.",
+            "detail": ""
+          }
+        },
+        "bs3": {
+          "type": "info_card",
+          "settings": {
+            "icon": "👥",
+            "title": "Familiar Team Both Days",
+            "description": "Same coaches, same teammates. Kids bond faster, feel comfortable, perform better. Stronger friendships built in.",
+            "detail": ""
+          }
+        },
+        "bs4": {
+          "type": "info_card",
+          "settings": {
+            "icon": "🏆",
+            "title": "Two Tournaments",
+            "description": "Mini World Cup on both days. Two chances to win medals, prizes, experience tournament competition.",
+            "detail": ""
+          }
+        },
+        "bs5": {
+          "type": "info_card",
+          "settings": {
+            "icon": "✅",
+            "title": "Guaranteed Spots",
+            "description": "Both April 10 & 17 reserved. No risk of second day selling out or being unavailable.",
+            "detail": ""
+          }
+        },
+        "bs6": {
+          "type": "info_card",
+          "settings": {
+            "icon": "🎯",
+            "title": "Flexible Pricing",
+            "description": "Standard $140 for 2 full days. Same premium experience. Available when early bird sells out.",
+            "detail": ""
+          }
+        }
+      },
+      "block_order": ["bs1", "bs2", "bs3", "bs4", "bs5", "bs6"],
+      "settings": {
+        "label": "BUNDLE STANDARD",
+        "heading": "2-Day Bundle Standard: $140 Per Child",
+        "subheading": "Open enrollment. Same two-day intensive as early bird. Progression, familiar team, two tournaments, guaranteed availability.",
         "majesty_heading": "",
         "majesty_description": "",
         "majesty_link": "",
         "majesty_button_text": "",
         "bg_color": "#1a1a2a",
         "text_color": "",
-        "card_color": "#3a2a5a"
+        "card_color": "#2a2a5a"
       }
     },
     "faq": {
@@ -395,5 +467,5 @@
       }
     }
   },
-  "order": ["header", "single-day-section", "early-bird-grid", "standard-grid", "bundle-hero", "bundle-grid", "faq", "cta"]
+  "order": ["header", "single-day-section", "early-bird-grid", "standard-grid", "bundle-hero", "bundle-early-bird-grid", "bundle-standard-grid", "faq", "cta"]
 }
