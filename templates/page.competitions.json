@@ -265,14 +265,14 @@
         "t9": {
           "type": "team_row",
           "settings": {
-            "team": "Rulz Solo United",
-            "played": "2",
+            "team": "Jet Lickers",
+            "played": "3",
             "wins": "1",
             "draws": "0",
-            "losses": "1",
-            "goals_for": "20",
-            "goals_against": "33",
-            "goal_diff": "-13",
+            "losses": "2",
+            "goals_for": "24",
+            "goals_against": "43",
+            "goal_diff": "-19",
             "points": "3"
           }
         },
@@ -289,20 +289,6 @@
             "goal_diff": "-6",
             "points": "0"
           }
-        },
-        "t11": {
-          "type": "team_row",
-          "settings": {
-            "team": "Jet Lickers",
-            "played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "4",
-            "goals_against": "10",
-            "goal_diff": "-6",
-            "points": "0"
-          }
         }
       },
       "block_order": [
@@ -315,8 +301,7 @@
         "t7",
         "t8",
         "t9",
-        "t10",
-        "t11"
+        "t10"
       ],
       "settings": {
         "label": "CURRENT SEASON",
@@ -432,7 +417,7 @@
             "game3_court": "Court 2",
             "game3_time": "6:30pm",
             "game4_home": "School Run United",
-            "game4_away": "Rulz Solo United",
+            "game4_away": "Jet Lickers",
             "game4_home_score": "11",
             "game4_away_score": "13",
             "game4_court": "Court 2",
@@ -490,7 +475,7 @@
             "round_date": "Thursday 12th March",
             "is_upcoming": false,
             "game1_home": "One Nation United",
-            "game1_away": "Rulz Solo United",
+            "game1_away": "Jet Lickers",
             "game1_home_score": "22",
             "game1_away_score": "7",
             "game1_court": "Court 1",
