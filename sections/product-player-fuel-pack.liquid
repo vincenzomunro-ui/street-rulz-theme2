@@ -1,0 +1,86 @@
+{% comment %} Player Fuel Pack — with snack selection options {% endcomment %}
+
+<div class="section">
+  <h1 class="section-title">{{ product.title }}</h1>
+  
+  <div class="product-info">
+    <p class="product-price">${{ product.selected_or_first_available_variant.price | money_without_currency }}</p>
+    <p class="product-description">{{ product.description }}</p>
+  </div>
+
+  <form method="post" action="/cart/add" class="fuel-pack-form">
+    {% for variant in product.variants %}
+      {% if variant.available %}
+        <input type="hidden" name="id" value="{{ variant.id }}">
+      {% endif %}
+    {% endfor %}
+
+    <div class="form-section">
+      <label for="snack-choice"><strong>Choose Your Snack Option *</strong></label>
+      <select name="properties[Snack Choice]" id="snack-choice" required>
+        <option value="">-- Select Option --</option>
+        <option value="Sausage Sizzle">🌭 Sausage Sizzle (Sausage + Bread + Sauce)</option>
+        <option value="Pizza Slice">🍕 Pizza Slice (Cheese & Tomato)</option>
+        <option value="Meat Pie">🥧 Meat Pie (Traditional Aussie Pie)</option>
+      </select>
+    </div>
+
+    <div class="form-section">
+      <label for="dietary"><strong>Dietary Requirements (Optional)</strong></label>
+      <input type="text" name="properties[Dietary Requirements]" id="dietary" placeholder="e.g. Vegetarian, Gluten-free, Allergies">
+    </div>
+
+    <div class="form-section">
+      <label for="quantities"><strong>Special Instructions (Optional)</strong></label>
+      <textarea name="properties[Special Instructions]" id="quantities" placeholder="e.g. Extra sauce, no onions, etc." rows="3"></textarea>
+    </div>
+
+    <div class="form-section">
+      <label for="confirmation">
+        <input type="checkbox" name="properties[Confirmation]" id="confirmation" required>
+        I understand the snack will be provided during the clinic
+      </label>
+    </div>
+
+    <button type="submit" class="button button-primary" style="background-color: #FF8C00; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 16px; font-weight: bold; cursor: pointer;">
+      Add to Cart — ${{ product.selected_or_first_available_variant.price | money_without_currency }}
+    </button>
+  </form>
+</div>
+
+<style>
+  .fuel-pack-form {
+    max-width: 500px;
+    margin: 20px 0;
+  }
+
+  .form-section {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-section label {
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .form-section input,
+  .form-section select,
+  .form-section textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  .form-section input[type="checkbox"] {
+    margin-right: 8px;
+    width: auto;
+  }
+
+  .button-primary {
+    background-color: #FF8C00 !important;
+  }
+</style>
