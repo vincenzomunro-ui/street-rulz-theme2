@@ -16,6 +16,15 @@
     {% endfor %}
 
     <div class="form-section">
+      <label for="child-gender"><strong>Child Gender *</strong></label>
+      <select name="properties[Child Gender]" id="child-gender" required>
+        <option value="">-- Select --</option>
+        <option value="Boy">Boy</option>
+        <option value="Girl">Girl</option>
+      </select>
+    </div>
+
+    <div class="form-section">
       <label for="snack-choice"><strong>Choose Your Snack Option *</strong></label>
       <select name="properties[Snack Choice]" id="snack-choice" required>
         <option value="">-- Select Option --</option>
