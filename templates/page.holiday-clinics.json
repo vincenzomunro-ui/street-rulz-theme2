@@ -43,7 +43,7 @@
             "spots": "Open until full",
             "badge": "",
             "highlighted": false,
-            "link": "shopify://products/rulz-holiday-clinic-standard",
+            "link": "shopify://products/holiday-clinic-single-day-standard",
             "button_text": "Book Now"
           }
         },
@@ -69,7 +69,7 @@
             "spots": "Add at checkout",
             "badge": "ADD-ON",
             "highlighted": false,
-            "link": "shopify://products/rulz-holiday-clinic-fuel-pack",
+            "link": "shopify://products/holiday-clinic-single-day-early-bird",
             "button_text": "Book Now"
           }
         },
@@ -117,7 +117,7 @@
         "event_ages": "Ages 5 – 13",
         "event_teams": "Limited Spots",
         "cta_text": "Select a Date & Book",
-        "cta_link": "shopify://products/rulz-holiday-clinic-standard",
+        "cta_link": "shopify://products/holiday-clinic-single-day-standard",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"

@@ -43,7 +43,7 @@
             "spots": "Open until full",
             "badge": "",
             "highlighted": false,
-            "link": "shopify://products/rulz-holiday-clinic-standard",
+            "link": "shopify://products/holiday-clinic-single-day-standard",
             "button_text": "Book Now"
           }
         },
@@ -56,7 +56,7 @@
             "spots": "Add at checkout",
             "badge": "ADD-ON",
             "highlighted": false,
-            "link": "shopify://products/rulz-holiday-clinic-fuel-pack",
+            "link": "shopify://products/holiday-clinic-single-day-early-bird",
             "button_text": "Book Now"
           }
         }
@@ -93,7 +93,7 @@
             "spots": "12 spots only",
             "badge": "⭐ BEST VALUE ⭐",
             "highlighted": true,
-            "link": "shopify://products/holiday-clinic-bundle-early-bird",
+            "link": "shopify://products/holiday-clinic-2day-bundle",
             "button_text": "Book Bundle Early Bird"
           }
         },
@@ -106,7 +106,7 @@
             "spots": "Open enrollment",
             "badge": "BEST VALUE",
             "highlighted": false,
-            "link": "shopify://products/holiday-clinic-bundle-standard",
+            "link": "shopify://products/holiday-clinic-2day-bundle-standard",
             "button_text": "Book Bundle Standard"
           }
         },
@@ -119,7 +119,7 @@
             "spots": "Add at checkout",
             "badge": "ADD-ON",
             "highlighted": false,
-            "link": "shopify://products/rulz-holiday-clinic-fuel-pack",
+            "link": "shopify://products/holiday-clinic-single-day-early-bird",
             "button_text": "Add to Bundle"
           }
         }
