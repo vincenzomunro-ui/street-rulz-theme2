@@ -1,0 +1,123 @@
+{% comment %} Player Fuel Pack — 2-Day Bundle with separate day selections {% endcomment %}
+
+<div class="section">
+  <h1 class="section-title">{{ product.title }}</h1>
+  
+  <div style="max-width:720px;font-size:16px;color:var(--gray-200);line-height:1.8;">
+    {{ product.description }}
+  </div>
+
+  <form method="post" action="/cart/add" class="fuel-pack-form">
+    {% for variant in product.variants %}
+      {% if variant.available %}
+        <input type="hidden" name="id" value="{{ variant.id }}">
+      {% endif %}
+    {% endfor %}
+
+    <div class="form-section">
+      <label for="child-gender"><strong>Child Gender *</strong></label>
+      <select name="properties[Child Gender]" id="child-gender" required>
+        <option value="">-- Select --</option>
+        <option value="Boy">Boy</option>
+        <option value="Girl">Girl</option>
+      </select>
+    </div>
+
+    <fieldset style="border:none;padding:0;margin-bottom:24px;padding:16px;background:var(--gray-800, #1a1a1a);border-radius:8px;border-left:4px solid var(--orange, #ff6600);">
+      <legend style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">Friday 10 April — Snack Selection</legend>
+      
+      <label for="snack-day1" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:8px;">
+        Choose Your Snack <span style="color:var(--orange);">*</span>
+      </label>
+      <select name="properties[Snack Choice - Day 1]" id="snack-day1" required style="width:100%;padding:10px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white);font-size:14px;margin-bottom:12px;">
+        <option value="">-- Select Option --</option>
+        <option value="Sausage Roll">🌭 Sausage Roll</option>
+        <option value="Pizza Slice">🍕 Pizza Slice (Cheese & Tomato)</option>
+        <option value="Meat Pie">🥧 Meat Pie (Traditional Aussie Pie)</option>
+      </select>
+
+      <label for="dietary-day1" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">Dietary Requirements (Optional)</label>
+      <input type="text" name="properties[Dietary Requirements - Day 1]" id="dietary-day1" placeholder="e.g. Vegetarian, Gluten-free" style="width:100%;padding:10px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white);font-size:13px;">
+    </fieldset>
+
+    <fieldset style="border:none;padding:0;margin-bottom:24px;padding:16px;background:var(--gray-800, #1a1a1a);border-radius:8px;border-left:4px solid var(--orange, #ff6600);">
+      <legend style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">Friday 17 April — Snack Selection</legend>
+      
+      <label for="snack-day2" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:8px;">
+        Choose Your Snack <span style="color:var(--orange);">*</span>
+      </label>
+      <select name="properties[Snack Choice - Day 2]" id="snack-day2" required style="width:100%;padding:10px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white);font-size:14px;margin-bottom:12px;">
+        <option value="">-- Select Option --</option>
+        <option value="Sausage Roll">🌭 Sausage Roll</option>
+        <option value="Pizza Slice">🍕 Pizza Slice (Cheese & Tomato)</option>
+        <option value="Meat Pie">🥧 Meat Pie (Traditional Aussie Pie)</option>
+      </select>
+
+      <label for="dietary-day2" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">Dietary Requirements (Optional)</label>
+      <input type="text" name="properties[Dietary Requirements - Day 2]" id="dietary-day2" placeholder="e.g. Vegetarian, Gluten-free" style="width:100%;padding:10px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white);font-size:13px;">
+    </fieldset>
+
+    <div class="form-section">
+      <label style="display:flex;align-items:flex-start;gap:8px;cursor:pointer;">
+        <input type="checkbox" name="properties[Confirmation]" value="Yes" required style="margin-top:4px;cursor:pointer;accent-color:var(--orange, #ff6600);">
+        <span style="color:var(--gray-200);font-size:13px;">I understand the snacks will be provided during each clinic day <span style="color:var(--orange);">*</span></span>
+      </label>
+    </div>
+
+    <button type="submit" style="width:100%;padding:14px 24px;background:var(--orange, #ff6600);color:var(--black, #000);border:none;border-radius:6px;font-weight:700;font-size:16px;text-transform:uppercase;letter-spacing:0.5px;cursor:pointer;transition:all 0.2s;">
+      Add to Cart — ${{ product.selected_or_first_available_variant.price | money_without_currency }}
+    </button>
+  </form>
+</div>
+
+<style>
+  .fuel-pack-form {
+    max-width: 500px;
+    margin: 20px 0;
+  }
+
+  .form-section {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-section label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  .form-section input,
+  .form-section select {
+    padding: 10px;
+    border: 2px solid var(--gray-600, #444);
+    border-radius: 6px;
+    font-size: 14px;
+    background: var(--gray-800, #1a1a1a);
+    color: var(--white);
+    font-family: inherit;
+  }
+
+  .form-section input[type="checkbox"] {
+    margin-right: 8px;
+    width: auto;
+  }
+
+  .section { 
+    padding: 40px 20px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+
+  .section-title { 
+    font-size: 28px; 
+    font-weight: 700; 
+    color: var(--white); 
+    margin-bottom: 16px; 
+  }
+
+  fieldset { 
+    margin: 0; 
+  }
+</style>
