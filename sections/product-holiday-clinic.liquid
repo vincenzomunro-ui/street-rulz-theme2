@@ -1,0 +1,179 @@
+{% comment %} Holiday Clinic Product — 2-Day Bundle + Single Day with booking fields {% endcomment %}
+
+<div class="section">
+  <h1 class="section-title">{{ product.title }}</h1>
+  
+  <div style="max-width:720px;font-size:16px;color:var(--gray-200);line-height:1.8;">
+    {{ product.description }}
+  </div>
+
+  {% if product.available %}
+    {% form 'product', product %}
+      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+
+      <div style="margin-top:24px;max-width:480px;">
+        
+        {%- comment -%} DATE SELECTION {%- endcomment -%}
+        <div style="margin-bottom:24px;padding:16px;background:var(--gray-800, #1a1a1a);border-radius:8px;border-left:4px solid var(--orange, #ff6600);">
+          <label style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">
+            Select Your Date <span style="color:var(--orange);">*</span>
+          </label>
+          <div style="display:flex;gap:12px;">
+            <label style="display:flex;align-items:center;gap:8px;cursor:pointer;padding:8px 12px;border:2px solid var(--gray-600, #444);border-radius:6px;background:transparent;color:var(--white);">
+              <input type="radio" name="properties[Clinic Date]" value="April 10" required style="cursor:pointer;">
+              <span>Friday 10 April</span>
+            </label>
+            <label style="display:flex;align-items:center;gap:8px;cursor:pointer;padding:8px 12px;border:2px solid var(--gray-600, #444);border-radius:6px;background:transparent;color:var(--white);">
+              <input type="radio" name="properties[Clinic Date]" value="April 17" required style="cursor:pointer;">
+              <span>Friday 17 April</span>
+            </label>
+          </div>
+          <p style="font-size:13px;color:var(--gray-300);margin-top:8px;">9:00am - 1:30pm</p>
+        </div>
+
+        {%- comment -%} PARENT / GUARDIAN INFO {%- endcomment -%}
+        <fieldset style="border:none;padding:0;margin-bottom:24px;">
+          <legend style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">Parent / Guardian Information</legend>
+          
+          <div style="margin-bottom:12px;">
+            <label for="parent-name" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Parent / Guardian Name <span style="color:var(--orange);">*</span>
+            </label>
+            <input type="text" id="parent-name" name="properties[Parent Name]" placeholder="e.g. Sarah Smith" required style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <label for="parent-email" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Email Address <span style="color:var(--orange);">*</span>
+            </label>
+            <input type="email" id="parent-email" name="properties[Parent Email]" placeholder="parent@example.com" required style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <label for="parent-phone" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Phone Number <span style="color:var(--orange);">*</span>
+            </label>
+            <input type="tel" id="parent-phone" name="properties[Parent Phone]" placeholder="0412 345 678" required style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <label for="emergency-phone" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Emergency Contact Number (if different)
+            </label>
+            <input type="tel" id="emergency-phone" name="properties[Emergency Contact]" placeholder="0412 345 678" style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+          </div>
+        </fieldset>
+
+        {%- comment -%} CHILD INFO {%- endcomment -%}
+        <fieldset style="border:none;padding:0;margin-bottom:24px;">
+          <legend style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">Child Information</legend>
+          
+          <div style="margin-bottom:12px;">
+            <label for="child-name" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Child's Full Name <span style="color:var(--orange);">*</span>
+            </label>
+            <input type="text" id="child-name" name="properties[Child Name]" placeholder="e.g. Jack" required style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <label for="child-age" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Age <span style="color:var(--orange);">*</span>
+            </label>
+            <select id="child-age" name="properties[Child Age]" required style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+              <option value="">Select age...</option>
+              <option value="5 years">5 years</option>
+              <option value="6 years">6 years</option>
+              <option value="7 years">7 years</option>
+              <option value="8 years">8 years</option>
+              <option value="9 years">9 years</option>
+              <option value="10 years">10 years</option>
+              <option value="11 years">11 years</option>
+              <option value="12 years">12 years</option>
+              <option value="13 years">13 years</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <label for="child-dob" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Date of Birth (optional)
+            </label>
+            <input type="date" id="child-dob" name="properties[Child DOB]" style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+          </div>
+        </fieldset>
+
+        {%- comment -%} MEDICAL INFO {%- endcomment -%}
+        <fieldset style="border:none;padding:0;margin-bottom:24px;">
+          <legend style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">Health & Medical Information</legend>
+          
+          <div style="margin-bottom:12px;">
+            <label for="allergies" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Any allergies or medical conditions?
+            </label>
+            <textarea id="allergies" name="properties[Allergies/Medical]" placeholder="e.g., asthma, nut allergy, diabetes..." style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);resize:vertical;min-height:60px;"></textarea>
+          </div>
+
+          <div style="margin-bottom:12px;">
+            <label for="medications" style="display:block;font-weight:600;font-size:13px;color:var(--white);margin-bottom:4px;">
+              Any medications your child takes regularly?
+            </label>
+            <textarea id="medications" name="properties[Medications]" placeholder="e.g., Ventolin inhaler..." style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);resize:vertical;min-height:60px;"></textarea>
+          </div>
+        </fieldset>
+
+        {%- comment -%} EXPERIENCE LEVEL {%- endcomment -%}
+        <div style="margin-bottom:24px;">
+          <label for="experience" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">
+            Football Experience <span style="color:var(--orange);">*</span>
+          </label>
+          <select id="experience" name="properties[Experience Level]" required style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);">
+            <option value="">Select level...</option>
+            <option value="Beginner (no experience)">Beginner (no experience)</option>
+            <option value="Some experience (played casually)">Some experience (played casually)</option>
+            <option value="Regular player (plays weekly)">Regular player (plays weekly)</option>
+            <option value="Advanced (competitive/school team)">Advanced (competitive/school team)</option>
+          </select>
+        </div>
+
+        {%- comment -%} SPECIAL REQUIREMENTS {%- endcomment -%}
+        <div style="margin-bottom:24px;">
+          <label for="special-requirements" style="display:block;font-weight:700;font-size:14px;color:var(--white);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px;">
+            Any Special Requirements?
+          </label>
+          <textarea id="special-requirements" name="properties[Special Requirements]" placeholder="e.g., dietary restrictions, mobility support, learning support..." style="width:100%;padding:10px 12px;font-size:14px;border:2px solid var(--gray-600, #444);border-radius:6px;background:var(--gray-800, #1a1a1a);color:var(--white, #fff);resize:vertical;min-height:80px;"></textarea>
+        </div>
+
+        {%- comment -%} WHAT TO BRING {%- endcomment -%}
+        <div style="margin-bottom:24px;padding:16px;background:var(--gray-800, #1a1a1a);border-radius:8px;border-left:4px solid var(--orange, #ff6600);">
+          <h3 style="font-weight:700;color:var(--white);margin:0 0 12px 0;font-size:13px;text-transform:uppercase;letter-spacing:0.5px;">What to Bring</h3>
+          <ul style="margin:0;padding-left:20px;color:var(--gray-200);font-size:13px;line-height:1.8;">
+            <li>Indoor football boots or trainers</li>
+            <li>Shin pads</li>
+            <li>Water bottle</li>
+            <li>Comfortable clothes</li>
+            <li>Towel</li>
+          </ul>
+          <p style="margin:12px 0 0 0;font-size:12px;color:var(--gray-300);font-style:italic;">We provide everything else!</p>
+        </div>
+
+        {%- comment -%} TERMS {%- endcomment -%}
+        <div style="margin-bottom:24px;">
+          <label style="display:flex;align-items:flex-start;gap:8px;cursor:pointer;">
+            <input type="checkbox" name="properties[Terms Accepted]" value="Yes" required style="margin-top:4px;cursor:pointer;accent-color:var(--orange, #ff6600);">
+            <span style="color:var(--gray-200);font-size:13px;">I agree to the cancellation policy (24-hour notice required) and code of conduct <span style="color:var(--orange);">*</span></span>
+          </label>
+        </div>
+
+        {%- comment -%} SUBMIT {%- endcomment -%}
+        <button type="submit" style="width:100%;padding:14px 24px;background:var(--orange, #ff6600);color:var(--black, #000);border:none;border-radius:6px;font-weight:700;font-size:16px;text-transform:uppercase;letter-spacing:0.5px;cursor:pointer;transition:all 0.2s;">
+          Complete Booking
+        </button>
+      </div>
+    {% endform %}
+  {% endif %}
+</div>
+
+<style>
+  .section { padding: 40px 20px; max-width: 800px; margin: 0 auto; }
+  .section-title { font-size: 28px; font-weight: 700; color: var(--white); margin-bottom: 16px; }
+  fieldset { margin: 0; }
+</style>
