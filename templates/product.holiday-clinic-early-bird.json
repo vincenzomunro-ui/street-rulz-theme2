@@ -4,28 +4,19 @@
       "type": "main-product",
       "settings": {}
     },
+    "early_bird_badge": {
+      "type": "custom",
+      "settings": {
+        "heading": "🔥 Early Bird Special",
+        "content": "Limited spots available at this price!\n$55 per day | Friday 10 April | 9:00am - 1:30pm"
+      }
+    },
     "date_selector": {
       "type": "custom",
       "settings": {
-        "heading": "Select Your Date",
-        "description": "Choose which day works best for your child",
-        "options": [
-          {
-            "label": "Friday 10 April",
-            "value": "april-10"
-          },
-          {
-            "label": "Friday 17 April",
-            "value": "april-17"
-          }
-        ]
-      }
-    },
-    "pricing_info": {
-      "type": "custom",
-      "settings": {
-        "heading": "Pricing",
-        "content": "Early Bird: $110 (2-day pass)\nStandard: $140 (2-day pass)\n\nIncludes both April 10 & 17\n9:00am - 1:30pm both days"
+        "heading": "Clinic Date",
+        "description": "This is the Early Bird rate for Friday 10 April only",
+        "note": "Want both days? Check out our 2-Day Bundle for only $110!"
       }
     },
     "parent_info": {
@@ -142,9 +133,9 @@
         "description": "Enhance the experience",
         "options": [
           {
-            "label": "Player Fuel Pack - $30 (snacks & drinks for both days)",
+            "label": "Player Fuel Pack - $15 (snacks & drinks for this day)",
             "value": "fuel-pack",
-            "price": 30
+            "price": 15
           }
         ]
       }
@@ -183,16 +174,16 @@
     "cta": {
       "type": "custom",
       "settings": {
-        "heading": "Ready to Join?",
-        "button_text": "Complete Booking",
+        "heading": "Secure Your Spot",
+        "button_text": "Complete Booking - $55",
         "button_color": "#ff6b35"
       }
     }
   },
   "order": [
     "main",
+    "early_bird_badge",
     "date_selector",
-    "pricing_info",
     "parent_info",
     "child_info",
     "medical_info",

@@ -4,6 +4,13 @@
       "type": "main-product",
       "settings": {}
     },
+    "standard_info": {
+      "type": "custom",
+      "settings": {
+        "heading": "Standard Rate",
+        "content": "$70 per day | Choose your date | 9:00am - 1:30pm\n\nFlexibility to pick the day that works best for your child"
+      }
+    },
     "date_selector": {
       "type": "custom",
       "settings": {
@@ -19,13 +26,6 @@
             "value": "april-17"
           }
         ]
-      }
-    },
-    "pricing_info": {
-      "type": "custom",
-      "settings": {
-        "heading": "Pricing",
-        "content": "Early Bird: $110 (2-day pass)\nStandard: $140 (2-day pass)\n\nIncludes both April 10 & 17\n9:00am - 1:30pm both days"
       }
     },
     "parent_info": {
@@ -142,9 +142,9 @@
         "description": "Enhance the experience",
         "options": [
           {
-            "label": "Player Fuel Pack - $30 (snacks & drinks for both days)",
+            "label": "Player Fuel Pack - $15 (snacks & drinks for this day)",
             "value": "fuel-pack",
-            "price": 30
+            "price": 15
           }
         ]
       }
@@ -183,16 +183,16 @@
     "cta": {
       "type": "custom",
       "settings": {
-        "heading": "Ready to Join?",
-        "button_text": "Complete Booking",
+        "heading": "Ready to Book?",
+        "button_text": "Complete Booking - $70",
         "button_color": "#ff6b35"
       }
     }
   },
   "order": [
     "main",
+    "standard_info",
     "date_selector",
-    "pricing_info",
     "parent_info",
     "child_info",
     "medical_info",
