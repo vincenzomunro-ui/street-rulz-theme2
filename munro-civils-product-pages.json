@@ -1,0 +1,157 @@
+{
+  "product_clear": {
+    "template_name": "product.clear.json",
+    "sections": {
+      "product-hero": {
+        "type": "product-hero",
+        "settings": {
+          "product_title": "Clear FRP Grating (1000×2850×30mm)",
+          "product_image": "clear-frp-grating.jpg",
+          "product_description": "Premium clear fiberglass reinforced polymer grating. Transparent design for maximum visibility. Ideal for walkways, platforms, and industrial flooring where you need to see below.",
+          "background_color": "#0a0e0c"
+        }
+      },
+      "product-details": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px;'><h2 style='color: #4ade80; margin-bottom: 30px;'>Clear FRP Grating Specifications</h2><table style='width: 100%; color: #9ca3af;'><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Dimensions</td><td>1000mm W × 2850mm L × 30mm D</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Weight</td><td>68kg per sheet</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Material</td><td>Continuous fibreglass + unsaturated polyester</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Color</td><td>Clear/Transparent</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Lifespan</td><td>50+ years</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Warranty</td><td>5-year manufacturing</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Price</td><td style='color: #4ade80; font-size: 18px; font-weight: 700;'>\$545/sheet</td></tr><tr><td style='padding: 12px 0; font-weight: 600;'>Bulk Discounts</td><td>5+ sheets: 5% | 10+ sheets: 10% | 20+ sheets: 15%</td></tr></table></div>"
+        }
+      },
+      "applications": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Perfect For</h3><ul style='color: #9ca3af; font-size: 14px; line-height: 1.8;'><li>✓ Industrial walkways (visibility requirement)</li><li>✓ Stairways & elevated platforms</li><li>✓ Inspection areas</li><li>✓ Marine & offshore (corrosion-resistant)</li><li>✓ Chemical plants (resistant to chemicals)</li><li>✓ Outdoor decking (weather-resistant)</li><li>✓ NDIS-compliant accessibility ramps</li><li>✓ Council facilities & playgrounds</li></ul></div>"
+        }
+      },
+      "why-frp": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: linear-gradient(135deg, #4ade80 0%, #ff6b35 100%); padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h3 style='color: #0a0e0c; margin-bottom: 20px;'>Why Choose FRP Grating?</h3><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;'><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>No Rust</h4><p style='color: #0a0e0c; font-size: 14px;'>Immune to corrosion. Lasts 50+ years.</p></div><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Lightweight</h4><p style='color: #0a0e0c; font-size: 14px;'>68kg per sheet. Easy to handle & install.</p></div><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Safe</h4><p style='color: #0a0e0c; font-size: 14px;'>Non-conductive, slip-resistant surface.</p></div></div></div>"
+        }
+      },
+      "pricing": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Pricing & Bulk Discounts</h3><table style='width: 100%; color: #9ca3af;'><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>1-4 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$545/sheet</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>5-9 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$517.75/sheet (5% off)</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>10-19 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$490.50/sheet (10% off)</td></tr><tr><td style='padding: 12px 0; font-weight: 600;'>20+ sheets</td><td style='color: #4ade80; font-weight: 700;'>\$462.25/sheet (15% off)</td></tr></table><p style='margin-top: 20px; color: #9ca3af; font-size: 12px;'>All prices include: equipment, delivery calculation, professional support</p></div>"
+        }
+      },
+      "cta": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: linear-gradient(135deg, #4ade80 0%, #ff6b35 100%); padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h2 style='color: #0a0e0c; margin-bottom: 20px;'>Ready to Order?</h2><p style='color: #0a0e0c; margin-bottom: 30px;'>110+ sheets in stock. 24-48h delivery. 43% below market.</p><div><a href='/pages/contact' style='display: inline-block; background: #0a0e0c; color: #4ade80; padding: 16px 40px; border-radius: 8px; font-weight: 700; text-decoration: none; text-transform: uppercase; margin-right: 15px;'>REQUEST QUOTE</a><a href='/' style='display: inline-block; background: #0a0e0c; color: #ff6b35; padding: 16px 40px; border-radius: 8px; font-weight: 700; text-decoration: none; text-transform: uppercase;'>BACK TO SHOP</a></div></div>"
+        }
+      },
+      "contact": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Questions?</h3><p style='color: #9ca3af; margin-bottom: 20px;'>Our team is ready to help with custom quotes and bulk orders.</p><p style='font-size: 18px;'><strong style='color: #fff;'>📞 0412 766 696</strong></p><p style='color: #9ca3af; margin-bottom: 10px;'>📧 sales@munro-civils.com.au</p><p style='color: #9ca3af;'>📍 40 Andrews Road, Tallebudgera QLD 4228</p></div>"
+        }
+      }
+    },
+    "order": ["product-hero", "product-details", "applications", "why-frp", "pricing", "cta", "contact"]
+  },
+  
+  "product_grey": {
+    "template_name": "product.grey.json",
+    "sections": {
+      "product-hero": {
+        "type": "product-hero",
+        "settings": {
+          "product_title": "Grey FRP Grating (1000×2850×30mm)",
+          "product_image": "grey-frp-grating.jpg",
+          "product_description": "Premium medium grey fiberglass reinforced polymer grating. Classic professional appearance. Ideal for general industrial flooring, workshops, and outdoor platforms.",
+          "background_color": "#0a0e0c"
+        }
+      },
+      "product-details": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px;'><h2 style='color: #4ade80; margin-bottom: 30px;'>Grey FRP Grating Specifications</h2><table style='width: 100%; color: #9ca3af;'><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Dimensions</td><td>1000mm W × 2850mm L × 30mm D</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Weight</td><td>68kg per sheet</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Material</td><td>Continuous fibreglass + unsaturated polyester</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Color</td><td>Medium Grey</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Lifespan</td><td>50+ years</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Warranty</td><td>5-year manufacturing</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Price</td><td style='color: #4ade80; font-size: 18px; font-weight: 700;'>\$545/sheet</td></tr><tr><td style='padding: 12px 0; font-weight: 600;'>Bulk Discounts</td><td>5+ sheets: 5% | 10+ sheets: 10% | 20+ sheets: 15%</td></tr></table></div>"
+        }
+      },
+      "applications": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Perfect For</h3><ul style='color: #9ca3af; font-size: 14px; line-height: 1.8;'><li>✓ General industrial flooring</li><li>✓ Workshops & factories</li><li>✓ Loading docks & platforms</li><li>✓ Outdoor decking</li><li>✓ Chemical resistant areas</li><li>✓ Marine & offshore applications</li><li>✓ Government facilities</li><li>✓ Commercial spaces</li></ul></div>"
+        }
+      },
+      "why-frp": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: linear-gradient(135deg, #4ade80 0%, #ff6b35 100%); padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h3 style='color: #0a0e0c; margin-bottom: 20px;'>Why Choose FRP Grating?</h3><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;'><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Durability</h4><p style='color: #0a0e0c; font-size: 14px;'>50+ year lifespan. No maintenance needed.</p></div><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Cost Effective</h4><p style='color: #0a0e0c; font-size: 14px;'>43% cheaper than competitors.</p></div><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Easy Install</h4><p style='color: #0a0e0c; font-size: 14px;'>Lightweight, bolt-on assembly.</p></div></div></div>"
+        }
+      },
+      "pricing": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Pricing & Bulk Discounts</h3><table style='width: 100%; color: #9ca3af;'><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>1-4 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$545/sheet</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>5-9 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$517.75/sheet (5% off)</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>10-19 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$490.50/sheet (10% off)</td></tr><tr><td style='padding: 12px 0; font-weight: 600;'>20+ sheets</td><td style='color: #4ade80; font-weight: 700;'>\$462.25/sheet (15% off)</td></tr></table><p style='margin-top: 20px; color: #9ca3af; font-size: 12px;'>All prices include: professional support, bulk quotes, fast delivery</p></div>"
+        }
+      },
+      "cta": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: linear-gradient(135deg, #4ade80 0%, #ff6b35 100%); padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h2 style='color: #0a0e0c; margin-bottom: 20px;'>Ready to Order?</h2><p style='color: #0a0e0c; margin-bottom: 30px;'>110+ sheets in stock. 24-48h delivery. 43% below market.</p><div><a href='/pages/contact' style='display: inline-block; background: #0a0e0c; color: #4ade80; padding: 16px 40px; border-radius: 8px; font-weight: 700; text-decoration: none; text-transform: uppercase; margin-right: 15px;'>REQUEST QUOTE</a><a href='/' style='display: inline-block; background: #0a0e0c; color: #ff6b35; padding: 16px 40px; border-radius: 8px; font-weight: 700; text-decoration: none; text-transform: uppercase;'>BACK TO SHOP</a></div></div>"
+        }
+      },
+      "contact": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Need Help?</h3><p style='color: #9ca3af; margin-bottom: 20px;'>Contact our team for quotes, bulk pricing, and technical support.</p><p style='font-size: 18px;'><strong style='color: #fff;'>📞 0412 766 696</strong></p><p style='color: #9ca3af; margin-bottom: 10px;'>📧 sales@munro-civils.com.au</p><p style='color: #9ca3af;'>📍 40 Andrews Road, Tallebudgera QLD 4228</p></div>"
+        }
+      }
+    },
+    "order": ["product-hero", "product-details", "applications", "why-frp", "pricing", "cta", "contact"]
+  },
+
+  "product_light_grey": {
+    "template_name": "product.light_grey.json",
+    "sections": {
+      "product-hero": {
+        "type": "product-hero",
+        "settings": {
+          "product_title": "Light Grey FRP Grating (1000×2850×30mm)",
+          "product_image": "light-grey-frp-grating.jpg",
+          "product_description": "Premium light grey fiberglass reinforced polymer grating. Modern bright appearance. Perfect for spaces requiring a lighter aesthetic while maintaining durability.",
+          "background_color": "#0a0e0c"
+        }
+      },
+      "product-details": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px;'><h2 style='color: #4ade80; margin-bottom: 30px;'>Light Grey FRP Grating Specifications</h2><table style='width: 100%; color: #9ca3af;'><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Dimensions</td><td>1000mm W × 2850mm L × 30mm D</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Weight</td><td>68kg per sheet</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Material</td><td>Continuous fibreglass + unsaturated polyester</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Color</td><td>Light Grey</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Lifespan</td><td>50+ years</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Warranty</td><td>5-year manufacturing</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>Price</td><td style='color: #4ade80; font-size: 18px; font-weight: 700;'>\$545/sheet</td></tr><tr><td style='padding: 12px 0; font-weight: 600;'>Bulk Discounts</td><td>5+ sheets: 5% | 10+ sheets: 10% | 20+ sheets: 15%</td></tr></table></div>"
+        }
+      },
+      "applications": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Perfect For</h3><ul style='color: #9ca3af; font-size: 14px; line-height: 1.8;'><li>✓ Modern aesthetic spaces</li><li>✓ Retail & commercial</li><li>✓ Healthcare facilities</li><li>✓ Bright interior spaces</li><li>✓ Visibility-critical areas</li><li>✓ Premium finishes</li><li>✓ Corporate environments</li><li>✓ Light industrial settings</li></ul></div>"
+        }
+      },
+      "why-frp": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: linear-gradient(135deg, #4ade80 0%, #ff6b35 100%); padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h3 style='color: #0a0e0c; margin-bottom: 20px;'>Why FRP Grating?</h3><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;'><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Maintenance-Free</h4><p style='color: #0a0e0c; font-size: 14px;'>No painting, no rust treatment needed.</p></div><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Sustainable</h4><p style='color: #0a0e0c; font-size: 14px;'>Eco-friendly, recycled content available.</p></div><div><h4 style='color: #0a0e0c; margin-bottom: 10px;'>Safe</h4><p style='color: #0a0e0c; font-size: 14px;'>Non-slip, electrically safe.</p></div></div></div>"
+        }
+      },
+      "pricing": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Pricing & Bulk Discounts</h3><table style='width: 100%; color: #9ca3af;'><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>1-4 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$545/sheet</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>5-9 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$517.75/sheet (5% off)</td></tr><tr style='border-bottom: 1px solid #2a2c2b;'><td style='padding: 12px 0; font-weight: 600;'>10-19 sheets</td><td style='color: #4ade80; font-weight: 700;'>\$490.50/sheet (10% off)</td></tr><tr><td style='padding: 12px 0; font-weight: 600;'>20+ sheets</td><td style='color: #4ade80; font-weight: 700;'>\$462.25/sheet (15% off)</td></tr></table><p style='margin-top: 20px; color: #9ca3af; font-size: 12px;'>All prices include: installation guidance, bulk support, fast delivery</p></div>"
+        }
+      },
+      "cta": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: linear-gradient(135deg, #4ade80 0%, #ff6b35 100%); padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h2 style='color: #0a0e0c; margin-bottom: 20px;'>Ready to Order?</h2><p style='color: #0a0e0c; margin-bottom: 30px;'>110+ sheets in stock. 24-48h delivery. 43% below market.</p><div><a href='/pages/contact' style='display: inline-block; background: #0a0e0c; color: #4ade80; padding: 16px 40px; border-radius: 8px; font-weight: 700; text-decoration: none; text-transform: uppercase; margin-right: 15px;'>REQUEST QUOTE</a><a href='/' style='display: inline-block; background: #0a0e0c; color: #ff6b35; padding: 16px 40px; border-radius: 8px; font-weight: 700; text-decoration: none; text-transform: uppercase;'>BACK TO SHOP</a></div></div>"
+        }
+      },
+      "contact": {
+        "type": "rich-text",
+        "settings": {
+          "content": "<div style='background: #1a1a1a; padding: 40px; border-radius: 8px; margin-top: 30px; text-align: center;'><h3 style='color: #4ade80; margin-bottom: 20px;'>Questions?</h3><p style='color: #9ca3af; margin-bottom: 20px;'>Our team is here to support your project with expertise and fast service.</p><p style='font-size: 18px;'><strong style='color: #fff;'>📞 0412 766 696</strong></p><p style='color: #9ca3af; margin-bottom: 10px;'>📧 sales@munro-civils.com.au</p><p style='color: #9ca3af;'>📍 40 Andrews Road, Tallebudgera QLD 4228</p></div>"
+        }
+      }
+    },
+    "order": ["product-hero", "product-details", "applications", "why-frp", "pricing", "cta", "contact"]
+  }
+}
