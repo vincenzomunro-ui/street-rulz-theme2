@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Munro Civils — Premium FRP Grating Solutions. 43% below market. 24-48h delivery.">
+    <title>Munro Civils | Premium FRP Grating — 43% Below Market</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #4ade80;
+            --secondary: #ff6b35;
+            --dark: #0a0e0c;
+            --dark-card: #1a1f1e;
+            --text: #ffffff;
+            --gray: #9ca3af;
+            --accent: #ff6b35;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a0e0c 0%, #1a1f1e 100%);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* HERO SECTION — CINEMATIC */
+        .hero {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(10, 14, 12, 0.9) 0%, rgba(26, 31, 30, 0.9) 100%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 50%, rgba(74, 222, 128, 0.15) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(255, 107, 53, 0.15) 0%, transparent 50%);
+            z-index: 1;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 0.8; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            max-width: 900px;
+            padding: 40px 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(74, 222, 128, 0.1);
+            border: 1px solid var(--primary);
+            border-radius: 50px;
+            padding: 12px 24px;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            animation: slideDown 1s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 10vw, 84px);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+
+        .hero p {
+            font-size: clamp(16px, 3vw, 24px);
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary) 0%, #3dd66f 100%);
+            color: var(--dark);
+            padding: 18px 48px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(74, 222, 128, 0.3);
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(74, 222, 128, 0.5);
+        }
+
+        .cta-secondary {
+            display: inline-block;
+            background: rgba(255, 107, 53, 0.1);
+            color: var(--secondary);
+            padding: 18px 48px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            border: 2px solid var(--secondary);
+            transition: all 0.3s ease;
+        }
+
+        .cta-secondary:hover {
+            background: var(--secondary);
+            color: var(--dark);
+            transform: translateY(-5px);
+        }
+
+        /* ANNOUNCEMENT BAR */
+        .announcement {
+            background: linear-gradient(90deg, rgba(74, 222, 128, 0.1) 0%, rgba(255, 107, 53, 0.1) 100%);
+            border-bottom: 1px solid rgba(74, 222, 128, 0.3);
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .announcement p {
+            font-size: 14px;
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        /* STATS SECTION */
+        .stats {
+            max-width: 1200px;
+            margin: -60px auto 0;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 100px;
+        }
+
+        .stat-card {
+            background: rgba(26, 31, 30, 0.8);
+            border: 1px solid rgba(74, 222, 128, 0.2);
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            animation: scaleIn 0.6s ease-out both;
+        }
+
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .stat-card:hover {
+            border-color: var(--primary);
+            background: rgba(26, 31, 30, 1);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(74, 222, 128, 0.2);
+        }
+
+        .stat-number {
+            font-size: clamp(32px, 5vw, 56px);
+            font-weight: 900;
+            color: var(--primary);
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--primary) 0%, #3dd66f 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--gray);
+            letter-spacing: 2px;
+        }
+
+        /* CONTENT SECTIONS */
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        section h2 {
+            font-size: clamp(36px, 6vw, 60px);
+            font-weight: 900;
+            margin-bottom: 60px;
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* CARDS GRID */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: rgba(26, 31, 30, 0.6);
+            border: 1px solid rgba(74, 222, 128, 0.2);
+            border-radius: 16px;
+            padding: 32px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(74, 222, 128, 0.1) 0%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: var(--primary);
+            transform: translateY(-10px);
+            background: rgba(26, 31, 30, 0.9);
+            box-shadow: 0 20px 40px rgba(74, 222, 128, 0.2);
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text);
+            position: relative;
+            z-index: 1;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: var(--gray);
+            line-height: 1.8;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-cta {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: gap 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-cta:hover {
+            gap: 12px;
+        }
+
+        /* PRICE COMPARISON */
+        .comparison-table {
+            background: rgba(26, 31, 30, 0.6);
+            border: 1px solid rgba(74, 222, 128, 0.2);
+            border-radius: 16px;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            margin-bottom: 40px;
+        }
+
+        .comparison-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid rgba(74, 222, 128, 0.1);
+        }
+
+        .comparison-table th {
+            background: rgba(74, 222, 128, 0.1);
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .comparison-table td:last-child {
+            text-align: right;
+            font-weight: 700;
+        }
+
+        .highlight {
+            color: var(--primary);
+        }
+
+        /* FAQ */
+        .faq-item {
+            background: rgba(26, 31, 30, 0.6);
+            border: 1px solid rgba(74, 222, 128, 0.2);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: var(--text);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            color: var(--gray);
+            margin-top: 12px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* FOOTER */
+        footer {
+            background: rgba(26, 31, 30, 0.8);
+            border-top: 1px solid rgba(74, 222, 128, 0.2);
+            padding: 40px 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        footer p {
+            font-size: 12px;
+            color: var(--gray);
+            margin: 8px 0;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .cta-group {
+                flex-direction: column;
+            }
+
+            .cta-primary,
+            .cta-secondary {
+                width: 100%;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ANNOUNCEMENT -->
+    <div class="announcement">
+        <p>✓ 110+ Sheets In Stock | 24-48h Fast Delivery | 43% Below Market Competitors</p>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Premium FRP Solutions</div>
+            <h1>Premium Grating at Local Prices</h1>
+            <p>110+ sheets in stock. 24-48h delivery. 43% below market. No middleman markup.</p>
+            <div class="cta-group">
+                <a href="#products" class="cta-primary">SHOP NOW</a>
+                <a href="#contact" class="cta-secondary">REQUEST QUOTE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="stats">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">110+</div>
+                <div class="stat-label">Sheets In Stock</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">43%</div>
+                <div class="stat-label">Below Market</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">24-48h</div>
+                <div class="stat-label">Fast Delivery</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Year Lifespan</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+        <h2>FRP Grating Solutions</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Clear Grating</h3>
+                <p>Transparent design for visibility-critical areas. Walkways, platforms, inspection areas.</p>
+                <p style="font-size: 18px; color: var(--primary); font-weight: 700;">$545/sheet</p>
+                <a href="#" class="card-cta">Learn More →</a>
+            </div>
+            <div class="card">
+                <h3>Grey Grating</h3>
+                <p>Classic industrial appearance. General flooring, workshops, loading docks.</p>
+                <p style="font-size: 18px; color: var(--primary); font-weight: 700;">$545/sheet</p>
+                <a href="#" class="card-cta">Learn More →</a>
+            </div>
+            <div class="card">
+                <h3>Light Grey Grating</h3>
+                <p>Modern aesthetic for premium spaces. Retail, healthcare, corporate environments.</p>
+                <p style="font-size: 18px; color: var(--primary); font-weight: 700;">$545/sheet</p>
+                <a href="#" class="card-cta">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section>
+        <h2>Transparent Pricing</h2>
+        <div class="comparison-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Competitors</th>
+                        <th>Price per Sheet</th>
+                        <th>You Save</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Treadwell Group</td>
+                        <td>$950</td>
+                        <td class="highlight">-$405 (43%)</td>
+                    </tr>
+                    <tr>
+                        <td>Terra Firma Industries</td>
+                        <td>$920</td>
+                        <td class="highlight">-$375 (41%)</td>
+                    </tr>
+                    <tr>
+                        <td>GRP Australia</td>
+                        <td>$890</td>
+                        <td class="highlight">-$345 (39%)</td>
+                    </tr>
+                    <tr style="background: rgba(74, 222, 128, 0.1);">
+                        <td style="font-weight: 700; color: var(--primary);">Munro Civils</td>
+                        <td style="font-weight: 700; color: var(--primary);">$545</td>
+                        <td style="color: var(--primary); font-weight: 700;">Best Price ✓</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p style="text-align: center; color: var(--gray); font-size: 12px;">Bulk discounts: 5% (5+ sheets) | 10% (10+ sheets) | 15% (20+ sheets)</p>
+    </section>
+
+    <!-- WHY US -->
+    <section>
+        <h2>Why Choose Munro Civils?</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>🚀 Fast Delivery</h3>
+                <p>24-48h from Tallebudgera. No lead times. Stock available now for immediate orders.</p>
+            </div>
+            <div class="card">
+                <h3>💰 Unbeatable Price</h3>
+                <p>43% below market competitors. No middleman. Direct pricing. Best value guaranteed.</p>
+            </div>
+            <div class="card">
+                <h3>✅ Quality Assured</h3>
+                <p>5-year warranty. 50+ year lifespan. Marine-grade materials. Zero corrosion.</p>
+            </div>
+            <div class="card">
+                <h3>📞 Local Support</h3>
+                <p>Tallebudgera-based. Same-day quotes. Personal service. Australian team.</p>
+            </div>
+            <div class="card">
+                <h3>🏢 B2B Ready</h3>
+                <p>Bulk pricing. Invoice terms. Contractor rates. Fleet delivery available.</p>
+            </div>
+            <div class="card">
+                <h3>🌍 Versatile Applications</h3>
+                <p>Industrial, marine, NDIS, councils, chemical plants. One solution fits all.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+        <h2>Frequently Asked</h2>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>What is FRP grating used for?</span>
+                <span>→</span>
+            </div>
+            <div class="faq-answer">Industrial flooring, marine platforms, NDIS ramps, council facilities, chemical plants — anywhere you need durable, corrosion-resistant surfaces.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>How long will it last?</span>
+                <span>→</span>
+            </div>
+            <div class="faq-answer">50+ years with zero maintenance. Unlike steel (rusts in 5-10 years), FRP never corrodes. 5-year manufacturing warranty.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>What's the delivery time?</span>
+                <span>→</span>
+            </div>
+            <div class="faq-answer">24-48h from Tallebudgera. We stock 110+ sheets. No lead times. Urgent orders available same-day.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Do you offer bulk discounts?</span>
+                <span>→</span>
+            </div>
+            <div class="faq-answer">Yes. 5+ sheets: 5% off | 10+ sheets: 10% off | 20+ sheets: 15% off. Contact us for custom bulk quotes.</div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section style="text-align: center;">
+        <h2>Ready to Order?</h2>
+        <p style="font-size: 18px; color: var(--gray); margin-bottom: 40px;">110+ sheets in stock. 24-48h delivery. 43% below market.</p>
+        <div class="cta-group">
+            <a href="#" class="cta-primary">SHOP NOW</a>
+            <a href="#contact" class="cta-secondary">GET A QUOTE</a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="text-align: center;">
+        <h2>Get In Touch</h2>
+        <p style="font-size: 18px; color: var(--gray); margin-bottom: 40px;">Our team is ready to help with quotes, bulk orders, and technical support.</p>
+        <div style="font-size: 20px;">
+            <p style="color: var(--text); font-weight: 700; margin-bottom: 10px;">📞 0412 766 696</p>
+            <p style="color: var(--gray); margin-bottom: 10px;">📧 sales@munro-civils.com.au</p>
+            <p style="color: var(--gray);">📍 40 Andrews Road, Tallebudgera QLD 4228</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Munro Civils — Premium FRP Grating Solutions</p>
+        <p>© 2026. All rights reserved.</p>
+        <p><a href="#">Terms</a> · <a href="#">Privacy</a> · <a href="#">Shipping</a></p>
+    </footer>
+</body>
+</html>
