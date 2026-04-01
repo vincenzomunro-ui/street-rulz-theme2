@@ -1,0 +1,517 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "background_image": "shopify://shop_images/Screenshot_2026-02-25_at_11.32.12_am.png",
+        "badge_text": "✓ 3 PITCHES AVAILABLE TODAY",
+        "heading_line1": "Book Your Cage Match in 60 Seconds",
+        "heading_line2": "Premium 5 & 7-a-side pitches on the Gold Coast",
+        "subheading": "Play rain or shine. Trusted by 700+ players this season.",
+        "cta1_text": "BOOK NOW → $110/hr",
+        "cta1_link": "/pages/book-a-court",
+        "cta2_text": "View Available Times",
+        "cta2_link": "/pages/book-a-court",
+        "bg_color": "#181a19",
+        "text_color": "#ffffff",
+        "card_color": "#00ff00"
+      }
+    },
+    "trust_signals": {
+      "type": "trust-bar",
+      "settings": {
+        "label": "",
+        "heading": "Trusted by 15+ Local Football Clubs",
+        "content": "700+ players this season · 2,000+ games hosted · Available 365 days",
+        "bg_color": "#000000",
+        "text_color": "#00ff00"
+      }
+    },
+    "why_street_rulz": {
+      "type": "features",
+      "blocks": {
+        "feature_1": {
+          "type": "feature",
+          "settings": {
+            "icon": "✓",
+            "title": "7 Premium Pitches",
+            "description": "Never wait. Book instantly. All equipment included."
+          }
+        },
+        "feature_2": {
+          "type": "feature",
+          "settings": {
+            "icon": "✓",
+            "title": "All-Weather Play",
+            "description": "Rain, shine, or anything. Fully enclosed caged pitches."
+          }
+        },
+        "feature_3": {
+          "type": "feature",
+          "settings": {
+            "icon": "✓",
+            "title": "Professional Setup",
+            "description": "Balls, bibs, goals, and markings. Ready to play."
+          }
+        },
+        "feature_4": {
+          "type": "feature",
+          "settings": {
+            "icon": "✓",
+            "title": "Easy Booking",
+            "description": "Online in 60 seconds. Available 8am-10pm daily."
+          }
+        }
+      },
+      "block_order": ["feature_1", "feature_2", "feature_3", "feature_4"],
+      "settings": {
+        "label": "WHY STREET RULZ",
+        "heading": "Everything You Need to Play",
+        "bg_color": "#0a0a0a",
+        "text_color": "#ffffff"
+      }
+    },
+    "live_availability": {
+      "type": "availability-widget",
+      "settings": {
+        "label": "BOOK NOW",
+        "heading": "Check Availability & Book Instantly",
+        "subheading": "See real-time pitch availability. Reserve your pitch in 60 seconds.",
+        "cta_text": "VIEW AVAILABLE PITCHES",
+        "cta_link": "/pages/book-a-court",
+        "bg_color": "#181a19",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "stats": {
+      "type": "stats-bar",
+      "blocks": {
+        "stat1": {
+          "type": "stat",
+          "settings": {
+            "number": "700+",
+            "label": "PLAYERS THIS SEASON"
+          }
+        },
+        "stat2": {
+          "type": "stat",
+          "settings": {
+            "number": "15+",
+            "label": "ACTIVE LEAGUES"
+          }
+        },
+        "stat3": {
+          "type": "stat",
+          "settings": {
+            "number": "2000+",
+            "label": "GAMES HOSTED"
+          }
+        },
+        "stat4": {
+          "type": "stat",
+          "settings": {
+            "number": "365",
+            "label": "DAYS OPEN"
+          }
+        }
+      },
+      "block_order": ["stat1", "stat2", "stat3", "stat4"],
+      "settings": {}
+    },
+    "services": {
+      "type": "services",
+      "blocks": {
+        "pitch_hire": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/DSC09763.jpg",
+            "icon": "",
+            "title": "Casual Pitch Hire",
+            "description": "Book a pitch for you and your mates. Balls, bibs, and all equipment included. No setup required.",
+            "price": "$110-140/hr",
+            "link": "/pages/book-a-court"
+          }
+        },
+        "competitions": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.32.12_am.png",
+            "icon": "",
+            "title": "Join a Competitive League",
+            "description": "10-week seasons with prizes. 5-a-side ($99/week) or 7-a-side ($130/week). Men's, Women's, and Juniors divisions.",
+            "price": "$99-130/week",
+            "link": "/pages/competitions"
+          }
+        },
+        "events": {
+          "type": "service_card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-25_at_11.29.44_am.png",
+            "icon": "",
+            "title": "Host Your Event",
+            "description": "Birthdays, tournaments, team building, and private events. Custom packages available. Professional setup included.",
+            "price": "From $250",
+            "link": "/pages/birthday-parties"
+          }
+        }
+      },
+      "block_order": ["pitch_hire", "competitions", "events"],
+      "settings": {
+        "label": "HOW TO PLAY",
+        "heading": "Choose Your Style",
+        "subheading": "Casual kicks. Competitive leagues. Private events. Street Rulz has it all."
+      }
+    },
+    "pricing": {
+      "type": "pricing-simple",
+      "settings": {
+        "label": "PRICING",
+        "heading": "Simple, Transparent Rates",
+        "subheading": "No hidden fees. No surprises. Book by the hour.",
+        "pricing_blocks": [
+          {
+            "title": "Weekday Off-Peak",
+            "time": "Mon–Fri 8am–4pm",
+            "price": "$110/hr",
+            "highlight": false
+          },
+          {
+            "title": "Weekday Peak (Floodlit)",
+            "time": "Mon–Fri 4pm–10pm",
+            "price": "$140/hr",
+            "highlight": true
+          },
+          {
+            "title": "Weekend",
+            "time": "Sat & Sun all day",
+            "price": "$110/hr",
+            "highlight": false
+          }
+        ],
+        "includes": [
+          "Balls & bibs",
+          "All equipment",
+          "Unlimited players",
+          "Professional pitch setup"
+        ],
+        "bg_color": "#181a19"
+      }
+    },
+    "whatson": {
+      "type": "whats-on",
+      "blocks": {
+        "event_wed": {
+          "type": "event",
+          "settings": {
+            "title": "Wednesday $10 Kick",
+            "details": "Wed · 6pm–9pm · $10/person · Casual 5-a-side · Pay at clubhouse",
+            "tag_text": "POPULAR",
+            "tag_style": "tag-highlight",
+            "urgent": false,
+            "link": "/pages/wednesday-10-kicks",
+            "link_text": "Details"
+          }
+        },
+        "event_thu": {
+          "type": "event",
+          "settings": {
+            "title": "Thursday Night Competitive League",
+            "details": "Thu · 6:30pm & 7:15pm · $99/team/week · 10-week season · Rego now open",
+            "tag_text": "LIMITED SPOTS",
+            "tag_style": "tag-urgent",
+            "urgent": true,
+            "link": "/pages/competitions",
+            "link_text": "View Ladder"
+          }
+        },
+        "event_sat": {
+          "type": "event",
+          "settings": {
+            "title": "Social Saturday $10 Kicks",
+            "details": "Sat · 10am–4pm · $10/person · Casual play · Pay at clubhouse",
+            "tag_text": "EVERY WEEKEND",
+            "tag_style": "tag-highlight",
+            "urgent": false,
+            "link": "/pages/wednesday-10-kicks",
+            "link_text": "Details"
+          }
+        }
+      },
+      "block_order": ["event_wed", "event_thu", "event_sat"],
+      "settings": {
+        "label": "HAPPENING THIS WEEK",
+        "heading": "What's On",
+        "subheading": "From social kicks to competitive leagues, there's something on every day"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Big Sexy FC Captain",
+            "title": "Thursday Night League",
+            "quote": "Best pitch on the Coast. Professional setup, amazing vibe. Worth every dollar.",
+            "image": ""
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Sarah, Birthday Party Host",
+            "title": "Birthday Event",
+            "quote": "The kids had the best day ever. Pitch is perfect, staff are awesome, highly recommend!",
+            "image": ""
+          }
+        },
+        "testimonial_3": {
+          "type": "testimonial",
+          "settings": {
+            "name": "Spirit of Mawen Manager",
+            "title": "Competitive League",
+            "quote": "Professional operation. Fair play. Great community. This is where competitive football belongs.",
+            "image": ""
+          }
+        }
+      },
+      "block_order": ["testimonial_1", "testimonial_2", "testimonial_3"],
+      "settings": {
+        "label": "WHAT PLAYERS SAY",
+        "heading": "Loved by 700+ Players",
+        "bg_color": "#0a0a0a",
+        "text_color": "#ffffff"
+      }
+    },
+    "ladder": {
+      "type": "ladder",
+      "blocks": {
+        "t1": {
+          "type": "team_row",
+          "settings": {
+            "team": "Big Sexy FC",
+            "played": "6",
+            "wins": "5",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "66",
+            "goals_against": "43",
+            "goal_diff": "+23",
+            "points": "15"
+          }
+        },
+        "t2": {
+          "type": "team_row",
+          "settings": {
+            "team": "Spirit of Mawen",
+            "played": "6",
+            "wins": "4",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "53",
+            "goals_against": "50",
+            "goal_diff": "+3",
+            "points": "12"
+          }
+        },
+        "t3": {
+          "type": "team_row",
+          "settings": {
+            "team": "Third Leg Strikers",
+            "played": "6",
+            "wins": "3",
+            "draws": "0",
+            "losses": "3",
+            "goals_for": "46",
+            "goals_against": "41",
+            "goal_diff": "+5",
+            "points": "9"
+          }
+        },
+        "t4": {
+          "type": "team_row",
+          "settings": {
+            "team": "Headstart",
+            "played": "6",
+            "wins": "3",
+            "draws": "0",
+            "losses": "3",
+            "goals_for": "40",
+            "goals_against": "42",
+            "goal_diff": "-2",
+            "points": "9"
+          }
+        },
+        "t5": {
+          "type": "team_row",
+          "settings": {
+            "team": "One Nation United",
+            "played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "22",
+            "goals_against": "7",
+            "goal_diff": "+15",
+            "points": "3"
+          }
+        },
+        "t6": {
+          "type": "team_row",
+          "settings": {
+            "team": "Screaming Schooners",
+            "played": "6",
+            "wins": "1",
+            "draws": "0",
+            "losses": "5",
+            "goals_for": "45",
+            "goals_against": "57",
+            "goal_diff": "-12",
+            "points": "3"
+          }
+        },
+        "t7": {
+          "type": "team_row",
+          "settings": {
+            "team": "School Run United",
+            "played": "6",
+            "wins": "1",
+            "draws": "0",
+            "losses": "5",
+            "goals_for": "40",
+            "goals_against": "58",
+            "goal_diff": "-18",
+            "points": "3"
+          }
+        },
+        "t8": {
+          "type": "team_row",
+          "settings": {
+            "team": "Rulz Solo United",
+            "played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "7",
+            "goals_against": "22",
+            "goal_diff": "-15",
+            "points": "0"
+          }
+        }
+      },
+      "block_order": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+      "settings": {
+        "label": "LEAGUES",
+        "heading": "Thursday Night Competitive League",
+        "subheading": "10-Week Season (Round 6 of 10) — Updated 13 Mar 2026",
+        "updated_text": "15 teams competing. Join now.",
+        "bg_color": "#181a19",
+        "text_color": "#ffffff",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "cta_banner": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Ready to Play?",
+        "subheading": "Book your pitch now. Available 8am-10pm daily. No setup, no hassle.",
+        "cta1_text": "BOOK YOUR PITCH NOW",
+        "cta1_link": "/pages/book-a-court",
+        "cta2_text": "Browse Leagues",
+        "cta2_link": "/pages/competitions",
+        "bg_color": "#00ff00",
+        "text_color": "#000000",
+        "card_color": "#000000"
+      }
+    },
+    "findus": {
+      "type": "find-us",
+      "settings": {
+        "label": "FIND US",
+        "heading": "Come Play",
+        "subheading": "Located at Tallebudgera on the Gold Coast. Easy access from the M1 motorway. Just 30 minutes from Brisbane CBD.",
+        "address_title": "Street Rulz Football",
+        "address": "40 Andrews Road\nTallebudgera QLD 4228\nGold Coast, Australia",
+        "phone": "0412 766 696",
+        "email": "admin@rulz.com.au",
+        "bg_color": "#181a19",
+        "text_color": "#ffffff",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "hours": {
+      "type": "hours",
+      "blocks": {
+        "hours_weekdays": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Monday - Friday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        },
+        "hours_weekends": {
+          "type": "hours_row",
+          "settings": {
+            "day": "Saturday - Sunday",
+            "time": "8:00 AM – 10:00 PM"
+          }
+        }
+      },
+      "block_order": ["hours_weekdays", "hours_weekends"],
+      "settings": {
+        "label": "OPENING HOURS",
+        "heading": "We're Open for You",
+        "note": "Bookings available any time between these hours",
+        "bg_color": "#181a19",
+        "text_color": "#ffffff",
+        "card_color": "#2b2b2b"
+      }
+    },
+    "reviews": {
+      "type": "apps",
+      "blocks": {
+        "google_reviews": {
+          "type": "shopify://apps/google-reviews/blocks/google-carousel-one/4eeaae1c-902b-481c-bec5-3f32291a58d5",
+          "settings": {
+            "rank": "1",
+            "photo_size": "large",
+            "auto_scroll": true,
+            "auto_scroll_interval": 3,
+            "rating": true,
+            "submit_review_button": true,
+            "business_info": true,
+            "review_photo": true,
+            "review_card_shadow": false,
+            "corner_radius": 20,
+            "star_color": "#00ff00",
+            "review_card_background": "#181a19",
+            "content_color": "#fdfdfd",
+            "name_color": "#fdfdfd",
+            "date_color": "#7a7a7a",
+            "more_color": "#00ff00",
+            "submit_button_background_color": "#00ff00",
+            "submit_button_text": "#000000"
+          }
+        }
+      },
+      "block_order": ["google_reviews"],
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "trust_signals",
+    "why_street_rulz",
+    "live_availability",
+    "stats",
+    "services",
+    "pricing",
+    "whatson",
+    "testimonials",
+    "ladder",
+    "cta_banner",
+    "findus",
+    "hours",
+    "reviews"
+  ]
+}
