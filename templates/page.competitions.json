@@ -154,140 +154,140 @@
           "type": "team_row",
           "settings": {
             "team": "Big Sexy FC",
-            "played": "8",
-            "wins": "5",
+            "played": "9",
+            "wins": "6",
             "draws": "1",
             "losses": "2",
-            "goals_for": "81",
-            "goals_against": "63",
+            "goals_for": "66",
+            "goals_against": "48",
             "goal_diff": "+18",
-            "points": "16"
+            "points": "19"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
             "team": "Spirit of Mawen",
-            "played": "8",
-            "wins": "4",
+            "played": "9",
+            "wins": "5",
             "draws": "1",
             "losses": "3",
-            "goals_for": "71",
-            "goals_against": "67",
-            "goal_diff": "+4",
-            "points": "13"
+            "goals_for": "57",
+            "goals_against": "56",
+            "goal_diff": "+1",
+            "points": "16"
           }
         },
         "t3": {
           "type": "team_row",
           "settings": {
-            "team": "Third Leg Strikers",
-            "played": "7",
-            "wins": "4",
-            "draws": "0",
+            "team": "Custard Feet FC",
+            "played": "9",
+            "wins": "5",
+            "draws": "1",
             "losses": "3",
-            "goals_for": "55",
-            "goals_against": "49",
+            "goals_for": "44",
+            "goals_against": "38",
             "goal_diff": "+6",
-            "points": "12"
+            "points": "16"
           }
         },
         "t4": {
           "type": "team_row",
           "settings": {
-            "team": "Headstart",
-            "played": "8",
+            "team": "Screaming Schooners",
+            "played": "9",
             "wins": "4",
-            "draws": "0",
-            "losses": "4",
-            "goals_for": "55",
-            "goals_against": "60",
-            "goal_diff": "-5",
-            "points": "12"
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "49",
+            "goals_against": "51",
+            "goal_diff": "-2",
+            "points": "14"
           }
         },
         "t5": {
           "type": "team_row",
           "settings": {
-            "team": "One Nation United",
-            "played": "3",
+            "team": "School Run United",
+            "played": "9",
             "wins": "3",
             "draws": "0",
-            "losses": "0",
-            "goals_for": "43",
-            "goals_against": "17",
-            "goal_diff": "+26",
+            "losses": "6",
+            "goals_for": "38",
+            "goals_against": "44",
+            "goal_diff": "-6",
             "points": "9"
           }
         },
         "t6": {
           "type": "team_row",
           "settings": {
-            "team": "Screaming Schooners",
-            "played": "7",
+            "team": "One Nation United",
+            "played": "9",
             "wins": "2",
-            "draws": "0",
+            "draws": "2",
             "losses": "5",
-            "goals_for": "56",
-            "goals_against": "68",
-            "goal_diff": "-12",
-            "points": "6"
+            "goals_for": "42",
+            "goals_against": "62",
+            "goal_diff": "-20",
+            "points": "8"
           }
         },
         "t7": {
           "type": "team_row",
           "settings": {
-            "team": "School Run United",
-            "played": "8",
+            "team": "Headstart",
+            "played": "9",
             "wins": "2",
-            "draws": "0",
+            "draws": "1",
             "losses": "6",
-            "goals_for": "61",
-            "goals_against": "82",
-            "goal_diff": "-21",
-            "points": "6"
+            "goals_for": "36",
+            "goals_against": "48",
+            "goal_diff": "-12",
+            "points": "7"
           }
         },
         "t8": {
           "type": "team_row",
           "settings": {
-            "team": "Goal Truma Unit",
-            "played": "1",
+            "team": "Criminal Mafia",
+            "played": "9",
             "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "14",
-            "goals_against": "5",
-            "goal_diff": "+9",
-            "points": "3"
+            "draws": "2",
+            "losses": "6",
+            "goals_for": "32",
+            "goals_against": "54",
+            "goal_diff": "-22",
+            "points": "5"
           }
         },
         "t9": {
           "type": "team_row",
           "settings": {
             "team": "Jet Lickers",
-            "played": "3",
+            "played": "9",
             "wins": "1",
             "draws": "0",
-            "losses": "2",
-            "goals_for": "24",
-            "goals_against": "43",
-            "goal_diff": "-19",
+            "losses": "8",
+            "goals_for": "39",
+            "goals_against": "66",
+            "goal_diff": "-27",
             "points": "3"
           }
         },
         "t10": {
           "type": "team_row",
           "settings": {
-            "team": "Custard Feet FC",
-            "played": "1",
-            "wins": "0",
+            "team": "Third Leg Strikers",
+            "played": "7",
+            "wins": "1",
             "draws": "0",
-            "losses": "1",
-            "goals_for": "7",
-            "goals_against": "13",
-            "goal_diff": "-6",
-            "points": "0"
+            "losses": "6",
+            "goals_for": "22",
+            "goals_against": "38",
+            "goal_diff": "-16",
+            "points": "3"
           }
         }
       },
@@ -306,8 +306,8 @@
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 8 of 10)",
-        "updated_text": "Updated after Round 8 \u2014 26 Mar 2026 | Custard Feet FC (NEW) defeats Jet Lickers 7-4 in debut",
+        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 9 of 10 — Semi-Finals This Week)",
+        "updated_text": "Updated after Round 9 \u2014 6 Apr 2026 | Custard Feet FC 8-7 School Run United, One Nation United 5-5 Criminal Mafia",
         "bg_color": "#181a19",
         "text_color": "",
         "card_color": "#2b2b2b"
