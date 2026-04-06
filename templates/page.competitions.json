@@ -1,11 +1,5 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
+ * Auto-generated leaderboard — updated by Thursday Comps Script
  */
 {
   "sections": {
@@ -154,41 +148,41 @@
           "type": "team_row",
           "settings": {
             "team": "Big Sexy FC",
-            "played": "8",
-            "wins": "5",
+            "played": "9",
+            "wins": "6",
             "draws": "1",
             "losses": "2",
-            "goals_for": "78",
-            "goals_against": "65",
-            "goal_diff": "+13",
-            "points": "16"
+            "goals_for": "93",
+            "goals_against": "72",
+            "goal_diff": "+21",
+            "points": "19"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
             "team": "Spirit of Mawen",
-            "played": "8",
-            "wins": "4",
+            "played": "9",
+            "wins": "5",
             "draws": "1",
             "losses": "3",
-            "goals_for": "75",
-            "goals_against": "70",
-            "goal_diff": "+5",
-            "points": "13"
+            "goals_for": "82",
+            "goals_against": "76",
+            "goal_diff": "+6",
+            "points": "16"
           }
         },
         "t3": {
           "type": "team_row",
           "settings": {
             "team": "Third Leg Strikers",
-            "played": "6",
+            "played": "7",
             "wins": "4",
             "draws": "0",
-            "losses": "2",
-            "goals_for": "47",
-            "goals_against": "40",
-            "goal_diff": "+7",
+            "losses": "3",
+            "goals_for": "55",
+            "goals_against": "49",
+            "goal_diff": "+6",
             "points": "12"
           }
         },
@@ -196,13 +190,13 @@
           "type": "team_row",
           "settings": {
             "team": "Headstart",
-            "played": "8",
+            "played": "9",
             "wins": "4",
             "draws": "0",
-            "losses": "4",
-            "goals_for": "58",
-            "goals_against": "65",
-            "goal_diff": "-7",
+            "losses": "5",
+            "goals_for": "64",
+            "goals_against": "72",
+            "goal_diff": "-8",
             "points": "12"
           }
         },
@@ -223,13 +217,13 @@
         "t6": {
           "type": "team_row",
           "settings": {
-            "team": "School Run United",
+            "team": "Screaming Schooners",
             "played": "8",
             "wins": "2",
             "draws": "0",
             "losses": "6",
-            "goals_for": "61",
-            "goals_against": "75",
+            "goals_for": "65",
+            "goals_against": "79",
             "goal_diff": "-14",
             "points": "6"
           }
@@ -237,28 +231,28 @@
         "t7": {
           "type": "team_row",
           "settings": {
-            "team": "Jet Lickers",
-            "played": "3",
-            "wins": "1",
+            "team": "School Run United",
+            "played": "9",
+            "wins": "2",
             "draws": "0",
-            "losses": "2",
-            "goals_for": "24",
-            "goals_against": "43",
-            "goal_diff": "-19",
-            "points": "3"
+            "losses": "7",
+            "goals_for": "68",
+            "goals_against": "90",
+            "goal_diff": "-22",
+            "points": "6"
           }
         },
         "t8": {
           "type": "team_row",
           "settings": {
-            "team": "Screaming Schooners",
-            "played": "7",
+            "team": "Goal Truma Unit",
+            "played": "1",
             "wins": "1",
             "draws": "0",
-            "losses": "6",
-            "goals_for": "56",
-            "goals_against": "71",
-            "goal_diff": "-15",
+            "losses": "0",
+            "goals_for": "14",
+            "goals_against": "5",
+            "goal_diff": "+9",
             "points": "3"
           }
         },
@@ -279,6 +273,20 @@
         "t10": {
           "type": "team_row",
           "settings": {
+            "team": "Jet Lickers",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "24",
+            "goals_against": "43",
+            "goal_diff": "-19",
+            "points": "3"
+          }
+        },
+        "t11": {
+          "type": "team_row",
+          "settings": {
             "team": "Criminal Mafia",
             "played": "1",
             "wins": "0",
@@ -286,7 +294,7 @@
             "losses": "0",
             "goals_for": "5",
             "goals_against": "5",
-            "goal_diff": "+0",
+            "goal_diff": "0",
             "points": "1"
           }
         }
@@ -301,12 +309,13 @@
         "t7",
         "t8",
         "t9",
-        "t10"
+        "t10",
+        "t11"
       ],
       "settings": {
         "label": "CURRENT SEASON",
         "heading": "Thursday Night Competitive League",
-        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 9 of 10 — Semi-Finals This Week)",
+        "subheading": "Rulz Competitive League \u2014 10 Week Season (Round 9 of 10 \u2014 Semi-Finals This Week)",
         "updated_text": "Updated after Round 9 \u2014 6 Apr 2026 | Custard Feet FC 8-7 School Run United, One Nation United 5-5 Criminal Mafia",
         "bg_color": "#181a19",
         "text_color": "",
