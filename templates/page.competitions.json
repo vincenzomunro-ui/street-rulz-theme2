@@ -316,11 +316,11 @@
     "fixtures": {
       "type": "fixtures",
       "blocks": {
-        "r12": {
+        "r11": {
           "type": "round",
           "settings": {
             "round_title": "Grand Final",
-            "round_date": "Thursday 18th April",
+            "round_date": "Thursday 16th April",
             "is_upcoming": true,
             "game1_home": "TBD",
             "game1_away": "TBD",
@@ -354,48 +354,10 @@
             "game5_time": "-"
           }
         },
-        "r11": {
-          "type": "round",
-          "settings": {
-            "round_title": "Semi-Finals",
-            "round_date": "Thursday 11th April",
-            "is_upcoming": true,
-            "game1_home": "TBD",
-            "game1_away": "TBD",
-            "game1_home_score": "-",
-            "game1_away_score": "-",
-            "game1_court": "Court 1",
-            "game1_time": "TBD",
-            "game2_home": "TBD",
-            "game2_away": "TBD",
-            "game2_home_score": "-",
-            "game2_away_score": "-",
-            "game2_court": "Court 2",
-            "game2_time": "TBD",
-            "game3_home": "-",
-            "game3_away": "-",
-            "game3_home_score": "-",
-            "game3_away_score": "-",
-            "game3_court": "-",
-            "game3_time": "-",
-            "game4_home": "-",
-            "game4_away": "-",
-            "game4_home_score": "-",
-            "game4_away_score": "-",
-            "game4_court": "-",
-            "game4_time": "-",
-            "game5_home": "-",
-            "game5_away": "-",
-            "game5_home_score": "-",
-            "game5_away_score": "-",
-            "game5_court": "-",
-            "game5_time": "-"
-          }
-        },
         "r10": {
           "type": "round",
           "settings": {
-            "round_title": "Round 10",
+            "round_title": "Semi-Finals",
             "round_date": "Thursday 9th April",
             "is_upcoming": true,
             "game1_home": "Criminal Mafia",
@@ -812,7 +774,6 @@
         }
       },
       "block_order": [
-        "r12",
         "r11",
         "r10",
         "r9",
