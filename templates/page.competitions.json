@@ -154,140 +154,140 @@
           "type": "team_row",
           "settings": {
             "team": "Big Sexy FC",
-            "played": "9",
-            "wins": "6",
+            "played": "8",
+            "wins": "5",
             "draws": "1",
             "losses": "2",
-            "goals_for": "66",
-            "goals_against": "48",
-            "goal_diff": "+18",
-            "points": "19"
+            "goals_for": "78",
+            "goals_against": "65",
+            "goal_diff": "+13",
+            "points": "16"
           }
         },
         "t2": {
           "type": "team_row",
           "settings": {
             "team": "Spirit of Mawen",
-            "played": "9",
-            "wins": "5",
+            "played": "8",
+            "wins": "4",
             "draws": "1",
             "losses": "3",
-            "goals_for": "57",
-            "goals_against": "56",
-            "goal_diff": "+1",
-            "points": "16"
+            "goals_for": "75",
+            "goals_against": "70",
+            "goal_diff": "+5",
+            "points": "13"
           }
         },
         "t3": {
           "type": "team_row",
           "settings": {
-            "team": "Custard Feet FC",
-            "played": "9",
-            "wins": "5",
-            "draws": "1",
-            "losses": "3",
-            "goals_for": "44",
-            "goals_against": "38",
-            "goal_diff": "+6",
-            "points": "16"
+            "team": "Third Leg Strikers",
+            "played": "6",
+            "wins": "4",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "47",
+            "goals_against": "40",
+            "goal_diff": "+7",
+            "points": "12"
           }
         },
         "t4": {
           "type": "team_row",
           "settings": {
-            "team": "Screaming Schooners",
-            "played": "9",
+            "team": "Headstart",
+            "played": "8",
             "wins": "4",
-            "draws": "2",
-            "losses": "3",
-            "goals_for": "49",
-            "goals_against": "51",
-            "goal_diff": "-2",
-            "points": "14"
+            "draws": "0",
+            "losses": "4",
+            "goals_for": "58",
+            "goals_against": "65",
+            "goal_diff": "-7",
+            "points": "12"
           }
         },
         "t5": {
           "type": "team_row",
           "settings": {
-            "team": "School Run United",
-            "played": "9",
+            "team": "One Nation United",
+            "played": "4",
             "wins": "3",
-            "draws": "0",
-            "losses": "6",
-            "goals_for": "38",
-            "goals_against": "44",
-            "goal_diff": "-6",
-            "points": "9"
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "48",
+            "goals_against": "22",
+            "goal_diff": "+26",
+            "points": "10"
           }
         },
         "t6": {
           "type": "team_row",
           "settings": {
-            "team": "One Nation United",
-            "played": "9",
+            "team": "School Run United",
+            "played": "8",
             "wins": "2",
-            "draws": "2",
-            "losses": "5",
-            "goals_for": "42",
-            "goals_against": "62",
-            "goal_diff": "-20",
-            "points": "8"
+            "draws": "0",
+            "losses": "6",
+            "goals_for": "61",
+            "goals_against": "75",
+            "goal_diff": "-14",
+            "points": "6"
           }
         },
         "t7": {
           "type": "team_row",
           "settings": {
-            "team": "Headstart",
-            "played": "9",
-            "wins": "2",
-            "draws": "1",
-            "losses": "6",
-            "goals_for": "36",
-            "goals_against": "48",
-            "goal_diff": "-12",
-            "points": "7"
+            "team": "Jet Lickers",
+            "played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "24",
+            "goals_against": "43",
+            "goal_diff": "-19",
+            "points": "3"
           }
         },
         "t8": {
           "type": "team_row",
           "settings": {
-            "team": "Criminal Mafia",
-            "played": "9",
+            "team": "Screaming Schooners",
+            "played": "7",
             "wins": "1",
-            "draws": "2",
+            "draws": "0",
             "losses": "6",
-            "goals_for": "32",
-            "goals_against": "54",
-            "goal_diff": "-22",
-            "points": "5"
+            "goals_for": "56",
+            "goals_against": "71",
+            "goal_diff": "-15",
+            "points": "3"
           }
         },
         "t9": {
           "type": "team_row",
           "settings": {
-            "team": "Jet Lickers",
-            "played": "9",
-            "wins": "2",
+            "team": "Custard Feet FC",
+            "played": "2",
+            "wins": "1",
             "draws": "0",
-            "losses": "7",
-            "goals_for": "39",
-            "goals_against": "58",
-            "goal_diff": "-19",
-            "points": "6"
+            "losses": "1",
+            "goals_for": "15",
+            "goals_against": "20",
+            "goal_diff": "-5",
+            "points": "3"
           }
         },
         "t10": {
           "type": "team_row",
           "settings": {
-            "team": "Third Leg Strikers",
-            "played": "8",
-            "wins": "2",
-            "draws": "0",
-            "losses": "6",
-            "goals_for": "35",
-            "goals_against": "52",
-            "goal_diff": "-17",
-            "points": "6"
+            "team": "Criminal Mafia",
+            "played": "1",
+            "wins": "0",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "5",
+            "goals_against": "5",
+            "goal_diff": "+0",
+            "points": "1"
           }
         }
       },
