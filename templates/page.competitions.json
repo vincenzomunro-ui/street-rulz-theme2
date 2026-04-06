@@ -267,27 +267,13 @@
           "settings": {
             "team": "Jet Lickers",
             "played": "9",
-            "wins": "1",
+            "wins": "2",
             "draws": "0",
-            "losses": "8",
+            "losses": "7",
             "goals_for": "39",
-            "goals_against": "66",
-            "goal_diff": "-27",
-            "points": "3"
-          }
-        },
-        "t10": {
-          "type": "team_row",
-          "settings": {
-            "team": "Third Leg Strikers",
-            "played": "7",
-            "wins": "1",
-            "draws": "0",
-            "losses": "6",
-            "goals_for": "22",
-            "goals_against": "38",
-            "goal_diff": "-16",
-            "points": "3"
+            "goals_against": "58",
+            "goal_diff": "-19",
+            "points": "6"
           }
         }
       },
@@ -300,8 +286,7 @@
         "t6",
         "t7",
         "t8",
-        "t9",
-        "t10"
+        "t9"
       ],
       "settings": {
         "label": "CURRENT SEASON",
