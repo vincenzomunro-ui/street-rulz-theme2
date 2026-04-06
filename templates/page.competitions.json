@@ -275,6 +275,20 @@
             "goal_diff": "-19",
             "points": "6"
           }
+        },
+        "t10": {
+          "type": "team_row",
+          "settings": {
+            "team": "Third Leg Strikers",
+            "played": "8",
+            "wins": "2",
+            "draws": "0",
+            "losses": "6",
+            "goals_for": "35",
+            "goals_against": "52",
+            "goal_diff": "-17",
+            "points": "6"
+          }
         }
       },
       "block_order": [
@@ -286,7 +300,8 @@
         "t6",
         "t7",
         "t8",
-        "t9"
+        "t9",
+        "t10"
       ],
       "settings": {
         "label": "CURRENT SEASON",
