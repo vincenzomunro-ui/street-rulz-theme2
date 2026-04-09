@@ -9,12 +9,12 @@
 {% if product.handle contains 'vip' %}
   {% assign is_premium = true %}
   {% assign pizza_count = 7 %}
-  {% assign drink_count = 8 %}
+  {% assign drink_count = 6 %}
   {% assign package_type = 'vip' %}
 {% elsif product.handle contains 'ultimate' or product.handle contains 'epic' %}
   {% assign is_premium = true %}
   {% assign pizza_count = 5 %}
-  {% assign drink_count = 6 %}
+  {% assign drink_count = 4 %}
   {% assign package_type = 'epic' %}
 {% else %}
   {% assign pizza_count = 4 %}
