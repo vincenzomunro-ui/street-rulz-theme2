@@ -74,26 +74,44 @@
         </div>
       </div>
 
-      {% comment %} DRINK SELECTION {% endcomment %}
+      {% comment %} DRINK SELECTION (4 x 2L bottles) {% endcomment %}
       <div class="party-drink-selector">
-        <label><strong>Select Your Drinks (Choose as many as you like)</strong></label>
-        <div class="drink-options">
-          <label class="checkbox">
-            <input type="checkbox" name="drink" value="solo"> Solo
-          </label>
-          <label class="checkbox">
-            <input type="checkbox" name="drink" value="fanta"> Fanta
-          </label>
-          <label class="checkbox">
-            <input type="checkbox" name="drink" value="coke-zero"> Coke Zero
-          </label>
-          <label class="checkbox">
-            <input type="checkbox" name="drink" value="coke"> Coke
-          </label>
-          <label class="checkbox">
-            <input type="checkbox" name="drink" value="sprite"> Sprite
-          </label>
+        <label><strong>Select Your 4 × 2L Beverage Bottles</strong></label>
+        <p class="subtitle">Choose one type for each bottle:</p>
+        <div class="beverage-grid">
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="solo" required> Bottle 1: Solo
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="fanta" required> Bottle 1: Fanta
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="coke-zero" required> Bottle 1: Coke Zero
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="coke" required> Bottle 1: Coke
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="sprite" required> Bottle 1: Sprite
+            </label>
+          </div>
+          <div class="beverage-option">
+            <label class="radio">
+              <input type="radio" name="bottle1" value="lemonade" required> Bottle 1: Lemonade
+            </label>
+          </div>
         </div>
+        <p class="subtitle" style="margin-top: 20px;">Repeat for Bottles 2-4...</p>
+        <p class="hint">After checkout, you'll enter your complete beverage preferences for all 4 bottles.</p>
       </div>
 
       {% comment %} CHILD NAMES {% endcomment %}
